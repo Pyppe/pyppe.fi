@@ -1,20 +1,65 @@
 ---
 layout: default
+language: fi
+title: Etusivu
+css: index.css
 ---
-
-<div class="home">
-
-  <h1>Posts</h1>
-
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<header id="header">
+  <div class="row">
+    <div class="large-12 columns">
+      <h1>Heippa, maailma!</h1>
+      <h4>
+        Arvon päällikkö, onneksi olkoon! Olet saapunut Pyppe-pojan Internet-kotskasivuille!
+        Todennäköisesti kuulut siis parhaaseen A-ryhmään. Osta itsellesi porkkana, olet sen ansainnut.
+      </h4>
+      <ul class="inline-list">
+        <li><a href="http://twitter.com/pyrylahti"><i class="fa fa-twitter"></i> pyrylahti</a></li>
+        <li><a href="https://www.facebook.com/Pyppe"><i class="fa fa-facebook-square"></i> Pyppe</a></li>
+        <li><a href="http://www.linkedin.com/in/pyppe"><i class="fa fa-linkedin-square"></i> pyppe</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+<div class="row">
+  <div class="columns large-4 medium-6">
+    <h3>Faktaa pöytään!</h3>
+    <table style="width: 100%;">
+      <tbody>
+      <tr>
+        <th>Nimi</th>
+        <td>Pyry-Samuli Lahti</td>
+      </tr>
+      <tr>
+        <th>Lempinimi</th>
+        <td>Pyppe</td>
+      </tr>
+      <tr>
+        <th>Vuosikerta</th>
+        <td>-83</td>
+      </tr>
+      <tr>
+        <th>Lempivärit</th>
+        <td><span style="font-size: 120%; color: #4D9E51;">vihreä</span> ja <span style="font-size: 120%; color: #2D5493;">sininen</span></td>
+      </tr>
+      <tr>
+        <th>CV</th>
+        <td><a href="https://dl.dropbox.com/u/6281024/pyppe.fi/cv.pdf"><i class="fa fa-download"></i> cv.pdf</a></td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="columns large-4 medium-6">
+    <div class="filler frame">
+      <img src="/img/frontpage_photo.jpg">
+      <div class="title">Herra päällikkö itse</div>
+    </div>
+  </div>
+  <div class="columns large-4 medium-12">
+    <h3>Mikä mies?</h3>
+    <p>Mies on vuonna 2009 TKK:lta valmistunut diplomi-insinööri. Kaiken kaikkiaan erittäin mukiin menevä kaveri!</p>
+    <p>
+      Mies kuuluu parhaaseen A-ryhmään, ja rakentaa tällä hetkellä maailman fiksuinta tavaramerkkipalvelua
+      &ndash; <a href="https://www.trademarknow.com/">TrademarkNow&trade;</a>.
+    </p>
+  </div>
 </div>

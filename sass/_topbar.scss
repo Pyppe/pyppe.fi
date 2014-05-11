@@ -1,0 +1,39 @@
+#topbar {
+  .name h1 {
+    margin-left: 45px;
+  }
+
+  &.expanded + #title {
+    background-color: #777;
+    opacity: 0.85;
+  }
+
+  .top-bar-section li.active > a {
+    background-color: #008CBA; // fix https://github.com/zurb/foundation/issues/4232 in 5.0.3
+  }
+
+}
+
+#rssLink {
+  .fa {
+    font-size: 150%;
+    vertical-align: middle;
+    color: #ee802f;
+  }
+}
+
+#selfie {
+  $size: 40px; // 45px
+  width: $size;
+  height: $size;
+  margin-left: 5px;
+  margin-top: 2px;
+  position: absolute;
+  @include border-radius(50px);
+}
+
+#selectLanguage {
+  .fa-inverse {
+    color: #222;
+  }
+}
