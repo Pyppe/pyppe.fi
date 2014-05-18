@@ -37,12 +37,20 @@ img.thumb { background: #eee; padding: 5px; padding-bottom: 10px; border: 1px so
 
 h1, h2, h3, h4, h5, h6 { font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight: 300; }
 
-#title { background: url('/img/tiles.png?1399809725') repeat scroll center center #008cba; }
-#title h1, #title h5 { color: white; }
-#title h1 { padding: 10px 0; }
-#title h1 small { color: white; vertical-align: middle; }
-#title h1.withTime { margin-bottom: 0; padding-bottom: 0; }
-#title .time { padding-bottom: 10px; }
+#title { /*
+background: image-url("tiles.png") repeat scroll center center $cyan;
+h1, h5 { color: white;
+}
+h1 { padding: 10px 0; small { color: white; vertical-align: middle; } &.withTime { margin-bottom: 0; padding-bottom: 0; }
+}
+.time { padding-bottom: 10px;
+}
+*/ }
+#title.cover { background-size: cover; margin-bottom: 20px; }
+#title.cover h1 { color: white; text-shadow: 0 0 6px rgba(0, 0, 0, 0.5); }
+@media only screen and (min-width: 40.063em) { #title.cover { height: 200px; }
+  #title.cover h1 { font-size: 4rem; } }
+@media only screen and (min-width: 64.063em) { #title.cover { height: 200px; } }
 
 span.hilight, em.hilight { color: black; font-size: 120%; }
 

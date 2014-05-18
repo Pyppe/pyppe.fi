@@ -10,11 +10,6 @@
   }
 }
 
-#title {
-  margin-bottom: 20px;
-  @include title-cover('blog_bg.jpg');
-}
-
 .imageCollage {
   .frame {
     &:hover {

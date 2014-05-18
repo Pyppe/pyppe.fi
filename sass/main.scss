@@ -13,6 +13,29 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 #title {
+  &.cover {
+    background-size: cover;
+    margin-bottom: 20px;
+    //position: relative;
+
+    h1 {
+      //position: absolute;
+      //bottom: 0;
+      color: white;
+      @include text-shadow(0 0 6px rgba(black, 0.5));
+    }
+
+    @media #{$medium-up} {
+      height: 200px;
+      h1 {
+        font-size: 4rem;
+      }
+    }
+    @media #{$large-up} {
+      height: 200px;
+    }
+  }
+  /*
   background: image-url("tiles.png") repeat scroll center center $cyan;
   h1, h5 {
     color: white;
@@ -31,6 +54,7 @@ h1,h2,h3,h4,h5,h6 {
   .time {
     padding-bottom: 10px;
   }
+  */
 }
 
 span.hilight, em.hilight {

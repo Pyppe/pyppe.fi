@@ -3,9 +3,11 @@
 @import "_mixins.scss";
 @import "_foundation.scss";
 
+/*
 #title {
   @include title-cover('blog_bg.jpg');
 }
+*/
 
 @include keyframes(bounceInDown) {
   0% {

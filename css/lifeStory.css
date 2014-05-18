@@ -1,9 +1,3 @@
-#title { margin-bottom: 20px; background: url('/img/lifeStory_bg.jpg?1399817982'); background-size: cover; }
-@media only screen and (min-width: 40.063em) { #title { height: 200px; }
-  #title h1 { font-size: 4rem; } }
-@media only screen and (min-width: 64.063em) { #title { height: 300px; } }
-#title h1 { text-shadow: 0 0 5px rgba(0, 0, 0, 0.75); }
-
 #judoBelts { width: 100%; margin-top: 20px; }
 #judoBelts td:nth-child(1) { width: 20px; }
 #judoBelts td:nth-child(2) { width: 60px; }

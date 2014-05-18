@@ -8,5 +8,8 @@
     {{ content }}
 
     {% include footer.html %}
+    <script type="text/javascript" src="/js/lib/foundation.min.js"></script>
+    <script type="text/javascript" src="/js/util.js"></script>
+    {% if page.js %}<script type="text/javascript" src="/js/{{ page.js }}"></script>{% endif %}
   </body>
 </html>

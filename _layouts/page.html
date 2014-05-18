@@ -1,14 +1,19 @@
 ---
 layout: default
 ---
-<div class="post">
 
-  <header class="post-header">
-    <h1>{{ page.title }}</h1>
-  </header>
-
-  <article class="post-content">
-  {{ content }}
-  </article>
-
+<div id="title" {% if page.titleCover %}
+  class="cover" style="background-image: url('/img/{{ page.titleCover }}');"
+{% endif %}>
+  <div class="row">
+    <h1 class="column">{{ page.title }}</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="columns large-12">
+    {% unless page.titleCover %}
+      <h1>{{ page.title }}</h1>
+    {% endunless %}
+    {{ content }}
+  </div>
 </div>

@@ -1,9 +1,7 @@
-#title { background: url('/img/blog_bg.jpg?1399818963'); background-size: cover; }
-@media only screen and (min-width: 40.063em) { #title { height: 200px; }
-  #title h1 { font-size: 4rem; } }
-@media only screen and (min-width: 64.063em) { #title { height: 300px; } }
-#title h1 { text-shadow: 0 0 5px rgba(0, 0, 0, 0.75); }
-
+/*
+#title { @include title-cover('blog_bg.jpg');
+}
+*/
 @keyframes bounceInDown { 0% { opacity: 0; -webkit-transform: translateY(-2000px); -moz-transform: translateY(-2000px); -ms-transform: translateY(-2000px); -o-transform: translateY(-2000px); transform: translateY(-2000px); }
   60% { opacity: 1; -webkit-transform: translateY(30px); -moz-transform: translateY(30px); -ms-transform: translateY(30px); -o-transform: translateY(30px); transform: translateY(30px); }
   80% { -webkit-transform: translateY(-10px); -moz-transform: translateY(-10px); -ms-transform: translateY(-10px); -o-transform: translateY(-10px); transform: translateY(-10px); }
