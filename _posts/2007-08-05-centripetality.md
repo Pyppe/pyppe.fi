@@ -1,0 +1,25 @@
+---
+layout: post
+language: fi
+id: 52dbcff4047ed29225ffac85
+title: "Centripetality"
+date: 2007-08-05T17:47:00+03:00
+categories: general
+excerpt: |
+  <h4>Ohhoooi!</h4>
+  
+  <p>Pyppe-päällikkö on nyt ajanhermolla ja mainostaa kolmen velmun sankarin (<a href="http://aropupu.fi">Aropupu</a>, <a href="http://juho.vaha-herttua.fi/">juhovh</a>, huamn) maanmainiota peliä nimeltä <a href="http://aropupu.fi/centri/">Centripetality</a>! Peli on ladattavissa em. linkistä ilmaiseksi Windowsille, Linuxille, MacOSX:lle, Solaris SPARCille sekä FreeBSD:lle. Pyppe approves.</p>
+  
+  <p>Tämä rintojanostattava tekele voitti <a href="http://www.assembly.org/summer07">Assembly2007</a>:n <a href="http://www.assembly.org/summer07/compos/realtime/gamedev">Gamedevin</a> ja on arcade-mättöä parhaimmillaan! Kontrollit pelaa ja pelattavuus on kohdallaan! Sweet mama, beam me up!!!</p>
+---
+<h3>Ohhoooi!</h3>
+
+@@IMAGE(centripetality.jpg|style:right)@@
+
+<p>Pyppe-päällikkö on nyt ajanhermolla ja mainostaa kolmen velmun sankarin (<a href="http://aropupu.fi">Aropupu</a>, <a href="http://juho.vaha-herttua.fi/">juhovh</a>, huamn) maanmainiota peliä nimeltä <a href="http://aropupu.fi/centri/">Centripetality</a>! Peli on ladattavissa em. linkistä ilmaiseksi Windowsille, Linuxille, MacOSX:lle, Solaris SPARCille sekä FreeBSD:lle. Pyppe approves.</p>
+
+<p>Tämä rintojanostattava tekele voitti <a href="http://www.assembly.org/summer07">Assembly2007</a>:n <a href="http://www.assembly.org/summer07/compos/realtime/gamedev">Gamedevin</a> ja on arcade-mättöä parhaimmillaan! Kontrollit pelaa ja pelattavuus on kohdallaan! Sweet mama, beam me up!!!</p>
+
+<p>Armotonta miinusta peli saa kuitenkin allekirjoittaneelta siitä, että <a href="http://aropupu.fi/centri/">hiscore-listan</a> kärjessä keikkuu nimimerkki mutsis, vaikka <em>Pyppe The Conqueror</em> hakkasi koko viikonlopun peliä nivelet leipää huutaen!</p>
+
+<p>Mutsis, pistä tämä mieleesi: PERÄSTÄ TULLAAN VIELÄ!! JALLA-JALLA-JALLA!!!</p>

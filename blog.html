@@ -23,6 +23,7 @@ js: blog.js
     <div class="row">
       <div class="medium-4 columns rightColumn">
         <h5 class="timeTitle">{{ post.date | date: "%Y" }}</h5>
+        <h5 class="timeTitle">{{ post.date | date_to_rfc822 }}</h5>
         <!--@utils.UI.sideImage(post)-->
       </div>
       <div class="medium-8 columns leftColumn">
