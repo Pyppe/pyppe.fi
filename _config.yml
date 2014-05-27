@@ -7,4 +7,5 @@ url: "http://www.pyppe.fi"
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: /blog/:year/:month/:title/
+#permalink: pretty

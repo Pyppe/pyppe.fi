@@ -15,5 +15,10 @@
         <li><a href="mailto:pyppe@iki.fi">{% include roundIcon.html icon="envelope" %}</a></li>
       </ul>
     </div>
+    {% comment %}
+    {% for page in site.pages %}
+      <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+    {% endfor %}
+    {% endcomment %}
   </div>
 </footer>

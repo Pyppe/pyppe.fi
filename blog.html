@@ -1,20 +1,44 @@
 ---
-layout: default
+layout: page
+language: fi
+title: Blogi – Pypen satunnaiset jorinat
+titleCover: blog_bg.jpg
+permalink: /blog/
+css: blog.css
+js: blog.js
 ---
 
-<div class="home">
+<ul class="posts">
+  {% for post in site.posts %}
+  <!--
+    <li>
+      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </li>
+  -->
 
-  <h1>Posts</h1>
+  <div class="post">
+    <!--@utils.UI.coverImage(post)-->
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+    <div class="row">
+      <div class="medium-4 columns rightColumn">
+        <h5 class="timeTitle">{{ post.date | date: "%Y" }}</h5>
+        <!--@utils.UI.sideImage(post)-->
+      </div>
+      <div class="medium-8 columns leftColumn">
+        <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+        <div class="caption">
+          <!--@Html(post.caption)-->
+          {{ post.excerpt }}
+        </div>
+        <a href="{{ post.url }}" class="button small readMoreButton">
+          Read more
+          <i class="fa fa-arrow-circle-right"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="separator">&nbsp;</div>
+  {% endfor %}
+</ul>
