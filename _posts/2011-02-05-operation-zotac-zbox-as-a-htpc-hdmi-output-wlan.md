@@ -1,7 +1,7 @@
 ---
 layout: post
 language: fi
-id: 52dbcff7047ed29225ffac94
+disqus: 52dbcff7047ed29225ffac94
 title: "Operation Zotac ZBOX as a HTPC (HDMI output & WLAN)"
 date: 2011-02-05T01:14:00+02:00
 categories: general

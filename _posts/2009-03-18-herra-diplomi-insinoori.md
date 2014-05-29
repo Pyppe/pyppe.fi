@@ -1,7 +1,7 @@
 ---
 layout: post
 language: fi
-id: 52dbcff7047ed29225ffac90
+disqus: 52dbcff7047ed29225ffac90
 title: "Herra Diplomi-insinööri"
 date: 2009-03-18T23:30:00+02:00
 categories: general

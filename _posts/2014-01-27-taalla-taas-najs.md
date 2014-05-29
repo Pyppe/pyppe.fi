@@ -1,7 +1,7 @@
 ---
 layout: post
 language: fi
-id: 52e6a70e12000012006eb52e
+disqus: 52e6a70e12000012006eb52e
 title: "Täällä taas... NAJS!"
 date: 2014-01-27T20:39:47+02:00
 categories: general

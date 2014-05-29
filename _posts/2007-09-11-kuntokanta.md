@@ -1,7 +1,7 @@
 ---
 layout: post
 language: fi
-id: 52dbcff5047ed29225ffac86
+disqus: 52dbcff5047ed29225ffac86
 title: "Kuntokanta"
 date: 2007-09-11T00:00:00+03:00
 categories: general

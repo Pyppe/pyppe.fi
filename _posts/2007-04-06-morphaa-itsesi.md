@@ -1,7 +1,7 @@
 ---
 layout: post
 language: fi
-id: 52dbcff3047ed29225ffac80
+disqus: 52dbcff3047ed29225ffac80
 title: "Morphaa itsesi"
 date: 2007-04-06T11:38:00+03:00
 categories: general

@@ -1,7 +1,7 @@
 ---
 layout: post
 language: fi
-id: 52dbcff5047ed29225ffac88
+disqus: 52dbcff5047ed29225ffac88
 title: "25v - yippee kay yay"
 date: 2008-01-21T23:12:00+02:00
 categories: general

@@ -1,7 +1,7 @@
 ---
 layout: post
 language: fi
-id: 52dbcff7047ed29225ffac93
+disqus: 52dbcff7047ed29225ffac93
 title: "Android skodausta"
 date: 2010-11-26T20:40:00+02:00
 categories: general

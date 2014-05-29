@@ -1,7 +1,7 @@
 ---
 layout: post
 language: fi
-id: 52dbcff6047ed29225ffac8e
+disqus: 52dbcff6047ed29225ffac8e
 title: "Kuulumisia"
 date: 2009-01-30T18:18:00+02:00
 categories: general

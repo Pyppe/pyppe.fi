@@ -1,7 +1,7 @@
 ---
 layout: post
 language: fi
-id: 52dbcff4047ed29225ffac85
+disqus: 52dbcff4047ed29225ffac85
 title: "Centripetality"
 date: 2007-08-05T17:47:00+03:00
 categories: general

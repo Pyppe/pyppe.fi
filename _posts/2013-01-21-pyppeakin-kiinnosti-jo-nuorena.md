@@ -1,7 +1,7 @@
 ---
 layout: post
 language: fi
-id: 52dbcff8047ed29225ffac98
+disqus: 52dbcff8047ed29225ffac98
 title: "Pyppeäkin kiinnosti. Jo nuorena."
 date: 2013-01-21T14:54:00+02:00
 categories: general

@@ -1,7 +1,7 @@
 ---
 layout: post
 language: fi
-id: 52dbcff4047ed29225ffac84
+disqus: 52dbcff4047ed29225ffac84
 title: "Arkistojen aarteita"
 date: 2007-07-28T12:05:00+03:00
 categories: general
