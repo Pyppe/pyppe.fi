@@ -38,10 +38,10 @@ if (typeof String.prototype.contains != 'function') {
       var height = $(window).height();
 
       var $bg = $('#title');
-      var $titleText = $('#title h1');
       var offset = 50 - (fromTop / height) * 100;
       $bg.css("background-position", "center " + offset + "%");
-      setY($titleText, +fromTop/2);
+      setY($('#title h1'), +fromTop/2);
+      setY($('#title h3'), +fromTop/2.4);
     });
     $(window).scroll();
   }

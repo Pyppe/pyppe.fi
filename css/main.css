@@ -46,8 +46,8 @@ h1 { padding: 10px 0; small { color: white; vertical-align: middle; } &.withTime
 .time { padding-bottom: 10px;
 }
 */ }
-#title.cover { background-size: cover; margin-bottom: 20px; }
-#title.cover h1 { color: white; text-shadow: 0 0 6px rgba(0, 0, 0, 0.5); }
+#title.cover { background-size: cover; margin-bottom: 20px; overflow: hidden; }
+#title.cover h1, #title.cover h3 { color: white; text-shadow: 0 0 6px rgba(0, 0, 0, 0.5); }
 @media only screen and (min-width: 40.063em) { #title.cover { height: 200px; }
   #title.cover h1 { font-size: 4rem; } }
 @media only screen and (min-width: 64.063em) { #title.cover { height: 200px; } }
