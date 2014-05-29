@@ -1,0 +1,26 @@
+
+{% for post in site.posts %}
+  <div class="post">
+    <!--@utils.UI.coverImage(post)-->
+
+    <div class="row">
+      <div class="medium-4 columns rightColumn">
+        <h5 class="timeTitle">{{ post.date }}</h5>
+        <!--@utils.UI.sideImage(post)-->
+      </div>
+      <div class="medium-8 columns leftColumn">
+        <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+
+        <div class="caption">
+          <!--@Html(post.caption)-->
+          {{ post.excerpt }}
+        </div>
+        <a href="{{ post.url }}" class="button small readMoreButton">
+          {{ include.read_more }}
+          <i class="fa fa-arrow-circle-right"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="separator">&nbsp;</div>
+{% endfor %}

@@ -1,6 +1,6 @@
 ---
 layout: post
-language: fi
+post_language: fi
 disqus: 52dbcff4047ed29225ffac81
 title: "OMG-uutiset"
 date: 2007-04-14T12:32:00+03:00

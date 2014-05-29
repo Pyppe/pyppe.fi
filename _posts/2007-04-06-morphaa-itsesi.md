@@ -1,6 +1,6 @@
 ---
 layout: post
-language: fi
+post_language: fi
 disqus: 52dbcff3047ed29225ffac80
 title: "Morphaa itsesi"
 date: 2007-04-06T11:38:00+03:00

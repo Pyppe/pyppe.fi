@@ -1,6 +1,6 @@
 ---
 layout: post
-language: fi
+post_language: fi
 disqus: 52dbcff4047ed29225ffac85
 title: "Centripetality"
 date: 2007-08-05T17:47:00+03:00

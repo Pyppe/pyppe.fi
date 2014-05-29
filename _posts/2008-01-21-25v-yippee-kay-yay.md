@@ -1,6 +1,6 @@
 ---
 layout: post
-language: fi
+post_language: fi
 disqus: 52dbcff5047ed29225ffac88
 title: "25v - yippee kay yay"
 date: 2008-01-21T23:12:00+02:00

@@ -1,6 +1,6 @@
 ---
 layout: post
-language: fi
+post_language: fi
 disqus: 52dbcff4047ed29225ffac82
 title: "Ala-asteen luokkakokous"
 date: 2007-06-11T19:35:00+03:00

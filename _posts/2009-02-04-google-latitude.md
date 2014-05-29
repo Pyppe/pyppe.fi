@@ -1,6 +1,6 @@
 ---
 layout: post
-language: fi
+post_language: fi
 disqus: 52dbcff6047ed29225ffac8f
 title: "Google Latitude"
 date: 2009-02-04T19:27:00+02:00

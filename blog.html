@@ -1,45 +1,11 @@
 ---
 layout: page
-language: fi
-title: Blogi – Pypen satunnaiset jorinat
+language: en
+title: Blog – random ramblings of Pyppe
 titleCover: /img/blog_bg.jpg
 permalink: /blog/
 css: blog.css
 js: blog.js
 ---
 
-<ul class="posts">
-  {% for post in site.posts %}
-  <!--
-    <li>
-      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </li>
-  -->
-
-  <div class="post">
-    <!--@utils.UI.coverImage(post)-->
-
-    <div class="row">
-      <div class="medium-4 columns rightColumn">
-        <h5 class="timeTitle">{{ post.date | date: "%Y" }}</h5>
-        <h5 class="timeTitle">{{ post.date | date_to_rfc822 }}</h5>
-        <!--@utils.UI.sideImage(post)-->
-      </div>
-      <div class="medium-8 columns leftColumn">
-        <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
-
-        <div class="caption">
-          <!--@Html(post.caption)-->
-          {{ post.excerpt }}
-        </div>
-        <a href="{{ post.url }}" class="button small readMoreButton">
-          Read more
-          <i class="fa fa-arrow-circle-right"></i>
-        </a>
-      </div>
-    </div>
-  </div>
-  <div class="separator">&nbsp;</div>
-  {% endfor %}
-</ul>
+{% include posts.html read_more="Read more" %}

@@ -1,6 +1,6 @@
 ---
 layout: post
-language: fi
+post_language: fi
 disqus: 52dbcff5047ed29225ffac8a
 title: "Nätti Jussi"
 date: 2008-04-27T20:44:00+03:00

@@ -1,6 +1,6 @@
 ---
 layout: post
-language: fi
+post_language: fi
 disqus: 52dbcff7047ed29225ffac92
 title: "Kesätunnelmia"
 date: 2010-08-01T10:33:00+03:00

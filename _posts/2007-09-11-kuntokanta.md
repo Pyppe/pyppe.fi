@@ -1,6 +1,6 @@
 ---
 layout: post
-language: fi
+post_language: fi
 disqus: 52dbcff5047ed29225ffac86
 title: "Kuntokanta"
 date: 2007-09-11T00:00:00+03:00

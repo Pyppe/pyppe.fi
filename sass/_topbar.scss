@@ -8,11 +8,8 @@
     opacity: 0.85;
   }
 
-  .top-bar-section li.active > a {
-    background-color: #008CBA; // fix https://github.com/zurb/foundation/issues/4232 in 5.0.3
-  }
-
 }
+
 
 #rssLink {
   .fa {

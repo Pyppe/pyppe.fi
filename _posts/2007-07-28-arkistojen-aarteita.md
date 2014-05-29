@@ -1,6 +1,6 @@
 ---
 layout: post
-language: fi
+post_language: fi
 disqus: 52dbcff4047ed29225ffac84
 title: "Arkistojen aarteita"
 date: 2007-07-28T12:05:00+03:00

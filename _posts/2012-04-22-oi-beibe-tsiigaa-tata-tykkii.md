@@ -1,6 +1,6 @@
 ---
 layout: post
-language: fi
+post_language: fi
 disqus: 52dbcff8047ed29225ffac95
 title: "Oi, beibe, tsiigaa tätä tykkii!"
 date: 2012-04-22T11:37:00+03:00

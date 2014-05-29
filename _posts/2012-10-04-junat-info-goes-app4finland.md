@@ -1,6 +1,6 @@
 ---
 layout: post
-language: fi
+post_language: fi
 disqus: 52dbcff8047ed29225ffac97
 title: "Junat.info goes App4Finland"
 date: 2012-10-04T20:21:00+03:00

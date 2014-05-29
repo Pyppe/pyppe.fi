@@ -21,6 +21,27 @@ if (typeof String.prototype.contains != 'function') {
   })();
   */
 
+  function localization() {
+    var settings = {
+      '/': { otherLanguage: '/frontpage/' },
+      'frontpage': { otherLanguage: '/' },
+      'elamantarina': { otherLanguage: '/life-story/', nav: 'lifeStory' },
+      'life-story': { otherLanguage: '/elamantarina/', nav: 'lifeStory' },
+      'blog': { otherLanguage: window.location.pathname.replace('/blog/', '/blogi/'), nav: 'blog' },
+      'blogi': { otherLanguage: window.location.pathname.replace('/blogi/', '/blog/'), nav: 'blog' }
+    };
+    var path = window.location.pathname.split('/')[1] || '/';
+    if (path === 'blog') $('html').addClass('en');
+    if (path === 'blogi') $('html').addClass('fi');
+    var current = settings[path];
+    if (!current) return;
+    if (current.nav) {
+      $('#topbar .'+current.nav).addClass('active');
+    }
+    $('#topbar .change-lang').attr('href', current.otherLanguage);
+  }
+  localization();
+
   function bindCoverTitleScrolling() {
     function setY($elem, value) {
       var translate = 'translateY('+value+'px)';

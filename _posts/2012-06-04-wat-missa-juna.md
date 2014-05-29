@@ -1,6 +1,6 @@
 ---
 layout: post
-language: fi
+post_language: fi
 disqus: 52dbcff8047ed29225ffac96
 title: "Wat, missä juna?"
 date: 2012-06-04T00:11:00+03:00

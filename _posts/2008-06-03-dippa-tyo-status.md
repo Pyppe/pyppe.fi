@@ -1,6 +1,6 @@
 ---
 layout: post
-language: fi
+post_language: fi
 disqus: 52dbcff6047ed29225ffac8b
 title: "Dippa/työ-status"
 date: 2008-06-03T22:16:00+03:00
