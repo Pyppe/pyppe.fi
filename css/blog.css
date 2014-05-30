@@ -129,7 +129,7 @@
 #blog.animatedShow { -webkit-animation-name: bounceInLeft; -moz-animation-name: bounceInLeft; -o-animation-name: bounceInLeft; animation-name: bounceInLeft; }
 #blog.animatedHide { -webkit-animation-name: bounceOutLeft; -moz-animation-name: bounceOutLeft; -o-animation-name: bounceOutLeft; animation-name: bounceOutLeft; }
 @media only screen and (min-width: 40.063em) { #blog .timeTitle { margin-top: 15px; } }
-#blog .separator { background: url('/img/tiles.png?1399809725') repeat scroll center center #008cba; height: 20px; }
+#blog .separator { background: url('/img/tiles.png?1400491736') repeat scroll center center #008cba; height: 20px; }
 #blog .separator:last-child { height: 0; }
 
 .readMoreButton { margin-top: 10px; }

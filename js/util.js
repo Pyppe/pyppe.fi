@@ -21,7 +21,8 @@ if (typeof String.prototype.contains != 'function') {
   })();
   */
 
-  function localization() {
+  // Localization
+  (function() {
     var settings = {
       '/': { otherLanguage: '/frontpage/' },
       'frontpage': { otherLanguage: '/' },
@@ -39,8 +40,21 @@ if (typeof String.prototype.contains != 'function') {
       $('#topbar .'+current.nav).addClass('active');
     }
     $('#topbar .change-lang').attr('href', current.otherLanguage);
-  }
-  localization();
+    moment.lang($('html').hasClass('fi') ? 'fi' : 'en');
+  })();
+
+  // Date-times / localization
+  (function() {
+    function formatTime($elements) {
+      $elements.each(function() {
+        var $el = $(this);
+        var time = $el.text();
+        $el.text(moment(time, 'YYYY-MM-DD[T]HH:mm:ssZ').format('LL'));
+      });
+    }
+    formatTime($('#title h3'));
+    formatTime($('.post .timeTitle'));
+  })();
 
   function bindCoverTitleScrolling() {
     function setY($elem, value) {

@@ -1,11 +1,10 @@
-
 {% for post in site.posts %}
   <div class="post">
     <!--@utils.UI.coverImage(post)-->
 
     <div class="row">
       <div class="medium-4 columns rightColumn">
-        <h5 class="timeTitle">{{ post.date }}</h5>
+        <h5 class="timeTitle">{{ post.date | date_to_xmlschema }}</h5>
         <!--@utils.UI.sideImage(post)-->
       </div>
       <div class="medium-8 columns leftColumn">
