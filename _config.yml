@@ -9,3 +9,4 @@ url: "http://www.pyppe.fi"
 markdown: kramdown
 permalink: /blog/:year/:month/:title/
 #permalink: pretty
+highlighter: pygments
