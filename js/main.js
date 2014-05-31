@@ -81,14 +81,33 @@ if (typeof String.prototype.contains != 'function') {
     $(window).scroll();
   }
 
+  function createFancyboxImages() {
+    var $links = $(".imageCollage a");
+    $links.fancybox({
+      type: 'image',
+      beforeLoad: function() {
+        var title = $(this.element).find('.title').text();
+        if (title) {
+          this.title = title;
+        }
+      },
+      helpers: {
+        title: {
+          type: 'inside'
+        }
+      }
+    });
+  }
+
   $(function() {
     if ($('#title.cover').length > 0) {
       bindCoverTitleScrolling();
     }
+    createFancyboxImages();
   });
 
   //Foundation.libs.tooltip.settings.additional_inheritable_classes = ['black'];
 
-})(pyppe.util = {});
+})(pyppe.main = {});
 
 $(document).foundation();

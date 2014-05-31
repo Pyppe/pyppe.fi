@@ -3,12 +3,9 @@
 readonly PROGNAME=$(basename $0)
 readonly PROGDIR=$(readlink -m $(dirname $0))
 readonly ARGS="$@"
-
-cd $PROGDIR
-#find content -type f -name "*.jpg" -o -name "*.png" -o -name "*.gif"
-
 readonly TARGET="data"
 
+cd $PROGDIR
 rm -rf $TARGET
 cp -ra content $TARGET
 for file in $(find $TARGET -type f -name "*.jpg" -o -name "*.png" -o -name "*.gif"); do

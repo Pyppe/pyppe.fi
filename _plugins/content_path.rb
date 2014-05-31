@@ -1,7 +1,7 @@
 module Jekyll
   module ContentPathFilter
     def content_path(input)
-      input.gsub(/\/blog\//, "/content/")
+      input.gsub(/\/blog\//, "/data/")
     end
   end
 end
