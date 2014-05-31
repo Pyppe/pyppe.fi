@@ -6,6 +6,10 @@
       <div class="medium-4 columns rightColumn">
         <h5 class="timeTitle">{{ post.date | date_to_xmlschema }}</h5>
         <!--@utils.UI.sideImage(post)-->
+        {% if post.img_aside %}
+          <img src="{{ post.id | content_path }}/{{ post.img_aside | img_size:'aside' }}"
+               style="width: 100%;" class="show-for-medium-up aside" />
+        {% endif %}
       </div>
       <div class="medium-8 columns leftColumn">
         <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
@@ -21,5 +25,5 @@
       </div>
     </div>
   </div>
-  <div class="separator">&nbsp;</div>
+  <div class="postSeparator">&nbsp;</div>
 {% endfor %}

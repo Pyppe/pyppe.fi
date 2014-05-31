@@ -11,8 +11,12 @@ layout: default
     {% endif %}
   </div>
 </div>
+{% if page.rowless %}
+{{ content }}
+{% else %}
 <div class="row">
   <div class="columns large-12">
     {{ content }}
   </div>
 </div>
+{% endif %}

@@ -11,6 +11,13 @@ if (typeof String.prototype.contains != 'function') {
   };
 }
 
+// Mock console.log if not exist
+if (!window.console) {
+  window.console = {
+    log: $.noop
+  };
+}
+
 (function(exports, undefined) {
 
   /*
@@ -57,6 +64,9 @@ if (typeof String.prototype.contains != 'function') {
   })();
 
   function bindCoverTitleScrolling() {
+    if ($('#title.cover').length === 0) {
+      return;
+    }
     function setY($elem, value) {
       var translate = 'translateY('+value+'px)';
       $elem.css({
@@ -101,14 +111,42 @@ if (typeof String.prototype.contains != 'function') {
     });
   }
 
-  $(function() {
-    if ($('#title.cover').length > 0) {
-      bindCoverTitleScrolling();
+  function bindBlogPostsPage() {
+    var $asideImages = $('.post .aside');
+    if ($asideImages.length === 0) {
+      return;
     }
-    createFancyboxImages();
-  });
+    adjustSideImages();
+    var interval = setTimeout(adjustSideImages, 1500);
 
-  //Foundation.libs.tooltip.settings.additional_inheritable_classes = ['black'];
+    function adjustSideImages() {
+      $asideImages.each(function() {
+        var $aside = $(this).css('margin-top', '0');
+        var $post = $aside.closest('.post');
+        var $right = $post.find('.rightColumn');
+        var $left = $post.find('.leftColumn');
+        var diff = Math.floor($left.height() - $right.height()) - 12;
+        if (diff > 0) {
+          $aside.css('margin-top', diff + 'px');
+        }
+      });
+    }
+
+    $(window).resize(adjustSideImages);
+  }
+
+  $(function() {
+    bindCoverTitleScrolling();
+    createFancyboxImages();
+    bindBlogPostsPage();
+
+    // Life-story page
+    $("#showMoreNostalgia").prop('disabled', false).click(function() {
+      $(this).off("click").prop('disabled', true);
+      $("#moreNostalgia").slideDown();
+      $('html, body').animate({scrollTop: $('#moreNostalgia').offset().top}, 400);
+    });
+  });
 
 })(pyppe.main = {});
 

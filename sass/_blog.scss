@@ -1,0 +1,27 @@
+@media #{$medium-up} {
+  .timeTitle {
+    margin-top: 15px;
+  }
+}
+
+.postSeparator {
+  height: 20px;
+  &:last-child {
+    height: 0;
+  }
+}
+@media #{$small-only} {
+  .postSeparator {
+    background: image-url("tiles.png") repeat scroll center center $cyan;
+  }
+}
+
+
+.readMoreButton {
+  margin-top: 10px;
+  .fa {
+    font-size: 150%;
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+}
