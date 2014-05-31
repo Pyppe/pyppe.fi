@@ -30,7 +30,7 @@ h1,h2,h3,h4,h5,h6 {
       //position: absolute;
       //bottom: 0;
       color: white;
-      @include text-shadow(0 0 6px rgba(black, 0.5));
+      @include text-shadow(0 0 6px rgba(black, 0.8));
     }
 
     @media #{$medium-up} {

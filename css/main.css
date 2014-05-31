@@ -52,11 +52,15 @@ html.en .lang-en { display: inherit !important; }
 .postSeparator:last-child { height: 0; }
 
 @media only screen and (max-width: 40em) { .postSeparator { background: url('/img/tiles.png?1399809725') repeat scroll center center #008cba; } }
+.post div.cover { height: 150px; background-size: cover; background-repeat: no-repeat; background-position: center; background-clip: border-box; }
+
 .readMoreButton { margin-top: 10px; }
 .readMoreButton .fa { font-size: 150%; margin-left: 10px; vertical-align: middle; }
 
 .imageCollage .frame:hover .title { opacity: 1; }
 .imageCollage .frame .title { opacity: 0; -webkit-transition: opacity 0.5s ease-in-out; -moz-transition: opacity 0.5s ease-in-out; -o-transition: opacity 0.5s ease-in-out; transition: opacity 0.5s ease-in-out; }
+
+#comments { margin-top: 20px; }
 
 #post { margin-top: 20px; }
 @media only screen and (min-width: 40.063em) { #post .rightSideContent { float: right; margin-left: 10px; } }
@@ -78,7 +82,7 @@ h1 { padding: 10px 0; small { color: white; vertical-align: middle; } &.withTime
 }
 */ }
 #title.cover { background-size: cover; background-repeat: no-repeat; background-position: center; background-clip: border-box; margin-bottom: 20px; overflow: hidden; min-height: 150px; }
-#title.cover h1, #title.cover h3 { color: white; text-shadow: 0 0 6px rgba(0, 0, 0, 0.5); }
+#title.cover h1, #title.cover h3 { color: white; text-shadow: 0 0 6px rgba(0, 0, 0, 0.8); }
 @media only screen and (min-width: 40.063em) { #title.cover h1 { font-size: 3.25rem; } }
 
 span.hilight, em.hilight { color: black; font-size: 120%; }

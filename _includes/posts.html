@@ -1,6 +1,17 @@
 {% for post in site.posts %}
   <div class="post">
-    <!--@utils.UI.coverImage(post)-->
+
+    {% if post.titleCover %}
+    <div class="filler show-for-medium-down">
+      $img
+    </div>
+    <div class="row show-for-large-up">
+      <div class="large-12 columns filler">
+        <div class="cover" style="background-image: url('{{ post.id | content_path }}/{{ post.titleCover }}');"></div>
+      </div>
+    </div>
+    {% endif %}
+
 
     <div class="row">
       <div class="medium-4 columns rightColumn">

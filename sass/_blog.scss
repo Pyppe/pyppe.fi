@@ -16,6 +16,14 @@
   }
 }
 
+.post div.cover {
+  height: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-clip: border-box;
+}
+
 
 .readMoreButton {
   margin-top: 10px;
