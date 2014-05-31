@@ -1,15 +1,3 @@
-@charset "UTF-8";
-@import "compass";
-@import "_mixins.scss";
-@import "_foundation.scss";
-@import "_fancybox.scss";
-
-@media #{$large-up} {
-  .row {
-    //max-width: 55rem; // 62.5rem
-  }
-}
-
 .imageCollage {
   .frame {
     &:hover {

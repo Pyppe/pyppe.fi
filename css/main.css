@@ -55,6 +55,17 @@ html.en .lang-en { display: inherit !important; }
 .readMoreButton { margin-top: 10px; }
 .readMoreButton .fa { font-size: 150%; margin-left: 10px; vertical-align: middle; }
 
+.imageCollage .frame:hover .title { opacity: 1; }
+.imageCollage .frame .title { opacity: 0; -webkit-transition: opacity 0.5s ease-in-out; -moz-transition: opacity 0.5s ease-in-out; -o-transition: opacity 0.5s ease-in-out; transition: opacity 0.5s ease-in-out; }
+
+#post { margin-top: 20px; }
+@media only screen and (min-width: 40.063em) { #post .rightSideContent { float: right; margin-left: 10px; } }
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { #post .rightSideContent { width: 300px; }
+  #post .rightSideContent.wide { width: 400px; } }
+@media only screen and (min-width: 64.063em) { #post .rightSideContent { width: 350px; }
+  #post .rightSideContent.wide { width: 450px; } }
+@media only screen and (max-width: 40em) { #post .rightSideContent { width: 100%; } }
+
 h1, h2, h3, h4, h5, h6 { font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight: 300; }
 
 #title { /*

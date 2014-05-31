@@ -6,27 +6,66 @@ title: "Ala-asteen luokkakokous"
 date: 2007-06-11T19:35:00+03:00
 categories: general
 excerpt: |
-  <p>Päivä oli lauantai 9. kesäkuuta, 2007, ja edessä oli hilpeän hulppea ala-asteen (<a href="http://www.siuntio.fi/">Siuntion</a> <a href="http://www.siuntio.fi/akk/">Aleksis Kiven koulu</a>) luokkakokous. Mikäs sen muikeampaa! Ja muikeutta entisestään lisäsi se, että suurinta osaa populaatiosta en ollut nähnyt sitten ala-asteen kuudennen luokan (eli noin 12 vuoteen).</p>
-  
-  <p>Iltamat alkoivat ravintolassa <a href="http://www.kalaravintolat.fi/ahven_index.php">Punavuoren Ahven</a> yhteensä kuuden ja puolen taistelijaparin woimalla. Tiimimme kokoontui peräkammariksi naamioidussa kabinetissa, ja tunnelmasta vastasi neljän CD:n hittikimara, joka koostui parhaista 90-luvun limudiskojen annista (mm. Leila K, Scatman, Rednex, New Kids On The Block sekä tietysti <strong>Haddaway</strong>!!!).</p>
+  <p>Päivä oli lauantai 9. kesäkuuta, 2007, ja edessä oli hilpeän hulppea ala-asteen
+    (<a href="http://www.siuntio.fi/">Siuntion</a> <a href="http://www.siuntio.fi/akk/">Aleksis Kiven koulu</a>)
+    luokkakokous. Mikäs sen muikeampaa! Ja muikeutta entisestään lisäsi se, että suurinta osaa populaatiosta en ollut
+    nähnyt sitten ala-asteen kuudennen luokan (eli noin 12 vuoteen).</p>
+  <p>Iltamat alkoivat ravintolassa <a href="http://www.kalaravintolat.fi/ahven_index.php">Punavuoren Ahven</a> yhteensä
+  kuuden ja puolen taistelijaparin woimalla. Tiimimme kokoontui peräkammariksi naamioidussa kabinetissa, ja tunnelmasta
+  vastasi neljän CD:n hittikimara, joka koostui parhaista 90-luvun limudiskojen annista (mm. Leila K, Scatman, Rednex,
+  New Kids On The Block sekä tietysti <strong>Haddaway</strong>!!!).</p>
 ---
-<p>Päivä oli lauantai 9. kesäkuuta, 2007, ja edessä oli hilpeän hulppea ala-asteen (<a href="http://www.siuntio.fi/">Siuntion</a> <a href="http://www.siuntio.fi/akk/">Aleksis Kiven koulu</a>) luokkakokous. Mikäs sen muikeampaa! Ja muikeutta entisestään lisäsi se, että suurinta osaa populaatiosta en ollut nähnyt sitten ala-asteen kuudennen luokan (eli noin 12 vuoteen).</p>
+<p>Päivä oli lauantai 9. kesäkuuta, 2007, ja edessä oli hilpeän hulppea ala-asteen (<a href="http://www.siuntio.fi/">Siuntion</a>
+<a href="http://www.siuntio.fi/akk/">Aleksis Kiven koulu</a>) luokkakokous. Mikäs sen muikeampaa! Ja muikeutta
+entisestään lisäsi se, että suurinta osaa populaatiosta en ollut nähnyt sitten ala-asteen kuudennen luokan (eli noin 12
+vuoteen).</p>
 
-<p>Iltamat alkoivat ravintolassa <a href="http://www.kalaravintolat.fi/ahven_index.php">Punavuoren Ahven</a> yhteensä kuuden ja puolen taistelijaparin woimalla. Tiimimme kokoontui peräkammariksi naamioidussa kabinetissa, ja tunnelmasta vastasi neljän CD:n hittikimara, joka koostui parhaista 90-luvun limudiskojen annista (mm. Leila K, Scatman, Rednex, New Kids On The Block sekä tietysti <strong>Haddaway</strong>!!!).</p>
+<p>Iltamat alkoivat ravintolassa <a href="http://www.kalaravintolat.fi/ahven_index.php">Punavuoren Ahven</a> yhteensä
+kuuden ja puolen taistelijaparin woimalla. Tiimimme kokoontui peräkammariksi naamioidussa kabinetissa, ja tunnelmasta
+vastasi neljän CD:n hittikimara, joka koostui parhaista 90-luvun limudiskojen annista (mm. Leila K, Scatman, Rednex, New
+Kids On The Block sekä tietysti <strong>Haddaway</strong>!!!).</p>
 
-<p>Alkuilta sujui sujuvan sutjakkaasti aterian ja kuulumisien vaihdon merkeissä. Valitettavasti totuudet lausuttiin julki, ja sain kuulla muutamia traumaattisia faktoja itsestäni, jotka olin onnistuneesti saanut työnnettyä alitajuntani syövereihin. Mainitsemisen arvoisia seikkoja ala-asteajoista lienevät mm. seuraavat:</p>
+<p>Alkuilta sujui sujuvan sutjakkaasti aterian ja kuulumisien vaihdon merkeissä. Valitettavasti totuudet lausuttiin
+julki, ja sain kuulla muutamia traumaattisia faktoja itsestäni, jotka olin onnistuneesti saanut työnnettyä alitajuntani
+syövereihin. Mainitsemisen arvoisia seikkoja ala-asteajoista lienevät mm. seuraavat:</p>
 
 <ul>
   <li>Olen juossut (fyysisesti) vahingoittumattomana koulun käytävän ikkunan läpi paetessani himokkaita 8-vuotiaita tyttöjä!</li>
-  <li>Ensimmäisen ja toisen luokan opettajamme kävi usein lomillaan matkailemassa eksoottisissa maissa. Koko koulu kerääntyi todistamaan näitä matkoja usean tunnin mittaisiin dia-show-spektaakkeleihin koulun liikuntasaliin. Oletan, että tämä sisältyy edelleen kiinteänä osana ala-asteiden opetussuunnitelmiin.</li>
-  <li>Kolmannella luokalla opettajamme tiedusteli meiltä unelma-ammattejamme. Minun oli seksiliiton puheenjohtaja. Otin tämän tulevaisuudenvisioni vakavasti ja valistin myös opiskelijatovereitani seksuaalisuuden eri aspekteista. Valistukseni loppui lyhyeen, kun erään oppilaan äiti soitti luokanopettajallemme ja valitti, että annoin huonoja vaikutteita muille oppilaille.</li>
-  <li>Kolmannella luokalla päätin säikyttää opettajamme mitä mainioimmalla tempulla. Annoin opiskelijatovereitteni paketoida itseni pahvilaatikkoon, joka jätettiin ovelasti opettajamme tuolin viereen. Kun tunti alkoi ja opettajamme tiedusteli poissaoloni syytä, oppilaskätyrini kertoivat valkoisen valheen ja ilmoittivat minun olevan vessassa. Muutaman ahdistavan minuutin jälkeen purkauduin piilostani alkukantaisen huudon säestyksellä nauliten katseeni täysin minusta tietämättömään uhriini. Valitettavasti tällä ei ollut toivotunlaista vaikutusta, vaan opettajamme pyysi minua ainoastaan kylmän rauhallisesti palaamaan paikalleni...</li>
-  <li>Neljännellä luokalla (edelleen edellisen vuoden säikytysyrityksen epäonnistumisesta murtuneena) päätin suorittaa uuden säikytysyrityksen eräälle sijaisopettajalle. Tällä kertaa sotkin pääni ketsupilla, ja opettajamme tullessa luokkaan hoipertelin sekavanoloisena väittäen, että olin lyönyt pääni pianon kulmaan. Valitettavasti tälläkään kertaa kepponen ei mennyt aivan suunnitelmien mukaan -- sen sijaan että olisimme kaikki nauraneet jäynäni nerokkuudelle, opettajamme tulkitsi tilanteen ns. "tosissaan" ja ajautui eräänlaiseen shokkiin. Jouduin vakuuttamaan useita kertoja, että en ollut oikeasti loukkaantunut, ennen kuin opettajamme suostui rauhoittumaan.</li>
-  <li>Viidennellä ja kuudennella luokalla luokanopettajanamme toimi koulun rehtori <em>Alpo "Jahas-jahas, eikö jalka nouse vai" Järvinen</em>. Hänen opetusmetodeihinsa kuului se, että hommat tehtyänsä ei tarvinnut istua toimettomana, vaan aikansa saattoi käyttää hyödyllisesti. Tästä johtuen luokassamme oli minibiljardipöytä, jota sitten pelasimme hyvinkin usein oppituntien aikana.</li>
-  <li>Kuudennella luokalla eräs Pellervo (nimi muutettu, en muuten ollut myöskään minä!) keksi hullun hauskan kepposen ja päätti asettaa nastan opettajamme penkille. Hauskuus kuoli hyvin nopeasti, kun kepposta seurasi useiden päivien kuulustelut syyllisen selvittämiseksi.</li>
-  <li>Kuudennen luokan leirikoululla minä ja eräs kaverini päätimme luistaa aamupäivän aktiviteeteista valmistamalla teko-oksennusta erinäisistä kotitalouden tarvikkeista (en paljasta tässä reseptiä, jotta tulevat sukupolvet eivät käyttäisi tätä moraalisesti arveluttavaa tekniikkaa luistaakseen velvollisuuksistaan).</li>
+  <li>Ensimmäisen ja toisen luokan opettajamme kävi usein lomillaan matkailemassa eksoottisissa maissa. Koko koulu
+    kerääntyi todistamaan näitä matkoja usean tunnin mittaisiin dia-show-spektaakkeleihin koulun liikuntasaliin.
+    Oletan, että tämä sisältyy edelleen kiinteänä osana ala-asteiden opetussuunnitelmiin.</li>
+  <li>Kolmannella luokalla opettajamme tiedusteli meiltä unelma-ammattejamme. Minun oli seksiliiton puheenjohtaja.
+    Otin tämän tulevaisuudenvisioni vakavasti ja valistin myös opiskelijatovereitani seksuaalisuuden eri aspekteista.
+    Valistukseni loppui lyhyeen, kun erään oppilaan äiti soitti luokanopettajallemme ja valitti, että annoin huonoja
+    vaikutteita muille oppilaille.</li>
+  <li>Kolmannella luokalla päätin säikyttää opettajamme mitä mainioimmalla tempulla. Annoin opiskelijatovereitteni
+    paketoida itseni pahvilaatikkoon, joka jätettiin ovelasti opettajamme tuolin viereen. Kun tunti alkoi ja opettajamme
+    tiedusteli poissaoloni syytä, oppilaskätyrini kertoivat valkoisen valheen ja ilmoittivat minun olevan vessassa.
+    Muutaman ahdistavan minuutin jälkeen purkauduin piilostani alkukantaisen huudon säestyksellä nauliten katseeni
+    täysin minusta tietämättömään uhriini. Valitettavasti tällä ei ollut toivotunlaista vaikutusta, vaan opettajamme
+    pyysi minua ainoastaan kylmän rauhallisesti palaamaan paikalleni...</li>
+  <li>Neljännellä luokalla (edelleen edellisen vuoden säikytysyrityksen epäonnistumisesta murtuneena) päätin suorittaa
+    uuden säikytysyrityksen eräälle sijaisopettajalle. Tällä kertaa sotkin pääni ketsupilla, ja opettajamme tullessa
+    luokkaan hoipertelin sekavanoloisena väittäen, että olin lyönyt pääni pianon kulmaan. Valitettavasti tälläkään
+    kertaa kepponen ei mennyt aivan suunnitelmien mukaan -- sen sijaan että olisimme kaikki nauraneet jäynäni
+    nerokkuudelle, opettajamme tulkitsi tilanteen ns. "tosissaan" ja ajautui eräänlaiseen shokkiin. Jouduin
+    vakuuttamaan useita kertoja, että en ollut oikeasti loukkaantunut, ennen kuin opettajamme suostui rauhoittumaan.</li>
+  <li>Viidennellä ja kuudennella luokalla luokanopettajanamme toimi koulun rehtori <em>Alpo "Jahas-jahas, eikö jalka
+    nouse vai" Järvinen</em>. Hänen opetusmetodeihinsa kuului se, että hommat tehtyänsä ei tarvinnut istua toimettomana,
+    vaan aikansa saattoi käyttää hyödyllisesti. Tästä johtuen luokassamme oli minibiljardipöytä, jota sitten pelasimme
+    hyvinkin usein oppituntien aikana.</li>
+  <li>Kuudennella luokalla eräs Pellervo (nimi muutettu, en muuten ollut myöskään minä!) keksi hullun hauskan kepposen
+    ja päätti asettaa nastan opettajamme penkille. Hauskuus kuoli hyvin nopeasti, kun kepposta seurasi useiden päivien
+    kuulustelut syyllisen selvittämiseksi.</li>
+  <li>Kuudennen luokan leirikoululla minä ja eräs kaverini päätimme luistaa aamupäivän aktiviteeteista valmistamalla
+    teko-oksennusta erinäisistä kotitalouden tarvikkeista (en paljasta tässä reseptiä, jotta tulevat sukupolvet eivät
+    käyttäisi tätä moraalisesti arveluttavaa tekniikkaa luistaakseen velvollisuuksistaan).</li>
 </ul>
 
-<p>Huh-huh... johan tulikin avauduttua. Anyway, selonteko luokkakokouksesta jatkukoon! Punavuoren Ahvenesta seurueemme siirtyi jatkoille <a href="http://www.lostandfound.fi/">Lostariin</a>. Tässä kohtaa iltaa muistikuvani käyvät hieman sumuisemmiksi jostain kumman syystä. Epäilen että söin/join jotain sopimatonta. Joka tapauksessa Lostarissa samba raikui ja lanteet notkuivat. Illan mittaa joukkueestamme kaatui taistelijoita tasaiseen tahtiin, kunnes henkilökohtainen ratkaisuni oli päättää onnistunut ilta idylliseen ruokailuhetkeen erääseen Helsingin pizzeriaan.</p>
+<p>Huh-huh... johan tulikin avauduttua. Anyway, selonteko luokkakokouksesta jatkukoon! Punavuoren Ahvenesta seurueemme
+siirtyi jatkoille <a href="http://www.lostandfound.fi/">Lostariin</a>. Tässä kohtaa iltaa muistikuvani käyvät hieman
+sumuisemmiksi jostain kumman syystä. Epäilen että söin/join jotain sopimatonta. Joka tapauksessa Lostarissa samba
+raikui ja lanteet notkuivat. Illan mittaa joukkueestamme kaatui taistelijoita tasaiseen tahtiin, kunnes henkilökohtainen
+ratkaisuni oli päättää onnistunut ilta idylliseen ruokailuhetkeen erääseen Helsingin pizzeriaan.</p>
 
 <p>Pyppe kiittää ja kumartaa luokkakokouksen järjestäjiä sekä kaikkia paikalle päässeitä! Over and out!</p>
