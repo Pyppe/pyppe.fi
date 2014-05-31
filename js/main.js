@@ -82,8 +82,7 @@ if (typeof String.prototype.contains != 'function') {
   }
 
   function createFancyboxImages() {
-    var $links = $(".imageCollage a");
-    $links.fancybox({
+    $(".imageCollage a").fancybox({
       type: 'image',
       beforeLoad: function() {
         var title = $(this.element).find('.title').text();
@@ -92,6 +91,9 @@ if (typeof String.prototype.contains != 'function') {
         }
       },
       helpers: {
+        overlay: {
+          locked: false
+        },
         title: {
           type: 'inside'
         }
