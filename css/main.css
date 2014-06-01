@@ -97,6 +97,5 @@ body { font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial
   #footer ul { float: none; display: inline-block; }
   #footer ul > li:first-child { margin-left: 0; } }
 
-pre.hljs { overflow: auto; }
-
-.tooltip.black { background: #111; }
+#notFoundGif { width: 100%; }
+@media only screen and (max-width: 40em) { #notFoundGif { width: 70%; display: block; margin: 0 auto; } }

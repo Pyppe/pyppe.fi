@@ -109,10 +109,11 @@ body {
 
 }
 
-pre.hljs {
-  overflow: auto;
-}
-
-.tooltip.black {
-  background: #111;
+#notFoundGif {
+  width: 100%;
+  @media #{$small-only} {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+  }
 }
