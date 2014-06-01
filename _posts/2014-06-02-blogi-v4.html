@@ -1,0 +1,52 @@
+---
+layout: post
+title: "Blogi v4"
+date: 2014-06-02T20:39:00+03:00
+categories: general
+excerpt: |
+  <p>
+    Howdy-ho, Internetin kullannuput, söpöt pikku peikkoset! On taas se aika vuodesta, kun Pyppe kirjoittaa blogiinsa...
+    mistäpä muusta kuin blogistaan! <strike><b>*EPIC*</b></strike> <b>... really?</b>
+  </p>
+---
+
+<p>
+  Howdy-ho, Internetin kullannuput, söpöt pikku peikkoset! On taas se aika vuodesta, kun Pyppe kirjoittaa blogiinsa...
+  mistäpä muusta kuin blogistaan! <strike><b>*EPIC*</b></strike> <b>... really?</b>
+</p>
+
+<h2>Really!</h2>
+
+<p>
+  Edellinen kustom<sup id="bling">bling</sup> Scala/MongoDB/Elasticsearch -koneisto sai väistyä simppeliäkin simppelimmän
+  <a href="http://jekyllrb.com/">Jekyll</a> -blogigenerointimoottorin alta. Jekyll ei varsinaisesti tue monikielisiä
+  sivustoja, mutta muutamalla Apache/JavaScript/CSS -tempulla sivusto toimii
+  kuten aikaisempi dynaaminenkin versio, vaikka onkin siis täysin staattisesti generoitu.</p>
+
+<p>
+  Kylä nyt lähtee! Lupaan, että seuraava blogikirjoitus <b>EI</b> <span style="font-size: 60%">(välttämättä)</span>
+  kerro blogista.
+</p>
+
+<style type="text/css">
+  #bling {
+    -webkit-transition:all 1.0s linear;
+    -moz-transition:all 1.0s linear;
+    -o-transition:all 1.0s linear;
+    -ms-transition:all 1.0s linear;
+    transition:all 1.0s linear;
+
+    text-shadow: 0 0 2px red;
+  }
+  #bling.bling {
+    text-shadow: 0 0 2px yellow;
+  }
+</style>
+<script type="text/javascript">
+  $(function() {
+    var $bling = $('#bling').addClass('bling');
+    setInterval(function() {
+      $bling.toggleClass('bling');
+    }, 2000);
+  })
+</script>
