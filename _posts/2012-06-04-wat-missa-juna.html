@@ -2,33 +2,46 @@
 layout: post
 post_language: fi
 disqus: 52dbcff8047ed29225ffac96
+img_aside: junat_results.png
 title: "Wat, missä juna?"
 date: 2012-06-04T00:11:00+03:00
 categories: general
 excerpt: |
   <p>Heikunkeikun, pimpelipompeli!</p>
+  <p>Scala-blogiprojekti tuli valmiiksi tuossa päälle kuukausi sitten. Nyt tuli sitten näköjään tutustuttua
+    <a href="http://nodejs.org/">Node.js</a>:ään, <a href="http://jquerymobile.com/">jQuery Mobileen</a> ja
+    <a href="http://www.heroku.com/">Herokuun</a>.</p>
   
-  <p>Scala-blogiprojekti tuli valmiiksi tuossa päälle kuukausi sitten. Nyt tuli sitten näköjään tutustuttua <a href="http://nodejs.org/">Node.js</a>:ään, <a href="http://jquerymobile.com/">jQuery Mobileen</a> ja <a href="http://www.heroku.com/">Herokuun</a>.</p>
-  
-  <p><strong>Lapsukaiset...</strong> oikein arvasitte! Tämä on epäeeppinen kertomus yhden koodisankarin koettelemuksista kohti käytettävää mobiilipalvelua.</p>
+  <p><strong>Lapsukaiset...</strong> oikein arvasitte! Tämä on epäeeppinen kertomus yhden koodisankarin koettelemuksista
+    kohti käytettävää mobiilipalvelua.</p>
 ---
 <p>Heikunkeikun, pimpelipompeli!</p>
 
-<p>Scala-blogiprojekti tuli valmiiksi tuossa päälle kuukausi sitten. Nyt tuli sitten näköjään tutustuttua <a href="http://nodejs.org/">Node.js</a>:ään, <a href="http://jquerymobile.com/">jQuery Mobileen</a> ja <a href="http://www.heroku.com/">Herokuun</a>.</p>
+<p>Scala-blogiprojekti tuli valmiiksi tuossa päälle kuukausi sitten. Nyt tuli sitten näköjään tutustuttua
+  <a href="http://nodejs.org/">Node.js</a>:ään, <a href="http://jquerymobile.com/">jQuery Mobileen</a> ja
+  <a href="http://www.heroku.com/">Herokuun</a>.</p>
 
-<p><strong>Lapsukaiset...</strong> oikein arvasitte! Tämä on epäeeppinen kertomus yhden koodisankarin koettelemuksista kohti käytettävää mobiilipalvelua.</p>
+<p><strong>Lapsukaiset...</strong> oikein arvasitte! Tämä on epäeeppinen kertomus yhden koodisankarin koettelemuksista
+  kohti käytettävää mobiilipalvelua.</p>
 
-@@IMAGE_COLLAGE()@@
+<ul class="imageCollage small-block-grid-2 medium-block-grid-3">
+  {% include gridImage.html src="junat_main.png" title="Haku" %}
+  {% include gridImage.html src="junat_results.png" title="Tulokset" %}
+</ul>
+
 
 <h2>Kivi ja kuokka</h2>
 
-<p>Tarina alkaa, kun Jussi, hyvä ystäväni sekä sormikoukkuyhdistyksemme varapuheenjohtaja, oli väsyneenä matkalla kohti kotiaan. Aseenaan VR:n käytettävyyden riemujamboree <a href="http://m.vr.fi/">m.vr.fi</a> Jussi ei koskaan löytänyt kotiin...</p>
+<p>Tarina alkaa, kun Jussi, hyvä ystäväni sekä sormikoukkuyhdistyksemme varapuheenjohtaja, oli väsyneenä matkalla kohti
+  kotiaan. Aseenaan VR:n käytettävyyden riemujamboree <a href="http://m.vr.fi/">m.vr.fi</a> Jussi ei koskaan löytänyt kotiin...</p>
 
-<p>Jotta Jussin kohtalo ei koituisi muille kohtaloksi, kohtalo ohjasi minut kohti projektia, jonka kohtaloksi muodostui tarjota mobiilisofta junien aikatauluhakua varten.</p>
+<p>Jotta Jussin kohtalo ei koituisi muille kohtaloksi, kohtalo ohjasi minut kohti projektia, jonka kohtaloksi muodostui
+  tarjota mobiilisofta junien aikatauluhakua varten.</p>
 
 <h2>Node.js</h2>
 
-<p>Node.js:n non-blocking I/O -malli sopii kuin lerssi lehtoon proxy-tyyppiseksi kevyeksi palvelimeksi aikatauluhakuja varten. Käydäänpä lyhyesti läpi, minkälaiseksi node.js-moduulikasa loppujen lopuksi muodostui:</p>
+<p>Node.js:n non-blocking I/O -malli sopii kuin lerssi lehtoon proxy-tyyppiseksi kevyeksi palvelimeksi aikatauluhakuja
+  varten. Käydäänpä lyhyesti läpi, minkälaiseksi node.js-moduulikasa loppujen lopuksi muodostui:</p>
 
 <table class="table table-striped">
   <thead>
@@ -71,9 +84,11 @@ excerpt: |
 
 <h2>Helppokäyttöisen API:n kautta asiaan</h2>
 
-<p>Asia selvä. Backend-stack on siis kasassa. Ensimmäinen askel oli tutustua VR:n tarjoamaan moderniin haku-"API":iin. Kulahtaneista standardeista poiketen API ei ole JSON-pohjainen, vaan perustuu vieläkin varma- ja helppotoimisempaan HTML-standardiin. Otetaan esimerkki API:n tarjoamasta datasta:</p>
+<p>Asia selvä. Backend-stack on siis kasassa. Ensimmäinen askel oli tutustua VR:n tarjoamaan moderniin haku-"API":iin.
+  Kulahtaneista standardeista poiketen API ei ole JSON-pohjainen, vaan perustuu vieläkin varma- ja helppotoimisempaan
+  HTML-standardiin. Otetaan esimerkki API:n tarjoamasta datasta:</p>
 
-@@START_CODE(html)@@
+{% highlight html %}
 &lt;div class="resultsep"&gt;
   &lt;span class="boldText"&gt;19:42&amp;nbsp;Siuntio&amp;nbsp;&lt;/span&gt;
   &amp;nbsp;-&amp;nbsp;20:23&amp;nbsp;Pasila,&amp;nbsp;Lähijuna&amp;nbsp;
@@ -82,11 +97,12 @@ excerpt: |
   &lt;/div&gt;
   &lt;div class="trainchange"&gt;Vaihtoja 1,&amp;nbsp;kesto&amp;nbsp;1:20.&lt;/div&gt;
 &lt;/div&gt;
-@@END_CODE()@@
+{% endhighlight %}
 
-<p>Noniin, eli hommahan olikin jo käytännössä tehty. Karkea esimerkki Node.js-koodista, joka toimii proxynä ja muokkaa HTML-pohjaisesta vastauksesta rakenteisen JSON-vastauksen client-kirjastoa (jQuery Mobile) varten:</p>
+<p>Noniin, eli hommahan olikin jo käytännössä tehty. Karkea esimerkki Node.js-koodista, joka toimii proxynä ja muokkaa
+  HTML-pohjaisesta vastauksesta rakenteisen JSON-vastauksen client-kirjastoa (jQuery Mobile) varten:</p>
 
-@@START_CODE(javascript)@@
+{% highlight javascript %}
 // app.js
 app.post('/schedule', function(request, response) {
   try {
@@ -125,13 +141,20 @@ exports.find = function(request, apiResponse) {
       });
     });
 };
-@@END_CODE()@@
+{% endhighlight %}
 
 <h2>jQuery Mobile</h2>
 
-<p>Kun Node.js-palvelin oli saatu pystyyn, olikin aika siirtyä client-pään koodiin. Itse asiassa aluksi harkitsin tekeväni Android-sovelluksen aikatauluhausta, mutta hetken aikaa pähkäiltyäni päätinkin tehdä HTML5-pohjaisen ratkaisun, koska se toimisi periaatteessa kaikissa puhelimissa. Varsin lyhyen tutkailun jälkeen valitsin <a href="http://jquerymobile.com/">jQuery Mobilen</a> lähinnä mutu-tuntumalla (tutkin pikaisesti myös <a href="http://www.jqtouch.com/">jQTouchia</a> ja <a href="http://www.sencha.com/products/touch">Sensa Touchia</a>). Suurin syy valmiin frameworkin käyttöön oli se, että en jaksanut ruveta säätämään sovellukseni tyylin, ulkoasun tai skaalauksen (näytölle) kanssa.</p>
+<p>Kun Node.js-palvelin oli saatu pystyyn, olikin aika siirtyä client-pään koodiin. Itse asiassa aluksi harkitsin
+  tekeväni Android-sovelluksen aikatauluhausta, mutta hetken aikaa pähkäiltyäni päätinkin tehdä HTML5-pohjaisen ratkaisun,
+  koska se toimisi periaatteessa kaikissa puhelimissa. Varsin lyhyen tutkailun jälkeen valitsin
+  <a href="http://jquerymobile.com/">jQuery Mobilen</a> lähinnä mutu-tuntumalla (tutkin pikaisesti myös
+  <a href="http://www.jqtouch.com/">jQTouchia</a> ja <a href="http://www.sencha.com/products/touch">Sensa Touchia</a>).
+  Suurin syy valmiin frameworkin käyttöön oli se, että en jaksanut ruveta säätämään sovellukseni tyylin, ulkoasun tai
+  skaalauksen (näytölle) kanssa.</p>
 
-<p>Kaiken kaikkiaan olen ihan tyytyväinen valintaan. Sain melko pienellä vaivalla tehtyä ulkonäöltään varsin siistin pikku sovelluksen. Olennaisimpina parannuksina VR:n omaan hakuun näkisin seuraavat seikat:</p>
+<p>Kaiken kaikkiaan olen ihan tyytyväinen valintaan. Sain melko pienellä vaivalla tehtyä ulkonäöltään varsin siistin
+  pikku sovelluksen. Olennaisimpina parannuksina VR:n omaan hakuun näkisin seuraavat seikat:</p>
 
 <p>
 <ul>
@@ -146,11 +169,17 @@ exports.find = function(request, apiResponse) {
 
 <h2>Ihana Heroku</h2>
 
-<p>Jäljellä oli enää palvelu hostaus. Valinta oli helppo: pikainen <a href="https://www.google.com/search?q=node.js+heroku">Googletus</a>, jonka jälkeen palvelu pyörikin jo <a href="http://www.heroku.com/">Herokun</a> pilvessä. Ilmaiseksi. On se helppoa. :)</p>
+<p>Jäljellä oli enää palvelu hostaus. Valinta oli helppo: pikainen
+  <a href="https://www.google.com/search?q=node.js+heroku">Googletus</a>, jonka jälkeen palvelu pyörikin jo
+  <a href="http://www.heroku.com/">Herokun</a> pilvessä. Ilmaiseksi. On se helppoa. :)</p>
 
 <h2>Palvelun laillisuus?</h2>
 
-<p>Yritin metsästää tietoa siitä, kuinka laillinen tällainen proxy-tyyppinen palvelu on. Tekemäni sivustohan ei siis tallenna tietoa mitenkään. Se ainoastaan lukee sitä julkiselta sivustolta, ja muokkaa sitä eri (lue: parempaan) muotoon. Ainoa syy sen olemassaoloon on se, että en koe VR:n oman palvelun erityisesti palvelevan käyttötarpeitani. Arvon VR, jos näette tässä jotain väärää, niin ottakaa toki yhteyttä... junankäyttäjien yhteisellä asiallahan tässä ollaan. :)</p>
+<p>Yritin metsästää tietoa siitä, kuinka laillinen tällainen proxy-tyyppinen palvelu on. Tekemäni sivustohan ei siis
+  tallenna tietoa mitenkään. Se ainoastaan lukee sitä julkiselta sivustolta, ja muokkaa sitä eri (lue: parempaan)
+  muotoon. Ainoa syy sen olemassaoloon on se, että en koe VR:n oman palvelun erityisesti palvelevan käyttötarpeitani.
+  Arvon VR, jos näette tässä jotain väärää, niin ottakaa toki yhteyttä... junankäyttäjien yhteisellä asiallahan tässä
+  ollaan. :)</p>
 
 <h2>Sanavagan, missä se on?!</h2>
 
