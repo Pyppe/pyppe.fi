@@ -20,14 +20,6 @@ if (!window.console) {
 
 (function(exports, undefined) {
 
-  /*
-  (function() {
-    $('#footer [title]').
-        attr('data-tooltip', '').
-        addClass('tip-top black');
-  })();
-  */
-
   // Localization
   (function() {
     var settings = {
@@ -61,6 +53,21 @@ if (!window.console) {
     }
     formatTime($('#title h3'));
     formatTime($('.post .timeTitle'));
+  })();
+
+  // Link to posts
+  (function() {
+    function localizeBlogLink() {
+      var $a = $(this);
+      var link = $a.attr('href').replace(/^\/blog\//, '/blogi/');
+      $a.attr('href', link);
+    }
+
+    if (window.location.pathname.startsWith('/blogi/')) {
+      $('.post a[href]').each(localizeBlogLink);
+      $('#post a[href]').each(localizeBlogLink);
+    }
+
   })();
 
   function bindCoverTitleScrolling() {
