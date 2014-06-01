@@ -125,7 +125,7 @@ if (!window.console) {
         var $post = $aside.closest('.post');
         var $right = $post.find('.rightColumn');
         var $left = $post.find('.leftColumn');
-        var diff = Math.floor($left.height() - $right.height()) - 12;
+        var diff = Math.floor($left.height() - $right.height()) - 11;
         if (diff > 0) {
           $aside.css('margin-top', diff + 'px');
         }
