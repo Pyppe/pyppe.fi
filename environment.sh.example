@@ -1,0 +1,5 @@
+#!/bin/bash
+
+readonly SSH_HOST="example.org"
+readonly SSH_DIR="/var/www/example.org"
+
