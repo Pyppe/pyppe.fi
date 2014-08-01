@@ -28,6 +28,7 @@ exec("date +%FT%T%z", function (error, date, stderr) {
     content.push('---');
     content.push('layout: post');
     content.push('title: "'+title+'"');
+    content.push('post_language: fi');
     content.push('date: ' + date);
     content.push('---')
     content.push('');

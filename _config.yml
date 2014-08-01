@@ -10,3 +10,4 @@ markdown: kramdown
 permalink: /blog/:year/:month/:title/
 #permalink: pretty
 highlighter: pygments
+excerpt_separator: <!--more-->
