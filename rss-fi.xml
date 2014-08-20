@@ -1,5 +1,4 @@
 ---
-layout: none
 permalink: /blogi/rss/
 ---
 {% include rss.xml title="Pyppe.fi Blogi (RSS)" description="Pypen satunnaiset jorinat" %}

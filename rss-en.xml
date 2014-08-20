@@ -1,5 +1,4 @@
 ---
-layout: none
 permalink: /blog/rss/
 ---
 {% include rss.xml title="Pyppe.fi Blog (RSS)" description="random ramblings of Pyppe" %}
