@@ -1,6 +1,6 @@
-.fancybox-skin { -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; border-radius: 0; }
+.fancybox-skin { -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0; }
 
-.fancybox-opened .fancybox-skin { -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); }
+.fancybox-opened .fancybox-skin { -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); }
 
 .fancybox-overlay { background: rgba(0, 0, 0, 0.75); }
 

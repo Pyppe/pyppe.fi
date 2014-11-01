@@ -38,5 +38,9 @@
     @media #{$small-only} {
       width: 100%;
     }
+
+    img {
+      margin-bottom: 20px;
+    }
   }
 }
