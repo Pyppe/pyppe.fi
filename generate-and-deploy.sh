@@ -7,7 +7,7 @@ readonly TARGET="$PROGDIR/_site"
 readonly JEKYLL=`which jekyll`
 readonly ENV_SRC="$PROGDIR/environment.sh"
 
-if [ ! -f $JEKYLL ]; then
+if [[ ! -f $JEKYLL ]]; then
   echo "Jekyll not found. Exiting..."
   exit 1
 fi
