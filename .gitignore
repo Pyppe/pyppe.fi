@@ -1,6 +1,7 @@
 _site
 /pyppe.fi.iml
 /.sass-cache/
+/.tweet-cache/
 /data/
 /environment.sh
 /node_modules/
