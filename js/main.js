@@ -66,6 +66,13 @@ if (!window.console) {
     if (window.location.pathname.startsWith('/blogi/')) {
       $('.post a[href]').each(localizeBlogLink);
       $('#post a[href]').each(localizeBlogLink);
+      $('.pagination a').each(function() {
+        var $a = $(this);
+        var link = $a.attr('href');
+        if (link) {
+          $a.attr('href', link.replace('/blog/', '/blogi/'));
+        }
+      });
     }
 
   })();
