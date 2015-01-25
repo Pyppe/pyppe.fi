@@ -4,7 +4,7 @@ rowless: true
 ---
 
 <div class="row">
-  <div id="post" class="columns large-12">
+  <div id="post" class="columns large-12" {% if page.post_language %} lang="{{page.post_language}}"{% endif %}>
     {{ content }}
   </div>
   <!--<div class="columns large-2">&nbsp;</div>-->

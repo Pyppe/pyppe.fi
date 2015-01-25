@@ -42,7 +42,9 @@ if (!window.console) {
       $('#topbar .'+current.nav).addClass('active');
     }
     $('#topbar .change-lang').attr('href', current.otherLanguage);
-    moment.lang($('html').hasClass('fi') ? 'fi' : 'en');
+    var lang = $('html').hasClass('fi') ? 'fi' : 'en';
+    moment.lang(lang);
+    $('html').attr('lang', lang);
   })();
 
   // Date-times / localization

@@ -51,7 +51,7 @@ html.en .lang-en { display: inherit !important; }
 .postSeparator { height: 20px; }
 .postSeparator:last-child { height: 0; }
 
-@media only screen and (max-width: 40em) { .postSeparator { background: url('/img/tiles.png?1402253700') repeat scroll center center #008CBA; } }
+@media only screen and (max-width: 40em) { .postSeparator { background: url('/img/tiles.png?1422206838') repeat scroll center center #008CBA; } }
 .post div.cover { height: 150px; background-size: cover; background-repeat: no-repeat; background-position: center; background-clip: border-box; }
 .post div.cover.cover-offset-0 { background-position: center 0%; }
 .post div.cover.cover-offset-1 { background-position: center 1%; }
