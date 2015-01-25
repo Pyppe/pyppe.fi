@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div id="title"  class="cover"
+<div id="title" class="cover{% if page.titleClass %} {{page.titleClass}}{%endif%}"
      style="background-image: url('{% if page.titleCover %}{% if page.id %}{{ page.id | content_path }}/{% endif %}{{ page.titleCover }}{% else %}/img/blog_bg.jpg{% endif %}');{% if page.titleStyle %} {{page.titleStyle}}{% endif %}">
   <div class="row">
     <h1 class="column">

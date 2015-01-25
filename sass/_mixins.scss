@@ -21,6 +21,14 @@ $cyan: #008CBA;
   }
 }
 
+@mixin cover-offsets() {
+  @for $i from 0 through 100 {
+    &.cover-offset-#{$i} {
+      background-position: center round(percentage($i / 100)); // round(percentage(..)) is idiotic...
+    }
+  }
+}
+
 @mixin vertical-gradient($startColor, $endColor) {
   background-color: $startColor;
   @include filter-gradient($startColor, $endColor);

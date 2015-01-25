@@ -1,0 +1,113 @@
+---
+layout: post
+title: "#pinnalla"
+date: 2015-01-25T10:54:05+0200
+post_language: fi
+titleCover: "cover-pinnalla.jpg"
+titleClass: "cover-offset-100"
+titleStyle: "min-height: 300px;"
+---
+
+<h4><em>Rakas verkossa asustava päiväkirjamuotoinen blogi,</em></h4>
+
+<p>
+  tänään voisin antaa sisäisen taiteilijani kukkia, ja lausua haikun uudehkosta
+  <b>piinallisen pinnallisesta <a href="http://pinnalla.pyppe.fi/" target="_blank">#pinnalla -palvelusta</a></b>.
+</p>
+
+<blockquote>
+  Twiittiä pukkaa<br/>
+  Botti visertääkin jo<br/>
+  Mikset jo seuraa
+</blockquote>
+
+<!--more-->
+
+<h4><em>Pyppe hei, sä oot herkkä mies</em></h4>
+<p>
+  ... saattaisi paatuneempikin linnakundi virkkoa em. runon luettuaan. Ja linnakundithan eivät väärässä ole!
+  Kaikessa herkkyydessäni olen viime vuoden loppupuolella skipiduveinau-skoodaillut
+  <a href="http://pinnalla.pyppe.fi/">#pinnalla -palvelun</a>, joka analysoi Suomen Twitter-liikennettä pyrkien
+  muodostamaan siitä helppolukuisia vertailuja ja analyysejä.
+</p>
+
+<p>
+  Olennainen osa palvelua on <a href="https://twitter.com/PinnallaFI" targe="_blank">@PinnallaFI</a> -botti,
+  joka laukoo päivittäin tiukkaa (ja paikoitellen löysää) statistiikkaa suomalaisten twiittauksista:
+</p>
+
+<div class="row">
+  <div class="columns medium-6">
+    {% tweet https://twitter.com/PinnallaFI/status/528870535925870592 %}
+    {% tweet https://twitter.com/PinnallaFI/status/554163913487810560 %}
+    {% tweet https://twitter.com/PinnallaFI/status/554865655837888513 %}
+  </div>
+  <div class="columns medium-6">
+    {% tweet https://twitter.com/PinnallaFI/status/558998953476509696 %}
+    {% tweet https://twitter.com/PinnallaFI/status/546938332828413952 %}
+    {% tweet https://twitter.com/PinnallaFI/status/538349309637693440 %}
+  </div>
+</div>
+
+<p>
+  <a href="https://twitter.com/intent/follow?screen_name=PinnallaFI" target="_blank" class="button small">
+    <i class="fa fa-twitter fa-lg"></i>
+    OMG, haluan heti seurata @PinnallaFI
+    <b style="font-size: 150%;">&raquo;</b>
+  </a>
+</p>
+
+<h4>Huuda mulle sun ATK!</h4>
+
+<p>
+  Palvelu pyörii Internetsissä ja toimii ATK:lla. Tarkemmin sanottuna taustapalvelin pyörii
+  <a href="https://www.playframework.com/" target="_blank">Play frameworkin</a> päällä,
+  twiitit kerätään <a href="http://akka.io/" target="_blank">Akka</a>-kirjaston ja
+  <a href="https://dev.twitter.com/streaming/overview">Twitter Streaming API</a>:n kautta,
+  analysoidut twiitit tallennetaan <a href="http://www.elasticsearch.org/" target="_blank">Elasticsearch</a>-indeksiin,
+  ja UI on toteutettu <a href="https://angularjs.org/" target="_blank">AngularJS</a>:llä.
+</p>
+
+<ul>
+  <li>Palvelu on ollut pystyssä noin <b>3 kuukautta</b>
+    <small class="minor">(verkkosivu pystytettiin <b>20.10.2014</b>, ja ensimmäinen twiitti lähetettiin <b>29.10.2014</b>)</small></li>
+  <li><a href="https://twitter.com/PinnallaFI" target="_blank">@PinnallaFI</a> on kerännyt tähän mennessä noin
+    <b>800 seuraajaa</b> ja lähettänyt noin <b>500 twiittiä</b></li>
+  <li>Tammikuussa 2015 verkkosivustolla oli <b>1150 uniikkia kävijää</b> ja <b>6100 sivulatausta</b></li>
+  <li>Palvelu on kolmessa kuukaudessa analysoinut <b>noin 15 miljoonaa twiittiä</b>,
+    joista noin <b>7,5 miljoonaa on tulkittu suomalaisiksi</b>
+    (yhteensä noin <b>190 tuhannelta uniikilta käyttäjältä</b>) ja tallennettu tietokantaindeksiin</li>
+  <li>Tietokantaindeksi vie <b>levytilaa 12 GB</b></li>
+  <li>Palvelun prosessit vievät aktiivitilassa <b>muistia noin 2 GB</b>
+    <small class="minor">(ja pyörivät jaetulla virtuaalipalvelimella,
+    jossa on yhteensä muistia 4 GB)</small>
+  </li>
+</ul>
+
+<h4>Boring! Mitä seuraavaksi??</h4>
+
+<p>Jos ja kun jaksan palvelua jatkokehittää, olisi seuraavaksi tehtävälistalla:</p>
+<ul>
+  <li>Indeksin pilkkominen useammaksi <small class="minor">(esim. jokainen kuukausi omaan indeksiinsä)</small></li>
+  <li>Avainkenttien tyypin vaihtaminen
+    <a href="http://www.elasticsearch.org/guide/en/elasticsearch/guide/current/doc-values.html" target="_blank">doc values</a>
+    -tyyppisiksi muistinkäytön pienentämiseksi <small class="minor">(tai ainakin tämän protoilu)</small></li>
+  <li>Vaihtoehtoisesti vanhojen twiittien poistaminen kokonaan palvelun nopeuttamiseksi ja tilan vapauttamiseksi</li>
+  <li>
+    Lisää rautaa: Sekä RAM-muisti (noin 2 GB on #pinnalla-prosessien käytössä)
+    että levytila rupeavat käymään pieniksi
+  </li>
+</ul>
+
+<div data-alert class="alert-box info">
+  Jos Teikäläisellä polttelee raha taskussa, ja haluat
+  <span style="text-decoration: line-through;">välttämättä</span>
+  <span style="text-decoration: line-through;">teoriassa</span>
+  <b>käytännössä</b> sponsoroida palvelua, <a href="mailto:pyppe@iki.fi">laita toki viestiä</a>.
+</div>
+
+<h4>Vähemmän nörtti-läppää, kiitos!</h4>
+
+<p>
+  <code>// TODO: Implementation</code>
+</p>

@@ -18,11 +18,11 @@ titleCover: /img/blog_bg.jpg
 
   {% if post.titleCover %}
   <div class="filler show-for-medium-down">
-    <div class="cover" style="background-image: url('{{ post.id | content_path }}/{{ post.titleCover }}');"></div>
+    <div class="cover{% if post.titleClass %} {{post.titleClass}}{%endif%}" style="background-image: url('{{ post.id | content_path }}/{{ post.titleCover }}');"></div>
   </div>
   <div class="row show-for-large-up">
     <div class="large-12 columns filler">
-      <div class="cover" style="background-image: url('{{ post.id | content_path }}/{{ post.titleCover }}');"></div>
+      <div class="cover{% if post.titleClass %} {{post.titleClass}}{%endif%}" style="background-image: url('{{ post.id | content_path }}/{{ post.titleCover }}');"></div>
     </div>
   </div>
   {% endif %}
