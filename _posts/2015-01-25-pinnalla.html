@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "#pinnalla"
-date: 2015-01-25T10:54:05+0200
+date: 2015-01-25T18:44:44+0200
 post_language: fi
 titleCover: "cover-pinnalla.jpg"
 titleClass: "cover-offset-100"
@@ -89,9 +89,12 @@ titleStyle: "min-height: 300px;"
 <p>Jos ja kun jaksan palvelua jatkokehittää, olisi seuraavaksi tehtävälistalla:</p>
 <ul>
   <li>Indeksin pilkkominen useammaksi <small class="minor">(esim. jokainen kuukausi omaan indeksiinsä)</small></li>
-  <li>Avainkenttien tyypin vaihtaminen
+  <li>Avainkenttien vaihtaminen
     <a href="http://www.elasticsearch.org/guide/en/elasticsearch/guide/current/doc-values.html" target="_blank">doc values</a>
-    -tyyppisiksi muistinkäytön pienentämiseksi <small class="minor">(tai ainakin tämän protoilu)</small></li>
+    -tyyppisiksi muistinkäytön pienentämiseksi <small class="minor">(tai ainakin tämän protoilu)</small>.
+    Nykyisellä datamassalla kyseilyissä käytettävät kentät eivät mahdu muistiin, minkä takia vapaat kyselyt
+    ovat muuttuneet pikkuhiljaa hyvinkin hitaiksi
+  </li>
   <li>Vaihtoehtoisesti vanhojen twiittien poistaminen kokonaan palvelun nopeuttamiseksi ja tilan vapauttamiseksi</li>
   <li>
     Lisää rautaa: Sekä RAM-muisti (noin 2 GB on #pinnalla-prosessien käytössä)
