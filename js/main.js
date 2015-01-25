@@ -97,7 +97,7 @@ if (!window.console) {
       });
     }
 
-    var defaultOffset = 50;
+    var defaultOffset = 30;
     var start = (function() {
       var m = $('#title').attr('class').match(/cover-offset-(\d+)/);
       if (m && m.length == 2) {
@@ -112,7 +112,7 @@ if (!window.console) {
 
       var $bg = $('#title');
       var diff = (fromTop / height) * 100;
-      var diffFactor = (start <= defaultOffset) ? 1.7 : 2.2;
+      var diffFactor = (start <= defaultOffset) ? 1.8 : 2.2;
       var offset = (start <= defaultOffset) ? (start + diff*diffFactor) : (start - diff*diffFactor);
       offset = Math.max(0, Math.min(100, offset));
       $bg.css("background-position", "center " + offset + "%");
