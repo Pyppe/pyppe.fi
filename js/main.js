@@ -33,6 +33,9 @@ if (!window.console) {
     var path = window.location.pathname.split('/')[1] || '/';
     if (path === 'blog') $('html').addClass('en');
     if (path === 'blogi') $('html').addClass('fi');
+    if (pyppe.finnishPageTitle && window.location.pathname === '/blogi/') {
+      document.title = pyppe.finnishPageTitle;
+    }
     var current = settings[path];
     if (!current) return;
     if (current.nav) {
