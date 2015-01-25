@@ -21,8 +21,13 @@ fi
 cd $PROGDIR
 
 shopt -s globstar
+
 rm -rf $TARGET
-./process-content.sh
+if [[ "$*" == *--no-process-content* ]]; then
+  echo "WARNING: Not processing content dir"
+else
+  ./process-content.sh
+fi
 $JEKYLL build
 rm -rf $TARGET/content
 rm -f $TARGET/*.sh
