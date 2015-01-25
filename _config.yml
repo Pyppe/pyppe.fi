@@ -4,6 +4,11 @@ email: pyppe@iki.fi
 description: "Pyppe.fi (Pyry-Samuli Lahti)"
 baseurl: ""
 url: "http://www.pyppe.fi"
+sitemap_pages:
+  - /
+  - /frontpage/
+  - /elamantarina/
+  - /life-story/
 
 # Build settings
 markdown: kramdown
