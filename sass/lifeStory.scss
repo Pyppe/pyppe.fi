@@ -19,7 +19,7 @@
     display: inline-block;
     height: 16px;
     width: 16px;
-    @include single-box-shadow;
+    @include box-shadow(0 0 5px rgba(black, 0.8));
     $percentage: 15%;
     &.yellow {
       @include vertical-gradient-darken(#F7FF64, $percentage);
