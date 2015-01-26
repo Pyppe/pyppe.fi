@@ -183,7 +183,7 @@ h1 { padding: 10px 0; small { color: white; vertical-align: middle; } &.withTime
 .time { padding-bottom: 10px;
 }
 */ }
-#title.cover { background-size: cover; background-repeat: no-repeat; background-position: center; background-clip: border-box; margin-bottom: 20px; overflow: hidden; min-height: 150px; }
+#title.cover { background-size: cover; background-repeat: no-repeat; background-position: center 30%; background-clip: border-box; margin-bottom: 20px; overflow: hidden; min-height: 150px; }
 #title.cover .cover-offset-0 { background-position: center 0%; }
 #title.cover .cover-offset-1 { background-position: center 1%; }
 #title.cover .cover-offset-2 { background-position: center 2%; }
