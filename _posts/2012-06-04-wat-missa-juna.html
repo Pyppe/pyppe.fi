@@ -132,7 +132,7 @@ exports.find = function(request, apiResponse) {
   rest.post(postUrl, {
     data: searchData
   }).on('complete', function(data, response) {
-      // Parsimme hellokäyttöisestä HTML-"API":sta vastauksen ja teemme siitä JSON-vastauksen
+      // Parsimme helppokäyttöisestä HTML-"API":sta vastauksen ja teemme siitä JSON-vastauksen
       jsdom.env(data, ['http://code.jquery.com/jquery-1.7.2.min.js'], function(errors, window) {
         var $ = window.$;
         var jsonResponse = parseSuggestionsUsingJQuery($);
