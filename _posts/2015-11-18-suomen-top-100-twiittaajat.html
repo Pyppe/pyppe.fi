@@ -1,0 +1,1839 @@
+---
+layout: post
+title: "Suomen TOP-100 twiittaajat"
+date: 2015-11-18T18:30:00+0200
+post_language: fi
+titleCover: "suomen-top-100-twiittajat-cover.jpg"
+titleClass: "cover-offset-10"
+titleStyle: "min-height: 220px;"
+---
+
+<p><b>Huomio!</b></p>
+
+<p>
+  Arvon Sir <a href="https://twitter.com/Alrahambra" target="_blank">Juho Mikkonen</a>
+  tietämättään edesauttoi tämän blogikirjoituksen syntymistä heittäessään Twitterin viserrysvirtaan
+  nimeni vastatessaan
+  <a href="https://twitter.com/MaijaIlmoniemi" target="_blank">Maija <em>Somekuningatar</em> Ilmoniemen</a>
+  tiedusteluun TOP some-nimistä.
+</p>
+
+<div class="row">
+  <div class="columns medium-6">
+    {% tweet https://twitter.com/MaijaIlmoniemi/status/666308847284432896 %}
+  </div>
+  <div class="columns medium-6">
+    {% tweet https://twitter.com/pyrylahti/status/666331403357941760 %}
+  </div>
+</div>
+
+<p>
+  Ja niinhän siinä kävi, että hyvällä tekosyyllä sai blogi taas sisältöä pitkän hiljaiselon jälkeen.
+  Oheinen TOP-100 lista on muodostettu <a href="http://pinnalla.pyppe.fi/" target="_blank">Pinnalla</a>-palvelun
+  viime elo-syyskuun <span title="5 010 641">5 miljoonan</span> Suomi-twiitin pohjalta.
+</p>
+
+<!--more-->
+
+<p>Ja sen kummemmin jaarittelematta...</p>
+
+<h2>Suomi-Twitterin TOP-100 päälliköt</h2>
+
+<style type="text/css">
+  #suomen-top-100-twiittaajat-2015-11 th {
+    position: relative;
+    white-space: nowrap;
+    cursor: pointer;
+    padding-right: 15px;
+  }
+  #suomen-top-100-twiittaajat-2015-11 tbody tr {
+    vertical-align: top;
+  }
+  #suomen-top-100-twiittaajat-2015-11 th .fa {
+    position: absolute;
+    right: 5px;
+  }
+  #suomen-top-100-twiittaajat-2015-11 .user-col {
+    position: relative;
+  }
+  #suomen-top-100-twiittaajat-2015-11 .user-col img {
+    position: absolute;
+    border-radius: 100px;
+    padding: 2px;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+  }
+  #suomen-top-100-twiittaajat-2015-11 .user-col div {
+    display: block;
+    margin-left: 40px;
+  }
+  #suomen-top-100-twiittaajat-2015-11 .user-col div small {
+    vertical-align: top;
+    line-height: 1;
+  }
+  #suomen-top-100-twiittaajat-2015-11 .user-col div a {
+    display: block;
+  }
+</style>
+<script type="text/javascript">
+$(function() {
+  var $table = $('#suomen-top-100-twiittaajat-2015-11');
+
+  function sortTable(idx, sortAsc) {
+    function rowValue(tr) {
+      var $tr = $(tr);
+      var data = $tr.find('td:eq('+idx+')').data('value');
+      return (_.isString(data) && data.match(/^\d+$/g)) ? parseInt(data) : data;
+    }
+
+    var $rows = $table.find('tbody > tr');
+    $rows.sort(function(rowA, rowB) {
+      var a = rowValue(rowA);
+      var b = rowValue(rowB);
+      if (sortAsc) {
+        return (a > b) ? 1 : (a < b) ? -1 : 0;
+      } else {
+        return (a < b) ? 1 : (a > b) ? -1 : 0;
+      }
+    });
+
+    $rows.each(function() {
+      $table.append($(this));
+    });
+  }
+
+  $table.find('th').each(function(i) {
+    $(this).data('eq', i);
+  });
+  $table.find('th').click(function() {
+    $table.find('th i').remove();
+    var $el = $(this);
+    $('<i class="fa fa-caret-down"></i>').appendTo($el);
+    sortTable($el.data('eq'), $el.data('asc'));
+  });
+  $table.find('th:first').click();
+});
+</script>
+
+<table id="suomen-top-100-twiittaajat-2015-11">
+<thead><tr>
+  <th data-asc="true">Rank</th>
+  <th data-asc="true">Käyttäjä</th>
+  <th>Seuraajia</th>
+  <th>Tavoittavuus</th>
+  <th>Omat twiitit</th>
+  <th>Retwiittaajat</th>
+  <th>Retwiittisuhde</th>
+  <th>Keskustelijat</th>
+</tr></thead>
+         <tbody>
+<tr>
+  <td data-value="0">1.</td>
+  <td class="user-col" data-value="mikko">
+    <img src="https://pbs.twimg.com/profile_images/652456963880693760/QYdgb2vE_normal.png" />
+    <div>
+      <a href="https://twitter.com/mikko" target="_blank">@mikko</a>
+      <small>Mikko Hypponen</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Amikko+%23defcon" target="_blank"><span class="label secondary radius">#defcon</span></a> <a href="https://twitter.com/search?q=from%3Amikko+%23radial" target="_blank"><span class="label secondary radius">#radial</span></a> <a href="https://twitter.com/search?q=from%3Amikko+%23t2infosec" target="_blank"><span class="label secondary radius">#t2infosec</span></a> <a href="https://twitter.com/search?q=from%3Amikko+%23reaktorbreakpoint" target="_blank"><span class="label secondary radius">#reaktorbreakpoint</span></a> <a href="https://twitter.com/search?q=from%3Amikko+%23asmparty" target="_blank"><span class="label secondary radius">#asmparty</span></a>
+  </td>
+  <td data-value="112890">112 890</td>
+  <td data-value="13462754">13 462 754</td>
+  <td data-value="856">14/pv<br/><small>(yht. 856)</small></td>
+  <td data-value="10515">10 515<br/><small>(yht. 17 509 retwiittiä)</small></td>
+  <td data-value="20.45443925233645">20,5<br/><small>retwiittiä/oma</small></td>
+  <td data-value="2591">2 591<br/><small>(yht. 5 037 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="1">2.</td>
+  <td class="user-col" data-value="hsfi">
+    <img src="https://pbs.twimg.com/profile_images/596631095426162689/2t22HMEn_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/hsfi" target="_blank">@hsfi</a>
+      <small>Helsingin Sanomat</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Ahsfi+%23hs" target="_blank"><span class="label secondary radius">#hs</span></a> <a href="https://twitter.com/search?q=from%3Ahsfi+%23hstv" target="_blank"><span class="label secondary radius">#hstv</span></a> <a href="https://twitter.com/search?q=from%3Ahsfi+%23euroopanpakolaiset" target="_blank"><span class="label secondary radius">#euroopanpakolaiset</span></a> <a href="https://twitter.com/search?q=from%3Ahsfi+%23saa" target="_blank"><span class="label secondary radius">#saa</span></a> <a href="https://twitter.com/search?q=from%3Ahsfi+%23jalkapallo" target="_blank"><span class="label secondary radius">#jalkapallo</span></a>
+  </td>
+  <td data-value="116217">116 217</td>
+  <td data-value="3748006">3 748 006</td>
+  <td data-value="2007">32,9/pv<br/><small>(yht. 2 007)</small></td>
+  <td data-value="5358">5 358<br/><small>(yht. 13 914 retwiittiä)</small></td>
+  <td data-value="6.932735426008969">6,9<br/><small>retwiittiä/oma</small></td>
+  <td data-value="2555">2 555<br/><small>(yht. 6 898 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="2">3.</td>
+  <td class="user-col" data-value="yleuutiset">
+    <img src="https://pbs.twimg.com/profile_images/459321401741029377/Niu8q0iI_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/yleuutiset" target="_blank">@yleuutiset</a>
+      <small>Yle Uutiset</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Ayleuutiset+%23yle" target="_blank"><span class="label secondary radius">#yle</span></a> <a href="https://twitter.com/search?q=from%3Ayleuutiset+%23ylemaailmalla" target="_blank"><span class="label secondary radius">#ylemaailmalla</span></a> <a href="https://twitter.com/search?q=from%3Ayleuutiset+%23pakolaiskriisi" target="_blank"><span class="label secondary radius">#pakolaiskriisi</span></a> <a href="https://twitter.com/search?q=from%3Ayleuutiset+%23pakolaiset" target="_blank"><span class="label secondary radius">#pakolaiset</span></a> <a href="https://twitter.com/search?q=from%3Ayleuutiset+%23yhteiskuntasopimus" target="_blank"><span class="label secondary radius">#yhteiskuntasopimus</span></a>
+  </td>
+  <td data-value="93857">93 857</td>
+  <td data-value="3447228">3 447 228</td>
+  <td data-value="3317">54,4/pv<br/><small>(yht. 3 317)</small></td>
+  <td data-value="4306">4 306<br/><small>(yht. 11 402 retwiittiä)</small></td>
+  <td data-value="3.437443473017787">3,4<br/><small>retwiittiä/oma</small></td>
+  <td data-value="1697">1 697<br/><small>(yht. 4 496 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="3">4.</td>
+  <td class="user-col" data-value="titmeister">
+    <img src="https://pbs.twimg.com/profile_images/2919604554/8a988d7483df964160489b07e5b81abf_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/titmeister" target="_blank">@titmeister</a>
+      <small>Arman Alizad</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Atitmeister+%23viimeinenristiretki" target="_blank"><span class="label secondary radius">#viimeinenristiretki</span></a> <a href="https://twitter.com/search?q=from%3Atitmeister+%23pohjant%C3%A4hdenalla" target="_blank"><span class="label secondary radius">#pohjantähdenalla</span></a> <a href="https://twitter.com/search?q=from%3Atitmeister+%23cannonballmc" target="_blank"><span class="label secondary radius">#cannonballmc</span></a> <a href="https://twitter.com/search?q=from%3Atitmeister+%23bangladesh" target="_blank"><span class="label secondary radius">#bangladesh</span></a> <a href="https://twitter.com/search?q=from%3Atitmeister+%23docendo" target="_blank"><span class="label secondary radius">#docendo</span></a>
+  </td>
+  <td data-value="148445">148 445</td>
+  <td data-value="2505660">2 505 660</td>
+  <td data-value="390">6,4/pv<br/><small>(yht. 390)</small></td>
+  <td data-value="3096">3 096<br/><small>(yht. 4 847 retwiittiä)</small></td>
+  <td data-value="12.428205128205128">12,4<br/><small>retwiittiä/oma</small></td>
+  <td data-value="1705">1 705<br/><small>(yht. 3 452 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="4">5.</td>
+  <td class="user-col" data-value="kauppalehtifi">
+    <img src="https://pbs.twimg.com/profile_images/553537167662665728/2yJpRs0P_normal.png" />
+    <div>
+      <a href="https://twitter.com/KauppalehtiFi" target="_blank">@KauppalehtiFi</a>
+      <small>Kauppalehti </small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3AKauppalehtiFi+%23sijoittaminen" target="_blank"><span class="label secondary radius">#sijoittaminen</span></a> <a href="https://twitter.com/search?q=from%3AKauppalehtiFi+%23auto" target="_blank"><span class="label secondary radius">#auto</span></a> <a href="https://twitter.com/search?q=from%3AKauppalehtiFi+%23politiikka" target="_blank"><span class="label secondary radius">#politiikka</span></a> <a href="https://twitter.com/search?q=from%3AKauppalehtiFi+%23ty%C3%B6el%C3%A4m%C3%A4" target="_blank"><span class="label secondary radius">#työelämä</span></a> <a href="https://twitter.com/search?q=from%3AKauppalehtiFi+%23digitalous" target="_blank"><span class="label secondary radius">#digitalous</span></a>
+  </td>
+  <td data-value="90765">90 765</td>
+  <td data-value="1505142">1 505 142</td>
+  <td data-value="2653">43,5/pv<br/><small>(yht. 2 653)</small></td>
+  <td data-value="2128">2 128<br/><small>(yht. 4 922 retwiittiä)</small></td>
+  <td data-value="1.8552581982661138">1,9<br/><small>retwiittiä/oma</small></td>
+  <td data-value="2551">2 551<br/><small>(yht. 6 474 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="5">6.</td>
+  <td class="user-col" data-value="iltasanomat">
+    <img src="https://pbs.twimg.com/profile_images/378800000697383430/5ab047429776b1bb0ea7233def2f495b_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/iltasanomat" target="_blank">@iltasanomat</a>
+      <small>Ilta-Sanomat</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Ailtasanomat+%23suomi" target="_blank"><span class="label secondary radius">#suomi</span></a> <a href="https://twitter.com/search?q=from%3Ailtasanomat+%23hallitus" target="_blank"><span class="label secondary radius">#hallitus</span></a> <a href="https://twitter.com/search?q=from%3Ailtasanomat+%23peking2015" target="_blank"><span class="label secondary radius">#peking2015</span></a> <a href="https://twitter.com/search?q=from%3Ailtasanomat+%23perjantaistoppi" target="_blank"><span class="label secondary radius">#perjantaistoppi</span></a> <a href="https://twitter.com/search?q=from%3Ailtasanomat+%23tubecon15" target="_blank"><span class="label secondary radius">#tubecon15</span></a>
+  </td>
+  <td data-value="163278">163 278</td>
+  <td data-value="1666218">1 666 218</td>
+  <td data-value="1317">21,6/pv<br/><small>(yht. 1 317)</small></td>
+  <td data-value="1426">1 426<br/><small>(yht. 2 823 retwiittiä)</small></td>
+  <td data-value="2.143507972665148">2,1<br/><small>retwiittiä/oma</small></td>
+  <td data-value="3429">3 429<br/><small>(yht. 9 825 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="6">7.</td>
+  <td class="user-col" data-value="tuomasenbuske">
+    <img src="https://pbs.twimg.com/profile_images/653935633342316544/it3xG3fQ_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/TuomasEnbuske" target="_blank">@TuomasEnbuske</a>
+      <small>Tuomas Enbuske</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3ATuomasEnbuske+%23enbuske360" target="_blank"><span class="label secondary radius">#enbuske360</span></a> <a href="https://twitter.com/search?q=from%3ATuomasEnbuske+%23muuten" target="_blank"><span class="label secondary radius">#muuten</span></a> <a href="https://twitter.com/search?q=from%3ATuomasEnbuske+%23auer" target="_blank"><span class="label secondary radius">#auer</span></a> <a href="https://twitter.com/search?q=from%3ATuomasEnbuske+%23silta" target="_blank"><span class="label secondary radius">#silta</span></a> <a href="https://twitter.com/search?q=from%3ATuomasEnbuske+%23sipil%C3%A4" target="_blank"><span class="label secondary radius">#sipilä</span></a>
+  </td>
+  <td data-value="129906">129 906</td>
+  <td data-value="2537071">2 537 071</td>
+  <td data-value="1366">22,4/pv<br/><small>(yht. 1 366)</small></td>
+  <td data-value="2417">2 417<br/><small>(yht. 4 010 retwiittiä)</small></td>
+  <td data-value="2.9355783308931187">2,9<br/><small>retwiittiä/oma</small></td>
+  <td data-value="1891">1 891<br/><small>(yht. 7 085 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="7">8.</td>
+  <td class="user-col" data-value="mtvuutiset">
+    <img src="https://pbs.twimg.com/profile_images/553277401610743808/c0SX_eWf_normal.png" />
+    <div>
+      <a href="https://twitter.com/MTVUutiset" target="_blank">@MTVUutiset</a>
+      <small>MTV Uutiset</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3AMTVUutiset+%23mtvuutiset" target="_blank"><span class="label secondary radius">#mtvuutiset</span></a> <a href="https://twitter.com/search?q=from%3AMTVUutiset+%23turvapaikka" target="_blank"><span class="label secondary radius">#turvapaikka</span></a> <a href="https://twitter.com/search?q=from%3AMTVUutiset+%23yhteiskuntasopimus" target="_blank"><span class="label secondary radius">#yhteiskuntasopimus</span></a> <a href="https://twitter.com/search?q=from%3AMTVUutiset+%23turvapaikanhakijat" target="_blank"><span class="label secondary radius">#turvapaikanhakijat</span></a> <a href="https://twitter.com/search?q=from%3AMTVUutiset+%23s%C3%A4%C3%A4" target="_blank"><span class="label secondary radius">#sää</span></a>
+  </td>
+  <td data-value="78184">78 184</td>
+  <td data-value="2258565">2 258 565</td>
+  <td data-value="4677">76,7/pv<br/><small>(yht. 4 677)</small></td>
+  <td data-value="2634">2 634<br/><small>(yht. 8 648 retwiittiä)</small></td>
+  <td data-value="1.8490485353859312">1,8<br/><small>retwiittiä/oma</small></td>
+  <td data-value="1061">1 061<br/><small>(yht. 3 412 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="8">9.</td>
+  <td class="user-col" data-value="villeniinisto">
+    <img src="https://pbs.twimg.com/profile_images/591351402250698752/M9LyHBik_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/VilleNiinisto" target="_blank">@VilleNiinisto</a>
+      <small>Ville Niinistö</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3AVilleNiinisto+%23fennovoima" target="_blank"><span class="label secondary radius">#fennovoima</span></a> <a href="https://twitter.com/search?q=from%3AVilleNiinisto+%23yhteiskuntasopimus" target="_blank"><span class="label secondary radius">#yhteiskuntasopimus</span></a> <a href="https://twitter.com/search?q=from%3AVilleNiinisto+%23meill%C3%A4onunelma" target="_blank"><span class="label secondary radius">#meilläonunelma</span></a> <a href="https://twitter.com/search?q=from%3AVilleNiinisto+%23vihre%C3%A4t" target="_blank"><span class="label secondary radius">#vihreät</span></a> <a href="https://twitter.com/search?q=from%3AVilleNiinisto+%23susijengi" target="_blank"><span class="label secondary radius">#susijengi</span></a>
+  </td>
+  <td data-value="35607">35 607</td>
+  <td data-value="1776622">1 776 622</td>
+  <td data-value="696">11,4/pv<br/><small>(yht. 696)</small></td>
+  <td data-value="2351">2 351<br/><small>(yht. 5 846 retwiittiä)</small></td>
+  <td data-value="8.399425287356323">8,4<br/><small>retwiittiä/oma</small></td>
+  <td data-value="1347">1 347<br/><small>(yht. 4 820 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="9">10.</td>
+  <td class="user-col" data-value="eskoseppanen">
+    <img src="https://pbs.twimg.com/profile_images/1100754725/muljutus_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/EskoSeppanen" target="_blank">@EskoSeppanen</a>
+      <small>Esko Seppänen</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3AEskoSeppanen+%23nflfi" target="_blank"><span class="label secondary radius">#nflfi</span></a> <a href="https://twitter.com/search?q=from%3AEskoSeppanen+%23khlfi" target="_blank"><span class="label secondary radius">#khlfi</span></a> <a href="https://twitter.com/search?q=from%3AEskoSeppanen+%23uclfi" target="_blank"><span class="label secondary radius">#uclfi</span></a> <a href="https://twitter.com/search?q=from%3AEskoSeppanen+%23liiga" target="_blank"><span class="label secondary radius">#liiga</span></a> <a href="https://twitter.com/search?q=from%3AEskoSeppanen+%23susijengi" target="_blank"><span class="label secondary radius">#susijengi</span></a>
+  </td>
+  <td data-value="60914">60 914</td>
+  <td data-value="1470515">1 470 515</td>
+  <td data-value="1225">20,1/pv<br/><small>(yht. 1 225)</small></td>
+  <td data-value="2522">2 522<br/><small>(yht. 4 411 retwiittiä)</small></td>
+  <td data-value="3.6008163265306123">3,6<br/><small>retwiittiä/oma</small></td>
+  <td data-value="1066">1 066<br/><small>(yht. 2 186 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="10">11.</td>
+  <td class="user-col" data-value="yleurheilu">
+    <img src="https://pbs.twimg.com/profile_images/2415479476/agnmh4gz4q5i16oiyl6w_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/yleurheilu" target="_blank">@yleurheilu</a>
+      <small>Yle Urheilu</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Ayleurheilu+%23yle" target="_blank"><span class="label secondary radius">#yle</span></a> <a href="https://twitter.com/search?q=from%3Ayleurheilu+%23peking2015" target="_blank"><span class="label secondary radius">#peking2015</span></a> <a href="https://twitter.com/search?q=from%3Ayleurheilu+%23yleisurheilu" target="_blank"><span class="label secondary radius">#yleisurheilu</span></a> <a href="https://twitter.com/search?q=from%3Ayleurheilu+%23finnkampen" target="_blank"><span class="label secondary radius">#finnkampen</span></a> <a href="https://twitter.com/search?q=from%3Ayleurheilu+%23susijengi" target="_blank"><span class="label secondary radius">#susijengi</span></a>
+  </td>
+  <td data-value="101117">101 117</td>
+  <td data-value="1405158">1 405 158</td>
+  <td data-value="2257">37/pv<br/><small>(yht. 2 257)</small></td>
+  <td data-value="1804">1 804<br/><small>(yht. 3 618 retwiittiä)</small></td>
+  <td data-value="1.6030128489144884">1,6<br/><small>retwiittiä/oma</small></td>
+  <td data-value="1280">1 280<br/><small>(yht. 2 315 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="11">12.</td>
+  <td class="user-col" data-value="taloussanomat">
+    <img src="https://pbs.twimg.com/profile_images/600579878325514240/HLxjpIjs_normal.png" />
+    <div>
+      <a href="https://twitter.com/taloussanomat" target="_blank">@taloussanomat</a>
+      <small>Taloussanomat</small>
+    </div>
+    
+  </td>
+  <td data-value="70358">70 358</td>
+  <td data-value="1283491">1 283 491</td>
+  <td data-value="1904">31,2/pv<br/><small>(yht. 1 904)</small></td>
+  <td data-value="1564">1 564<br/><small>(yht. 4 091 retwiittiä)</small></td>
+  <td data-value="2.1486344537815127">2,1<br/><small>retwiittiä/oma</small></td>
+  <td data-value="1577">1 577<br/><small>(yht. 3 975 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="12">13.</td>
+  <td class="user-col" data-value="valavuori">
+    <img src="https://pbs.twimg.com/profile_images/444989676722454528/sKGLVu7f_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/Valavuori" target="_blank">@Valavuori</a>
+      <small>Aleksi Valavuori</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3AValavuori+%23susijengi" target="_blank"><span class="label secondary radius">#susijengi</span></a> <a href="https://twitter.com/search?q=from%3AValavuori+%23betsit" target="_blank"><span class="label secondary radius">#betsit</span></a> <a href="https://twitter.com/search?q=from%3AValavuori+%23emkisat" target="_blank"><span class="label secondary radius">#emkisat</span></a> <a href="https://twitter.com/search?q=from%3AValavuori+%23emkoris" target="_blank"><span class="label secondary radius">#emkoris</span></a> <a href="https://twitter.com/search?q=from%3AValavuori+%23suomencup" target="_blank"><span class="label secondary radius">#suomencup</span></a>
+  </td>
+  <td data-value="86920">86 920</td>
+  <td data-value="1359286">1 359 286</td>
+  <td data-value="1764">28,9/pv<br/><small>(yht. 1 764)</small></td>
+  <td data-value="1639">1 639<br/><small>(yht. 2 660 retwiittiä)</small></td>
+  <td data-value="1.507936507936508">1,5<br/><small>retwiittiä/oma</small></td>
+  <td data-value="1452">1 452<br/><small>(yht. 3 338 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="13">14.</td>
+  <td class="user-col" data-value="sarasvuojari">
+    <img src="https://pbs.twimg.com/profile_images/433533702304325632/ZvEZszQk_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/SarasvuoJari" target="_blank">@SarasvuoJari</a>
+      <small>Jari Sarasvuo</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3ASarasvuoJari+%23muuten" target="_blank"><span class="label secondary radius">#muuten</span></a> <a href="https://twitter.com/search?q=from%3ASarasvuoJari+%23pvtt" target="_blank"><span class="label secondary radius">#pvtt</span></a> <a href="https://twitter.com/search?q=from%3ASarasvuoJari+%23sipil%C3%A4" target="_blank"><span class="label secondary radius">#sipilä</span></a> <a href="https://twitter.com/search?q=from%3ASarasvuoJari+%23stronghold" target="_blank"><span class="label secondary radius">#stronghold</span></a> <a href="https://twitter.com/search?q=from%3ASarasvuoJari+%23vaikutuspiiri" target="_blank"><span class="label secondary radius">#vaikutuspiiri</span></a>
+  </td>
+  <td data-value="96306">96 306</td>
+  <td data-value="2057424">2 057 424</td>
+  <td data-value="1024">16,8/pv<br/><small>(yht. 1 024)</small></td>
+  <td data-value="1510">1 510<br/><small>(yht. 2 583 retwiittiä)</small></td>
+  <td data-value="2.5224609375">2,5<br/><small>retwiittiä/oma</small></td>
+  <td data-value="1461">1 461<br/><small>(yht. 6 930 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="14">15.</td>
+  <td class="user-col" data-value="juhasipila">
+    <img src="https://pbs.twimg.com/profile_images/448024659020103680/Ax1sidlg_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/juhasipila" target="_blank">@juhasipila</a>
+      <small>Juha Sipilä</small>
+    </div>
+    
+  </td>
+  <td data-value="41373">41 373</td>
+  <td data-value="1761295">1 761 295</td>
+  <td data-value="11">0,2/pv<br/><small>(yht. 11)</small></td>
+  <td data-value="863">863<br/><small>(yht. 1 046 retwiittiä)</small></td>
+  <td data-value="95.0909090909091">95,1<br/><small>retwiittiä/oma</small></td>
+  <td data-value="2357">2 357<br/><small>(yht. 6 132 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="15">16.</td>
+  <td class="user-col" data-value="alexstubb">
+    <img src="https://pbs.twimg.com/profile_images/479508290594803713/lh0xB1h7_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/alexstubb" target="_blank">@alexstubb</a>
+      <small>Alexander Stubb</small>
+    </div>
+    
+  </td>
+  <td data-value="245026">245 026</td>
+  <td data-value="1573291">1 573 291</td>
+  <td data-value="95">1,6/pv<br/><small>(yht. 95)</small></td>
+  <td data-value="1013">1 013<br/><small>(yht. 1 547 retwiittiä)</small></td>
+  <td data-value="16.28421052631579">16,3<br/><small>retwiittiä/oma</small></td>
+  <td data-value="1641">1 641<br/><small>(yht. 3 734 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="16">17.</td>
+  <td class="user-col" data-value="somevaari">
+    <img src="https://pbs.twimg.com/profile_images/640742819771117569/nJLFxn6p_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/Somevaari" target="_blank">@Somevaari</a>
+      <small>Aku Eronen</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3ASomevaari+%23akunews" target="_blank"><span class="label secondary radius">#akunews</span></a> <a href="https://twitter.com/search?q=from%3ASomevaari+%23politiikka" target="_blank"><span class="label secondary radius">#politiikka</span></a> <a href="https://twitter.com/search?q=from%3ASomevaari+%23talous" target="_blank"><span class="label secondary radius">#talous</span></a> <a href="https://twitter.com/search?q=from%3ASomevaari+%23ty%C3%B6el%C3%A4m%C3%A4" target="_blank"><span class="label secondary radius">#työelämä</span></a> <a href="https://twitter.com/search?q=from%3ASomevaari+%23hallitus" target="_blank"><span class="label secondary radius">#hallitus</span></a>
+  </td>
+  <td data-value="26394">26 394</td>
+  <td data-value="1787815">1 787 815</td>
+  <td data-value="2488">40,8/pv<br/><small>(yht. 2 488)</small></td>
+  <td data-value="1433">1 433<br/><small>(yht. 3 653 retwiittiä)</small></td>
+  <td data-value="1.4682475884244373">1,5<br/><small>retwiittiä/oma</small></td>
+  <td data-value="982">982<br/><small>(yht. 6 132 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="17">18.</td>
+  <td class="user-col" data-value="kajkunnas">
+    <img src="https://pbs.twimg.com/profile_images/476619563485126656/V0u1nz2z_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/KajKunnas" target="_blank">@KajKunnas</a>
+      <small>Kaj Kunnas</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3AKajKunnas+%23pikagallup" target="_blank"><span class="label secondary radius">#pikagallup</span></a> <a href="https://twitter.com/search?q=from%3AKajKunnas+%23peaceunited" target="_blank"><span class="label secondary radius">#peaceunited</span></a> <a href="https://twitter.com/search?q=from%3AKajKunnas+%23kiitos" target="_blank"><span class="label secondary radius">#kiitos</span></a> <a href="https://twitter.com/search?q=from%3AKajKunnas+%23susijengi" target="_blank"><span class="label secondary radius">#susijengi</span></a> <a href="https://twitter.com/search?q=from%3AKajKunnas+%23ilonkautta" target="_blank"><span class="label secondary radius">#ilonkautta</span></a>
+  </td>
+  <td data-value="32792">32 792</td>
+  <td data-value="1270657">1 270 657</td>
+  <td data-value="1633">26,8/pv<br/><small>(yht. 1 633)</small></td>
+  <td data-value="1205">1 205<br/><small>(yht. 1 884 retwiittiä)</small></td>
+  <td data-value="1.153704837721984">1,2<br/><small>retwiittiä/oma</small></td>
+  <td data-value="1113">1 113<br/><small>(yht. 2 881 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="18">19.</td>
+  <td class="user-col" data-value="talouselama">
+    <img src="https://pbs.twimg.com/profile_images/2036745501/TE_logo_normal.png" />
+    <div>
+      <a href="https://twitter.com/talouselama" target="_blank">@talouselama</a>
+      <small>Talouselämä</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Atalouselama+%23talous" target="_blank"><span class="label secondary radius">#talous</span></a> <a href="https://twitter.com/search?q=from%3Atalouselama+%23lakko" target="_blank"><span class="label secondary radius">#lakko</span></a> <a href="https://twitter.com/search?q=from%3Atalouselama+%23sak" target="_blank"><span class="label secondary radius">#sak</span></a> <a href="https://twitter.com/search?q=from%3Atalouselama+%23stop" target="_blank"><span class="label secondary radius">#stop</span></a> <a href="https://twitter.com/search?q=from%3Atalouselama+%23kasvuyritykset" target="_blank"><span class="label secondary radius">#kasvuyritykset</span></a>
+  </td>
+  <td data-value="77819">77 819</td>
+  <td data-value="1199212">1 199 212</td>
+  <td data-value="679">11,1/pv<br/><small>(yht. 679)</small></td>
+  <td data-value="1709">1 709<br/><small>(yht. 3 257 retwiittiä)</small></td>
+  <td data-value="4.796759941089838">4,8<br/><small>retwiittiä/oma</small></td>
+  <td data-value="445">445<br/><small>(yht. 811 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="19">20.</td>
+  <td class="user-col" data-value="paavoarhinmaki">
+    <img src="https://pbs.twimg.com/profile_images/569802187304210432/mLFY_zyC_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/paavoarhinmaki" target="_blank">@paavoarhinmaki</a>
+      <small>Paavo Arhinmäki</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Apaavoarhinmaki+%23huuhkajat" target="_blank"><span class="label secondary radius">#huuhkajat</span></a> <a href="https://twitter.com/search?q=from%3Apaavoarhinmaki+%23stop" target="_blank"><span class="label secondary radius">#stop</span></a> <a href="https://twitter.com/search?q=from%3Apaavoarhinmaki+%23valioliiga" target="_blank"><span class="label secondary radius">#valioliiga</span></a> <a href="https://twitter.com/search?q=from%3Apaavoarhinmaki+%23muuten" target="_blank"><span class="label secondary radius">#muuten</span></a> <a href="https://twitter.com/search?q=from%3Apaavoarhinmaki+%23susijengi" target="_blank"><span class="label secondary radius">#susijengi</span></a>
+  </td>
+  <td data-value="72750">72 750</td>
+  <td data-value="834006">834 006</td>
+  <td data-value="299">4,9/pv<br/><small>(yht. 299)</small></td>
+  <td data-value="1267">1 267<br/><small>(yht. 2 223 retwiittiä)</small></td>
+  <td data-value="7.434782608695652">7,4<br/><small>retwiittiä/oma</small></td>
+  <td data-value="1004">1 004<br/><small>(yht. 2 698 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="20">21.</td>
+  <td class="user-col" data-value="ylex">
+    <img src="https://pbs.twimg.com/profile_images/666898030470283264/_rwcjOxY_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/YleX" target="_blank">@YleX</a>
+      <small>YleX</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3AYleX+%23ylex" target="_blank"><span class="label secondary radius">#ylex</span></a> <a href="https://twitter.com/search?q=from%3AYleX+%23ylexaamu" target="_blank"><span class="label secondary radius">#ylexaamu</span></a> <a href="https://twitter.com/search?q=from%3AYleX+%23j%C3%A4lkk%C3%A4" target="_blank"><span class="label secondary radius">#jälkkä</span></a> <a href="https://twitter.com/search?q=from%3AYleX+%23blockfest" target="_blank"><span class="label secondary radius">#blockfest</span></a> <a href="https://twitter.com/search?q=from%3AYleX+%23tubecon15" target="_blank"><span class="label secondary radius">#tubecon15</span></a>
+  </td>
+  <td data-value="80077">80 077</td>
+  <td data-value="2767822">2 767 822</td>
+  <td data-value="856">14/pv<br/><small>(yht. 856)</small></td>
+  <td data-value="1356">1 356<br/><small>(yht. 2 420 retwiittiä)</small></td>
+  <td data-value="2.8271028037383177">2,8<br/><small>retwiittiä/oma</small></td>
+  <td data-value="655">655<br/><small>(yht. 1 057 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="21">22.</td>
+  <td class="user-col" data-value="filsdeproust">
+    <img src="https://pbs.twimg.com/profile_images/1196654925/image_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/filsdeproust" target="_blank">@filsdeproust</a>
+      <small>juhana vartiainen</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Afilsdeproust+%23tpk2015" target="_blank"><span class="label secondary radius">#tpk2015</span></a> <a href="https://twitter.com/search?q=from%3Afilsdeproust+%23ykk%C3%B6saamu" target="_blank"><span class="label secondary radius">#ykkösaamu</span></a>
+  </td>
+  <td data-value="15323">15 323</td>
+  <td data-value="1473348">1 473 348</td>
+  <td data-value="753">12,3/pv<br/><small>(yht. 753)</small></td>
+  <td data-value="1252">1 252<br/><small>(yht. 2 079 retwiittiä)</small></td>
+  <td data-value="2.760956175298805">2,8<br/><small>retwiittiä/oma</small></td>
+  <td data-value="898">898<br/><small>(yht. 4 027 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="22">23.</td>
+  <td class="user-col" data-value="svuorikoski">
+    <img src="https://pbs.twimg.com/profile_images/632226589317722112/DYTiSvO9_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/svuorikoski" target="_blank">@svuorikoski</a>
+      <small>Salla Vuorikoski</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Asvuorikoski+%23pspuoluekokous" target="_blank"><span class="label secondary radius">#pspuoluekokous</span></a> <a href="https://twitter.com/search?q=from%3Asvuorikoski+%23v%C3%A4likysymys" target="_blank"><span class="label secondary radius">#välikysymys</span></a> <a href="https://twitter.com/search?q=from%3Asvuorikoski+%23moskeija" target="_blank"><span class="label secondary radius">#moskeija</span></a> <a href="https://twitter.com/search?q=from%3Asvuorikoski+%23talvivaara" target="_blank"><span class="label secondary radius">#talvivaara</span></a> <a href="https://twitter.com/search?q=from%3Asvuorikoski+%23immonen" target="_blank"><span class="label secondary radius">#immonen</span></a>
+  </td>
+  <td data-value="5153">5 153</td>
+  <td data-value="1896937">1 896 937</td>
+  <td data-value="2508">41,1/pv<br/><small>(yht. 2 508)</small></td>
+  <td data-value="1212">1 212<br/><small>(yht. 3 031 retwiittiä)</small></td>
+  <td data-value="1.2085326953748006">1,2<br/><small>retwiittiä/oma</small></td>
+  <td data-value="880">880<br/><small>(yht. 4 115 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="23">24.</td>
+  <td class="user-col" data-value="nastynapalm">
+    <img src="https://pbs.twimg.com/profile_images/650776239108657152/vQjK7_ab_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/nastynapalm" target="_blank">@nastynapalm</a>
+      <small>Sini Laitinen</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Anastynapalm+%23teletuutti" target="_blank"><span class="label secondary radius">#teletuutti</span></a> <a href="https://twitter.com/search?q=from%3Anastynapalm+%23tubecon15" target="_blank"><span class="label secondary radius">#tubecon15</span></a> <a href="https://twitter.com/search?q=from%3Anastynapalm+%23mtvkatsomo" target="_blank"><span class="label secondary radius">#mtvkatsomo</span></a> <a href="https://twitter.com/search?q=from%3Anastynapalm+%23tuurinkyl%C3%A4kauppias" target="_blank"><span class="label secondary radius">#tuurinkyläkauppias</span></a> <a href="https://twitter.com/search?q=from%3Anastynapalm+%23vainsinijutut" target="_blank"><span class="label secondary radius">#vainsinijutut</span></a>
+  </td>
+  <td data-value="13499">13 499</td>
+  <td data-value="759423">759 423</td>
+  <td data-value="689">11,3/pv<br/><small>(yht. 689)</small></td>
+  <td data-value="1632">1 632<br/><small>(yht. 4 752 retwiittiä)</small></td>
+  <td data-value="6.896952104499274">6,9<br/><small>retwiittiä/oma</small></td>
+  <td data-value="398">398<br/><small>(yht. 939 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="24">25.</td>
+  <td class="user-col" data-value="hjkhelsinki">
+    <img src="https://pbs.twimg.com/profile_images/565123448930725888/bPRmUQgj_normal.png" />
+    <div>
+      <a href="https://twitter.com/hjkhelsinki" target="_blank">@hjkhelsinki</a>
+      <small>HJK Helsinki</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Ahjkhelsinki+%23hjk" target="_blank"><span class="label secondary radius">#hjk</span></a> <a href="https://twitter.com/search?q=from%3Ahjkhelsinki+%23hjklive" target="_blank"><span class="label secondary radius">#hjklive</span></a> <a href="https://twitter.com/search?q=from%3Ahjkhelsinki+%23helsinki" target="_blank"><span class="label secondary radius">#helsinki</span></a> <a href="https://twitter.com/search?q=from%3Ahjkhelsinki+%23stadinderby" target="_blank"><span class="label secondary radius">#stadinderby</span></a> <a href="https://twitter.com/search?q=from%3Ahjkhelsinki+%23uyl" target="_blank"><span class="label secondary radius">#uyl</span></a>
+  </td>
+  <td data-value="15371">15 371</td>
+  <td data-value="6449014">6 449 014</td>
+  <td data-value="586">9,6/pv<br/><small>(yht. 586)</small></td>
+  <td data-value="1024">1 024<br/><small>(yht. 2 095 retwiittiä)</small></td>
+  <td data-value="3.5750853242320817">3,6<br/><small>retwiittiä/oma</small></td>
+  <td data-value="569">569<br/><small>(yht. 1 136 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="25">26.</td>
+  <td class="user-col" data-value="muumienparhaat">
+    <img src="https://pbs.twimg.com/profile_images/468305530348244994/DTHbcaN2_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/MuumienParhaat" target="_blank">@MuumienParhaat</a>
+      <small>Muumien Parhaat</small>
+    </div>
+    
+  </td>
+  <td data-value="10925">10 925</td>
+  <td data-value="947204">947 204</td>
+  <td data-value="41">0,7/pv<br/><small>(yht. 41)</small></td>
+  <td data-value="1719">1 719<br/><small>(yht. 4 795 retwiittiä)</small></td>
+  <td data-value="116.95121951219512">117<br/><small>retwiittiä/oma</small></td>
+  <td data-value="33">33<br/><small>(yht. 43 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="26">27.</td>
+  <td class="user-col" data-value="iltalehti_fi">
+    <img src="https://pbs.twimg.com/profile_images/527368661527322624/5jQCG8LQ_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/iltalehti_fi" target="_blank">@iltalehti_fi</a>
+      <small>Iltalehti</small>
+    </div>
+    
+  </td>
+  <td data-value="52490">52 490</td>
+  <td data-value="903628">903 628</td>
+  <td data-value="4415">72,4/pv<br/><small>(yht. 4 415)</small></td>
+  <td data-value="1154">1 154<br/><small>(yht. 3 851 retwiittiä)</small></td>
+  <td data-value="0.8722536806342016">0,9<br/><small>retwiittiä/oma</small></td>
+  <td data-value="724">724<br/><small>(yht. 1 747 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="27">28.</td>
+  <td class="user-col" data-value="yletiede">
+    <img src="https://pbs.twimg.com/profile_images/532494267453685761/r4eiLiyf_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/yletiede" target="_blank">@yletiede</a>
+      <small>Yle Tiede</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Ayletiede+%23tiedeykk%C3%B6nen" target="_blank"><span class="label secondary radius">#tiedeykkönen</span></a> <a href="https://twitter.com/search?q=from%3Ayletiede+%23ilkkahanski" target="_blank"><span class="label secondary radius">#ilkkahanski</span></a> <a href="https://twitter.com/search?q=from%3Ayletiede+%23kuunpimennys" target="_blank"><span class="label secondary radius">#kuunpimennys</span></a> <a href="https://twitter.com/search?q=from%3Ayletiede+%23sirpajalkanen" target="_blank"><span class="label secondary radius">#sirpajalkanen</span></a> <a href="https://twitter.com/search?q=from%3Ayletiede+%23prismastudio" target="_blank"><span class="label secondary radius">#prismastudio</span></a>
+  </td>
+  <td data-value="32789">32 789</td>
+  <td data-value="782643">782 643</td>
+  <td data-value="519">8,5/pv<br/><small>(yht. 519)</small></td>
+  <td data-value="1522">1 522<br/><small>(yht. 3 086 retwiittiä)</small></td>
+  <td data-value="5.946050096339114">5,9<br/><small>retwiittiä/oma</small></td>
+  <td data-value="211">211<br/><small>(yht. 339 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="28">29.</td>
+  <td class="user-col" data-value="andrewickstroem">
+    <img src="https://pbs.twimg.com/profile_images/645345045361635329/sAHPeOL8_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/andrewickstroem" target="_blank">@andrewickstroem</a>
+      <small>andre wickström</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Aandrewickstroem+%23wuhuu" target="_blank"><span class="label secondary radius">#wuhuu</span></a> <a href="https://twitter.com/search?q=from%3Aandrewickstroem+%23puujalka" target="_blank"><span class="label secondary radius">#puujalka</span></a> <a href="https://twitter.com/search?q=from%3Aandrewickstroem+%23huomenta" target="_blank"><span class="label secondary radius">#huomenta</span></a> <a href="https://twitter.com/search?q=from%3Aandrewickstroem+%23standupturku" target="_blank"><span class="label secondary radius">#standupturku</span></a> <a href="https://twitter.com/search?q=from%3Aandrewickstroem+%23puujalkaperjantai" target="_blank"><span class="label secondary radius">#puujalkaperjantai</span></a>
+  </td>
+  <td data-value="28988">28 988</td>
+  <td data-value="1216891">1 216 891</td>
+  <td data-value="299">4,9/pv<br/><small>(yht. 299)</small></td>
+  <td data-value="1313">1 313<br/><small>(yht. 1 819 retwiittiä)</small></td>
+  <td data-value="6.083612040133779">6,1<br/><small>retwiittiä/oma</small></td>
+  <td data-value="422">422<br/><small>(yht. 929 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="29">30.</td>
+  <td class="user-col" data-value="keppiseppo">
+    <img src="https://pbs.twimg.com/profile_images/629326378328915969/x5u-AcHn_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/KeppiSeppo" target="_blank">@KeppiSeppo</a>
+      <small>Vale-Seppo</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3AKeppiSeppo+%23mmpeking" target="_blank"><span class="label secondary radius">#mmpeking</span></a> <a href="https://twitter.com/search?q=from%3AKeppiSeppo+%23eliittikisat" target="_blank"><span class="label secondary radius">#eliittikisat</span></a> <a href="https://twitter.com/search?q=from%3AKeppiSeppo+%23futiskierros" target="_blank"><span class="label secondary radius">#futiskierros</span></a> <a href="https://twitter.com/search?q=from%3AKeppiSeppo+%23kalevankisat" target="_blank"><span class="label secondary radius">#kalevankisat</span></a>
+  </td>
+  <td data-value="11540">11 540</td>
+  <td data-value="865117">865 117</td>
+  <td data-value="185">3/pv<br/><small>(yht. 185)</small></td>
+  <td data-value="1457">1 457<br/><small>(yht. 2 613 retwiittiä)</small></td>
+  <td data-value="14.124324324324323">14,1<br/><small>retwiittiä/oma</small></td>
+  <td data-value="251">251<br/><small>(yht. 371 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="30">31.</td>
+  <td class="user-col" data-value="villetolvanen">
+    <img src="https://pbs.twimg.com/profile_images/542706423210049537/sG6xRJuc_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/villetolvanen" target="_blank">@villetolvanen</a>
+      <small>Ville Tolvanen</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Avilletolvanen+%23v" target="_blank"><span class="label secondary radius">#v</span></a> <a href="https://twitter.com/search?q=from%3Avilletolvanen+%23digitalist" target="_blank"><span class="label secondary radius">#digitalist</span></a> <a href="https://twitter.com/search?q=from%3Avilletolvanen+%23sonerab2d" target="_blank"><span class="label secondary radius">#sonerab2d</span></a> <a href="https://twitter.com/search?q=from%3Avilletolvanen+%23cmadfi" target="_blank"><span class="label secondary radius">#cmadfi</span></a> <a href="https://twitter.com/search?q=from%3Avilletolvanen+%23sharingiscaring" target="_blank"><span class="label secondary radius">#sharingiscaring</span></a>
+  </td>
+  <td data-value="15685">15 685</td>
+  <td data-value="1077116">1 077 116</td>
+  <td data-value="922">15,1/pv<br/><small>(yht. 922)</small></td>
+  <td data-value="998">998<br/><small>(yht. 2 033 retwiittiä)</small></td>
+  <td data-value="2.204989154013015">2,2<br/><small>retwiittiä/oma</small></td>
+  <td data-value="803">803<br/><small>(yht. 2 465 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="31">32.</td>
+  <td class="user-col" data-value="timohaapala">
+    <img src="https://pbs.twimg.com/profile_images/651446412274716672/D8eN-oLo_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/TimoHaapala" target="_blank">@TimoHaapala</a>
+      <small>Timo Haapala</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3ATimoHaapala+%23yhteiskuntasopimus" target="_blank"><span class="label secondary radius">#yhteiskuntasopimus</span></a> <a href="https://twitter.com/search?q=from%3ATimoHaapala+%23sak" target="_blank"><span class="label secondary radius">#sak</span></a> <a href="https://twitter.com/search?q=from%3ATimoHaapala+%23muuten" target="_blank"><span class="label secondary radius">#muuten</span></a> <a href="https://twitter.com/search?q=from%3ATimoHaapala+%23sdp" target="_blank"><span class="label secondary radius">#sdp</span></a> <a href="https://twitter.com/search?q=from%3ATimoHaapala+%23yle" target="_blank"><span class="label secondary radius">#yle</span></a>
+  </td>
+  <td data-value="12189">12 189</td>
+  <td data-value="936204">936 204</td>
+  <td data-value="718">11,8/pv<br/><small>(yht. 718)</small></td>
+  <td data-value="891">891<br/><small>(yht. 1 835 retwiittiä)</small></td>
+  <td data-value="2.5557103064066853">2,6<br/><small>retwiittiä/oma</small></td>
+  <td data-value="901">901<br/><small>(yht. 4 443 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="32">33.</td>
+  <td class="user-col" data-value="mtvsportfi">
+    <img src="https://pbs.twimg.com/profile_images/378800000701860137/dd4e5d8a2827a2cb3adf74afc7f519f4_normal.png" />
+    <div>
+      <a href="https://twitter.com/MTVSportfi" target="_blank">@MTVSportfi</a>
+      <small>MTV Sport</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3AMTVSportfi+%23mtvsport" target="_blank"><span class="label secondary radius">#mtvsport</span></a> <a href="https://twitter.com/search?q=from%3AMTVSportfi+%23chlfi" target="_blank"><span class="label secondary radius">#chlfi</span></a> <a href="https://twitter.com/search?q=from%3AMTVSportfi+%23valioliiga" target="_blank"><span class="label secondary radius">#valioliiga</span></a> <a href="https://twitter.com/search?q=from%3AMTVSportfi+%23chl" target="_blank"><span class="label secondary radius">#chl</span></a> <a href="https://twitter.com/search?q=from%3AMTVSportfi+%23espooblues" target="_blank"><span class="label secondary radius">#espooblues</span></a>
+  </td>
+  <td data-value="56306">56 306</td>
+  <td data-value="700282">700 282</td>
+  <td data-value="3795">62,2/pv<br/><small>(yht. 3 795)</small></td>
+  <td data-value="1226">1 226<br/><small>(yht. 3 032 retwiittiä)</small></td>
+  <td data-value="0.7989459815546772">0,8<br/><small>retwiittiä/oma</small></td>
+  <td data-value="478">478<br/><small>(yht. 973 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="33">34.</td>
+  <td class="user-col" data-value="perpa56">
+    <img src="https://pbs.twimg.com/profile_images/626033399908724739/FNBdH4Pc_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/Perpa56" target="_blank">@Perpa56</a>
+      <small>Perparim Hetemaj</small>
+    </div>
+    
+  </td>
+  <td data-value="3278">3 278</td>
+  <td data-value="1736259">1 736 259</td>
+  <td data-value="10">0,2/pv<br/><small>(yht. 10)</small></td>
+  <td data-value="1445">1 445<br/><small>(yht. 1 460 retwiittiä)</small></td>
+  <td data-value="146.0">146<br/><small>retwiittiä/oma</small></td>
+  <td data-value="107">107<br/><small>(yht. 170 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="34">35.</td>
+  <td class="user-col" data-value="henrialen">
+    <img src="https://pbs.twimg.com/profile_images/378800000465772271/2f010e6e3804eccb1675d67bf841ebd0_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/HenriAlen" target="_blank">@HenriAlen</a>
+      <small>Henri Alen</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3AHenriAlen+%23muru" target="_blank"><span class="label secondary radius">#muru</span></a> <a href="https://twitter.com/search?q=from%3AHenriAlen+%23sauce2015" target="_blank"><span class="label secondary radius">#sauce2015</span></a> <a href="https://twitter.com/search?q=from%3AHenriAlen+%23hodarijahummeri" target="_blank"><span class="label secondary radius">#hodarijahummeri</span></a> <a href="https://twitter.com/search?q=from%3AHenriAlen+%23ruoka" target="_blank"><span class="label secondary radius">#ruoka</span></a> <a href="https://twitter.com/search?q=from%3AHenriAlen+%23versot" target="_blank"><span class="label secondary radius">#versot</span></a>
+  </td>
+  <td data-value="39934">39 934</td>
+  <td data-value="999318">999 318</td>
+  <td data-value="1279">21/pv<br/><small>(yht. 1 279)</small></td>
+  <td data-value="891">891<br/><small>(yht. 1 473 retwiittiä)</small></td>
+  <td data-value="1.1516810007818608">1,2<br/><small>retwiittiä/oma</small></td>
+  <td data-value="882">882<br/><small>(yht. 3 082 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="35">36.</td>
+  <td class="user-col" data-value="jussipullinen">
+    <img src="https://pbs.twimg.com/profile_images/65229732/omakuva_muuttoap_fbrajaus_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/JussiPullinen" target="_blank">@JussiPullinen</a>
+      <small>Jussi Pullinen</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3AJussiPullinen+%23yhteiskuntasopimus" target="_blank"><span class="label secondary radius">#yhteiskuntasopimus</span></a>
+  </td>
+  <td data-value="12793">12 793</td>
+  <td data-value="1277407">1 277 407</td>
+  <td data-value="1009">16,5/pv<br/><small>(yht. 1 009)</small></td>
+  <td data-value="1011">1 011<br/><small>(yht. 1 783 retwiittiä)</small></td>
+  <td data-value="1.7670961347869178">1,8<br/><small>retwiittiä/oma</small></td>
+  <td data-value="650">650<br/><small>(yht. 2 431 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="36">37.</td>
+  <td class="user-col" data-value="erkkarailo">
+    <img src="https://pbs.twimg.com/profile_images/378800000614175696/e11dc4423b050f4a8b7d10b6ec225162_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/ErkkaRailo" target="_blank">@ErkkaRailo</a>
+      <small>Erkka Railo</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3AErkkaRailo+%23politiikka" target="_blank"><span class="label secondary radius">#politiikka</span></a> <a href="https://twitter.com/search?q=from%3AErkkaRailo+%23immonen" target="_blank"><span class="label secondary radius">#immonen</span></a> <a href="https://twitter.com/search?q=from%3AErkkaRailo+%23muuten" target="_blank"><span class="label secondary radius">#muuten</span></a> <a href="https://twitter.com/search?q=from%3AErkkaRailo+%23ps" target="_blank"><span class="label secondary radius">#ps</span></a> <a href="https://twitter.com/search?q=from%3AErkkaRailo+%23pspuoluekokous" target="_blank"><span class="label secondary radius">#pspuoluekokous</span></a>
+  </td>
+  <td data-value="4505">4 505</td>
+  <td data-value="1204598">1 204 598</td>
+  <td data-value="335">5,5/pv<br/><small>(yht. 335)</small></td>
+  <td data-value="1123">1 123<br/><small>(yht. 2 086 retwiittiä)</small></td>
+  <td data-value="6.226865671641791">6,2<br/><small>retwiittiä/oma</small></td>
+  <td data-value="509">509<br/><small>(yht. 1 713 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="37">38.</td>
+  <td class="user-col" data-value="ylekioski">
+    <img src="https://pbs.twimg.com/profile_images/666548679239532544/_9_QJpti_normal.png" />
+    <div>
+      <a href="https://twitter.com/ylekioski" target="_blank">@ylekioski</a>
+      <small>Kioski</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Aylekioski+%23ylekioski" target="_blank"><span class="label secondary radius">#ylekioski</span></a> <a href="https://twitter.com/search?q=from%3Aylekioski+%23mielenilmaus" target="_blank"><span class="label secondary radius">#mielenilmaus</span></a> <a href="https://twitter.com/search?q=from%3Aylekioski+%23sipil%C3%A4" target="_blank"><span class="label secondary radius">#sipilä</span></a> <a href="https://twitter.com/search?q=from%3Aylekioski+%23yhteiskuntasopimus" target="_blank"><span class="label secondary radius">#yhteiskuntasopimus</span></a> <a href="https://twitter.com/search?q=from%3Aylekioski+%23hotelli" target="_blank"><span class="label secondary radius">#hotelli</span></a>
+  </td>
+  <td data-value="7978">7 978</td>
+  <td data-value="1238903">1 238 903</td>
+  <td data-value="345">5,7/pv<br/><small>(yht. 345)</small></td>
+  <td data-value="998">998<br/><small>(yht. 1 583 retwiittiä)</small></td>
+  <td data-value="4.58840579710145">4,6<br/><small>retwiittiä/oma</small></td>
+  <td data-value="665">665<br/><small>(yht. 1 168 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="38">39.</td>
+  <td class="user-col" data-value="ylepuhe">
+    <img src="https://pbs.twimg.com/profile_images/1874986275/logo_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/ylepuhe" target="_blank">@ylepuhe</a>
+      <small>YLE Puhe</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Aylepuhe+%23puheenip" target="_blank"><span class="label secondary radius">#puheenip</span></a> <a href="https://twitter.com/search?q=from%3Aylepuhe+%23puheenaamu" target="_blank"><span class="label secondary radius">#puheenaamu</span></a> <a href="https://twitter.com/search?q=from%3Aylepuhe+%23ylepuhe" target="_blank"><span class="label secondary radius">#ylepuhe</span></a> <a href="https://twitter.com/search?q=from%3Aylepuhe+%23politiikkaradio" target="_blank"><span class="label secondary radius">#politiikkaradio</span></a> <a href="https://twitter.com/search?q=from%3Aylepuhe+%23lspuhe" target="_blank"><span class="label secondary radius">#lspuhe</span></a>
+  </td>
+  <td data-value="18379">18 379</td>
+  <td data-value="1506213">1 506 213</td>
+  <td data-value="834">13,7/pv<br/><small>(yht. 834)</small></td>
+  <td data-value="736">736<br/><small>(yht. 1 168 retwiittiä)</small></td>
+  <td data-value="1.4004796163069544">1,4<br/><small>retwiittiä/oma</small></td>
+  <td data-value="963">963<br/><small>(yht. 2 729 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="39">40.</td>
+  <td class="user-col" data-value="uusisuomi">
+    <img src="https://pbs.twimg.com/profile_images/1301890079/2US_NAPPI_128x128_normal.png" />
+    <div>
+      <a href="https://twitter.com/uusisuomi" target="_blank">@uusisuomi</a>
+      <small>Uusi Suomi</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Auusisuomi+%23hallitus" target="_blank"><span class="label secondary radius">#hallitus</span></a> <a href="https://twitter.com/search?q=from%3Auusisuomi+%23tphakijat" target="_blank"><span class="label secondary radius">#tphakijat</span></a> <a href="https://twitter.com/search?q=from%3Auusisuomi+%23lakko" target="_blank"><span class="label secondary radius">#lakko</span></a> <a href="https://twitter.com/search?q=from%3Auusisuomi+%23turvapaikanhakijat" target="_blank"><span class="label secondary radius">#turvapaikanhakijat</span></a> <a href="https://twitter.com/search?q=from%3Auusisuomi+%23kilpailukyky" target="_blank"><span class="label secondary radius">#kilpailukyky</span></a>
+  </td>
+  <td data-value="26593">26 593</td>
+  <td data-value="818191">818 191</td>
+  <td data-value="1269">20,8/pv<br/><small>(yht. 1 269)</small></td>
+  <td data-value="970">970<br/><small>(yht. 2 051 retwiittiä)</small></td>
+  <td data-value="1.6162332545311269">1,6<br/><small>retwiittiä/oma</small></td>
+  <td data-value="720">720<br/><small>(yht. 1 727 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="40">41.</td>
+  <td class="user-col" data-value="aamulehti">
+    <img src="https://pbs.twimg.com/profile_images/570468559189331968/zTiVNPun_normal.png" />
+    <div>
+      <a href="https://twitter.com/aamulehti" target="_blank">@aamulehti</a>
+      <small>Aamulehti</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Aaamulehti+%23uutiset" target="_blank"><span class="label secondary radius">#uutiset</span></a> <a href="https://twitter.com/search?q=from%3Aaamulehti+%23pirkanmaa" target="_blank"><span class="label secondary radius">#pirkanmaa</span></a> <a href="https://twitter.com/search?q=from%3Aaamulehti+%23j%C3%A4%C3%A4kiekko" target="_blank"><span class="label secondary radius">#jääkiekko</span></a> <a href="https://twitter.com/search?q=from%3Aaamulehti+%23kiekko" target="_blank"><span class="label secondary radius">#kiekko</span></a>
+  </td>
+  <td data-value="49469">49 469</td>
+  <td data-value="955971">955 971</td>
+  <td data-value="3656">59,9/pv<br/><small>(yht. 3 656)</small></td>
+  <td data-value="1081">1 081<br/><small>(yht. 3 030 retwiittiä)</small></td>
+  <td data-value="0.8287746170678337">0,8<br/><small>retwiittiä/oma</small></td>
+  <td data-value="467">467<br/><small>(yht. 993 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="41">42.</td>
+  <td class="user-col" data-value="docventures">
+    <img src="https://pbs.twimg.com/profile_images/479548342972608512/aWq_PueF_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/docventures" target="_blank">@docventures</a>
+      <small>Docventures</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Adocventures+%23docventures" target="_blank"><span class="label secondary radius">#docventures</span></a> <a href="https://twitter.com/search?q=from%3Adocventures+%23sananvapaus" target="_blank"><span class="label secondary radius">#sananvapaus</span></a> <a href="https://twitter.com/search?q=from%3Adocventures+%23sipil%C3%A4" target="_blank"><span class="label secondary radius">#sipilä</span></a>
+  </td>
+  <td data-value="22507">22 507</td>
+  <td data-value="759102">759 102</td>
+  <td data-value="128">2,1/pv<br/><small>(yht. 128)</small></td>
+  <td data-value="826">826<br/><small>(yht. 1 138 retwiittiä)</small></td>
+  <td data-value="8.890625">8,9<br/><small>retwiittiä/oma</small></td>
+  <td data-value="845">845<br/><small>(yht. 1 599 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="42">43.</td>
+  <td class="user-col" data-value="mtvhusu">
+    <img src="https://pbs.twimg.com/profile_images/578097193036345344/NwED1E65_normal.png" />
+    <div>
+      <a href="https://twitter.com/MTVHuSu" target="_blank">@MTVHuSu</a>
+      <small>Huomenta Suomi</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3AMTVHuSu+%23huomentasuomi" target="_blank"><span class="label secondary radius">#huomentasuomi</span></a> <a href="https://twitter.com/search?q=from%3AMTVHuSu+%23enbuske360" target="_blank"><span class="label secondary radius">#enbuske360</span></a> <a href="https://twitter.com/search?q=from%3AMTVHuSu+%23terveaamu" target="_blank"><span class="label secondary radius">#terveaamu</span></a> <a href="https://twitter.com/search?q=from%3AMTVHuSu+%23markkinaraati" target="_blank"><span class="label secondary radius">#markkinaraati</span></a> <a href="https://twitter.com/search?q=from%3AMTVHuSu+%23pakolaiset" target="_blank"><span class="label secondary radius">#pakolaiset</span></a>
+  </td>
+  <td data-value="8451">8 451</td>
+  <td data-value="2027316">2 027 316</td>
+  <td data-value="1148">18,8/pv<br/><small>(yht. 1 148)</small></td>
+  <td data-value="711">711<br/><small>(yht. 1 410 retwiittiä)</small></td>
+  <td data-value="1.2282229965156795">1,2<br/><small>retwiittiä/oma</small></td>
+  <td data-value="830">830<br/><small>(yht. 3 455 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="43">44.</td>
+  <td class="user-col" data-value="jyrkikasvi">
+    <img src="https://pbs.twimg.com/profile_images/590037342850850816/H_YYw8My_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/jyrkikasvi" target="_blank">@jyrkikasvi</a>
+      <small>Jyrki Kasvi</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Ajyrkikasvi+%23vaikutu" target="_blank"><span class="label secondary radius">#vaikutu</span></a> <a href="https://twitter.com/search?q=from%3Ajyrkikasvi+%23yleastudio" target="_blank"><span class="label secondary radius">#yleastudio</span></a> <a href="https://twitter.com/search?q=from%3Ajyrkikasvi+%23tuottavuusloikka" target="_blank"><span class="label secondary radius">#tuottavuusloikka</span></a> <a href="https://twitter.com/search?q=from%3Ajyrkikasvi+%23espoonvaltuusto" target="_blank"><span class="label secondary radius">#espoonvaltuusto</span></a> <a href="https://twitter.com/search?q=from%3Ajyrkikasvi+%23flowit" target="_blank"><span class="label secondary radius">#flowit</span></a>
+  </td>
+  <td data-value="42738">42 738</td>
+  <td data-value="767907">767 907</td>
+  <td data-value="450">7,4/pv<br/><small>(yht. 450)</small></td>
+  <td data-value="1008">1 008<br/><small>(yht. 1 700 retwiittiä)</small></td>
+  <td data-value="3.7777777777777777">3,8<br/><small>retwiittiä/oma</small></td>
+  <td data-value="560">560<br/><small>(yht. 1 311 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="44">45.</td>
+  <td class="user-col" data-value="mikaeljungner">
+    <img src="https://pbs.twimg.com/profile_images/422378225/n574737088_3038_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/MikaelJungner" target="_blank">@MikaelJungner</a>
+      <small>Mikael Jungner</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3AMikaelJungner+%23autonvapaap%C3%A4iv%C3%A4" target="_blank"><span class="label secondary radius">#autonvapaapäivä</span></a> <a href="https://twitter.com/search?q=from%3AMikaelJungner+%23helkama" target="_blank"><span class="label secondary radius">#helkama</span></a>
+  </td>
+  <td data-value="64069">64 069</td>
+  <td data-value="937879">937 879</td>
+  <td data-value="268">4,4/pv<br/><small>(yht. 268)</small></td>
+  <td data-value="870">870<br/><small>(yht. 1 095 retwiittiä)</small></td>
+  <td data-value="4.085820895522388">4,1<br/><small>retwiittiä/oma</small></td>
+  <td data-value="729">729<br/><small>(yht. 1 651 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="45">46.</td>
+  <td class="user-col" data-value="tuomolap">
+    <img src="https://pbs.twimg.com/profile_images/3694276641/6161a61c6cc9f35ef943d76a99323426_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/TuomoLap" target="_blank">@TuomoLap</a>
+      <small>Tuomo Lappalainen</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3ATuomoLap+%23muuten" target="_blank"><span class="label secondary radius">#muuten</span></a> <a href="https://twitter.com/search?q=from%3ATuomoLap+%23yhteiskuntasopimus" target="_blank"><span class="label secondary radius">#yhteiskuntasopimus</span></a>
+  </td>
+  <td data-value="6265">6 265</td>
+  <td data-value="1185109">1 185 109</td>
+  <td data-value="168">2,8/pv<br/><small>(yht. 168)</small></td>
+  <td data-value="1086">1 086<br/><small>(yht. 1 884 retwiittiä)</small></td>
+  <td data-value="11.214285714285714">11,2<br/><small>retwiittiä/oma</small></td>
+  <td data-value="386">386<br/><small>(yht. 908 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="46">47.</td>
+  <td class="user-col" data-value="tupakkalakko">
+    <img src="https://pbs.twimg.com/profile_images/531874415198224384/0nmLjTq5_normal.png" />
+    <div>
+      <a href="https://twitter.com/Tupakkalakko" target="_blank">@Tupakkalakko</a>
+      <small>Lakko</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3ATupakkalakko+%23tubecon15" target="_blank"><span class="label secondary radius">#tubecon15</span></a> <a href="https://twitter.com/search?q=from%3ATupakkalakko+%23mtvposse" target="_blank"><span class="label secondary radius">#mtvposse</span></a> <a href="https://twitter.com/search?q=from%3ATupakkalakko+%23oletvoittaja" target="_blank"><span class="label secondary radius">#oletvoittaja</span></a> <a href="https://twitter.com/search?q=from%3ATupakkalakko+%23xboxgamescom" target="_blank"><span class="label secondary radius">#xboxgamescom</span></a> <a href="https://twitter.com/search?q=from%3ATupakkalakko+%23bo3beta" target="_blank"><span class="label secondary radius">#bo3beta</span></a>
+  </td>
+  <td data-value="21188">21 188</td>
+  <td data-value="277756">277 756</td>
+  <td data-value="163">2,7/pv<br/><small>(yht. 163)</small></td>
+  <td data-value="522">522<br/><small>(yht. 1 459 retwiittiä)</small></td>
+  <td data-value="8.950920245398773">9<br/><small>retwiittiä/oma</small></td>
+  <td data-value="1196">1 196<br/><small>(yht. 2 913 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="47">48.</td>
+  <td class="user-col" data-value="anterovartia">
+    <img src="https://pbs.twimg.com/profile_images/458688400980070400/gmNMUyBS_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/anterovartia" target="_blank">@anterovartia</a>
+      <small>Antero Vartia</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Aanterovartia+%23energiaremontti" target="_blank"><span class="label secondary radius">#energiaremontti</span></a> <a href="https://twitter.com/search?q=from%3Aanterovartia+%23ilmastonmuutos" target="_blank"><span class="label secondary radius">#ilmastonmuutos</span></a>
+  </td>
+  <td data-value="7212">7 212</td>
+  <td data-value="1058518">1 058 518</td>
+  <td data-value="173">2,8/pv<br/><small>(yht. 173)</small></td>
+  <td data-value="958">958<br/><small>(yht. 1 756 retwiittiä)</small></td>
+  <td data-value="10.15028901734104">10,2<br/><small>retwiittiä/oma</small></td>
+  <td data-value="479">479<br/><small>(yht. 1 523 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="48">49.</td>
+  <td class="user-col" data-value="soalmila">
+    <img src="https://pbs.twimg.com/profile_images/1427097014/Kuva_otettu_28.09.2010_klo_12.25_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/soalmila" target="_blank">@soalmila</a>
+      <small>Atso Almila</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Asoalmila+%23ff" target="_blank"><span class="label secondary radius">#ff</span></a> <a href="https://twitter.com/search?q=from%3Asoalmila+%23k%C3%B6ke" target="_blank"><span class="label secondary radius">#köke</span></a> <a href="https://twitter.com/search?q=from%3Asoalmila+%23haamuvuoro" target="_blank"><span class="label secondary radius">#haamuvuoro</span></a> <a href="https://twitter.com/search?q=from%3Asoalmila+%23hallitus" target="_blank"><span class="label secondary radius">#hallitus</span></a> <a href="https://twitter.com/search?q=from%3Asoalmila+%23vr" target="_blank"><span class="label secondary radius">#vr</span></a>
+  </td>
+  <td data-value="8438">8 438</td>
+  <td data-value="1220907">1 220 907</td>
+  <td data-value="2068">33,9/pv<br/><small>(yht. 2 068)</small></td>
+  <td data-value="555">555<br/><small>(yht. 1 095 retwiittiä)</small></td>
+  <td data-value="0.5294970986460348">0,5<br/><small>retwiittiä/oma</small></td>
+  <td data-value="973">973<br/><small>(yht. 7 389 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="49">50.</td>
+  <td class="user-col" data-value="emilelo">
+    <img src="https://pbs.twimg.com/profile_images/515169746808229888/7RkAEEpD_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/emilelo" target="_blank">@emilelo</a>
+      <small>Emil Elo</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Aemilelo+%23liiga" target="_blank"><span class="label secondary radius">#liiga</span></a> <a href="https://twitter.com/search?q=from%3Aemilelo+%23emkoris" target="_blank"><span class="label secondary radius">#emkoris</span></a> <a href="https://twitter.com/search?q=from%3Aemilelo+%23khlfi" target="_blank"><span class="label secondary radius">#khlfi</span></a> <a href="https://twitter.com/search?q=from%3Aemilelo+%23sipil%C3%A4" target="_blank"><span class="label secondary radius">#sipilä</span></a> <a href="https://twitter.com/search?q=from%3Aemilelo+%23muuten" target="_blank"><span class="label secondary radius">#muuten</span></a>
+  </td>
+  <td data-value="6090">6 090</td>
+  <td data-value="1237233">1 237 233</td>
+  <td data-value="485">8/pv<br/><small>(yht. 485)</small></td>
+  <td data-value="890">890<br/><small>(yht. 1 204 retwiittiä)</small></td>
+  <td data-value="2.4824742268041238">2,5<br/><small>retwiittiä/oma</small></td>
+  <td data-value="521">521<br/><small>(yht. 1 117 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="50">51.</td>
+  <td class="user-col" data-value="eeromarkkanen">
+    <img src="https://pbs.twimg.com/profile_images/567097271909900289/7TgODBpc_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/eeromarkkanen" target="_blank">@eeromarkkanen</a>
+      <small>Eero Markkanen</small>
+    </div>
+    
+  </td>
+  <td data-value="15644">15 644</td>
+  <td data-value="824637">824 637</td>
+  <td data-value="18">0,3/pv<br/><small>(yht. 18)</small></td>
+  <td data-value="1143">1 143<br/><small>(yht. 1 201 retwiittiä)</small></td>
+  <td data-value="66.72222222222223">66,7<br/><small>retwiittiä/oma</small></td>
+  <td data-value="237">237<br/><small>(yht. 352 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="51">52.</td>
+  <td class="user-col" data-value="mtvposse">
+    <img src="https://pbs.twimg.com/profile_images/474790457780629505/AKi9IuGF_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/MTVPosse" target="_blank">@MTVPosse</a>
+      <small>MTVPosse</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3AMTVPosse+%23mtvposse" target="_blank"><span class="label secondary radius">#mtvposse</span></a> <a href="https://twitter.com/search?q=from%3AMTVPosse+%23suihkuralli" target="_blank"><span class="label secondary radius">#suihkuralli</span></a> <a href="https://twitter.com/search?q=from%3AMTVPosse+%23voitollay%C3%B6h%C3%B6n" target="_blank"><span class="label secondary radius">#voitollayöhön</span></a> <a href="https://twitter.com/search?q=from%3AMTVPosse+%23stuntti" target="_blank"><span class="label secondary radius">#stuntti</span></a> <a href="https://twitter.com/search?q=from%3AMTVPosse+%23s%C3%A4tkyukko" target="_blank"><span class="label secondary radius">#sätkyukko</span></a>
+  </td>
+  <td data-value="20076">20 076</td>
+  <td data-value="973388">973 388</td>
+  <td data-value="159">2,6/pv<br/><small>(yht. 159)</small></td>
+  <td data-value="517">517<br/><small>(yht. 1 018 retwiittiä)</small></td>
+  <td data-value="6.40251572327044">6,4<br/><small>retwiittiä/oma</small></td>
+  <td data-value="1036">1 036<br/><small>(yht. 2 340 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="52">53.</td>
+  <td class="user-col" data-value="eeddspeaks">
+    <img src="https://pbs.twimg.com/profile_images/631785079711268864/S7P_fKOQ_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/eeddspeaks" target="_blank">@eeddspeaks</a>
+      <small>Eetu</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Aeeddspeaks+%23napapiiri" target="_blank"><span class="label secondary radius">#napapiiri</span></a> <a href="https://twitter.com/search?q=from%3Aeeddspeaks+%23tubecon15" target="_blank"><span class="label secondary radius">#tubecon15</span></a> <a href="https://twitter.com/search?q=from%3Aeeddspeaks+%23yleassembly" target="_blank"><span class="label secondary radius">#yleassembly</span></a>
+  </td>
+  <td data-value="36381">36 381</td>
+  <td data-value="338516">338 516</td>
+  <td data-value="480">7,9/pv<br/><small>(yht. 480)</small></td>
+  <td data-value="520">520<br/><small>(yht. 1 171 retwiittiä)</small></td>
+  <td data-value="2.439583333333333">2,4<br/><small>retwiittiä/oma</small></td>
+  <td data-value="1031">1 031<br/><small>(yht. 2 784 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="53">54.</td>
+  <td class="user-col" data-value="yleisradio">
+    <img src="https://pbs.twimg.com/profile_images/1872874967/Yle-twitter_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/Yleisradio" target="_blank">@Yleisradio</a>
+      <small>Yleisradio</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3AYleisradio+%23yle" target="_blank"><span class="label secondary radius">#yle</span></a> <a href="https://twitter.com/search?q=from%3AYleisradio+%23kultakuume" target="_blank"><span class="label secondary radius">#kultakuume</span></a> <a href="https://twitter.com/search?q=from%3AYleisradio+%23docventures" target="_blank"><span class="label secondary radius">#docventures</span></a> <a href="https://twitter.com/search?q=from%3AYleisradio+%23viikoltavalittua" target="_blank"><span class="label secondary radius">#viikoltavalittua</span></a> <a href="https://twitter.com/search?q=from%3AYleisradio+%23silta" target="_blank"><span class="label secondary radius">#silta</span></a>
+  </td>
+  <td data-value="47209">47 209</td>
+  <td data-value="1523779">1 523 779</td>
+  <td data-value="411">6,7/pv<br/><small>(yht. 411)</small></td>
+  <td data-value="795">795<br/><small>(yht. 1 265 retwiittiä)</small></td>
+  <td data-value="3.0778588807785887">3,1<br/><small>retwiittiä/oma</small></td>
+  <td data-value="542">542<br/><small>(yht. 947 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="54">55.</td>
+  <td class="user-col" data-value="tomistro">
+    <img src="https://pbs.twimg.com/profile_images/1255591400/45142_430976923829_592933829_4816687_748526_n_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/tomistro" target="_blank">@tomistro</a>
+      <small>Missä tämä näkyy?</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Atomistro+%23lolapua" target="_blank"><span class="label secondary radius">#lolapua</span></a> <a href="https://twitter.com/search?q=from%3Atomistro+%23flow15" target="_blank"><span class="label secondary radius">#flow15</span></a> <a href="https://twitter.com/search?q=from%3Atomistro+%23leffaviikonloppu" target="_blank"><span class="label secondary radius">#leffaviikonloppu</span></a> <a href="https://twitter.com/search?q=from%3Atomistro+%23dystooppinenkepusuomi" target="_blank"><span class="label secondary radius">#dystooppinenkepusuomi</span></a> <a href="https://twitter.com/search?q=from%3Atomistro+%23itseh%C3%A4n" target="_blank"><span class="label secondary radius">#itsehän</span></a>
+  </td>
+  <td data-value="2305">2 305</td>
+  <td data-value="681894">681 894</td>
+  <td data-value="1633">26,8/pv<br/><small>(yht. 1 633)</small></td>
+  <td data-value="842">842<br/><small>(yht. 2 114 retwiittiä)</small></td>
+  <td data-value="1.2945499081445193">1,3<br/><small>retwiittiä/oma</small></td>
+  <td data-value="507">507<br/><small>(yht. 2 731 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="55">56.</td>
+  <td class="user-col" data-value="pekkasauri">
+    <img src="https://pbs.twimg.com/profile_images/430291680890077185/KRoTiofu_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/pekkasauri" target="_blank">@pekkasauri</a>
+      <small>Pekka Sauri</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Apekkasauri+%23helsinki" target="_blank"><span class="label secondary radius">#helsinki</span></a> <a href="https://twitter.com/search?q=from%3Apekkasauri+%23ff" target="_blank"><span class="label secondary radius">#ff</span></a> <a href="https://twitter.com/search?q=from%3Apekkasauri+%23hsl" target="_blank"><span class="label secondary radius">#hsl</span></a> <a href="https://twitter.com/search?q=from%3Apekkasauri+%23helmet" target="_blank"><span class="label secondary radius">#helmet</span></a> <a href="https://twitter.com/search?q=from%3Apekkasauri+%23vantaa" target="_blank"><span class="label secondary radius">#vantaa</span></a>
+  </td>
+  <td data-value="36374">36 374</td>
+  <td data-value="1026901">1 026 901</td>
+  <td data-value="589">9,7/pv<br/><small>(yht. 589)</small></td>
+  <td data-value="803">803<br/><small>(yht. 1 633 retwiittiä)</small></td>
+  <td data-value="2.7724957555178267">2,8<br/><small>retwiittiä/oma</small></td>
+  <td data-value="515">515<br/><small>(yht. 1 229 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="56">57.</td>
+  <td class="user-col" data-value="kotkavirta">
+    <img src="https://pbs.twimg.com/profile_images/642656979979272192/BsY9OkZl_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/kotkavirta" target="_blank">@kotkavirta</a>
+      <small>Johannes Kotkavirta</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Akotkavirta+%23hallitus" target="_blank"><span class="label secondary radius">#hallitus</span></a> <a href="https://twitter.com/search?q=from%3Akotkavirta+%23lakko" target="_blank"><span class="label secondary radius">#lakko</span></a> <a href="https://twitter.com/search?q=from%3Akotkavirta+%23yleastudio" target="_blank"><span class="label secondary radius">#yleastudio</span></a> <a href="https://twitter.com/search?q=from%3Akotkavirta+%23stop" target="_blank"><span class="label secondary radius">#stop</span></a> <a href="https://twitter.com/search?q=from%3Akotkavirta+%23fennovoima" target="_blank"><span class="label secondary radius">#fennovoima</span></a>
+  </td>
+  <td data-value="3516">3 516</td>
+  <td data-value="892354">892 354</td>
+  <td data-value="489">8/pv<br/><small>(yht. 489)</small></td>
+  <td data-value="934">934<br/><small>(yht. 1 446 retwiittiä)</small></td>
+  <td data-value="2.957055214723926">3<br/><small>retwiittiä/oma</small></td>
+  <td data-value="338">338<br/><small>(yht. 898 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="57">58.</td>
+  <td class="user-col" data-value="jarkko_frantila">
+    <img src="https://pbs.twimg.com/profile_images/664362557373865985/BUgPo3DH_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/Jarkko_Frantila" target="_blank">@Jarkko_Frantila</a>
+      <small>Jarkko_Fräntilä</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3AJarkko_Frantila+%23hjk" target="_blank"><span class="label secondary radius">#hjk</span></a> <a href="https://twitter.com/search?q=from%3AJarkko_Frantila+%23veikkausliiga" target="_blank"><span class="label secondary radius">#veikkausliiga</span></a> <a href="https://twitter.com/search?q=from%3AJarkko_Frantila+%23hjklive" target="_blank"><span class="label secondary radius">#hjklive</span></a> <a href="https://twitter.com/search?q=from%3AJarkko_Frantila+%23ktp" target="_blank"><span class="label secondary radius">#ktp</span></a> <a href="https://twitter.com/search?q=from%3AJarkko_Frantila+%23persut" target="_blank"><span class="label secondary radius">#persut</span></a>
+  </td>
+  <td data-value="645">645</td>
+  <td data-value="613110">613 110</td>
+  <td data-value="787">12,9/pv<br/><small>(yht. 787)</small></td>
+  <td data-value="1110">1 110<br/><small>(yht. 1 162 retwiittiä)</small></td>
+  <td data-value="1.4764930114358323">1,5<br/><small>retwiittiä/oma</small></td>
+  <td data-value="115">115<br/><small>(yht. 373 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="58">59.</td>
+  <td class="user-col" data-value="jussikarki">
+    <img src="https://pbs.twimg.com/profile_images/378800000824674381/8e94045dd93c6c2f4d97fcaf1eb1809b_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/JussiKarki" target="_blank">@JussiKarki</a>
+      <small>Jussi Kärki</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3AJussiKarki+%23talous" target="_blank"><span class="label secondary radius">#talous</span></a> <a href="https://twitter.com/search?q=from%3AJussiKarki+%23politiikka" target="_blank"><span class="label secondary radius">#politiikka</span></a> <a href="https://twitter.com/search?q=from%3AJussiKarki+%23yks" target="_blank"><span class="label secondary radius">#yks</span></a> <a href="https://twitter.com/search?q=from%3AJussiKarki+%23forssa" target="_blank"><span class="label secondary radius">#forssa</span></a> <a href="https://twitter.com/search?q=from%3AJussiKarki+%23hcm" target="_blank"><span class="label secondary radius">#hcm</span></a>
+  </td>
+  <td data-value="5917">5 917</td>
+  <td data-value="965333">965 333</td>
+  <td data-value="614">10,1/pv<br/><small>(yht. 614)</small></td>
+  <td data-value="721">721<br/><small>(yht. 1 122 retwiittiä)</small></td>
+  <td data-value="1.8273615635179152">1,8<br/><small>retwiittiä/oma</small></td>
+  <td data-value="576">576<br/><small>(yht. 2 015 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="59">60.</td>
+  <td class="user-col" data-value="petri2020">
+    <img src="https://pbs.twimg.com/profile_images/620299463308001280/eUDW1OdQ_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/Petri2020" target="_blank">@Petri2020</a>
+      <small>Petri Korhonen</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3APetri2020+%23pakolaiset" target="_blank"><span class="label secondary radius">#pakolaiset</span></a> <a href="https://twitter.com/search?q=from%3APetri2020+%23suomi" target="_blank"><span class="label secondary radius">#suomi</span></a> <a href="https://twitter.com/search?q=from%3APetri2020+%23turpo" target="_blank"><span class="label secondary radius">#turpo</span></a> <a href="https://twitter.com/search?q=from%3APetri2020+%23vihapuhe" target="_blank"><span class="label secondary radius">#vihapuhe</span></a> <a href="https://twitter.com/search?q=from%3APetri2020+%23fennovoima" target="_blank"><span class="label secondary radius">#fennovoima</span></a>
+  </td>
+  <td data-value="4580">4 580</td>
+  <td data-value="1203427">1 203 427</td>
+  <td data-value="483">7,9/pv<br/><small>(yht. 483)</small></td>
+  <td data-value="749">749<br/><small>(yht. 1 106 retwiittiä)</small></td>
+  <td data-value="2.289855072463768">2,3<br/><small>retwiittiä/oma</small></td>
+  <td data-value="504">504<br/><small>(yht. 1 769 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="60">61.</td>
+  <td class="user-col" data-value="valtioneuvosto">
+    <img src="https://pbs.twimg.com/profile_images/507117865321775104/KO_CEr4w_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/valtioneuvosto" target="_blank">@valtioneuvosto</a>
+      <small>Valtioneuvosto</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Avaltioneuvosto+%23budjettiriihi" target="_blank"><span class="label secondary radius">#budjettiriihi</span></a> <a href="https://twitter.com/search?q=from%3Avaltioneuvosto+%23eu" target="_blank"><span class="label secondary radius">#eu</span></a>
+  </td>
+  <td data-value="31811">31 811</td>
+  <td data-value="1393828">1 393 828</td>
+  <td data-value="439">7,2/pv<br/><small>(yht. 439)</small></td>
+  <td data-value="942">942<br/><small>(yht. 1 743 retwiittiä)</small></td>
+  <td data-value="3.9703872437357632">4<br/><small>retwiittiä/oma</small></td>
+  <td data-value="201">201<br/><small>(yht. 331 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="61">62.</td>
+  <td class="user-col" data-value="suonpaa">
+    <img src="https://pbs.twimg.com/profile_images/522389217075552256/CRV2weTt_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/suonpaa" target="_blank">@suonpaa</a>
+      <small>Samuli Suonpää</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Asuonpaa+%23twaarna" target="_blank"><span class="label secondary radius">#twaarna</span></a> <a href="https://twitter.com/search?q=from%3Asuonpaa+%23genderjustice" target="_blank"><span class="label secondary radius">#genderjustice</span></a> <a href="https://twitter.com/search?q=from%3Asuonpaa+%23kirkko" target="_blank"><span class="label secondary radius">#kirkko</span></a> <a href="https://twitter.com/search?q=from%3Asuonpaa+%23sopimusvapaus" target="_blank"><span class="label secondary radius">#sopimusvapaus</span></a> <a href="https://twitter.com/search?q=from%3Asuonpaa+%23teologia" target="_blank"><span class="label secondary radius">#teologia</span></a>
+  </td>
+  <td data-value="1357">1 357</td>
+  <td data-value="746170">746 170</td>
+  <td data-value="1451">23,8/pv<br/><small>(yht. 1 451)</small></td>
+  <td data-value="733">733<br/><small>(yht. 1 435 retwiittiä)</small></td>
+  <td data-value="0.988973121984838">1<br/><small>retwiittiä/oma</small></td>
+  <td data-value="529">529<br/><small>(yht. 3 145 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="62">63.</td>
+  <td class="user-col" data-value="veikkausvedot">
+    <img src="https://pbs.twimg.com/profile_images/545899469619724288/L8TvApcl_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/veikkausvedot" target="_blank">@veikkausvedot</a>
+      <small>Veikkaus Vedot</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Aveikkausvedot+%23veikkaus" target="_blank"><span class="label secondary radius">#veikkaus</span></a> <a href="https://twitter.com/search?q=from%3Aveikkausvedot+%23oletvoittaja" target="_blank"><span class="label secondary radius">#oletvoittaja</span></a> <a href="https://twitter.com/search?q=from%3Aveikkausvedot+%23jokerit" target="_blank"><span class="label secondary radius">#jokerit</span></a> <a href="https://twitter.com/search?q=from%3Aveikkausvedot+%23vakio" target="_blank"><span class="label secondary radius">#vakio</span></a> <a href="https://twitter.com/search?q=from%3Aveikkausvedot+%23liiga" target="_blank"><span class="label secondary radius">#liiga</span></a>
+  </td>
+  <td data-value="3009">3 009</td>
+  <td data-value="533723">533 723</td>
+  <td data-value="411">6,7/pv<br/><small>(yht. 411)</small></td>
+  <td data-value="1029">1 029<br/><small>(yht. 1 266 retwiittiä)</small></td>
+  <td data-value="3.0802919708029197">3,1<br/><small>retwiittiä/oma</small></td>
+  <td data-value="160">160<br/><small>(yht. 610 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="63">64.</td>
+  <td class="user-col" data-value="smliiga">
+    <img src="https://pbs.twimg.com/profile_images/631889484674670596/KWunPf6K_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/smliiga" target="_blank">@smliiga</a>
+      <small>Liiga</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Asmliiga+%23liiga" target="_blank"><span class="label secondary radius">#liiga</span></a> <a href="https://twitter.com/search?q=from%3Asmliiga+%23kohtamenn%C3%A4%C3%A4n" target="_blank"><span class="label secondary radius">#kohtamennään</span></a> <a href="https://twitter.com/search?q=from%3Asmliiga+%23saipa" target="_blank"><span class="label secondary radius">#saipa</span></a> <a href="https://twitter.com/search?q=from%3Asmliiga+%23k%C3%A4rp%C3%A4t" target="_blank"><span class="label secondary radius">#kärpät</span></a> <a href="https://twitter.com/search?q=from%3Asmliiga+%23lukko" target="_blank"><span class="label secondary radius">#lukko</span></a>
+  </td>
+  <td data-value="102081">102 081</td>
+  <td data-value="567689">567 689</td>
+  <td data-value="508">8,3/pv<br/><small>(yht. 508)</small></td>
+  <td data-value="820">820<br/><small>(yht. 1 693 retwiittiä)</small></td>
+  <td data-value="3.3326771653543306">3,3<br/><small>retwiittiä/oma</small></td>
+  <td data-value="432">432<br/><small>(yht. 750 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="64">65.</td>
+  <td class="user-col" data-value="gutssuomi">
+    <img src="https://pbs.twimg.com/profile_images/635587759860772864/tNqvVdig_normal.png" />
+    <div>
+      <a href="https://twitter.com/GutsSuomi" target="_blank">@GutsSuomi</a>
+      <small>Guts Suomi</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3AGutsSuomi+%23gutsfutis" target="_blank"><span class="label secondary radius">#gutsfutis</span></a> <a href="https://twitter.com/search?q=from%3AGutsSuomi+%23gutsliiga" target="_blank"><span class="label secondary radius">#gutsliiga</span></a>
+  </td>
+  <td data-value="2452">2 452</td>
+  <td data-value="366648">366 648</td>
+  <td data-value="13">0,2/pv<br/><small>(yht. 13)</small></td>
+  <td data-value="905">905<br/><small>(yht. 1 548 retwiittiä)</small></td>
+  <td data-value="119.07692307692308">119,1<br/><small>retwiittiä/oma</small></td>
+  <td data-value="363">363<br/><small>(yht. 727 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="65">66.</td>
+  <td class="user-col" data-value="tommiparkkonen">
+    <img src="https://pbs.twimg.com/profile_images/582240707433332736/_RGjwgsk_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/tommiparkkonen" target="_blank">@tommiparkkonen</a>
+      <small>tommi parkkonen</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Atommiparkkonen+%23ps" target="_blank"><span class="label secondary radius">#ps</span></a> <a href="https://twitter.com/search?q=from%3Atommiparkkonen+%23v%C3%A4likysymys" target="_blank"><span class="label secondary radius">#välikysymys</span></a> <a href="https://twitter.com/search?q=from%3Atommiparkkonen+%23leikkaukset" target="_blank"><span class="label secondary radius">#leikkaukset</span></a> <a href="https://twitter.com/search?q=from%3Atommiparkkonen+%23perussuomalaiset" target="_blank"><span class="label secondary radius">#perussuomalaiset</span></a> <a href="https://twitter.com/search?q=from%3Atommiparkkonen+%23hallitus" target="_blank"><span class="label secondary radius">#hallitus</span></a>
+  </td>
+  <td data-value="6638">6 638</td>
+  <td data-value="847815">847 815</td>
+  <td data-value="512">8,4/pv<br/><small>(yht. 512)</small></td>
+  <td data-value="817">817<br/><small>(yht. 1 368 retwiittiä)</small></td>
+  <td data-value="2.671875">2,7<br/><small>retwiittiä/oma</small></td>
+  <td data-value="376">376<br/><small>(yht. 756 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="66">67.</td>
+  <td class="user-col" data-value="rakennusvirasto">
+    <img src="https://pbs.twimg.com/profile_images/458901349468340224/iLTGfJ6m_normal.png" />
+    <div>
+      <a href="https://twitter.com/Rakennusvirasto" target="_blank">@Rakennusvirasto</a>
+      <small>Rakennusvirasto</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3ARakennusvirasto+%23helsinki" target="_blank"><span class="label secondary radius">#helsinki</span></a> <a href="https://twitter.com/search?q=from%3ARakennusvirasto+%23esteett%C3%B6myys" target="_blank"><span class="label secondary radius">#esteettömyys</span></a> <a href="https://twitter.com/search?q=from%3ARakennusvirasto+%23viestint%C3%A4" target="_blank"><span class="label secondary radius">#viestintä</span></a> <a href="https://twitter.com/search?q=from%3ARakennusvirasto+%23py%C3%B6r%C3%A4ily" target="_blank"><span class="label secondary radius">#pyöräily</span></a> <a href="https://twitter.com/search?q=from%3ARakennusvirasto+%23somefi" target="_blank"><span class="label secondary radius">#somefi</span></a>
+  </td>
+  <td data-value="12035">12 035</td>
+  <td data-value="629083">629 083</td>
+  <td data-value="604">9,9/pv<br/><small>(yht. 604)</small></td>
+  <td data-value="776">776<br/><small>(yht. 1 219 retwiittiä)</small></td>
+  <td data-value="2.0182119205298013">2<br/><small>retwiittiä/oma</small></td>
+  <td data-value="438">438<br/><small>(yht. 1 184 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="67">68.</td>
+  <td class="user-col" data-value="linjaaho">
+    <img src="https://pbs.twimg.com/profile_images/1352177777/rapeface_normal.png" />
+    <div>
+      <a href="https://twitter.com/linjaaho" target="_blank">@linjaaho</a>
+      <small>Vesa Linja-aho</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Alinjaaho+%23metropolia" target="_blank"><span class="label secondary radius">#metropolia</span></a> <a href="https://twitter.com/search?q=from%3Alinjaaho+%23cat" target="_blank"><span class="label secondary radius">#cat</span></a> <a href="https://twitter.com/search?q=from%3Alinjaaho+%23natsit" target="_blank"><span class="label secondary radius">#natsit</span></a> <a href="https://twitter.com/search?q=from%3Alinjaaho+%23yleastudio" target="_blank"><span class="label secondary radius">#yleastudio</span></a> <a href="https://twitter.com/search?q=from%3Alinjaaho+%23egolf" target="_blank"><span class="label secondary radius">#egolf</span></a>
+  </td>
+  <td data-value="6141">6 141</td>
+  <td data-value="610629">610 629</td>
+  <td data-value="667">10,9/pv<br/><small>(yht. 667)</small></td>
+  <td data-value="718">718<br/><small>(yht. 1 360 retwiittiä)</small></td>
+  <td data-value="2.0389805097451275">2<br/><small>retwiittiä/oma</small></td>
+  <td data-value="509">509<br/><small>(yht. 1 578 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="68">69.</td>
+  <td class="user-col" data-value="suviauvi">
+    <img src="https://pbs.twimg.com/profile_images/504562790959296512/tuDJnLss_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/suviauvi" target="_blank">@suviauvi</a>
+      <small>Suvi Auvinen</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Asuviauvi+%23sipil%C3%A4npuhe" target="_blank"><span class="label secondary radius">#sipilänpuhe</span></a> <a href="https://twitter.com/search?q=from%3Asuviauvi+%23joukkovoima" target="_blank"><span class="label secondary radius">#joukkovoima</span></a> <a href="https://twitter.com/search?q=from%3Asuviauvi+%23yliopistovaltaus" target="_blank"><span class="label secondary radius">#yliopistovaltaus</span></a> <a href="https://twitter.com/search?q=from%3Asuviauvi+%23yleislakko" target="_blank"><span class="label secondary radius">#yleislakko</span></a> <a href="https://twitter.com/search?q=from%3Asuviauvi+%23immonen" target="_blank"><span class="label secondary radius">#immonen</span></a>
+  </td>
+  <td data-value="1653">1 653</td>
+  <td data-value="593692">593 692</td>
+  <td data-value="775">12,7/pv<br/><small>(yht. 775)</small></td>
+  <td data-value="805">805<br/><small>(yht. 2 204 retwiittiä)</small></td>
+  <td data-value="2.8438709677419354">2,8<br/><small>retwiittiä/oma</small></td>
+  <td data-value="358">358<br/><small>(yht. 1 561 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="69">70.</td>
+  <td class="user-col" data-value="jokerithc">
+    <img src="https://pbs.twimg.com/profile_images/499461172660142080/inyi_7s5_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/jokerithc" target="_blank">@jokerithc</a>
+      <small>Helsingin Jokerit</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Ajokerithc+%23jokerit" target="_blank"><span class="label secondary radius">#jokerit</span></a> <a href="https://twitter.com/search?q=from%3Ajokerithc+%23khlfi" target="_blank"><span class="label secondary radius">#khlfi</span></a> <a href="https://twitter.com/search?q=from%3Ajokerithc+%23jokvssib" target="_blank"><span class="label secondary radius">#jokvssib</span></a> <a href="https://twitter.com/search?q=from%3Ajokerithc+%23skavsjok" target="_blank"><span class="label secondary radius">#skavsjok</span></a> <a href="https://twitter.com/search?q=from%3Ajokerithc+%23jokvsska" target="_blank"><span class="label secondary radius">#jokvsska</span></a>
+  </td>
+  <td data-value="24889">24 889</td>
+  <td data-value="650843">650 843</td>
+  <td data-value="710">11,6/pv<br/><small>(yht. 710)</small></td>
+  <td data-value="596">596<br/><small>(yht. 3 152 retwiittiä)</small></td>
+  <td data-value="4.43943661971831">4,4<br/><small>retwiittiä/oma</small></td>
+  <td data-value="628">628<br/><small>(yht. 1 824 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="70">71.</td>
+  <td class="user-col" data-value="herbajuuso">
+    <img src="https://pbs.twimg.com/profile_images/550987190327857152/AF8y7WlH_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/HerbaJuuso" target="_blank">@HerbaJuuso</a>
+      <small>Herbalisti</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3AHerbaJuuso+%23herbahaippaa" target="_blank"><span class="label secondary radius">#herbahaippaa</span></a> <a href="https://twitter.com/search?q=from%3AHerbaJuuso+%23litmanen" target="_blank"><span class="label secondary radius">#litmanen</span></a> <a href="https://twitter.com/search?q=from%3AHerbaJuuso+%23xboxgamescom" target="_blank"><span class="label secondary radius">#xboxgamescom</span></a> <a href="https://twitter.com/search?q=from%3AHerbaJuuso+%23mtvposse" target="_blank"><span class="label secondary radius">#mtvposse</span></a> <a href="https://twitter.com/search?q=from%3AHerbaJuuso+%23sipulis%C3%A4kki" target="_blank"><span class="label secondary radius">#sipulisäkki</span></a>
+  </td>
+  <td data-value="24893">24 893</td>
+  <td data-value="421326">421 326</td>
+  <td data-value="310">5,1/pv<br/><small>(yht. 310)</small></td>
+  <td data-value="541">541<br/><small>(yht. 1 612 retwiittiä)</small></td>
+  <td data-value="5.2">5,2<br/><small>retwiittiä/oma</small></td>
+  <td data-value="705">705<br/><small>(yht. 1 581 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="71">72.</td>
+  <td class="user-col" data-value="huuhkajat">
+    <img src="https://pbs.twimg.com/profile_images/2626579904/mslgw4re4s7w3nd4kspj_normal.png" />
+    <div>
+      <a href="https://twitter.com/Huuhkajat" target="_blank">@Huuhkajat</a>
+      <small>Huuhkajat</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3AHuuhkajat+%23huuhkajat" target="_blank"><span class="label secondary radius">#huuhkajat</span></a> <a href="https://twitter.com/search?q=from%3AHuuhkajat+%23finfro" target="_blank"><span class="label secondary radius">#finfro</span></a> <a href="https://twitter.com/search?q=from%3AHuuhkajat+%23pikkuhuuhkajat" target="_blank"><span class="label secondary radius">#pikkuhuuhkajat</span></a> <a href="https://twitter.com/search?q=from%3AHuuhkajat+%23suomencup" target="_blank"><span class="label secondary radius">#suomencup</span></a> <a href="https://twitter.com/search?q=from%3AHuuhkajat+%23kreikka" target="_blank"><span class="label secondary radius">#kreikka</span></a>
+  </td>
+  <td data-value="16950">16 950</td>
+  <td data-value="528740">528 740</td>
+  <td data-value="503">8,2/pv<br/><small>(yht. 503)</small></td>
+  <td data-value="864">864<br/><small>(yht. 1 698 retwiittiä)</small></td>
+  <td data-value="3.375745526838966">3,4<br/><small>retwiittiä/oma</small></td>
+  <td data-value="247">247<br/><small>(yht. 409 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="72">73.</td>
+  <td class="user-col" data-value="unibetfinland">
+    <img src="https://pbs.twimg.com/profile_images/600176004775182337/BqE8DbdF_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/UnibetFinland" target="_blank">@UnibetFinland</a>
+      <small>Unibet Suomi</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3AUnibetFinland+%23valioliiga" target="_blank"><span class="label secondary radius">#valioliiga</span></a> <a href="https://twitter.com/search?q=from%3AUnibetFinland+%23uclfi" target="_blank"><span class="label secondary radius">#uclfi</span></a> <a href="https://twitter.com/search?q=from%3AUnibetFinland+%23betsit" target="_blank"><span class="label secondary radius">#betsit</span></a> <a href="https://twitter.com/search?q=from%3AUnibetFinland+%23liiga" target="_blank"><span class="label secondary radius">#liiga</span></a> <a href="https://twitter.com/search?q=from%3AUnibetFinland+%23veikkausliiga" target="_blank"><span class="label secondary radius">#veikkausliiga</span></a>
+  </td>
+  <td data-value="5166">5 166</td>
+  <td data-value="344240">344 240</td>
+  <td data-value="699">11,5/pv<br/><small>(yht. 699)</small></td>
+  <td data-value="800">800<br/><small>(yht. 1 226 retwiittiä)</small></td>
+  <td data-value="1.753934191702432">1,8<br/><small>retwiittiä/oma</small></td>
+  <td data-value="309">309<br/><small>(yht. 615 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="73">74.</td>
+  <td class="user-col" data-value="isacelliot">
+    <img src="https://pbs.twimg.com/profile_images/666167103658029056/ZzLT2C3L_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/IsacElliot" target="_blank">@IsacElliot</a>
+      <small>Isac Elliot</small>
+    </div>
+    
+  </td>
+  <td data-value="77882">77 882</td>
+  <td data-value="437822">437 822</td>
+  <td data-value="54">0,9/pv<br/><small>(yht. 54)</small></td>
+  <td data-value="394">394<br/><small>(yht. 1 057 retwiittiä)</small></td>
+  <td data-value="19.574074074074073">19,6<br/><small>retwiittiä/oma</small></td>
+  <td data-value="884">884<br/><small>(yht. 18 671 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="74">75.</td>
+  <td class="user-col" data-value="laeppavika">
+    <img src="https://pbs.twimg.com/profile_images/3433778933/91d357296ce7b17add47f19f3db6381b_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/Laeppavika" target="_blank">@Laeppavika</a>
+      <small>LaeppaVika</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3ALaeppavika+%23nordicfireteam" target="_blank"><span class="label secondary radius">#nordicfireteam</span></a> <a href="https://twitter.com/search?q=from%3ALaeppavika+%23thetakenking" target="_blank"><span class="label secondary radius">#thetakenking</span></a> <a href="https://twitter.com/search?q=from%3ALaeppavika+%23destiny" target="_blank"><span class="label secondary radius">#destiny</span></a> <a href="https://twitter.com/search?q=from%3ALaeppavika+%23gearsofwarultimateedition" target="_blank"><span class="label secondary radius">#gearsofwarultimateedition</span></a> <a href="https://twitter.com/search?q=from%3ALaeppavika+%23lv24h" target="_blank"><span class="label secondary radius">#lv24h</span></a>
+  </td>
+  <td data-value="18511">18 511</td>
+  <td data-value="270621">270 621</td>
+  <td data-value="96">1,6/pv<br/><small>(yht. 96)</small></td>
+  <td data-value="545">545<br/><small>(yht. 1 342 retwiittiä)</small></td>
+  <td data-value="13.979166666666666">14<br/><small>retwiittiä/oma</small></td>
+  <td data-value="666">666<br/><small>(yht. 1 465 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="75">76.</td>
+  <td class="user-col" data-value="punainenristi">
+    <img src="https://pbs.twimg.com/profile_images/598050407722586113/yjJeSs3H_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/PunainenRisti" target="_blank">@PunainenRisti</a>
+      <small>SuomenPunainenRisti</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3APunainenRisti+%23n%C3%A4lk%C3%A4p%C3%A4iv%C3%A4" target="_blank"><span class="label secondary radius">#nälkäpäivä</span></a> <a href="https://twitter.com/search?q=from%3APunainenRisti+%23punainenristi" target="_blank"><span class="label secondary radius">#punainenristi</span></a> <a href="https://twitter.com/search?q=from%3APunainenRisti+%23turvapaikanhakijat" target="_blank"><span class="label secondary radius">#turvapaikanhakijat</span></a> <a href="https://twitter.com/search?q=from%3APunainenRisti+%23eik%C3%B6yhimmilt%C3%A4" target="_blank"><span class="label secondary radius">#eiköyhimmiltä</span></a> <a href="https://twitter.com/search?q=from%3APunainenRisti+%23turvapaikka" target="_blank"><span class="label secondary radius">#turvapaikka</span></a>
+  </td>
+  <td data-value="7829">7 829</td>
+  <td data-value="850947">850 947</td>
+  <td data-value="302">5/pv<br/><small>(yht. 302)</small></td>
+  <td data-value="689">689<br/><small>(yht. 1 223 retwiittiä)</small></td>
+  <td data-value="4.049668874172186">4<br/><small>retwiittiä/oma</small></td>
+  <td data-value="370">370<br/><small>(yht. 693 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="76">77.</td>
+  <td class="user-col" data-value="marmai">
+    <img src="https://pbs.twimg.com/profile_images/479501466/M_M_logo_musta_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/marmai" target="_blank">@marmai</a>
+      <small>M&M</small>
+    </div>
+    
+  </td>
+  <td data-value="31978">31 978</td>
+  <td data-value="693611">693 611</td>
+  <td data-value="766">12,6/pv<br/><small>(yht. 766)</small></td>
+  <td data-value="848">848<br/><small>(yht. 1 258 retwiittiä)</small></td>
+  <td data-value="1.6422976501305484">1,6<br/><small>retwiittiä/oma</small></td>
+  <td data-value="152">152<br/><small>(yht. 198 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="77">78.</td>
+  <td class="user-col" data-value="jukkalindstrom">
+    <img src="https://pbs.twimg.com/profile_images/1294948724/029_jukka_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/jukkalindstrom" target="_blank">@jukkalindstrom</a>
+      <small>Jukka Lindström</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Ajukkalindstrom+%23nvuutiset" target="_blank"><span class="label secondary radius">#nvuutiset</span></a> <a href="https://twitter.com/search?q=from%3Ajukkalindstrom+%23hcf" target="_blank"><span class="label secondary radius">#hcf</span></a> <a href="https://twitter.com/search?q=from%3Ajukkalindstrom+%23helsinkicomedy" target="_blank"><span class="label secondary radius">#helsinkicomedy</span></a> <a href="https://twitter.com/search?q=from%3Ajukkalindstrom+%23kurki" target="_blank"><span class="label secondary radius">#kurki</span></a> <a href="https://twitter.com/search?q=from%3Ajukkalindstrom+%23nauruntasapaino" target="_blank"><span class="label secondary radius">#nauruntasapaino</span></a>
+  </td>
+  <td data-value="6649">6 649</td>
+  <td data-value="929331">929 331</td>
+  <td data-value="193">3,2/pv<br/><small>(yht. 193)</small></td>
+  <td data-value="741">741<br/><small>(yht. 1 094 retwiittiä)</small></td>
+  <td data-value="5.668393782383419">5,7<br/><small>retwiittiä/oma</small></td>
+  <td data-value="293">293<br/><small>(yht. 620 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="78">79.</td>
+  <td class="user-col" data-value="nytliite">
+    <img src="https://pbs.twimg.com/profile_images/1861924612/Pinkki_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/nytliite" target="_blank">@nytliite</a>
+      <small>Nyt.fi</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Anytliite+%23anonyymitel%C3%A4imet" target="_blank"><span class="label secondary radius">#anonyymiteläimet</span></a> <a href="https://twitter.com/search?q=from%3Anytliite+%23fok_it" target="_blank"><span class="label secondary radius">#fok_it</span></a> <a href="https://twitter.com/search?q=from%3Anytliite+%23fokit" target="_blank"><span class="label secondary radius">#fokit</span></a> <a href="https://twitter.com/search?q=from%3Anytliite+%23suomimainittu" target="_blank"><span class="label secondary radius">#suomimainittu</span></a> <a href="https://twitter.com/search?q=from%3Anytliite+%23el%C3%A4m%C3%A4" target="_blank"><span class="label secondary radius">#elämä</span></a>
+  </td>
+  <td data-value="57293">57 293</td>
+  <td data-value="561875">561 875</td>
+  <td data-value="254">4,2/pv<br/><small>(yht. 254)</small></td>
+  <td data-value="691">691<br/><small>(yht. 884 retwiittiä)</small></td>
+  <td data-value="3.4803149606299213">3,5<br/><small>retwiittiä/oma</small></td>
+  <td data-value="393">393<br/><small>(yht. 583 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="79">80.</td>
+  <td class="user-col" data-value="robinpackalen">
+    <img src="https://pbs.twimg.com/profile_images/639449491829948416/EB4rqCAg_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/robinpackalen" target="_blank">@robinpackalen</a>
+      <small>Robin</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Arobinpackalen+%23y%C3%B6kuuluumeille" target="_blank"><span class="label secondary radius">#yökuuluumeille</span></a> <a href="https://twitter.com/search?q=from%3Arobinpackalen+%23yhdess%C3%A4" target="_blank"><span class="label secondary radius">#yhdessä</span></a> <a href="https://twitter.com/search?q=from%3Arobinpackalen+%2316summertour" target="_blank"><span class="label secondary radius">#16summertour</span></a> <a href="https://twitter.com/search?q=from%3Arobinpackalen+%23el%C3%A4m%C3%A4lapselle" target="_blank"><span class="label secondary radius">#elämälapselle</span></a> <a href="https://twitter.com/search?q=from%3Arobinpackalen+%23vahva" target="_blank"><span class="label secondary radius">#vahva</span></a>
+  </td>
+  <td data-value="38980">38 980</td>
+  <td data-value="605794">605 794</td>
+  <td data-value="135">2,2/pv<br/><small>(yht. 135)</small></td>
+  <td data-value="470">470<br/><small>(yht. 2 381 retwiittiä)</small></td>
+  <td data-value="17.637037037037036">17,6<br/><small>retwiittiä/oma</small></td>
+  <td data-value="689">689<br/><small>(yht. 3 584 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="80">81.</td>
+  <td class="user-col" data-value="maliranta">
+    <img src="https://pbs.twimg.com/profile_images/659719863401889792/CEpigaQJ_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/Maliranta" target="_blank">@Maliranta</a>
+      <small>Mika Maliranta</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3AMaliranta+%23ykk%C3%B6saamu" target="_blank"><span class="label secondary radius">#ykkösaamu</span></a> <a href="https://twitter.com/search?q=from%3AMaliranta+%23hstv" target="_blank"><span class="label secondary radius">#hstv</span></a> <a href="https://twitter.com/search?q=from%3AMaliranta+%23yleastudio" target="_blank"><span class="label secondary radius">#yleastudio</span></a> <a href="https://twitter.com/search?q=from%3AMaliranta+%23tulevaisuudenty%C3%B6" target="_blank"><span class="label secondary radius">#tulevaisuudentyö</span></a> <a href="https://twitter.com/search?q=from%3AMaliranta+%23kilpailukyky" target="_blank"><span class="label secondary radius">#kilpailukyky</span></a>
+  </td>
+  <td data-value="3508">3 508</td>
+  <td data-value="816479">816 479</td>
+  <td data-value="746">12,2/pv<br/><small>(yht. 746)</small></td>
+  <td data-value="661">661<br/><small>(yht. 1 295 retwiittiä)</small></td>
+  <td data-value="1.7359249329758712">1,7<br/><small>retwiittiä/oma</small></td>
+  <td data-value="375">375<br/><small>(yht. 2 051 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="81">82.</td>
+  <td class="user-col" data-value="ptkarvinen">
+    <img src="https://pbs.twimg.com/profile_images/635761682015514624/IT48-Y_h_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/ptkarvinen" target="_blank">@ptkarvinen</a>
+      <small>Petri Karvinen™</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Aptkarvinen+%23py%C3%B6r%C3%A4ily" target="_blank"><span class="label secondary radius">#pyöräily</span></a> <a href="https://twitter.com/search?q=from%3Aptkarvinen+%23hauteroute" target="_blank"><span class="label secondary radius">#hauteroute</span></a> <a href="https://twitter.com/search?q=from%3Aptkarvinen+%23muuten" target="_blank"><span class="label secondary radius">#muuten</span></a> <a href="https://twitter.com/search?q=from%3Aptkarvinen+%23takki" target="_blank"><span class="label secondary radius">#takki</span></a> <a href="https://twitter.com/search?q=from%3Aptkarvinen+%23eijjumalauta" target="_blank"><span class="label secondary radius">#eijjumalauta</span></a>
+  </td>
+  <td data-value="1820">1 820</td>
+  <td data-value="863416">863 416</td>
+  <td data-value="1966">32,2/pv<br/><small>(yht. 1 966)</small></td>
+  <td data-value="565">565<br/><small>(yht. 962 retwiittiä)</small></td>
+  <td data-value="0.4893184130213632">0,5<br/><small>retwiittiä/oma</small></td>
+  <td data-value="488">488<br/><small>(yht. 2 414 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="82">83.</td>
+  <td class="user-col" data-value="mvmerilainen">
+    <img src="https://pbs.twimg.com/profile_images/646042621207379969/49Xljs6t_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/MVMerilainen" target="_blank">@MVMerilainen</a>
+      <small>Mikko Meriläinen</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3AMVMerilainen+%23esportsfi" target="_blank"><span class="label secondary radius">#esportsfi</span></a> <a href="https://twitter.com/search?q=from%3AMVMerilainen+%23mediakasvatus" target="_blank"><span class="label secondary radius">#mediakasvatus</span></a> <a href="https://twitter.com/search?q=from%3AMVMerilainen+%23v%C3%A4ikk%C3%A4ri" target="_blank"><span class="label secondary radius">#väikkäri</span></a> <a href="https://twitter.com/search?q=from%3AMVMerilainen+%23gameonjkl" target="_blank"><span class="label secondary radius">#gameonjkl</span></a> <a href="https://twitter.com/search?q=from%3AMVMerilainen+%23pelikasvatus" target="_blank"><span class="label secondary radius">#pelikasvatus</span></a>
+  </td>
+  <td data-value="1816">1 816</td>
+  <td data-value="674555">674 555</td>
+  <td data-value="1724">28,3/pv<br/><small>(yht. 1 724)</small></td>
+  <td data-value="639">639<br/><small>(yht. 1 069 retwiittiä)</small></td>
+  <td data-value="0.6200696055684455">0,6<br/><small>retwiittiä/oma</small></td>
+  <td data-value="406">406<br/><small>(yht. 2 584 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="83">84.</td>
+  <td class="user-col" data-value="saskasaarikoski">
+    <img src="https://pbs.twimg.com/profile_images/2736570568/4d470735b8906c221db17e4c29ba5276_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/SaskaSaarikoski" target="_blank">@SaskaSaarikoski</a>
+      <small>Saska Saarikoski</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3ASaskaSaarikoski+%23coachdettmann" target="_blank"><span class="label secondary radius">#coachdettmann</span></a> <a href="https://twitter.com/search?q=from%3ASaskaSaarikoski+%23paavi" target="_blank"><span class="label secondary radius">#paavi</span></a>
+  </td>
+  <td data-value="42789">42 789</td>
+  <td data-value="545835">545 835</td>
+  <td data-value="153">2,5/pv<br/><small>(yht. 153)</small></td>
+  <td data-value="710">710<br/><small>(yht. 1 040 retwiittiä)</small></td>
+  <td data-value="6.7973856209150325">6,8<br/><small>retwiittiä/oma</small></td>
+  <td data-value="349">349<br/><small>(yht. 644 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="84">85.</td>
+  <td class="user-col" data-value="osmosoininvaara">
+    <img src="https://pbs.twimg.com/profile_images/2679250125/c14f324fb349cffe9c9a5b37787d8d3b_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/OsmoSoininvaara" target="_blank">@OsmoSoininvaara</a>
+      <small>Osmo Soininvaara</small>
+    </div>
+    
+  </td>
+  <td data-value="22072">22 072</td>
+  <td data-value="657585">657 585</td>
+  <td data-value="75">1,2/pv<br/><small>(yht. 75)</small></td>
+  <td data-value="711">711<br/><small>(yht. 973 retwiittiä)</small></td>
+  <td data-value="12.973333333333333">13<br/><small>retwiittiä/oma</small></td>
+  <td data-value="333">333<br/><small>(yht. 742 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="85">86.</td>
+  <td class="user-col" data-value="markusnieminen">
+    <img src="https://pbs.twimg.com/profile_images/522067420895531010/S8M8QQRL_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/markusnieminen" target="_blank">@markusnieminen</a>
+      <small>Markus Nieminen</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Amarkusnieminen+%23digitalist" target="_blank"><span class="label secondary radius">#digitalist</span></a> <a href="https://twitter.com/search?q=from%3Amarkusnieminen+%23smtnetwork" target="_blank"><span class="label secondary radius">#smtnetwork</span></a> <a href="https://twitter.com/search?q=from%3Amarkusnieminen+%23markkinointi" target="_blank"><span class="label secondary radius">#markkinointi</span></a> <a href="https://twitter.com/search?q=from%3Amarkusnieminen+%23tubeconseminar" target="_blank"><span class="label secondary radius">#tubeconseminar</span></a> <a href="https://twitter.com/search?q=from%3Amarkusnieminen+%23business" target="_blank"><span class="label secondary radius">#business</span></a>
+  </td>
+  <td data-value="3098">3 098</td>
+  <td data-value="1068071">1 068 071</td>
+  <td data-value="1742">28,6/pv<br/><small>(yht. 1 742)</small></td>
+  <td data-value="592">592<br/><small>(yht. 890 retwiittiä)</small></td>
+  <td data-value="0.5109070034443168">0,5<br/><small>retwiittiä/oma</small></td>
+  <td data-value="401">401<br/><small>(yht. 1 687 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="86">87.</td>
+  <td class="user-col" data-value="petterij">
+    <img src="https://pbs.twimg.com/profile_images/658289352049565696/S5tJu2wY_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/petterij" target="_blank">@petterij</a>
+      <small>Petteri Järvinen</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Apetterij+%23docventures" target="_blank"><span class="label secondary radius">#docventures</span></a> <a href="https://twitter.com/search?q=from%3Apetterij+%23snowden" target="_blank"><span class="label secondary radius">#snowden</span></a> <a href="https://twitter.com/search?q=from%3Apetterij+%23fb" target="_blank"><span class="label secondary radius">#fb</span></a> <a href="https://twitter.com/search?q=from%3Apetterij+%23kybertalkoot" target="_blank"><span class="label secondary radius">#kybertalkoot</span></a> <a href="https://twitter.com/search?q=from%3Apetterij+%23lakko" target="_blank"><span class="label secondary radius">#lakko</span></a>
+  </td>
+  <td data-value="25164">25 164</td>
+  <td data-value="779629">779 629</td>
+  <td data-value="360">5,9/pv<br/><small>(yht. 360)</small></td>
+  <td data-value="553">553<br/><small>(yht. 830 retwiittiä)</small></td>
+  <td data-value="2.3055555555555554">2,3<br/><small>retwiittiä/oma</small></td>
+  <td data-value="472">472<br/><small>(yht. 1 215 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="87">88.</td>
+  <td class="user-col" data-value="helsinkipoliisi">
+    <img src="https://pbs.twimg.com/profile_images/419023548506591232/8E1m-B5s_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/HelsinkiPoliisi" target="_blank">@HelsinkiPoliisi</a>
+      <small>Helsingin poliisi</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3AHelsinkiPoliisi+%23johtokeskus" target="_blank"><span class="label secondary radius">#johtokeskus</span></a> <a href="https://twitter.com/search?q=from%3AHelsinkiPoliisi+%23stadinderby" target="_blank"><span class="label secondary radius">#stadinderby</span></a> <a href="https://twitter.com/search?q=from%3AHelsinkiPoliisi+%23helsinki" target="_blank"><span class="label secondary radius">#helsinki</span></a> <a href="https://twitter.com/search?q=from%3AHelsinkiPoliisi+%23wknd15" target="_blank"><span class="label secondary radius">#wknd15</span></a> <a href="https://twitter.com/search?q=from%3AHelsinkiPoliisi+%23poliisi" target="_blank"><span class="label secondary radius">#poliisi</span></a>
+  </td>
+  <td data-value="8217">8 217</td>
+  <td data-value="851108">851 108</td>
+  <td data-value="158">2,6/pv<br/><small>(yht. 158)</small></td>
+  <td data-value="598">598<br/><small>(yht. 821 retwiittiä)</small></td>
+  <td data-value="5.19620253164557">5,2<br/><small>retwiittiä/oma</small></td>
+  <td data-value="410">410<br/><small>(yht. 709 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="88">89.</td>
+  <td class="user-col" data-value="marikniemi">
+    <img src="https://pbs.twimg.com/profile_images/662937331184349184/YdUxkF0t_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/MariKNiemi" target="_blank">@MariKNiemi</a>
+      <small>Mari K Niemi</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3AMariKNiemi+%23corbyn" target="_blank"><span class="label secondary radius">#corbyn</span></a> <a href="https://twitter.com/search?q=from%3AMariKNiemi+%23lab15" target="_blank"><span class="label secondary radius">#lab15</span></a> <a href="https://twitter.com/search?q=from%3AMariKNiemi+%23labour" target="_blank"><span class="label secondary radius">#labour</span></a> <a href="https://twitter.com/search?q=from%3AMariKNiemi+%23pspuoluekokous" target="_blank"><span class="label secondary radius">#pspuoluekokous</span></a> <a href="https://twitter.com/search?q=from%3AMariKNiemi+%23soini" target="_blank"><span class="label secondary radius">#soini</span></a>
+  </td>
+  <td data-value="3787">3 787</td>
+  <td data-value="922025">922 025</td>
+  <td data-value="686">11,2/pv<br/><small>(yht. 686)</small></td>
+  <td data-value="585">585<br/><small>(yht. 1 139 retwiittiä)</small></td>
+  <td data-value="1.6603498542274053">1,7<br/><small>retwiittiä/oma</small></td>
+  <td data-value="385">385<br/><small>(yht. 1 564 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="89">90.</td>
+  <td class="user-col" data-value="sitrafund">
+    <img src="https://pbs.twimg.com/profile_images/519051798703644672/wgxx3BSc_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/SitraFund" target="_blank">@SitraFund</a>
+      <small>Sitra</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3ASitraFund+%23nuoret" target="_blank"><span class="label secondary radius">#nuoret</span></a> <a href="https://twitter.com/search?q=from%3ASitraFund+%23sitradebatti" target="_blank"><span class="label secondary radius">#sitradebatti</span></a> <a href="https://twitter.com/search?q=from%3ASitraFund+%23koulutuskeskiviikko" target="_blank"><span class="label secondary radius">#koulutuskeskiviikko</span></a> <a href="https://twitter.com/search?q=from%3ASitraFund+%23kuntamarkkinat" target="_blank"><span class="label secondary radius">#kuntamarkkinat</span></a> <a href="https://twitter.com/search?q=from%3ASitraFund+%23cleantech" target="_blank"><span class="label secondary radius">#cleantech</span></a>
+  </td>
+  <td data-value="16320">16 320</td>
+  <td data-value="677727">677 727</td>
+  <td data-value="231">3,8/pv<br/><small>(yht. 231)</small></td>
+  <td data-value="717">717<br/><small>(yht. 1 291 retwiittiä)</small></td>
+  <td data-value="5.588744588744588">5,6<br/><small>retwiittiä/oma</small></td>
+  <td data-value="247">247<br/><small>(yht. 414 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="90">91.</td>
+  <td class="user-col" data-value="veitera">
+    <img src="https://pbs.twimg.com/profile_images/524441729143824384/WH8uV2Ky_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/veitera" target="_blank">@veitera</a>
+      <small>Janne Riiheläinen</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Aveitera+%23turpo" target="_blank"><span class="label secondary radius">#turpo</span></a> <a href="https://twitter.com/search?q=from%3Aveitera+%23fennovoima" target="_blank"><span class="label secondary radius">#fennovoima</span></a> <a href="https://twitter.com/search?q=from%3Aveitera+%23informaatiosota" target="_blank"><span class="label secondary radius">#informaatiosota</span></a> <a href="https://twitter.com/search?q=from%3Aveitera+%23tirsk" target="_blank"><span class="label secondary radius">#tirsk</span></a> <a href="https://twitter.com/search?q=from%3Aveitera+%23historia" target="_blank"><span class="label secondary radius">#historia</span></a>
+  </td>
+  <td data-value="2779">2 779</td>
+  <td data-value="641815">641 815</td>
+  <td data-value="1079">17,7/pv<br/><small>(yht. 1 079)</small></td>
+  <td data-value="633">633<br/><small>(yht. 1 832 retwiittiä)</small></td>
+  <td data-value="1.6978683966635775">1,7<br/><small>retwiittiä/oma</small></td>
+  <td data-value="331">331<br/><small>(yht. 2 790 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="91">92.</td>
+  <td class="user-col" data-value="mmiisas">
+    <img src="https://pbs.twimg.com/profile_images/651431244249493504/LpzfisLR_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/mmiisas" target="_blank">@mmiisas</a>
+      <small>Miisa</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Ammiisas+%23jova13" target="_blank"><span class="label secondary radius">#jova13</span></a> <a href="https://twitter.com/search?q=from%3Ammiisas+%23uta" target="_blank"><span class="label secondary radius">#uta</span></a> <a href="https://twitter.com/search?q=from%3Ammiisas+%23napapiiri" target="_blank"><span class="label secondary radius">#napapiiri</span></a> <a href="https://twitter.com/search?q=from%3Ammiisas+%233days" target="_blank"><span class="label secondary radius">#3days</span></a> <a href="https://twitter.com/search?q=from%3Ammiisas+%23whatdoyoumean" target="_blank"><span class="label secondary radius">#whatdoyoumean</span></a>
+  </td>
+  <td data-value="28469">28 469</td>
+  <td data-value="433016">433 016</td>
+  <td data-value="150">2,5/pv<br/><small>(yht. 150)</small></td>
+  <td data-value="540">540<br/><small>(yht. 1 253 retwiittiä)</small></td>
+  <td data-value="8.353333333333333">8,4<br/><small>retwiittiä/oma</small></td>
+  <td data-value="496">496<br/><small>(yht. 957 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="92">93.</td>
+  <td class="user-col" data-value="anttirinnepj">
+    <img src="https://pbs.twimg.com/profile_images/569594378759319552/ztcN_pav_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/AnttiRinnepj" target="_blank">@AnttiRinnepj</a>
+      <small>Antti Rinne</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3AAnttiRinnepj+%23yhteiskuntasopimus" target="_blank"><span class="label secondary radius">#yhteiskuntasopimus</span></a>
+  </td>
+  <td data-value="10423">10 423</td>
+  <td data-value="437567">437 567</td>
+  <td data-value="53">0,9/pv<br/><small>(yht. 53)</small></td>
+  <td data-value="429">429<br/><small>(yht. 925 retwiittiä)</small></td>
+  <td data-value="17.452830188679247">17,5<br/><small>retwiittiä/oma</small></td>
+  <td data-value="646">646<br/><small>(yht. 1 603 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="93">94.</td>
+  <td class="user-col" data-value="yanarozan">
+    <img src="https://pbs.twimg.com/profile_images/425559336283144192/2_pHx9q9_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/yanarozan" target="_blank">@yanarozan</a>
+      <small>Ozan Yanar</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Ayanarozan+%23suomisayswelcome" target="_blank"><span class="label secondary radius">#suomisayswelcome</span></a> <a href="https://twitter.com/search?q=from%3Ayanarozan+%23meill%C3%A4onunelma" target="_blank"><span class="label secondary radius">#meilläonunelma</span></a> <a href="https://twitter.com/search?q=from%3Ayanarozan+%23vihre%C3%A4t" target="_blank"><span class="label secondary radius">#vihreät</span></a> <a href="https://twitter.com/search?q=from%3Ayanarozan+%23yleastudio" target="_blank"><span class="label secondary radius">#yleastudio</span></a> <a href="https://twitter.com/search?q=from%3Ayanarozan+%23sipil%C3%A4" target="_blank"><span class="label secondary radius">#sipilä</span></a>
+  </td>
+  <td data-value="6470">6 470</td>
+  <td data-value="769443">769 443</td>
+  <td data-value="95">1,6/pv<br/><small>(yht. 95)</small></td>
+  <td data-value="681">681<br/><small>(yht. 1 083 retwiittiä)</small></td>
+  <td data-value="11.4">11,4<br/><small>retwiittiä/oma</small></td>
+  <td data-value="272">272<br/><small>(yht. 497 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="94">95.</td>
+  <td class="user-col" data-value="fathermetro">
+    <img src="https://pbs.twimg.com/profile_images/548607503177482240/GrrXK2sw_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/fathermetro" target="_blank">@fathermetro</a>
+      <small>Tommy Lindgren</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Afathermetro+%23lspuhe" target="_blank"><span class="label secondary radius">#lspuhe</span></a> <a href="https://twitter.com/search?q=from%3Afathermetro+%23hjk" target="_blank"><span class="label secondary radius">#hjk</span></a> <a href="https://twitter.com/search?q=from%3Afathermetro+%23mmkisat" target="_blank"><span class="label secondary radius">#mmkisat</span></a> <a href="https://twitter.com/search?q=from%3Afathermetro+%23supercup" target="_blank"><span class="label secondary radius">#supercup</span></a> <a href="https://twitter.com/search?q=from%3Afathermetro+%23uclfi" target="_blank"><span class="label secondary radius">#uclfi</span></a>
+  </td>
+  <td data-value="14681">14 681</td>
+  <td data-value="845409">845 409</td>
+  <td data-value="327">5,4/pv<br/><small>(yht. 327)</small></td>
+  <td data-value="594">594<br/><small>(yht. 769 retwiittiä)</small></td>
+  <td data-value="2.3516819571865444">2,4<br/><small>retwiittiä/oma</small></td>
+  <td data-value="360">360<br/><small>(yht. 835 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="95">96.</td>
+  <td class="user-col" data-value="maaninkavaara">
+    <img src="https://pbs.twimg.com/profile_images/647088802142404608/9chtZuVj_normal.jpg" />
+    <div>
+      <a href="https://twitter.com/Maaninkavaara" target="_blank">@Maaninkavaara</a>
+      <small>Maaninka</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3AMaaninkavaara+%23ayliike" target="_blank"><span class="label secondary radius">#ayliike</span></a> <a href="https://twitter.com/search?q=from%3AMaaninkavaara+%23digitalisaatio" target="_blank"><span class="label secondary radius">#digitalisaatio</span></a> <a href="https://twitter.com/search?q=from%3AMaaninkavaara+%23hallitus" target="_blank"><span class="label secondary radius">#hallitus</span></a> <a href="https://twitter.com/search?q=from%3AMaaninkavaara+%23politiikka" target="_blank"><span class="label secondary radius">#politiikka</span></a> <a href="https://twitter.com/search?q=from%3AMaaninkavaara+%23yks" target="_blank"><span class="label secondary radius">#yks</span></a>
+  </td>
+  <td data-value="1228">1 228</td>
+  <td data-value="967773">967 773</td>
+  <td data-value="8196">134,4/pv<br/><small>(yht. 8 196)</small></td>
+  <td data-value="462">462<br/><small>(yht. 1 321 retwiittiä)</small></td>
+  <td data-value="0.16117618350414836">0,2<br/><small>retwiittiä/oma</small></td>
+  <td data-value="492">492<br/><small>(yht. 5 245 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="96">97.</td>
+  <td class="user-col" data-value="helsinkiuni">
+    <img src="https://pbs.twimg.com/profile_images/638365230771253248/J0tnAVvM_normal.png" />
+    <div>
+      <a href="https://twitter.com/helsinkiuni" target="_blank">@helsinkiuni</a>
+      <small>Helsinki University</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Ahelsinkiuni+%23globaalivastuu" target="_blank"><span class="label secondary radius">#globaalivastuu</span></a> <a href="https://twitter.com/search?q=from%3Ahelsinkiuni+%23kenenhelsinki" target="_blank"><span class="label secondary radius">#kenenhelsinki</span></a> <a href="https://twitter.com/search?q=from%3Ahelsinkiuni+%23digifoorumi" target="_blank"><span class="label secondary radius">#digifoorumi</span></a> <a href="https://twitter.com/search?q=from%3Ahelsinkiuni+%23helsinki2050" target="_blank"><span class="label secondary radius">#helsinki2050</span></a> <a href="https://twitter.com/search?q=from%3Ahelsinkiuni+%23koulu" target="_blank"><span class="label secondary radius">#koulu</span></a>
+  </td>
+  <td data-value="12228">12 228</td>
+  <td data-value="513845">513 845</td>
+  <td data-value="87">1,4/pv<br/><small>(yht. 87)</small></td>
+  <td data-value="622">622<br/><small>(yht. 857 retwiittiä)</small></td>
+  <td data-value="9.850574712643677">9,9<br/><small>retwiittiä/oma</small></td>
+  <td data-value="352">352<br/><small>(yht. 841 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="97">98.</td>
+  <td class="user-col" data-value="mattilinnanahde">
+    <img src="https://pbs.twimg.com/profile_images/3188088323/be78e310c75cf21698b4a03aa4f372c4_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/MattiLinnanahde" target="_blank">@MattiLinnanahde</a>
+      <small>Matti Linnanahde</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3AMattiLinnanahde+%23hallitus" target="_blank"><span class="label secondary radius">#hallitus</span></a> <a href="https://twitter.com/search?q=from%3AMattiLinnanahde+%23ykk%C3%B6saamu" target="_blank"><span class="label secondary radius">#ykkösaamu</span></a> <a href="https://twitter.com/search?q=from%3AMattiLinnanahde+%23ff" target="_blank"><span class="label secondary radius">#ff</span></a> <a href="https://twitter.com/search?q=from%3AMattiLinnanahde+%23perussuomalaiset" target="_blank"><span class="label secondary radius">#perussuomalaiset</span></a> <a href="https://twitter.com/search?q=from%3AMattiLinnanahde+%23putkonen" target="_blank"><span class="label secondary radius">#putkonen</span></a>
+  </td>
+  <td data-value="4334">4 334</td>
+  <td data-value="866555">866 555</td>
+  <td data-value="466">7,6/pv<br/><small>(yht. 466)</small></td>
+  <td data-value="554">554<br/><small>(yht. 1 025 retwiittiä)</small></td>
+  <td data-value="2.199570815450644">2,2<br/><small>retwiittiä/oma</small></td>
+  <td data-value="372">372<br/><small>(yht. 979 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="98">99.</td>
+  <td class="user-col" data-value="hjallisharkimo">
+    <img src="https://pbs.twimg.com/profile_images/3475397842/ca24cf95540cd94a070bd0ece6ed4f82_normal.png" />
+    <div>
+      <a href="https://twitter.com/hjallisharkimo" target="_blank">@hjallisharkimo</a>
+      <small>Hjallis Harkimo</small>
+    </div>
+    
+  </td>
+  <td data-value="82545">82 545</td>
+  <td data-value="388926">388 926</td>
+  <td data-value="28">0,5/pv<br/><small>(yht. 28)</small></td>
+  <td data-value="499">499<br/><small>(yht. 655 retwiittiä)</small></td>
+  <td data-value="23.392857142857142">23,4<br/><small>retwiittiä/oma</small></td>
+  <td data-value="531">531<br/><small>(yht. 1 018 twiittiä)</small></td>
+</tr>
+<tr>
+  <td data-value="99">100.</td>
+  <td class="user-col" data-value="mattiwaananen">
+    <img src="https://pbs.twimg.com/profile_images/378800000281416361/26895b1400d931a601c62937c3cf50d2_normal.jpeg" />
+    <div>
+      <a href="https://twitter.com/mattiwaananen" target="_blank">@mattiwaananen</a>
+      <small>Matti Wäänänen</small>
+    </div>
+    <a href="https://twitter.com/search?q=from%3Amattiwaananen+%23uutisvahti" target="_blank"><span class="label secondary radius">#uutisvahti</span></a> <a href="https://twitter.com/search?q=from%3Amattiwaananen+%23mri" target="_blank"><span class="label secondary radius">#mri</span></a> <a href="https://twitter.com/search?q=from%3Amattiwaananen+%23rip" target="_blank"><span class="label secondary radius">#rip</span></a> <a href="https://twitter.com/search?q=from%3Amattiwaananen+%23hahaha" target="_blank"><span class="label secondary radius">#hahaha</span></a> <a href="https://twitter.com/search?q=from%3Amattiwaananen+%23iskias" target="_blank"><span class="label secondary radius">#iskias</span></a>
+  </td>
+  <td data-value="47736">47 736</td>
+  <td data-value="855308">855 308</td>
+  <td data-value="1798">29,5/pv<br/><small>(yht. 1 798)</small></td>
+  <td data-value="627">627<br/><small>(yht. 1 294 retwiittiä)</small></td>
+  <td data-value="0.7196885428253615">0,7<br/><small>retwiittiä/oma</small></td>
+  <td data-value="271">271<br/><small>(yht. 664 twiittiä)</small></td>
+</tr>
+</tbody>
+</table>
+
+<h3>"Kyllä minä niin mieleni pahoitin..."</h3>
+
+<p>
+  ... kun en omaa nimeäni listalta löytänyt. Jos teikäläisellä on samat fiilikset, niin
+  käypä turvaamassa näkyvyytesi <a href="http://pinnalla.pyppe.fi/kirjaudu" target="_blank">kirjautumalla Pinnalla-palveluun</a>!
+</p>
