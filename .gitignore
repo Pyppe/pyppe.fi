@@ -5,4 +5,4 @@ _site
 /data/
 /environment.sh
 /node_modules/
-
+/.jekyll-metadata
