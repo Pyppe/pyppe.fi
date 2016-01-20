@@ -1,4 +1,8 @@
-.imageCollage {
+.image-collage {
+  a {
+    display: block;
+    margin-bottom: 20px;
+  }
   .frame {
     &:hover {
       .title {
@@ -16,29 +20,26 @@
   margin-top: 20px;
 }
 
-#post {
-  margin-top: 20px;
-  .rightSideContent {
-    @media #{$medium-up} {
-      float: right;
-      margin-left: 10px;
-    }
-    @media #{$medium-only} {
-      width: 300px;
-      &.wide {
-        width: 400px;
-      }
-    }
-    @media #{$large-up} {
-      width: 350px;
-      &.wide {
-        width: 450px;
-      }
-    }
-    @media #{$small-only} {
-      width: 100%;
-    }
-
-    margin-bottom: 20px;
+.rightSideContent {
+  @media #{$sm-up} {
+    float: right;
+    margin-left: 10px;
   }
+  @media #{$sm-only} {
+    width: 300px;
+    &.wide {
+      width: 400px;
+    }
+  }
+  @media #{$md-up} {
+    width: 350px;
+    &.wide {
+      width: 450px;
+    }
+  }
+  @media #{$xs-only} {
+    width: 100%;
+  }
+
+  margin-bottom: 20px;
 }

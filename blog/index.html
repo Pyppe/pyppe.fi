@@ -1,6 +1,5 @@
 ---
 layout: page
-rowless: true
 title: "Blog – random ramblings of Pyppe"
 titleHtml: |
   <span class="lang-en">Blog – random ramblings of Pyppe</span>
@@ -9,49 +8,77 @@ titleHtml: |
 titleCover: /img/blog_bg.jpg
 ---
 
-{% if paginator.page != 1 %}
-{% include pagination.html %}
-{% endif %}
+<div class="row">
 
-{% for post in paginator.posts %}
-<div class="post">
+  <div class="col-md-8">
+    {% if paginator.page != 1 %}
+    {% include pagination.html %}
+    {% endif %}
 
-  {% if post.titleCover %}
-  <div class="filler show-for-medium-down">
-    <div class="cover{% if post.titleClass %} {{post.titleClass}}{%endif%}" style="background-image: url('{{ post.id | content_path }}/{{ post.titleCover }}');"></div>
-  </div>
-  <div class="row show-for-large-up">
-    <div class="large-12 columns filler">
-      <div class="cover{% if post.titleClass %} {{post.titleClass}}{%endif%}" style="background-image: url('{{ post.id | content_path }}/{{ post.titleCover }}');"></div>
-    </div>
-  </div>
-  {% endif %}
+    {% for post in paginator.posts %}
+    <div class="post-listing">
 
-
-  <div class="row">
-    <div class="medium-4 columns rightColumn">
-      <h5 class="timeTitle">{{ post.date | date_to_xmlschema }}</h5>
-      {% if post.img_aside %}
-      <img src="{{ post.id | content_path }}/{{ post.img_aside | img_size:'aside' }}"
-           style="width: 100%;" class="show-for-medium-up aside" />
+      <!--
+        {% if post.titleCover %}
+        <div class="filler hidden-md-up">
+          <div class="cover{% if post.titleClass %} {{post.titleClass}}{%endif%}" style="background-image: url('{{ post.id | content_path }}/{{ post.titleCover }}');"></div>
+        </div>
+        <div class="row hidden-sm-down">
+          <div class="large-12 columns filler">
+            <div class="cover{% if post.titleClass %} {{post.titleClass}}{%endif%}" style="background-image: url('{{ post.id | content_path }}/{{ post.titleCover }}');"></div>
+          </div>
+        </div>
+        {% endif %}
+      -->
+      {% if post.titleCover %}
+        <div class="cover{% if post.titleClass %} {{post.titleClass}}{%endif%}" style="background-image: url('{{ post.id | content_path }}/{{ post.titleCover | img_size:'listing' }}');"></div>
       {% endif %}
-    </div>
-    <div class="medium-8 columns leftColumn">
-      <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+      <h1><a href="{{ post.url }}">{{ post.title }}</a> <small class="text-muted" time-title>{{ post.date | date_to_xmlschema }}</small></h1>
+      {% if post.img_aside %}
+        <img src="{{ post.id | content_path }}/{{ post.img_aside | img_size:'listing' }}" class="aside hidden-md-down" />
+      {% endif %}
+      <div class="caption">{{ post.excerpt }}</div>
+      <div style="clear:both"></div>
 
-      <div class="caption">
-        {{ post.excerpt }}
+<!--
+      <div class="row">
+        <div class="col-md-4">
+          <h5 class="time-title" time-title>{{ post.date | date_to_xmlschema }}</h5>
+          {% if post.img_aside %}
+          <img src="{{ post.id | content_path }}/{{ post.img_aside | img_size:'aside' }}"
+               style="width: 100%;" class="show-for-medium-up aside" />
+          {% endif %}
+        </div>
+        <div class="col-md-8">
+          <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+
+          <div class="caption">
+            {{ post.excerpt }}
+          </div>
+          <a href="{{ post.url }}" class="btn btn-primary readMoreButton">
+            <span class="lang-en">Read more</span>
+            <span class="lang-fi">Lue lisää</span>
+            <i class="fa fa-arrow-circle-right"></i>
+          </a>
+        </div>
       </div>
-      <a href="{{ post.url }}" class="button small readMoreButton">
-        <span class="lang-en">Read more</span>
-        <span class="lang-fi">Lue lisää</span>
-        <i class="fa fa-arrow-circle-right"></i>
-      </a>
+      -->
+    </div>
+    {% endfor %}
+
+    {% include pagination.html %}
+  </div>
+
+  <div class="col-md-4">
+    <div class="side-info well">
+      <div class="card">
+        <div class="card-block">
+          <h3 class="card-title">Card title</h3>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <img class="card-img-top" src="/img/nyrkki-suussa.png" alt="Professional" />
+      </div>
     </div>
   </div>
+
 </div>
-<div class="postSeparator">&nbsp;</div>
-{% endfor %}
-
-{% include pagination.html %}
-

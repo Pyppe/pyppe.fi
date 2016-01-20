@@ -20,17 +20,19 @@ if (!window.console) {
 
 (function(exports, undefined) {
 
+  var pageLanguage = 'en';
+
   // Localization
   (function() {
     var settings = {
       '/': { otherLanguage: '/frontpage/' },
-      'frontpage': { otherLanguage: '/' },
+      'frontpage': { otherLanguage: '/' },
       'elamantarina': { otherLanguage: '/life-story/', nav: 'lifeStory' },
       'life-story': { otherLanguage: '/elamantarina/', nav: 'lifeStory' },
       'blog': { otherLanguage: window.location.pathname.replace('/blog/', '/blogi/'), nav: 'blog' },
       'blogi': { otherLanguage: window.location.pathname.replace('/blogi/', '/blog/'), nav: 'blog' }
     };
-    var path = window.location.pathname.split('/')[1] || '/';
+    var path = window.location.pathname.split('/')[1] || '/';
     if (path === 'blog') $('html').addClass('en');
     if (path === 'blogi') $('html').addClass('fi');
     if (pyppe.finnishPageTitle && window.location.pathname === '/blogi/') {
@@ -39,10 +41,11 @@ if (!window.console) {
     var current = settings[path];
     if (!current) return;
     if (current.nav) {
-      $('#topbar .'+current.nav).addClass('active');
+      $('#topbar .' + current.nav).addClass('active');
     }
     $('#topbar .change-lang').attr('href', current.otherLanguage);
     var lang = $('html').hasClass('fi') ? 'fi' : 'en';
+    pageLanguage = lang;
     moment.lang(lang);
     $('html').attr('lang', lang);
   })();
@@ -56,8 +59,7 @@ if (!window.console) {
         $el.text(moment(time, 'YYYY-MM-DD[T]HH:mm:ssZ').format('LL'));
       });
     }
-    formatTime($('#title h3'));
-    formatTime($('.post .timeTitle'));
+    formatTime($('[time-title]'));
   })();
 
   // Link to posts
@@ -69,7 +71,7 @@ if (!window.console) {
     }
 
     if (window.location.pathname.startsWith('/blogi/')) {
-      $('.post a[href]').each(localizeBlogLink);
+      $('.post-listing a[href]').each(localizeBlogLink);
       $('#post a[href]').each(localizeBlogLink);
       $('.pagination a').each(function() {
         var $a = $(this);
@@ -79,6 +81,21 @@ if (!window.console) {
         }
       });
     }
+
+    $('.post-listing .caption').each(function() {
+      var $c = $(this);
+      var $last = $c.children().last();
+      var nodeName = $last.prop('nodeName').toLowerCase();
+      var readMoreLink = (function() {
+        var text = pageLanguage === 'fi' ? 'Lue lisää' : 'Continue reading';
+        return '<a href="#" class="read-more-link">'+text+' <i class="fa fa-angle-double-right"></i></a>';
+      })();
+      if (nodeName === 'p') {
+        $('<span> '+readMoreLink+'</span>').appendTo($last);
+      } else {
+        $('<div>'+readMoreLink+'</div>').insertAfter($last);
+      }
+    });
 
   })();
 
@@ -116,14 +133,14 @@ if (!window.console) {
       var offset = (start <= defaultOffset) ? (start + diff*diffFactor) : (start - diff*diffFactor);
       offset = Math.max(0, Math.min(100, offset));
       $bg.css("background-position", "center " + offset + "%");
-      setY($('#title h1'), +fromTop/2*diffFactor);
-      setY($('#title h3'), +fromTop/2.05*diffFactor);
+      //setY($('#title h1'), +fromTop/2*diffFactor);
+      //setY($('#title h3'), +fromTop/2.05*diffFactor);
     });
     $(window).scroll();
   }
 
   function createFancyboxImages() {
-    $(".imageCollage a").fancybox({
+    $(".image-collage a").fancybox({
       type: 'image',
       beforeLoad: function() {
         var title = $(this.element).find('.title').text();
@@ -142,34 +159,9 @@ if (!window.console) {
     });
   }
 
-  function bindBlogPostsPage() {
-    var $asideImages = $('.post .aside');
-    if ($asideImages.length === 0) {
-      return;
-    }
-    adjustSideImages();
-    var interval = setTimeout(adjustSideImages, 1500);
-
-    function adjustSideImages() {
-      $asideImages.each(function() {
-        var $aside = $(this).css('margin-top', '0');
-        var $post = $aside.closest('.post');
-        var $right = $post.find('.rightColumn');
-        var $left = $post.find('.leftColumn');
-        var diff = Math.floor($left.height() - $right.height()) - 11;
-        if (diff > 0) {
-          $aside.css('margin-top', diff + 'px');
-        }
-      });
-    }
-
-    $(window).resize(adjustSideImages);
-  }
-
   $(function() {
     bindCoverTitleScrolling();
     createFancyboxImages();
-    bindBlogPostsPage();
 
     // Life-story page
     $("#showMoreNostalgia").prop('disabled', false).click(function() {
@@ -181,4 +173,4 @@ if (!window.console) {
 
 })(pyppe.main = {});
 
-$(document).foundation();
+//$(document).foundation();

@@ -1,7 +1,7 @@
-<li>
-  <a href="{{ page.id | content_path }}/{{ include.src | img_size:'large' }}" rel="grid_image">
+<div class="col-xs-6 col-md-4">
+  <a href="{{ page.id | content_path }}/{{ include.src | img_size:'large' }}" rel="grid_image">
     <div class="frame filler">
-      <img src="{{ page.id | content_path }}/{{ include.src | img_size:'crop' }}" />
+      <img src="{{ page.id | content_path }}/{{ include.src | img_size:'crop' }}" />
       {% if include.title %}
       <div class="title hide-for-small">
         {{ include.title }}
@@ -9,4 +9,4 @@
       {% endif %}
     </div>
   </a>
-</li>
+</div>

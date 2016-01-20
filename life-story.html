@@ -7,7 +7,7 @@ titleCover: /img/lifeStory_bg.jpg
 css: lifeStory.css
 ---
 
-<div style="width: 348px; float: right;" class="frame show-for-medium-up">
+<div style="width: 348px; float: right;" class="frame hidden-sm-down">
   <img src="/img/ninjas.jpg">
   <div class="title">Budokas year 1992: Benja (brother), Jarmo (father) and I</div>
 </div>
@@ -25,12 +25,12 @@ css: lifeStory.css
   <span class="hilight">crushing your enemies with Judo</span>.
 </p>
 
-<div class="frame filler show-for-small-only">
+<div class="frame filler hidden-md-up">
   <img src="/img/ninjas.jpg">
   <div class="title">Budokas year 1992: Benja (brother), Jarmo (father) and I</div>
 </div>
 
-<blockquote>
+<blockquote class="blockquote">
   The enclosed photo tells a brutal story of Finnish depression: having no money we had to clothe ourselves
   with white togas made from the skin of polar bears.
 </blockquote>
@@ -60,12 +60,11 @@ css: lifeStory.css
 
 <p>Now I am an adult. So I go to work, and reminisce the years of past glory.</p>
 
-<button id="showMoreNostalgia" type="button">More nostalgia, please &raquo;</button>
+<button id="showMoreNostalgia" type="button" class="btn btn-primary">More nostalgia, please <i class="fa fa-caret-down"></i></button>
 
 <div id="moreNostalgia" style="display: none;">
   <div class="row">
-
-    <div class="column medium-6">
+    <div class="col-md-6">
       <h3>Oh, children. The year was...</h3>
       <p>
         <span class="hilight">1989</span> when 6-year-old Pyppe got introduced with the ways of Judo.
@@ -75,7 +74,7 @@ css: lifeStory.css
         5th and 6th graders will eat you alive if show any signs of weakness.
       </p>
 
-      <blockquote>
+      <blockquote class="blockquote">
         In a nutshell Judo taught the bigger the opponent, the faster you should run.
       </blockquote>
 
@@ -84,14 +83,14 @@ css: lifeStory.css
         Perhaps the most noteworthy accomplishments of my Judo competitions are bronze medals from the Finnish junior nationals
         in years 1997 and 1999, 5th place in the men's Finnish nationals, and silver and gold medals in Ne-Waza years 2000 and 2003.
       </p>
-      <blockquote>
-        See the video for some authentic Judo moves
+      <blockquote class="blockquote">
+        See the video for some authentic Judo moves.
       </blockquote>
     </div>
 
-    <div class="columns medium-6">
+    <div class="col-md-6">
       {% youtube NQpBPSEdfGc %}
-      <table id="judoBelts">
+      <table class="table table-striped" id="judoBelts">
         <thead>
         <tr>
           <th colspan="3">Graduations</th>

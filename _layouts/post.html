@@ -1,18 +1,12 @@
 ---
 layout: page
-rowless: true
 ---
 
-<div class="row">
-  <div id="post" class="columns large-12" {% if page.post_language %} lang="{{page.post_language}}"{% endif %}>
-    {{ content }}
-  </div>
-  <!--<div class="columns large-2">&nbsp;</div>-->
+<div id="post" class="row" {% if page.post_language %} lang="{{page.post_language}}"{% endif %}>
+  <div class="col-sm-12">{{ content }}</div>
 </div>
 
-<div class="row">
-  <div id="comments" class="columns large-10">
-    {% include disqus.html %}
-  </div>
-  <div class="columns large-2">&nbsp;</div>
+<div id="comments" class="row">
+  <div class="col-sm-12">{% include disqus.html %}</div>
 </div>
+

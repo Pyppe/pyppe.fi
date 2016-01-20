@@ -1,13 +1,25 @@
 @charset "UTF-8";
 @import "compass";
 
-#header {
-  background: image-url("header.jpg") no-repeat center center;
-  .row {
-    background-color: rgba(white, 0.5);
+.jumbotron {
+  background: image-url("jumbotron.jpg") no-repeat center center;
+  .container {
+    position: relative;
+    color: white;
+    z-index: 2;
+    h1,p {
+      @include text-shadow(0 1px 2px rgba(black, 0.7));
+    }
+    .lead {
+      padding-right: 100px;
+    }
   }
-  .fa {
-    font-size: 120%;
+  position: relative;
+  img {
+    z-index: 1;
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    height: 200px;
   }
 }
-

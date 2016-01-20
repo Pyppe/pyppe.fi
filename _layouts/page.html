@@ -2,27 +2,25 @@
 layout: default
 ---
 
-<div id="title" class="cover{% if page.titleClass %} {{page.titleClass}}{%endif%}"
-     style="background-image: url('{% if page.titleCover %}{% if page.id %}{{ page.id | content_path }}/{% endif %}{{ page.titleCover }}{% else %}/img/blog_bg.jpg{% endif %}');{% if page.titleStyle %} {{page.titleStyle}}{% endif %}">
+<div class="container">
+
   <div class="row">
-    <h1 class="column">
-      {% if page.titleHtml %}
-        {{ page.titleHtml }}
-      {% else %}
-        {{ page.title }}
-      {% endif %}
-    </h1>
-    {% if page.date %}
-      <h3 class="column">{{ page.date | date_to_xmlschema }}</h3>
-    {% endif %}
+    <div id="title" class="cover{% if page.titleClass %} {{page.titleClass}}{%endif%}"
+         style="background-image: url('{% if page.titleCover %}{% if page.id %}{{ page.id | content_path }}/{% endif %}{{ page.titleCover }}{% else %}/img/jumbotron.jpg{% endif %}');{% if page.titleStyle %} {{page.titleStyle}}{% endif %}">
+      <div class="text">
+        <h1>
+          {% if page.titleHtml %}
+            {{ page.titleHtml }}
+          {% else %}
+            {{ page.title }}
+          {% endif %}
+        </h1>
+        {% if page.date %}
+          <h3 time-title>{{ page.date | date_to_xmlschema }}</h3>
+        {% endif %}
+      </div>
+    </div>
   </div>
+
+  {{ content }}
 </div>
-{% if page.rowless %}
-{{ content }}
-{% else %}
-<div class="row">
-  <div class="columns large-12">
-    {{ content }}
-  </div>
-</div>
-{% endif %}
