@@ -12,15 +12,14 @@
 }
 
 .fancybox-title {
-  font-family: "Open Sans", "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
-  font-weight: 300;
+  @include title-font();
   color: #666;
   font-size: 18px;
   line-height: 1.2;
-  @media #{$medium-only} {
+  @media #{$xs-only} {
     font-size: 20px;
   }
-  @media #{$large-up} {
+  @media #{$sm-up} {
     font-size: 24px;
   }
 }

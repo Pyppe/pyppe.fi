@@ -1,37 +1,46 @@
-@media #{$medium-up} {
-  .timeTitle {
-    margin-top: 15px;
+.post-listing {
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ddd;
+
+  h1 {
+    line-height: 1;
+    font-weight: 700;
   }
-}
-
-.postSeparator {
-  height: 20px;
-  &:last-child {
-    height: 0;
+  .text-muted {
+    font-size: 50%;
+    font-weight: 400;
+    white-space: nowrap;
   }
-}
-@media #{$small-only} {
-  .postSeparator {
-    background: image-url("tiles.png") repeat scroll center center $cyan;
+  .cover {
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: border-box;
+
+    @include cover-offsets();
   }
-}
 
-.post div.cover {
-  height: 150px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-clip: border-box;
-
-  @include cover-offsets();
-}
-
-
-.readMoreButton {
-  margin-top: 10px;
-  .fa {
-    font-size: 150%;
+  .aside {
+    float: right;
+    max-width: 200px;
     margin-left: 10px;
-    vertical-align: middle;
+    margin-bottom: 10px;
+  }
+
+  .read-more-link {
+    @include title-font();
+    font-weight: 700;
+    white-space: nowrap;
+  }
+}
+
+.side-info {
+  .card {
+    background: #eee;
+  }
+  img {
+    width: 100%;
   }
 }

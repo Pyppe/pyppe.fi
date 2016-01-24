@@ -1,10 +1,27 @@
-@import url("//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
-#topbar .name h1 { margin-left: 45px; }
-#topbar.expanded + #title { background-color: #777; opacity: 0.85; }
+/* Flatten das bootstrap */
+/*
+.well, .navbar-inner, .popover, .btn, .tooltip, input, select, textarea, pre, .progress, .modal-content, .add-on, .alert, .table-bordered, .nav>.active>a, .dropdown-menu, .tooltip-inner, .label, .img-polaroid, .form-control, .nav-pills > li > a, .input-group-addon { */
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700|Titillium+Web:400,700");
+.btn { -moz-border-radius: 0px !important; -webkit-border-radius: 0px; border-radius: 0px !important; }
 
-#rssLink .fa { font-size: 150%; vertical-align: middle; color: #ee802f; }
+#rssLink .fa { font-size: 120%; line-height: 0; vertical-align: middle; color: #ee802f; }
 
-#selfie { width: 40px; height: 40px; margin-left: 5px; margin-top: 2px; position: absolute; -moz-border-radius: 50px; -webkit-border-radius: 50px; border-radius: 50px; }
+#topbar { /*
+background-color: #f1f1f1;
+border: none;
+margin-bottom: 0;
+*/ /*
+.navbar-nav { > li { &.active { a, a:focus, a:hover { //font-size: 120%; font-weight: 700; background-color: white; } background-color: white; //background-color: white; } &:hover a { background-color: #eee; } }
+}
+.navbar-brand { @include title-font();
+}
+.hamburger { font-size: 150%;
+}
+*/ }
+#topbar .navbar-nav > li.active a, #topbar .navbar-nav > li.active a:focus, #topbar .navbar-nav > li.active a:hover { border-bottom: 4px solid #027891; }
+#topbar .navbar-brand { font-weight: 700; -moz-transform: rotate(-3deg); -ms-transform: rotate(-3deg); -webkit-transform: rotate(-3deg); transform: rotate(-3deg); }
+
+#site-logo { width: 35px; height: 35px; float: left; margin: 0 5px; -moz-border-radius: 50px; -webkit-border-radius: 50px; border-radius: 50px; }
 
 #selectLanguage .fa-inverse { color: #222; }
 
@@ -38,151 +55,146 @@ img.thumb { background: #eee; padding: 5px; padding-bottom: 10px; border: 1px so
 
 .fancybox-overlay { background: rgba(0, 0, 0, 0.75); }
 
-.fancybox-title { font-family: "Open Sans", "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif; font-weight: 300; color: #666; font-size: 18px; line-height: 1.2; }
-@media only screen and (min-width: 40.063em) and (max-width: 64em) { .fancybox-title { font-size: 20px; } }
-@media only screen and (min-width: 64.063em) { .fancybox-title { font-size: 24px; } }
+.fancybox-title { font-family: "Titillium Web", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 400; color: #666; font-size: 18px; line-height: 1.2; }
+@media only screen and (max-width: 767px) { .fancybox-title { font-size: 20px; } }
+@media only screen and (min-width: 768px) { .fancybox-title { font-size: 24px; } }
 
 .lang-fi, .lang-en { display: none !important; }
 
 html.fi .lang-fi { display: inherit !important; }
 html.en .lang-en { display: inherit !important; }
 
-@media only screen and (min-width: 40.063em) { .timeTitle { margin-top: 15px; } }
-.postSeparator { height: 20px; }
-.postSeparator:last-child { height: 0; }
+.post-listing { margin-bottom: 40px; padding-bottom: 30px; border-bottom: 1px solid #ddd; }
+.post-listing h1 { line-height: 1; font-weight: 700; }
+.post-listing .text-muted { font-size: 50%; font-weight: 400; white-space: nowrap; }
+.post-listing .cover { height: 150px; background-size: cover; background-repeat: no-repeat; background-position: center; background-clip: border-box; }
+.post-listing .cover.cover-offset-0 { background-position: center 0%; }
+.post-listing .cover.cover-offset-1 { background-position: center 1%; }
+.post-listing .cover.cover-offset-2 { background-position: center 2%; }
+.post-listing .cover.cover-offset-3 { background-position: center 3%; }
+.post-listing .cover.cover-offset-4 { background-position: center 4%; }
+.post-listing .cover.cover-offset-5 { background-position: center 5%; }
+.post-listing .cover.cover-offset-6 { background-position: center 6%; }
+.post-listing .cover.cover-offset-7 { background-position: center 7%; }
+.post-listing .cover.cover-offset-8 { background-position: center 8%; }
+.post-listing .cover.cover-offset-9 { background-position: center 9%; }
+.post-listing .cover.cover-offset-10 { background-position: center 10%; }
+.post-listing .cover.cover-offset-11 { background-position: center 11%; }
+.post-listing .cover.cover-offset-12 { background-position: center 12%; }
+.post-listing .cover.cover-offset-13 { background-position: center 13%; }
+.post-listing .cover.cover-offset-14 { background-position: center 14%; }
+.post-listing .cover.cover-offset-15 { background-position: center 15%; }
+.post-listing .cover.cover-offset-16 { background-position: center 16%; }
+.post-listing .cover.cover-offset-17 { background-position: center 17%; }
+.post-listing .cover.cover-offset-18 { background-position: center 18%; }
+.post-listing .cover.cover-offset-19 { background-position: center 19%; }
+.post-listing .cover.cover-offset-20 { background-position: center 20%; }
+.post-listing .cover.cover-offset-21 { background-position: center 21%; }
+.post-listing .cover.cover-offset-22 { background-position: center 22%; }
+.post-listing .cover.cover-offset-23 { background-position: center 23%; }
+.post-listing .cover.cover-offset-24 { background-position: center 24%; }
+.post-listing .cover.cover-offset-25 { background-position: center 25%; }
+.post-listing .cover.cover-offset-26 { background-position: center 26%; }
+.post-listing .cover.cover-offset-27 { background-position: center 27%; }
+.post-listing .cover.cover-offset-28 { background-position: center 28%; }
+.post-listing .cover.cover-offset-29 { background-position: center 29%; }
+.post-listing .cover.cover-offset-30 { background-position: center 30%; }
+.post-listing .cover.cover-offset-31 { background-position: center 31%; }
+.post-listing .cover.cover-offset-32 { background-position: center 32%; }
+.post-listing .cover.cover-offset-33 { background-position: center 33%; }
+.post-listing .cover.cover-offset-34 { background-position: center 34%; }
+.post-listing .cover.cover-offset-35 { background-position: center 35%; }
+.post-listing .cover.cover-offset-36 { background-position: center 36%; }
+.post-listing .cover.cover-offset-37 { background-position: center 37%; }
+.post-listing .cover.cover-offset-38 { background-position: center 38%; }
+.post-listing .cover.cover-offset-39 { background-position: center 39%; }
+.post-listing .cover.cover-offset-40 { background-position: center 40%; }
+.post-listing .cover.cover-offset-41 { background-position: center 41%; }
+.post-listing .cover.cover-offset-42 { background-position: center 42%; }
+.post-listing .cover.cover-offset-43 { background-position: center 43%; }
+.post-listing .cover.cover-offset-44 { background-position: center 44%; }
+.post-listing .cover.cover-offset-45 { background-position: center 45%; }
+.post-listing .cover.cover-offset-46 { background-position: center 46%; }
+.post-listing .cover.cover-offset-47 { background-position: center 47%; }
+.post-listing .cover.cover-offset-48 { background-position: center 48%; }
+.post-listing .cover.cover-offset-49 { background-position: center 49%; }
+.post-listing .cover.cover-offset-50 { background-position: center 50%; }
+.post-listing .cover.cover-offset-51 { background-position: center 51%; }
+.post-listing .cover.cover-offset-52 { background-position: center 52%; }
+.post-listing .cover.cover-offset-53 { background-position: center 53%; }
+.post-listing .cover.cover-offset-54 { background-position: center 54%; }
+.post-listing .cover.cover-offset-55 { background-position: center 55%; }
+.post-listing .cover.cover-offset-56 { background-position: center 56%; }
+.post-listing .cover.cover-offset-57 { background-position: center 57%; }
+.post-listing .cover.cover-offset-58 { background-position: center 58%; }
+.post-listing .cover.cover-offset-59 { background-position: center 59%; }
+.post-listing .cover.cover-offset-60 { background-position: center 60%; }
+.post-listing .cover.cover-offset-61 { background-position: center 61%; }
+.post-listing .cover.cover-offset-62 { background-position: center 62%; }
+.post-listing .cover.cover-offset-63 { background-position: center 63%; }
+.post-listing .cover.cover-offset-64 { background-position: center 64%; }
+.post-listing .cover.cover-offset-65 { background-position: center 65%; }
+.post-listing .cover.cover-offset-66 { background-position: center 66%; }
+.post-listing .cover.cover-offset-67 { background-position: center 67%; }
+.post-listing .cover.cover-offset-68 { background-position: center 68%; }
+.post-listing .cover.cover-offset-69 { background-position: center 69%; }
+.post-listing .cover.cover-offset-70 { background-position: center 70%; }
+.post-listing .cover.cover-offset-71 { background-position: center 71%; }
+.post-listing .cover.cover-offset-72 { background-position: center 72%; }
+.post-listing .cover.cover-offset-73 { background-position: center 73%; }
+.post-listing .cover.cover-offset-74 { background-position: center 74%; }
+.post-listing .cover.cover-offset-75 { background-position: center 75%; }
+.post-listing .cover.cover-offset-76 { background-position: center 76%; }
+.post-listing .cover.cover-offset-77 { background-position: center 77%; }
+.post-listing .cover.cover-offset-78 { background-position: center 78%; }
+.post-listing .cover.cover-offset-79 { background-position: center 79%; }
+.post-listing .cover.cover-offset-80 { background-position: center 80%; }
+.post-listing .cover.cover-offset-81 { background-position: center 81%; }
+.post-listing .cover.cover-offset-82 { background-position: center 82%; }
+.post-listing .cover.cover-offset-83 { background-position: center 83%; }
+.post-listing .cover.cover-offset-84 { background-position: center 84%; }
+.post-listing .cover.cover-offset-85 { background-position: center 85%; }
+.post-listing .cover.cover-offset-86 { background-position: center 86%; }
+.post-listing .cover.cover-offset-87 { background-position: center 87%; }
+.post-listing .cover.cover-offset-88 { background-position: center 88%; }
+.post-listing .cover.cover-offset-89 { background-position: center 89%; }
+.post-listing .cover.cover-offset-90 { background-position: center 90%; }
+.post-listing .cover.cover-offset-91 { background-position: center 91%; }
+.post-listing .cover.cover-offset-92 { background-position: center 92%; }
+.post-listing .cover.cover-offset-93 { background-position: center 93%; }
+.post-listing .cover.cover-offset-94 { background-position: center 94%; }
+.post-listing .cover.cover-offset-95 { background-position: center 95%; }
+.post-listing .cover.cover-offset-96 { background-position: center 96%; }
+.post-listing .cover.cover-offset-97 { background-position: center 97%; }
+.post-listing .cover.cover-offset-98 { background-position: center 98%; }
+.post-listing .cover.cover-offset-99 { background-position: center 99%; }
+.post-listing .cover.cover-offset-100 { background-position: center 100%; }
+.post-listing .aside { float: right; max-width: 200px; margin-left: 10px; margin-bottom: 10px; }
+.post-listing .read-more-link { font-family: "Titillium Web", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 400; font-weight: 700; white-space: nowrap; }
 
-@media only screen and (max-width: 40em) { .postSeparator { background: url('/img/tiles.png?1422206838') repeat scroll center center #008CBA; } }
-.post div.cover { height: 150px; background-size: cover; background-repeat: no-repeat; background-position: center; background-clip: border-box; }
-.post div.cover.cover-offset-0 { background-position: center 0%; }
-.post div.cover.cover-offset-1 { background-position: center 1%; }
-.post div.cover.cover-offset-2 { background-position: center 2%; }
-.post div.cover.cover-offset-3 { background-position: center 3%; }
-.post div.cover.cover-offset-4 { background-position: center 4%; }
-.post div.cover.cover-offset-5 { background-position: center 5%; }
-.post div.cover.cover-offset-6 { background-position: center 6%; }
-.post div.cover.cover-offset-7 { background-position: center 7%; }
-.post div.cover.cover-offset-8 { background-position: center 8%; }
-.post div.cover.cover-offset-9 { background-position: center 9%; }
-.post div.cover.cover-offset-10 { background-position: center 10%; }
-.post div.cover.cover-offset-11 { background-position: center 11%; }
-.post div.cover.cover-offset-12 { background-position: center 12%; }
-.post div.cover.cover-offset-13 { background-position: center 13%; }
-.post div.cover.cover-offset-14 { background-position: center 14%; }
-.post div.cover.cover-offset-15 { background-position: center 15%; }
-.post div.cover.cover-offset-16 { background-position: center 16%; }
-.post div.cover.cover-offset-17 { background-position: center 17%; }
-.post div.cover.cover-offset-18 { background-position: center 18%; }
-.post div.cover.cover-offset-19 { background-position: center 19%; }
-.post div.cover.cover-offset-20 { background-position: center 20%; }
-.post div.cover.cover-offset-21 { background-position: center 21%; }
-.post div.cover.cover-offset-22 { background-position: center 22%; }
-.post div.cover.cover-offset-23 { background-position: center 23%; }
-.post div.cover.cover-offset-24 { background-position: center 24%; }
-.post div.cover.cover-offset-25 { background-position: center 25%; }
-.post div.cover.cover-offset-26 { background-position: center 26%; }
-.post div.cover.cover-offset-27 { background-position: center 27%; }
-.post div.cover.cover-offset-28 { background-position: center 28%; }
-.post div.cover.cover-offset-29 { background-position: center 29%; }
-.post div.cover.cover-offset-30 { background-position: center 30%; }
-.post div.cover.cover-offset-31 { background-position: center 31%; }
-.post div.cover.cover-offset-32 { background-position: center 32%; }
-.post div.cover.cover-offset-33 { background-position: center 33%; }
-.post div.cover.cover-offset-34 { background-position: center 34%; }
-.post div.cover.cover-offset-35 { background-position: center 35%; }
-.post div.cover.cover-offset-36 { background-position: center 36%; }
-.post div.cover.cover-offset-37 { background-position: center 37%; }
-.post div.cover.cover-offset-38 { background-position: center 38%; }
-.post div.cover.cover-offset-39 { background-position: center 39%; }
-.post div.cover.cover-offset-40 { background-position: center 40%; }
-.post div.cover.cover-offset-41 { background-position: center 41%; }
-.post div.cover.cover-offset-42 { background-position: center 42%; }
-.post div.cover.cover-offset-43 { background-position: center 43%; }
-.post div.cover.cover-offset-44 { background-position: center 44%; }
-.post div.cover.cover-offset-45 { background-position: center 45%; }
-.post div.cover.cover-offset-46 { background-position: center 46%; }
-.post div.cover.cover-offset-47 { background-position: center 47%; }
-.post div.cover.cover-offset-48 { background-position: center 48%; }
-.post div.cover.cover-offset-49 { background-position: center 49%; }
-.post div.cover.cover-offset-50 { background-position: center 50%; }
-.post div.cover.cover-offset-51 { background-position: center 51%; }
-.post div.cover.cover-offset-52 { background-position: center 52%; }
-.post div.cover.cover-offset-53 { background-position: center 53%; }
-.post div.cover.cover-offset-54 { background-position: center 54%; }
-.post div.cover.cover-offset-55 { background-position: center 55%; }
-.post div.cover.cover-offset-56 { background-position: center 56%; }
-.post div.cover.cover-offset-57 { background-position: center 57%; }
-.post div.cover.cover-offset-58 { background-position: center 58%; }
-.post div.cover.cover-offset-59 { background-position: center 59%; }
-.post div.cover.cover-offset-60 { background-position: center 60%; }
-.post div.cover.cover-offset-61 { background-position: center 61%; }
-.post div.cover.cover-offset-62 { background-position: center 62%; }
-.post div.cover.cover-offset-63 { background-position: center 63%; }
-.post div.cover.cover-offset-64 { background-position: center 64%; }
-.post div.cover.cover-offset-65 { background-position: center 65%; }
-.post div.cover.cover-offset-66 { background-position: center 66%; }
-.post div.cover.cover-offset-67 { background-position: center 67%; }
-.post div.cover.cover-offset-68 { background-position: center 68%; }
-.post div.cover.cover-offset-69 { background-position: center 69%; }
-.post div.cover.cover-offset-70 { background-position: center 70%; }
-.post div.cover.cover-offset-71 { background-position: center 71%; }
-.post div.cover.cover-offset-72 { background-position: center 72%; }
-.post div.cover.cover-offset-73 { background-position: center 73%; }
-.post div.cover.cover-offset-74 { background-position: center 74%; }
-.post div.cover.cover-offset-75 { background-position: center 75%; }
-.post div.cover.cover-offset-76 { background-position: center 76%; }
-.post div.cover.cover-offset-77 { background-position: center 77%; }
-.post div.cover.cover-offset-78 { background-position: center 78%; }
-.post div.cover.cover-offset-79 { background-position: center 79%; }
-.post div.cover.cover-offset-80 { background-position: center 80%; }
-.post div.cover.cover-offset-81 { background-position: center 81%; }
-.post div.cover.cover-offset-82 { background-position: center 82%; }
-.post div.cover.cover-offset-83 { background-position: center 83%; }
-.post div.cover.cover-offset-84 { background-position: center 84%; }
-.post div.cover.cover-offset-85 { background-position: center 85%; }
-.post div.cover.cover-offset-86 { background-position: center 86%; }
-.post div.cover.cover-offset-87 { background-position: center 87%; }
-.post div.cover.cover-offset-88 { background-position: center 88%; }
-.post div.cover.cover-offset-89 { background-position: center 89%; }
-.post div.cover.cover-offset-90 { background-position: center 90%; }
-.post div.cover.cover-offset-91 { background-position: center 91%; }
-.post div.cover.cover-offset-92 { background-position: center 92%; }
-.post div.cover.cover-offset-93 { background-position: center 93%; }
-.post div.cover.cover-offset-94 { background-position: center 94%; }
-.post div.cover.cover-offset-95 { background-position: center 95%; }
-.post div.cover.cover-offset-96 { background-position: center 96%; }
-.post div.cover.cover-offset-97 { background-position: center 97%; }
-.post div.cover.cover-offset-98 { background-position: center 98%; }
-.post div.cover.cover-offset-99 { background-position: center 99%; }
-.post div.cover.cover-offset-100 { background-position: center 100%; }
+.side-info .card { background: #eee; }
+.side-info img { width: 100%; }
 
-.readMoreButton { margin-top: 10px; }
-.readMoreButton .fa { font-size: 150%; margin-left: 10px; vertical-align: middle; }
-
-.imageCollage .frame:hover .title { opacity: 1; }
-.imageCollage .frame .title { opacity: 0; -moz-transition: opacity 0.5s ease-in-out; -o-transition: opacity 0.5s ease-in-out; -webkit-transition: opacity 0.5s ease-in-out; transition: opacity 0.5s ease-in-out; }
+.image-collage a { display: block; margin-bottom: 20px; }
+.image-collage .frame:hover .title { opacity: 1; }
+.image-collage .frame .title { opacity: 0; -moz-transition: opacity 0.5s ease-in-out; -o-transition: opacity 0.5s ease-in-out; -webkit-transition: opacity 0.5s ease-in-out; transition: opacity 0.5s ease-in-out; }
 
 #comments { margin-top: 20px; }
 
-#post { margin-top: 20px; }
-#post .rightSideContent { margin-bottom: 20px; }
-@media only screen and (min-width: 40.063em) { #post .rightSideContent { float: right; margin-left: 10px; } }
-@media only screen and (min-width: 40.063em) and (max-width: 64em) { #post .rightSideContent { width: 300px; }
-  #post .rightSideContent.wide { width: 400px; } }
-@media only screen and (min-width: 64.063em) { #post .rightSideContent { width: 350px; }
-  #post .rightSideContent.wide { width: 450px; } }
-@media only screen and (max-width: 40em) { #post .rightSideContent { width: 100%; } }
+.rightSideContent { margin-bottom: 20px; }
+@media only screen and (min-width: 768px) { .rightSideContent { float: right; margin-left: 10px; } }
+@media only screen and (min-width: 768px) and (max-width: 991px) { .rightSideContent { width: 300px; }
+  .rightSideContent.wide { width: 400px; } }
+@media only screen and (min-width: 992px) { .rightSideContent { width: 350px; }
+  .rightSideContent.wide { width: 450px; } }
+@media only screen and (max-width: 767px) { .rightSideContent { width: 100%; } }
 
-h1, h2, h3, h4, h5, h6 { font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight: 300; }
+h1, h2, h3, h4, h5, h6 { font-family: "Titillium Web", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 400; }
 
-#title { /*
-background: image-url("tiles.png") repeat scroll center center $cyan;
-h1, h5 { color: white;
-}
-h1 { padding: 10px 0; small { color: white; vertical-align: middle; } &.withTime { margin-bottom: 0; padding-bottom: 0; }
-}
-.time { padding-bottom: 10px;
-}
-*/ }
+a { color: #2A8EBF; -moz-transition: color 0.3s ease; -o-transition: color 0.3s ease; -webkit-transition: color 0.3s ease; transition: color 0.3s ease; }
+a:hover, a:focus { color: #70bbdf; text-decoration: none; }
+
+#title { position: relative; }
 #title.cover { background-size: cover; background-repeat: no-repeat; background-position: center 30%; background-clip: border-box; margin-bottom: 20px; overflow: hidden; min-height: 150px; }
 #title.cover .cover-offset-0 { background-position: center 0%; }
 #title.cover .cover-offset-1 { background-position: center 1%; }
@@ -285,22 +297,21 @@ h1 { padding: 10px 0; small { color: white; vertical-align: middle; } &.withTime
 #title.cover .cover-offset-98 { background-position: center 98%; }
 #title.cover .cover-offset-99 { background-position: center 99%; }
 #title.cover .cover-offset-100 { background-position: center 100%; }
-#title.cover h1, #title.cover h3 { color: white; font-weight: 400; text-shadow: 1px 1px 2px black, 1px 1px 10px rgba(0, 0, 0, 0.6); }
-@media only screen and (min-width: 40.063em) { #title.cover h1 { font-size: 3.25rem; } }
+#title.cover h1, #title.cover h3 { color: white; font-weight: 700; text-shadow: 1px 1px 2px black, 1px 1px 10px rgba(0, 0, 0, 0.6); }
+#title .text { position: absolute; bottom: 10px; left: 15px; }
 
 span.hilight, em.hilight { color: black; font-size: 120%; }
 
-body { font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+body { font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 #footer { background: #333; padding: 20px 0; color: #666; margin-top: 40px; }
 #footer h5 { color: #666; margin-top: 10px; }
 #footer .fa-flash { font-size: 150%; color: white; vertical-align: middle; }
 #footer ul { float: right; margin: 0; }
-@media only screen and (max-width: 40em) { #footer .columns { text-align: center; }
+@media only screen and (max-width: 767px) { #footer .columns { text-align: center; }
   #footer ul { float: none; display: inline-block; }
   #footer ul > li:first-child { margin-left: 0; } }
 
 small.minor { font-size: 80%; color: #777; }
 
 #notFoundGif { width: 100%; }
-@media only screen and (max-width: 40em) { #notFoundGif { width: 70%; display: block; margin: 0 auto; } }

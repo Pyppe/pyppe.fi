@@ -23,7 +23,7 @@ excerpt: |
   hetki vuodesta, kun tanner tutisee Äijien temmeltäessä 10-ottelun merkeissä. YAAARRR! Alla todistusaineistoa
   (kiitokset Jussi Koskelalle) taistelun tiimellyksestä.</p>
 
-<ul class="imageCollage small-block-grid-2 medium-block-grid-3">
+<div class="row image-collage">
   {% include gridImage.html src="01.jpg" %}
   {% include gridImage.html src="02.jpg" %}
   {% include gridImage.html src="03.jpg" %}
@@ -43,7 +43,7 @@ excerpt: |
   {% include gridImage.html src="17.jpg" %}
   {% include gridImage.html src="18.jpg" %}
   {% include gridImage.html src="19.jpg" %}
-</ul>
+</div>
 
 <p><a href="/blog/2008/09/10-ottelu/">Vuosi sitten</a> jäin toiseksi minimalistisella 88 pisteen marginaalilla. Pettymyksen
   karvaan kalkin jälkimaku suussa olin valmistautunut tämän vuoden koitokseen harjoittelemalla intensiivisen
@@ -54,12 +54,9 @@ excerpt: |
   #decathlonTable .label {
     float: right;
   }
-  #decathlonTable .label.d {
-    background-color: #aaa;
-  }
 </style>
 
-<table id="decathlonTable" class="rightSideContent wide">
+<table id="decathlonTable" class="rightSideContent wide table table-striped">
   <thead>
   <tr>
     <th><strong>Laji</strong></th>
@@ -70,58 +67,58 @@ excerpt: |
   <tbody>
   <tr>
     <td>110 m aidat</td>
-    <td>17,72 s <span class="label d">551</span></td>
-    <td>18,13 s <span class="label alert">512</span></td>
+    <td>17,72 s <span class="label label-default">551</span></td>
+    <td>18,13 s <span class="label label-danger">512</span></td>
   </tr>
   <tr>
     <td>Seiväs</td>
-    <td>160 cm <span class="label d">70</span></td>
-    <td>215 cm <span class="label success">169</span></td>
+    <td>160 cm <span class="label label-default">70</span></td>
+    <td>215 cm <span class="label label-success">169</span></td>
   </tr>
   <tr>
     <td>Kuula</td>
-    <td>8,55 m <span class="label d">399</span></td>
-    <td>7,60 m <span class="label alert">343</span></td>
+    <td>8,55 m <span class="label label-default">399</span></td>
+    <td>7,60 m <span class="label label-danger">343</span></td>
   </tr>
   <tr>
     <td>Korkeus</td>
-    <td>160 cm <span class="label d">464</span></td>
-    <td>155 cm <span class="label alert">426</span></td>
+    <td>160 cm <span class="label label-default">464</span></td>
+    <td>155 cm <span class="label label-danger">426</span></td>
   </tr>
   <tr>
     <td>400 m</td>
-    <td>61,48 s <span class="label d">364</span></td>
-    <td>59,07 s <span class="label success">445</span></td>
+    <td>61,48 s <span class="label label-default">364</span></td>
+    <td>59,07 s <span class="label label-success">445</span></td>
   </tr>
   <tr>
     <td>100 m</td>
-    <td>12,41 s <span class="label d">573</span></td>
-    <td>11,97 s <span class="label success">657</span></td>
+    <td>12,41 s <span class="label label-default">573</span></td>
+    <td>11,97 s <span class="label label-success">657</span></td>
   </tr>
   <tr>
     <td>Kiekko</td>
-    <td>20,78 m <span class="label d">287</span></td>
-    <td>19,31 m <span class="label alert">259</span></td>
+    <td>20,78 m <span class="label label-default">287</span></td>
+    <td>19,31 m <span class="label label-danger">259</span></td>
   </tr>
   <tr>
     <td>Pituus</td>
-    <td>561 cm <span class="label d">504</span></td>
-    <td>553 cm <span class="label alert">487</span></td>
+    <td>561 cm <span class="label label-default">504</span></td>
+    <td>553 cm <span class="label label-danger">487</span></td>
   </tr>
   <tr>
     <td>Keihäs</td>
-    <td>19,5 m <span class="label d">155</span></td>
-    <td>26,35 m <span class="label success">248</span></td>
+    <td>19,5 m <span class="label label-default">155</span></td>
+    <td>26,35 m <span class="label label-success">248</span></td>
   </tr>
   <tr>
     <td>1500 m</td>
-    <td>5 min 38 s &nbsp;<span class="label d">361</span></td>
-    <td>5 min 49 s &nbsp;<span class="label alert">311</span></td>
+    <td>5 min 38 s &nbsp;<span class="label label-default">361</span></td>
+    <td>5 min 49 s &nbsp;<span class="label label-danger">311</span></td>
   </tr>
   <tr>
     <td style="text-align:right;">Yhteensä:</td>
-    <td><span class="label d">3728</span></td>
-    <td><span class="label success">3857</span></td>
+    <td><span class="label label-default">3728</span></td>
+    <td><span class="label label-success">3857</span></td>
   </tr>
   </tbody>
 </table>
@@ -149,7 +146,7 @@ excerpt: |
   urheiluhengen mukaisesti teikäläisen blogia, mutta saittisi on alhaalla. Shame on you! ;) Tästä huolimatta lähetän
   syysterveiset tämän haikun kera:</p>
 
-<blockquote>
+<blockquote class="blockquote">
   <p>Syystuulen tuoksu</p>
   <p>vuotavassa nenässä</p>
   <p>pärskeen aiheuttaa.</p>

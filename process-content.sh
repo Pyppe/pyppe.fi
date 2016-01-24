@@ -15,7 +15,7 @@ function processImage() {
   echo "Processing $file"
   cp $file $targetDir/${filename}.$extension > /dev/null 2>&1
   convert -resize 300x180^ -gravity Center -crop 300x180+0+0 +repage $file $targetDir/${filename}.crop.$extension
-  convert -resize "500x400>" $file $targetDir/${filename}.aside.$extension
+  convert -type Grayscale -auto-gamma -resize "800x600>" $file $targetDir/${filename}.listing.$extension
   convert -resize "1200x800>" $file $targetDir/${filename}.large.$extension
 }
 

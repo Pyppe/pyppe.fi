@@ -22,8 +22,8 @@ module Jekyll
     end
 
     def render(context)
-      "<div class=\"flex-video\">" +
-        "<iframe width=\"#{@width}\" height=\"#{@height}\" frameborder=\"0\"  allowfullscreen=\"\" src=\"http://www.youtube.com/embed/#{@id}\"></iframe>" +
+      "<div class=\"embed-responsive embed-responsive-16by9\">" +
+        "<iframe class=\"embed-responsive-item\" frameborder=\"0\"  allowfullscreen=\"\" src=\"http://www.youtube.com/embed/#{@id}\"></iframe>" +
       "</div>"
     end
   end

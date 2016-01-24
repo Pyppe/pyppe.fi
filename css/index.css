@@ -1,3 +1,5 @@
-#header { background: url('/img/header.jpg?1422206838') no-repeat center center; }
-#header .row { background-color: rgba(255, 255, 255, 0.5); }
-#header .fa { font-size: 120%; }
+.jumbotron { background: url('/img/jumbotron.jpg?1453589669') no-repeat center center; position: relative; }
+.jumbotron .container { position: relative; color: white; z-index: 2; }
+.jumbotron .container h1, .jumbotron .container p { text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7); }
+.jumbotron .container .lead { padding-right: 100px; }
+.jumbotron img { z-index: 1; position: absolute; bottom: 0px; right: 10px; height: 200px; }
