@@ -17,52 +17,15 @@ titleCover: /img/blog_bg.jpg
 
     {% for post in paginator.posts %}
     <div class="post-listing">
-
-      <!--
-        {% if post.titleCover %}
-        <div class="filler hidden-md-up">
-          <div class="cover{% if post.titleClass %} {{post.titleClass}}{%endif%}" style="background-image: url('{{ post.id | content_path }}/{{ post.titleCover }}');"></div>
-        </div>
-        <div class="row hidden-sm-down">
-          <div class="large-12 columns filler">
-            <div class="cover{% if post.titleClass %} {{post.titleClass}}{%endif%}" style="background-image: url('{{ post.id | content_path }}/{{ post.titleCover }}');"></div>
-          </div>
-        </div>
-        {% endif %}
-      -->
+      <h1><a href="{{ post.url }}">{{ post.title }}</a> <small class="text-muted" time-title>{{ post.date | date_to_xmlschema }}</small></h1>
       {% if post.titleCover %}
         <div class="cover{% if post.titleClass %} {{post.titleClass}}{%endif%}" style="background-image: url('{{ post.id | content_path }}/{{ post.titleCover | img_size:'listing' }}');"></div>
       {% endif %}
-      <h1><a href="{{ post.url }}">{{ post.title }}</a> <small class="text-muted" time-title>{{ post.date | date_to_xmlschema }}</small></h1>
       {% if post.img_aside %}
         <img src="{{ post.id | content_path }}/{{ post.img_aside | img_size:'listing' }}" class="aside hidden-md-down" />
       {% endif %}
       <div class="caption">{{ post.excerpt }}</div>
       <div style="clear:both"></div>
-
-<!--
-      <div class="row">
-        <div class="col-md-4">
-          <h5 class="time-title" time-title>{{ post.date | date_to_xmlschema }}</h5>
-          {% if post.img_aside %}
-          <img src="{{ post.id | content_path }}/{{ post.img_aside | img_size:'aside' }}"
-               style="width: 100%;" class="show-for-medium-up aside" />
-          {% endif %}
-        </div>
-        <div class="col-md-8">
-          <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
-
-          <div class="caption">
-            {{ post.excerpt }}
-          </div>
-          <a href="{{ post.url }}" class="btn btn-primary readMoreButton">
-            <span class="lang-en">Read more</span>
-            <span class="lang-fi">Lue lisää</span>
-            <i class="fa fa-arrow-circle-right"></i>
-          </a>
-        </div>
-      </div>
-      -->
     </div>
     {% endfor %}
 
@@ -73,8 +36,13 @@ titleCover: /img/blog_bg.jpg
     <div class="side-info well">
       <div class="card">
         <div class="card-block">
-          <h3 class="card-title">Card title</h3>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h3 class="card-title">Pyry-Samuli Lahti</h3>
+          <p class="card-text lang-fi">
+            Raudanluja herra vanhempi asiantuntija, jolla ei mene sormi suuhun kiperässäkään tilanteessa.
+          </p>
+          <p class="card-text lang-en">
+            A seasoned professional who won't be alarmed when the going gets tough.
+          </p>
         </div>
         <img class="card-img-top" src="/img/nyrkki-suussa.png" alt="Professional" />
       </div>

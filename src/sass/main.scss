@@ -38,7 +38,7 @@ a {
     background-clip: border-box;
     margin-bottom: 20px;
     overflow: hidden;
-    min-height: 150px;
+    min-height: 200px;
 
     @for $i from 0 through 100 {
       .cover-offset-#{$i} {

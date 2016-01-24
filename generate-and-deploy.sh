@@ -28,6 +28,11 @@ if [[ "$*" == *--no-process-content* ]]; then
 else
   ./process-content.sh
 fi
+if [[ "$*" == *--no-gulp* ]]; then
+  echo "WARNING: No gulp pipeline"
+else
+  gulp --env production
+fi
 $JEKYLL build
 rm -rf $TARGET/content
 rm -f $TARGET/*.sh
@@ -36,4 +41,3 @@ rm -rf $TARGET/sass
 rm -rf $TARGET/node_modules
 
 rsync -hrvz --checksum --stats $TARGET/ $SSH_HOST:$SSH_DIR/
-

@@ -11,15 +11,10 @@
   <link rel="apple-touch-icon-precomposed" href="/img/logo-57.png" />
   <link rel="shortcut icon" type="image/png" href="/img/logo-57.png" />
 
-  <link rel="stylesheet" href="/css/lib/bootstrap4/bootstrap.min.css" />
-  <!--<link rel="stylesheet" href="/css/lib/bootstrap/bootstrap-theme.min.css" />-->
+  {% include stylesheets.html %}
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="/css/lib/fancybox/jquery.fancybox.css" />
-  <link rel="stylesheet" href="/css/syntax.css" />
-  <link rel="stylesheet" href="/css/main.css" />
-  {% if page.css %}<link rel="stylesheet" href="/css/{{ page.css }}" />{% endif %}
+  {% if page.css %}<link rel="stylesheet" href="/dist/css/{{ page.css }}" />{% endif %}
   <script type="text/javascript">window.pyppe = { post: {} };</script>
-  <script type="text/javascript" src="/js/lib/jquery.min.js"></script>
-  <script type="text/javascript" src="/js/lib/lodash.min.js"></script>
+  {% include javascripts.html %}
   {% include googleAnalytics.html %}
 </head>
