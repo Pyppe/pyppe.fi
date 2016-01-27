@@ -105,7 +105,7 @@ gulp.task('jsIncludes', ['pipeline'], () => {
   function hashedScript(filename) {
     const file = path.join.apply(this, [__dirname, "dist", "js"].concat([filename]));
     const hash = md5File(file);
-    return `<script type="text/javascript" src="/dist/js/${filename}?h=${hash}"></script>`
+    return `<script type="text/javascript" src="/dist/js/${filename}?h=${hash}"></script>`;
   }
 
   const content = [

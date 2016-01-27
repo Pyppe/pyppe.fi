@@ -83,13 +83,14 @@ if (!window.console) {
     }
 
     $('.post-listing .caption').each(function () {
-      var $c = $(this);
-      var $last = $c.children().last();
-      var nodeName = $last.prop('nodeName').toLowerCase();
-      var readMoreLink = function () {
-        var text = pageLanguage === 'fi' ? 'Lue lisää' : 'Continue reading';
-        return '<a href="#" class="read-more-link">' + text + ' <i class="fa fa-angle-double-right"></i></a>';
-      }();
+      const $c = $(this);
+      const $last = $c.children().last();
+      const nodeName = $last.prop('nodeName').toLowerCase();
+      const readMoreLink = (function () {
+        const text = pageLanguage === 'fi' ? 'Lue lisää' : 'Continue reading';
+        const link = $c.closest('.post-listing').find('h1 a[href]').attr('href');
+        return `<a href="${link}" class="read-more-link">${text} <i class="fa fa-angle-double-right"></i></a>`;
+      })();
       if (nodeName === 'p') {
         $('<span> ' + readMoreLink + '</span>').appendTo($last);
       } else {
