@@ -165,6 +165,7 @@ if (!window.console) {
     handlePosts();
     bindCoverTitleScrolling();
     createFancyboxImages();
+    $('.has-tooltip[title]').tooltip();
 
     // Life-story page
     $("#showMoreNostalgia").prop('disabled', false).click(function () {

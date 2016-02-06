@@ -30,7 +30,7 @@ module Jekyll
 
     def render(context)
       args       = @text.split(/\s+/).map(&:strip)
-      api_params = {'url' => args.shift}
+      api_params = {'url' => args.shift, 'omit_script' => 'true'}
 
       args.each do |arg|
         k,v = arg.split('=').map(&:strip)

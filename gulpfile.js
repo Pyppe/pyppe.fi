@@ -32,7 +32,12 @@ const paths = (() => {
     'bootstrap',
     'moment',
     'moment-fi',
-    'fancybox/jquery.fancybox'
+    'fancybox/jquery.fancybox',
+
+    // TODO: Separate place for highcharts & d3
+    'd3',
+    'highcharts/highcharts',
+    'highcharts/highcharts-more'
   ].map(function(prefix) {
     prefix = 'src/js/vendor/' + prefix;
     return isProduction ? prefix + '.min.js' : prefix + '.js';
@@ -91,16 +96,6 @@ gulp.task('vendorCssAssets', () => {
     pipe(gulp.dest(`${distCss}/fancybox`));
 });
 
-gulp.task('siteJs', () => {
-  return gulp.src(paths.siteJs).
-    pipe(babel()).
-    pipe(gulpif(isProduction, uglify({
-      mangle: true,
-      compress: { drop_console: true }
-    }))).
-    pipe(gulp.dest(distJs));
-});
-
 gulp.task('jsIncludes', ['pipeline'], () => {
   function hashedScript(filename) {
     const file = path.join.apply(this, [__dirname, "dist", "js"].concat([filename]));
@@ -111,7 +106,7 @@ gulp.task('jsIncludes', ['pipeline'], () => {
   const content = [
     '<!-- Start auto-generated scripts -->',
     hashedScript('vendor.js'),
-    hashedScript('main.js'),
+    hashedScript('site.js'),
     '<!-- End auto-generated scripts -->'
   ].join('\n');
 
@@ -134,6 +129,17 @@ gulp.task('cssIncludes', ['pipeline'], () => {
   ].join('\n');
 
   fs.writeFileSync('./_includes/stylesheets.html', content);
+});
+
+gulp.task('siteJs', () => {
+  return gulp.src(paths.siteJs).
+    pipe(babel()).
+    pipe(gulpif(isProduction, uglify({
+      mangle: true,
+      compress: { drop_console: true }
+    }))).
+    pipe(concat('site.js')).
+    pipe(gulp.dest(distJs));
 });
 
 gulp.task('vendorJs', () => {

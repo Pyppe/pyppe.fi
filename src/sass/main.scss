@@ -3,6 +3,7 @@
 @import "_mixins.scss";
 //@import "_foundation.scss";
 @import "_bootstrap.scss";
+@import "_highcharts.scss";
 @import "_topbar.scss";
 @import "_images.scss";
 @import "_fancybox.scss";
@@ -114,4 +115,42 @@ small.minor {
 
 #notFoundGif {
   width: 100%;
+}
+
+table.sortable {
+  $sortColor: #71C991;
+  th {
+    position: relative;
+    white-space: nowrap;
+    cursor: pointer;
+    padding-right: 15px;
+
+    &:hover {
+      background-color: rgba($sortColor, 0.3);
+    }
+
+    .fa {
+      position: absolute;
+      right: 4px;
+      margin-top: 3px;
+      font-size: 120%;
+    }
+
+    &.sorted {
+      background-color: $sortColor;
+    }
+  }
+  tbody {
+    td.sorted {
+      background-color: rgba($sortColor, 0.5);
+    }
+    tr {
+      vertical-align: top;
+    }
+  }
+}
+
+.has-tooltip {
+  border-bottom: 1px dotted #818a91;
+  cursor: help;
 }
