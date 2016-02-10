@@ -151,6 +151,8 @@ table.sortable {
 }
 
 .has-tooltip {
-  border-bottom: 1px dotted #818a91;
   cursor: help;
+  &:not(.bare) {
+    border-bottom: 1px dotted #818a91;
+  }
 }

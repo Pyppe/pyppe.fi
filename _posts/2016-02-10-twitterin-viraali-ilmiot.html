@@ -57,7 +57,13 @@ meta_image: "viraali-ilmiot.meta.jpg"
   </li>
 </ul>
 
-<h2>Visualisointi</h2>
+<h2>
+  Visualisointi
+  <span class="has-tooltip bare" style="font-size: 70%; color: green;"
+        title="Voit zoomata valitsemalla alueen hiiren vasen nappi pohjassa. Shift-näppäin pohjassa voit scrollata aluetta.">
+    <i class="fa fa-question-circle"></i>
+  </span>
+</h2>
 <form>
   <div class="row">
     <div class="col-sm-6">
@@ -1570,7 +1576,9 @@ meta_image: "viraali-ilmiot.meta.jpg"
         chart: {
           type: 'bubble',
           plotBorderWidth: 1,
-          zoomType: 'xy'
+          zoomType: 'xy',
+          panning: true,
+          panKey: 'shift'
         },
 
         legend: { enabled: false },
