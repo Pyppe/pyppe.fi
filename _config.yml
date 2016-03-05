@@ -9,6 +9,12 @@ sitemap_pages:
   - /frontpage/
   - /elamantarina/
   - /life-story/
+exclude:
+  - .idea
+  - .sass-cache
+  - .tweet-cache
+  - node_modules
+  - src
 
 # Build settings
 markdown: kramdown
