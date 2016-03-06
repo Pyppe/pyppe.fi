@@ -4,6 +4,33 @@ layout: page
 
 <div id="post" class="row" {% if page.post_language %} lang="{{page.post_language}}"{% endif %}>
   <div class="col-sm-12">{{ content }}</div>
+
+  <!-- Newer -->
+  {% if page.next %}
+  <div class="col-xs-6" style="text-align: right;">
+    <h6>
+      <span class="lang-fi">Seuraava kirjoitus:</span>
+      <span class="lang-en">Next post:</span>
+    </h6>
+    <a rel="next" href="{{ page.next.url }}">
+      <i class="fa fa-caret-left"></i> {{page.next.title}}
+    </a>
+  </div>
+  {% endif %}
+
+  <!-- Older -->
+  {% if page.previous %}
+  <div class="col-xs-6">
+    <h6>
+      <span class="lang-fi">Edellinen kirjoitus:</span>
+      <span class="lang-en">Previous post:</span>
+    </h6>
+    <a rel="prev" href="{{ page.previous.url }}">
+      {{page.previous.title}} <i class="fa fa-caret-right"></i>
+    </a>
+  </div>
+  {% endif %}
+
 </div>
 
 <div id="comments" class="row">
