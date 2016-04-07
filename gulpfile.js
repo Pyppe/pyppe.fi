@@ -52,6 +52,7 @@ const paths = (() => {
 
   return {
     siteJs: 'src/js/*',
+    customJs: 'src/js/custom/*',
     vendorJs: vendorScripts,
     vendorCss : vendorCss,
     siteSass: 'src/sass/**/*.scss'
@@ -96,41 +97,6 @@ gulp.task('vendorCssAssets', () => {
     pipe(gulp.dest(`${distCss}/fancybox`));
 });
 
-gulp.task('jsIncludes', ['pipeline'], () => {
-  function hashedScript(filename) {
-    const file = path.join.apply(this, [__dirname, "dist", "js"].concat([filename]));
-    const hash = md5File(file);
-    return `<script type="text/javascript" src="/dist/js/${filename}?h=${hash}"></script>`;
-  }
-
-  const content = [
-    '<!-- Start auto-generated scripts -->',
-    hashedScript('vendor.js'),
-    hashedScript('site.js'),
-    '<!-- End auto-generated scripts -->'
-  ].join('\n');
-
-  fs.writeFileSync('./_includes/javascripts.html', content);
-});
-
-gulp.task('cssIncludes', ['pipeline'], () => {
-  function hashedStylesheet(filename) {
-    const file = path.join.apply(this, [__dirname, "dist", "css"].concat([filename]));
-    const hash = md5File(file);
-    return `<link rel="stylesheet" href="/dist/css/${filename}?h=${hash}" />`
-  }
-  const content = [
-    '<!-- Start auto-generated styles -->',
-    hashedStylesheet('vendor.css'),
-    hashedStylesheet('fancybox/jquery.fancybox.css'),
-    hashedStylesheet('main.css'),
-    hashedStylesheet('syntax.css'),
-    '<!-- End auto-generated styles -->'
-  ].join('\n');
-
-  fs.writeFileSync('./_includes/stylesheets.html', content);
-});
-
 gulp.task('siteJs', () => {
   return gulp.src(paths.siteJs).
     pipe(babel()).
@@ -142,6 +108,16 @@ gulp.task('siteJs', () => {
     pipe(gulp.dest(distJs));
 });
 
+gulp.task('customJs', () => {
+  return gulp.src(paths.customJs).
+    pipe(babel()).
+    pipe(gulpif(isProduction, uglify({
+      mangle: true,
+      compress: { drop_console: true }
+    }))).
+    pipe(gulp.dest(`${distJs}/custom/`));
+});
+
 gulp.task('vendorJs', () => {
   return gulp.src(paths.vendorJs).
     pipe(concat('vendor.js')).
@@ -150,9 +126,10 @@ gulp.task('vendorJs', () => {
 
 gulp.task('fileWatch', () => {
   gulp.watch(paths.siteJs, ['siteJs']);
+  gulp.watch(paths.customJs, ['customJs']);
   gulp.watch(paths.siteSass, ['compass']);
 });
 
-gulp.task('pipeline', ['siteJs', 'vendorJs', 'vendorCss', 'vendorCssAssets', 'compass']);
-gulp.task('default', ['pipeline', 'jsIncludes', 'cssIncludes']);
+gulp.task('pipeline', ['siteJs', 'customJs', 'vendorJs', 'vendorCss', 'vendorCssAssets', 'compass']);
+gulp.task('default', ['pipeline']);
 gulp.task('watch', ['default', 'fileWatch']);

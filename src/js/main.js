@@ -165,7 +165,12 @@ if (!window.console) {
     handlePosts();
     bindCoverTitleScrolling();
     createFancyboxImages();
-    $('.has-tooltip[title]').tooltip();
+    $('.has-tooltip[title]').each(function() {
+      const $el = $(this);
+      $el.tooltip({
+        html: _.isString($el.attr('tip-is-html'))
+      });
+    });
 
     // Life-story page
     $("#showMoreNostalgia").prop('disabled', false).click(function () {

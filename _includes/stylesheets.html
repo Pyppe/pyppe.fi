@@ -1,6 +1,7 @@
-<!-- Start auto-generated styles -->
-<link rel="stylesheet" href="/dist/css/vendor.css?h=c6031eb1b1313fd9c2f68e6da3a9903a" />
-<link rel="stylesheet" href="/dist/css/fancybox/jquery.fancybox.css?h=6c55951ce1e3115711f63f99b7501f3a" />
-<link rel="stylesheet" href="/dist/css/main.css?h=7c88093651294e4c21efa41fd5203ad6" />
-<link rel="stylesheet" href="/dist/css/syntax.css?h=44b39f3a89baff266d9f1eaee185428a" />
-<!-- End auto-generated styles -->
+<link rel="stylesheet" href="/dist/css/vendor.css?h={{site.resource_hash}}" />
+<link rel="stylesheet" href="/dist/css/fancybox/jquery.fancybox.css?h={{site.resource_hash}}" />
+<link rel="stylesheet" href="/dist/css/main.css?h={{site.resource_hash}}" />
+<link rel="stylesheet" href="/dist/css/syntax.css?h={{site.resource_hash}}" />
+{% if page.custom_page_css %}
+<link rel="stylesheet" href="/dist/css/custom/{{page.custom_page_css}}?h={{site.resource_hash}}" />
+{% endif %}

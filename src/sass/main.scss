@@ -67,10 +67,8 @@ span.hilight, em.hilight {
   font-size: 120%;
 }
 
-body {
+body, .popover {
   @include body-font();
-  //font-size: 16px;
-  //line-height: 1.4;
 }
 
 #footer {
@@ -119,6 +117,12 @@ small.minor {
 
 table.sortable {
   $sortColor: #71C991;
+  &.compact-table {
+    font-size: 0.85rem;
+  }
+  .has-tooltip {
+    white-space: nowrap;
+  }
   th {
     position: relative;
     white-space: nowrap;
@@ -146,6 +150,34 @@ table.sortable {
     }
     tr {
       vertical-align: top;
+    }
+  }
+
+  .twitter-user-col {
+    position: relative;
+    img {
+      position: absolute;
+      border-radius: 100px;
+      padding: 2px;
+      display: inline-block;
+      width: 32px;
+      height: 32px;
+    }
+    div {
+      margin-left: 40px;
+      small {
+        vertical-align: top;
+        line-height: 1;
+        display: block;
+      }
+      /*
+      a {
+        display: block;
+      }
+      */
+    }
+    .label {
+      font-weight: 400;
     }
   }
 }
