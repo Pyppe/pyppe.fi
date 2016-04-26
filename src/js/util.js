@@ -68,7 +68,8 @@
     bindTableSorting,
     numberFormat,
     integerFormat: n => numberFormat(n, 0, ',', nonBreakingSpace),
-    decimalFormat: n => numberFormat(n, 1, ',', nonBreakingSpace)
+    decimalFormat: n => numberFormat(n, 1, ',', nonBreakingSpace),
+    pageLanguage: () => $('html').hasClass('fi') ? 'fi' : 'en'
   };
 
 })();

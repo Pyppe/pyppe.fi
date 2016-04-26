@@ -9,13 +9,38 @@ $(function() {
   const dateRange = "<small>1.10.2015 &ndash; 1.4.2016</small>";
   const tr = (title, value) => `<tr><th>${title}</th><td>${value}</td></tr>`;
 
-  $table.find('.twitter-user-col .label').each((i, el) => {
+  $table.find('.twitter-user-col .hashtag').each((i, el) => {
     const $el = $(el);
     const text = $el.text();
     if (_.size(text) > 30) {
       const truncated = _.take(text, 27).join('') + '…';
       $el.text(truncated).attr('title', text);
     }
+  });
+
+  const closeDynamicTweetPopover = () => $('#dynamic-tweet-popover').closest('.popover').popover('dispose');
+
+  $('body').on('click', '[data-close-dynamic-tweet-popover]', closeDynamicTweetPopover);
+
+  $('.show-top-tweet').click(function() {
+    const $el = $(this);
+    const tweetId = $el.data('tweetId').toString();
+    closeDynamicTweetPopover();
+    const buttonHtml = `<div><button class="btn btn-primary btn-sm" data-close-dynamic-tweet-popover>Sulje</button></div>`
+    $el.popover('dispose').popover({
+      container : 'body',
+      trigger   : 'manual',
+      html      : true,
+      content   : `<div id="dynamic-tweet-popover"><div data-embed-here></div><i class="fa fa-spin fa-spinner fa-lg"></i>${buttonHtml}</div>`
+    }).popover('show');
+    const $popover = $('#dynamic-tweet-popover');
+    twttr.widgets.createTweet(
+      tweetId,
+      $popover.find('[data-embed-here]')[0],
+      { id: tweetId, lang: 'fi' }
+    ).then(() =>
+      $popover.find('.fa-spinner').remove()
+    );
   });
 
   const $amountSelect = $('#suomen-top-100-twiittaajat-2016-04-take');

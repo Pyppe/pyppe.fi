@@ -1,6 +1,6 @@
 <div class="filler frame {{ include.css }}"{% if include.style %} style="{{include.style}}"{% endif %}>
   {% if include.name %}
-  <img src="{{ page.id | content_path }}/{% if include.css %}{{ include.name | img_size: 'aside' }}{% else %}{{ include.name | img_size: 'large' }}{% endif %}">
+  <img src="{{ page.id | content_path }}/{% if include.css == 'rightSideContent' %}{{ include.name | img_size: 'aside' }}{% else %}{{ include.name | img_size: 'large' }}{% endif %}">
   {% else %}
   <img src="{{ include.path }}" />
   {% endif %}

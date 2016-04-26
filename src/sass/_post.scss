@@ -20,6 +20,13 @@
   margin-top: 20px;
 }
 
+.bordered-post-image {
+  img {
+    border: 1px solid #ccc;
+  }
+  margin-bottom: 1rem;
+}
+
 .rightSideContent {
   @media #{$sm-up} {
     float: right;
