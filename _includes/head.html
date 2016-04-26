@@ -29,7 +29,11 @@
     <meta property="og:image" content="{{site.url}}/img/nyrkki-suussa.png" />
   {% endif %}
 
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+  {% if page.post_language == "fi" %}
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | replace: '/blog/', '/blogi/' }}" />
+  {% else %}
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+  {% endif %}
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/logo-114.png" />
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/logo-72.png" />
   <link rel="apple-touch-icon-precomposed" href="/img/logo-57.png" />

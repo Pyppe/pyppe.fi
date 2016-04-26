@@ -8,15 +8,11 @@ permalink: /sitemap.xml
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   {% for post in site.posts %}
     <url>
-      <loc>{{ site.url }}{{ post.url }}</loc>
-      {% if post.lastmod == null %}
-        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+      {% if post.post_language == "en" %}
+        <loc>{{ site.url }}{{ post.url }}</loc>
       {% else %}
-        <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
+        <loc>{{ post.url | prepend: site.url | replace: '/blog/', '/blogi/' }}</loc>
       {% endif %}
-    </url>
-    <url>
-      <loc>{{ post.url | prepend: site.url | replace: '/blog/', '/blogi/' }}</loc>
       {% if post.lastmod == null %}
         <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
       {% else %}
