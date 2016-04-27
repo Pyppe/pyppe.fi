@@ -14,6 +14,7 @@ function processImage() {
   targetDir=$(echo $targetDir | sed "s#$PROGDIR/content/#$PROGDIR/data/#")
   echo "Processing $file"
   cp $file $targetDir/${filename}.$extension > /dev/null 2>&1
+  convert -resize "200x200^" -gravity Center -crop 200x200+0+0 +repage $file $targetDir/${filename}.thumb.$extension
   convert -resize "300x180^" -gravity Center -crop 300x180+0+0 +repage $file $targetDir/${filename}.crop.$extension
   convert -resize "500x400>"                                           $file $targetDir/${filename}.aside.$extension
   convert -resize "800x600>" -type Grayscale -auto-gamma               $file $targetDir/${filename}.listing.$extension

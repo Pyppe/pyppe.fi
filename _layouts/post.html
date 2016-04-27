@@ -5,6 +5,7 @@ layout: page
 <div id="post" class="row" {% if page.post_language %} lang="{{page.post_language}}"{% endif %}>
   <div class="col-sm-12">{{ content }}</div>
 
+  {% comment %}
   <!-- Newer -->
   {% if page.next %}
   <div class="col-xs-6" style="text-align: right;">
@@ -30,7 +31,26 @@ layout: page
     </a>
   </div>
   {% endif %}
+  {% endcomment %}
+</div>
 
+<div id="relevant-posts" class="row">
+  <div class="col-sm-12">
+    <h2 class="lang-fi">Enemmän tai vähemmän aiheen vierestä</h2>
+    <h2 class="lang-en">More or less related posts</h2>
+    <div class="row">
+      <div class="col-md-6" data-first-col></div>
+      <div class="col-md-6" data-second-col></div>
+    </div>
+    {% comment %}
+    <div class="list-group">
+      <a href="#" class="list-group-item">
+        <h5 class="list-group-item-heading">List group item heading</h5>
+        <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+      </a>
+    </div>
+    {% endcomment %}
+  </div>
 </div>
 
 <div id="comments" class="row">

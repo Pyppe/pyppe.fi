@@ -69,7 +69,8 @@
     numberFormat,
     integerFormat: n => numberFormat(n, 0, ',', nonBreakingSpace),
     decimalFormat: n => numberFormat(n, 1, ',', nonBreakingSpace),
-    pageLanguage: () => $('html').hasClass('fi') ? 'fi' : 'en'
+    pageLanguage: () => $('html').hasClass('fi') ? 'fi' : 'en',
+    parseMoment: (text) => moment(text, 'YYYY-MM-DD[T]HH:mm:ssZ')
   };
 
 })();

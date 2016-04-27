@@ -16,7 +16,9 @@ layout: default
           {% endif %}
         </h1>
         {% if page.date %}
-          <h3 time-title>{{ page.date | date_to_xmlschema }}</h3>
+          <h3>
+            <span class="time-title">{{ page.date | date_to_xmlschema }}</span>
+          </h3>
         {% endif %}
       </div>
     </div>

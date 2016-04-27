@@ -16,24 +16,6 @@ $title-font-family: "Titillium Web", "Helvetica Neue", Helvetica, Arial, sans-se
   font-family: $body-font-family;
 }
 
-@mixin title-cover($imageUrl) {
-  background: image-url($imageUrl);
-  background-size: cover;
-
-  @media #{$medium-up} {
-    height: 200px;
-    h1 {
-      font-size: 4rem;
-    }
-  }
-  @media #{$large-up} {
-    height: 300px;
-  }
-  h1 {
-    @include text-shadow(0 0 5px rgba(0,0,0,0.75));
-  }
-}
-
 @mixin cover-offsets() {
   @for $i from 0 through 100 {
     &.cover-offset-#{$i} {

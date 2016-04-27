@@ -6,9 +6,11 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:creator" content="@pyrylahti" />
 
-  <meta name="description" content="{% if page.excerpt %}{{page.excerpt | clean_meta}}{% else %}{{ site.description }}{% endif %}" />
-  {% if page.excerpt %}
-  <meta name="og:description" content="{{page.excerpt | clean_meta}}" />
+  <meta name="description" content="{% if page.meta_description %}{{page.meta_description | clean_meta}}{%elsif page.excerpt%}{{page.excerpt | clean_meta}}{% else %}{{ site.description }}{% endif %}" />
+  {% if page.meta_description %}
+    <meta name="og:description" content="{{page.meta_description | clean_meta}}" />
+  {% elsif page.excerpt %}
+    <meta name="og:description" content="{{page.excerpt | clean_meta}}" />
   {% endif %}
   {% if page.title %}
   <meta property="og:title" content="{{ page.title }}" />

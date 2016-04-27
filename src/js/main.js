@@ -56,10 +56,11 @@ if (!window.console) {
       $elements.each(function () {
         var $el = $(this);
         var time = $el.text();
-        $el.text(moment(time, 'YYYY-MM-DD[T]HH:mm:ssZ').format('LL'));
+        $el.text(pyppe.util.parseMoment(time).format('LL'));
+        $el.addClass('formatted');
       });
     }
-    formatTime($('[time-title]'));
+    formatTime($('.time-title'));
   }
 
   // Link to posts
@@ -159,12 +160,65 @@ if (!window.console) {
     });
   }
 
+  function handleRelatedPosts() {
+    const $post = $('#post');
+    if ($post.length === 0) return;
+    const currentCanonicalUrl = location.pathname.replace(/\/blogi\//, "/blog/");
+    console.log(currentCanonicalUrl);
+    $.get('/posts.json').done(posts => {
+      const now = moment();
+      const currentPost = _.find(posts, {url: currentCanonicalUrl});
+      const currentTags = _.get(currentPost, 'tags', []);
+      const relatedPosts = _.chain(posts).
+        reject({url: currentCanonicalUrl}).
+        sortBy(post => {
+          const age = Math.abs(now.diff(pyppe.util.parseMoment(post.time), 'days'));
+          const matchingTagCount = _.size(_.intersection(post.tags, currentTags));
+          return age - matchingTagCount*99999;
+        }).
+        value();
+
+      const $relevant = $('#relevant-posts');
+
+      const populateColumn = ($parent, posts) => {
+        const $list = $('<div class="relevant-post-group"></div>').appendTo($parent);
+        _.forEach(posts, post => {
+          const image = post.imageAside || post.imageMeta || post.imageCover;
+          const $item = $(
+            `<a href="${post.url}" class="relevant-post">
+              <h5 class="post-heading">${post.title}</h5>
+              <h5><small class="text-muted">${pyppe.util.parseMoment(post.time).format('LL')}</small></h5>
+              <div style="clear:both"></div>
+            </a>`
+          ).appendTo($list);
+          if (image) {
+            $(`<img src=${image} />`).prependTo($item);
+          } else {
+            $('<div class="image"></div>').prependTo($item);
+          }
+          /*
+          const $tagContainer = $('<div class="tags"></div>').appendTo($item);
+          _.forEach(post.tags, tag => {
+            $(`<span class="label label-default"><i class="fa fa-tag"></i> ${tag}</span>`).appendTo($tagContainer);
+          });
+          */
+        });
+      };
+
+      populateColumn($relevant.find('[data-first-col]'), _.take(relatedPosts, 3));
+      populateColumn($relevant.find('[data-second-col]'), _.take(_.drop(relatedPosts, 3), 3));
+      $relevant.show();
+
+    });
+  }
+
   $(function () {
     localization();
     formatTimes();
     handlePosts();
     bindCoverTitleScrolling();
     createFancyboxImages();
+    handleRelatedPosts();
     $('.has-tooltip[title]').each(function() {
       const $el = $(this);
       $el.tooltip({

@@ -1,5 +1,5 @@
 $(function() {
-  const $table = $('#suomen-top-100-twiittaajat-2016-04');
+  const $table = $('#suomi-twitterin-top-200-vaikuttajat-2016-05');
   pyppe.util.bindTableSorting($table);
 
   const i = pyppe.util.integerFormat;
@@ -38,15 +38,17 @@ $(function() {
       tweetId,
       $popover.find('[data-embed-here]')[0],
       { id: tweetId, lang: 'fi' }
-    ).then(() =>
-      $popover.find('.fa-spinner').remove()
-    );
+    ).then(() => {
+      $popover.find('.fa-spinner').remove();
+      const pos = $(window).scrollTop();
+      $(window).scrollTop(pos+1).scrollTop(pos);
+    });
   });
 
-  const $amountSelect = $('#suomen-top-100-twiittaajat-2016-04-take');
+  const $amountSelect = $('#suomi-twitterin-top-200-vaikuttajat-2016-05-take');
   $amountSelect.change(showBubbleChart);
 
-  const $finnishSelect = $('#suomen-top-100-twiittaajat-2016-04-finnish');
+  const $finnishSelect = $('#suomi-twitterin-top-200-vaikuttajat-2016-05-finnish');
   $finnishSelect.change(showBubbleChart);
 
   function bindPopover(params) {
@@ -55,16 +57,12 @@ $(function() {
     $(`[data-${key}]`).
       mouseenter(function() {
         const $el = $(this);
-        const content =
-          ul ?
-          '<ul class="list-unstyled">' + ul($el.data(key)).join('\n') + '</ul>' :
-          `<table><tbody>${table($el.data(key)).join('\n')}</tbody></table>`;
         $el.popover({
           trigger: 'hover',
           placement: placement || 'top',
           html: true,
           title: title,
-          content: content
+          content: `<table><tbody>${table($el.data(key)).join('\n')}</tbody></table>`
         }).popover('show');
       }).mouseleave(function() {
         $(this).popover('hide');
@@ -72,12 +70,23 @@ $(function() {
   }
 
   bindPopover({
+    key: 'activity',
+    title: 'Aktiivisuus',
+    placement: 'right',
+    table: (nums) => _.map(nums, (activity, idx) => (
+      tr(moment('2015-10-01').add(idx, 'month').format('YYYY MMMM'), `${i(activity)} retwiittiä ja mainintaa yhteensä`)
+    ))
+  });
+
+  bindPopover({
     key: 'retweets',
     title: 'Retwiittaajat',
     table: (rt) => [
-      tr('Uniikkeja retwiittaajia keskimäärin', `${i(rt.monthlyUsers)} / kk`),
+      tr('Uniikkeja retwiittaajia (keskiarvo)', `${i(rt.monthlyUserAvg)} / kk`),
+      tr('Uniikkeja retwiittaajia (mediaani)',  `${i(rt.monthlyUserMed)} / kk`),
       tr('Uniikkeja retwiittaajia yhteensä',    `${i(rt.totalUsers)}`),
-      tr('Retwiittejä keskimäärin',             `${i(rt.monthlyCount)} / kk`),
+      tr('Retwiittejä (keskiarvo)',             `${i(rt.monthlyCountAvg)} / kk`),
+      tr('Retwiittejä (mediaani)',              `${i(rt.monthlyCountMed)} / kk`),
       tr('Retwiittejä yhteensä',                `${i(rt.totalCount)}`)
     ]
   });
@@ -86,7 +95,7 @@ $(function() {
     key: 'own',
     title: 'Omat twiitit',
     table: (own) => [
-      tr('Omat twiitit keskimäärin', `${d(own.dailyCount)} / päivä`),
+      tr('Omat twiitit (keskiarvo)', `${d(own.dailyCount)} / päivä`),
       tr('Omat twiitit yhteensä',    `${i(own.totalCount)}`)
     ]
   });
@@ -95,7 +104,8 @@ $(function() {
     key: 'reach',
     title: 'Tavoittavuus',
     table: (reach) => [
-      tr('Tavoittavuus keskimäärin', `${i(reach.monthlyReach)} / kk`),
+      tr('Tavoittavuus (keskiarvo)', `${i(reach.monthlyReachAvg)} / kk`),
+      tr('Tavoittavuus (mediaani)',  `${i(reach.monthlyReachMed)} / kk`),
       tr('Tavoittavuus yhteensä',    `${i(reach.totalReach)}`)
     ]
   });
@@ -105,24 +115,76 @@ $(function() {
     title: 'Keskustelijat',
     placement: 'left',
     table: (mentions) => [
-      tr('Uniikkeja keskustelijoita keskimäärin', `${i(mentions.monthlyUsers)} / kk`),
+      tr('Uniikkeja keskustelijoita (keskiarvo)', `${i(mentions.monthlyUserAvg)} / kk`),
+      tr('Uniikkeja keskustelijoita (mediaani)',  `${i(mentions.monthlyUserMed)} / kk`),
       tr('Uniikkeja keskustelijoita yhteensä',    `${i(mentions.totalUsers)}`),
-      tr('Mainintoja keskimäärin',                `${i(mentions.monthlyCount)} / kk`),
-      tr('Mainintoja yhteensä',                   `${i(mentions.totalCount)}`),
+      tr('Mainintoja (keskiarvo)',                `${i(mentions.monthlyCountAvg)} / kk`),
+      tr('Mainintoja (mediaani)',                 `${i(mentions.monthlyCountMed)} / kk`),
+      tr('Mainintoja yhteensä',                   `${i(mentions.totalCount)}`)
     ]
-  })
+  });
 
-  const userData = _.map($table.find('tbody tr').toArray(), el => {
+  /*
+  const sparkLineActivityDomain = (function() {
+    const xs = _.chain($table.find('[data-activity]').toArray()).
+      map(el => $(el).data('activity')).
+      flatten().
+      map(v => -v).
+      value();
+    return [_.min(xs), _.max(xs)];
+  })();
+  */
+
+  function sparkLine($parent, realActivity) {
+    const height = 40;
+    const width = 80;
+    const graph =
+      d3.select($parent[0]).
+        append("svg:svg").
+        attr("width", `${width}px`).
+        attr("height", `${height}px`);
+
+    const activity = _.map(realActivity, a => -a);
+    const activityDomain = [_.min(activity), _.max(activity)];
+    const x = d3.scale.linear().domain([0, _.size(activity)-1]).range([0, width]);
+    //const y = d3.scale.pow().exponent(0.5).domain(sparkLineActivityDomain).range([0, height]);
+    const y = d3.scale.pow().exponent(4).domain(activityDomain).range([0, height]);
+
+    const line = d3.svg.line().
+      //interpolate("step-after").
+      x((d,i) => {
+        return x(i);
+      }).
+      y(d => {
+        //console.log(`Plotting y ${d} -> ${y(d)}`);
+        return y(d);
+      });
+    // display the line by appending an svg:path element with the data line we created above
+    graph.append("svg:path").
+      attr("class", "activity-line").
+      //attr("transform", "translate(0, 40)").
+      attr("d", line(activity));
+  }
+
+  const userData = _.map($table.find('tbody tr').toArray(), (el, i) => {
     const $tr = $(el);
     const dataValue = (idx, dataKey = 'value') => $tr.find('td:eq('+idx+')').data(dataKey);
     const $u = $tr.find('.twitter-user-col');
 
+    const $activity = $tr.find('[data-activity]').addClass('spark-area');
+    //$('<br/>').insertBefore($activity);
+    const activity = $activity.data('activity');
+
+    sparkLine($activity, activity);
+
     return {
+      rank: dataValue(0)+1,
       user: {
         screenName: $u.data('value'),
         name: $u.find('small').text(),
         avatar: $u.find('img').attr('src')
       },
+      activity,
       engagement: dataValue(3),
       reach: $tr.find('[data-reach]').data('reach'),
       retweets: $tr.find('[data-retweets]').data('retweets'),
@@ -151,15 +213,15 @@ $(function() {
         return _.identity;
       } else {
         const values = _.map(relevantUserData, extractZAxisValue);
-        window.values = values;
         // sqrt / log / pow
         return d3.scale.pow().domain([_.min(values), _.max(values)]).range([5, 30]);
       }
     })();
 
 
-    const height = Math.max($(window).height()-100, 300);
-    $('#suomen-top-100-twiittaajat-2016-04-chart').css({height: height+'px'}).highcharts({
+    const height = Math.max(parseInt($(window).height()*0.7), 300);
+    //$('.container').removeClass('container');
+    $('#suomi-twitterin-top-200-vaikuttajat-2016-05-chart').css({height: height+'px'}).highcharts({
       chart: {
         type: 'bubble',
         plotBorderWidth: 1,
@@ -189,13 +251,21 @@ $(function() {
         headerFormat: '',
         footerFormat: '',
         formatter: function() {
-          var x = this.point.options;
+          const x = this.point.options;
+          const finnishScale = $finnishSelect.val() === 'finnish'
+          const factor = finnishScale ? x.finnishRate : 1.0;
           return [
-            `<h5><img class="avatar" src="${x.user.avatar}" alt="" /><small>@</small>${x.user.screenName} <small class="text-muted">${x.user.name}</small></h5>`,
+            `<h5>
+              <img class="avatar" src="${x.user.avatar}" alt="" />
+              <small><span class="label label-primary">${x.rank}.</span></small>
+              <small>@</small>${x.user.screenName} <small class="text-muted">${x.user.name}</small>
+            </h5>`,
             '<table><tbody>',
-            tr('Tavoittavuus keskimäärin', `${i(x.reach.monthlyReach)} / kk`),
-            tr('Uniikit retwiittaajat keskimäärin', `${i(x.retweets.monthlyUsers)} / kk`),
-            '</tbody></table>'
+            tr('Tavoittavuus keskimäärin',          `${i(factor * x.reach.monthlyReachAvg)} / kk`),
+            tr('Uniikit retwiittaajat keskimäärin', `${i(factor * x.retweets.monthlyUserAvg)} / kk`),
+            tr('Retwiitit ja maininnat yhteensä',   `${i(factor * (x.retweets.totalCount + x.mentions.totalCount))}`),
+            '</tbody></table>',
+            finnishScale ? `<br/><em>&ndash; Luvut skaalattu ${d(factor*100)}% suom. yleisön suhteen</em>` : '',
           ].join('');
         }
         //followPointer: true
@@ -217,8 +287,8 @@ $(function() {
       series: [{
         data: _.map(relevantUserData, (d) => {
           return _.assign({}, d, {
-            x: finnishFactor(d) * d.reach.monthlyReach,
-            y: finnishFactor(d) * d.retweets.monthlyUsers,
+            x: finnishFactor(d) * d.reach.monthlyReachAvg,
+            y: finnishFactor(d) * d.retweets.monthlyUserAvg,
             z: zAxisScale(extractZAxisValue(d))
           });
         })
@@ -226,7 +296,5 @@ $(function() {
 
     });
   }
-
-  //console.log(tweetData);
 
 });

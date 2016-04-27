@@ -1,0 +1,17 @@
+---
+permalink: /posts.json
+---
+[
+{% for post in site.posts %}
+  {
+    "title" : "{{ post.title | escape_json }}",
+    "time" : "{{ post.date | date_to_xmlschema }}",
+    "url" : "{{ post.url }}",
+    "tags" : {{ post.tags | jsonify }},
+    {%if post.img_aside %}"imageAside": "{{ post.id | content_path }}/{{ post.img_aside | img_size:'thumb' }}",{%endif%}
+    {%if post.meta_image %}"imageMeta": "{{ post.id | content_path }}/{{ post.meta_image | img_size:'thumb' }}",{%endif%}
+    {%if post.titleCover %}"imageCover": "{{ post.id | content_path }}/{{ post.titleCover | img_size:'thumb' }}",{%endif%}
+    "excerptHtml" : {{ post.excerpt | jsonify }}
+  }{% if forloop.last == false %},{% endif %}
+{% endfor %}
+]

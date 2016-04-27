@@ -46,12 +46,17 @@ const paths = (() => {
 
   const vendorCss = [
     'bootstrap'
-  ].map(function(name) {
-    return 'src/css/vendor/' + name + '.css';
-  });
+  ].map(name => `src/css/vendor/${name}.css`);
+
+  const siteJs = [
+    //'highcharts.screenshot-theme',
+    'highcharts.theme',
+    'main',
+    'util'
+  ].map(file => `src/js/${file}.js`);
 
   return {
-    siteJs: 'src/js/*',
+    siteJs,
     customJs: 'src/js/custom/*',
     vendorJs: vendorScripts,
     vendorCss : vendorCss,
