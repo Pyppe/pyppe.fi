@@ -52,7 +52,17 @@ a {
       //bottom: 0;
       color: white;
       font-weight: 700;
-      @include text-shadow(1px 1px 5px rgba(black, 1.0), 1px 1px 10px rgba(black, 0.6));
+      /*
+      @include text-shadow(
+        1px 1px 5px rgba(black, 1.0),
+        5px 5px 5px rgba(black, 0.2),
+        -5px 5px 5px rgba(black, 0.2),
+        5px -5px 5px rgba(black, 0.2),
+        -5px -5px 5px rgba(black, 0.2)
+      );
+      */
+      //@include text-shadow(1px 1px 5px rgba(black, 1.0));
+      @include muchos-shadowy(1px 1px 5px black, 2px, 5px, rgba(black, 0.3));
     }
   }
   .text {

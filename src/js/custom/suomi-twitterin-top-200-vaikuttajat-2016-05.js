@@ -250,15 +250,15 @@ $(function() {
         useHTML: true,
         headerFormat: '',
         footerFormat: '',
-        formatter: function() {
+        formatter() {
           const x = this.point.options;
           const finnishScale = $finnishSelect.val() === 'finnish'
           const factor = finnishScale ? x.finnishRate : 1.0;
           return [
             `<h5>
               <img class="avatar" src="${x.user.avatar}" alt="" />
-              <small><span class="label label-primary">${x.rank}.</span></small>
               <small>@</small>${x.user.screenName} <small class="text-muted">${x.user.name}</small>
+              <small><span class="label label-primary">${x.rank}.</span></small>
             </h5>`,
             '<table><tbody>',
             tr('Tavoittavuus keskimäärin',          `${i(factor * x.reach.monthlyReachAvg)} / kk`),
@@ -273,6 +273,19 @@ $(function() {
 
       plotOptions: {
         series: {
+          cursor: 'pointer',
+          point: {
+            events: {
+              click() {
+                const $row = $(`.twitter-user-col[data-value="${this.user.screenName}"]`).closest('tr');
+                if ($row.length === 1) {
+                  $('html, body').animate({
+                    scrollTop: $row.offset().top
+                  }, 400);
+                }
+              }
+            }
+          },
           dataLabels: {
             enabled: true,
             format: '{point.user.screenName}'

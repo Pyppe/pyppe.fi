@@ -165,7 +165,7 @@ if (!window.console) {
     if ($post.length === 0) return;
     const currentCanonicalUrl = location.pathname.replace(/\/blogi\//, "/blog/");
     console.log(currentCanonicalUrl);
-    $.get('/posts.json').done(posts => {
+    $.get(`/posts.json?h=${pyppe.resourceHash}`).done(posts => {
       const now = moment();
       const currentPost = _.find(posts, {url: currentCanonicalUrl});
       const currentTags = _.get(currentPost, 'tags', []);

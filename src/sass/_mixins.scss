@@ -24,6 +24,16 @@ $title-font-family: "Titillium Web", "Helvetica Neue", Helvetica, Arial, sans-se
   }
 }
 
+@mixin muchos-shadowy($main-shadow, $offset, $size, $color) {
+  @include text-shadow(
+    $main-shadow,
+    ($offset)  ($offset) $size $color,
+    (-$offset) ($offset) $size $color,
+    ($offset)  (-$offset) $size $color,
+    (-$offset) (-$offset) $size $color
+  )
+}
+
 @mixin vertical-gradient($startColor, $endColor) {
   background-color: $startColor;
   @include filter-gradient($startColor, $endColor);

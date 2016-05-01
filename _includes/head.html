@@ -44,7 +44,7 @@
   {% include stylesheets.html %}
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
   {% if page.css %}<link rel="stylesheet" href="/dist/css/{{ page.css }}" />{% endif %}
-  <script type="text/javascript">window.pyppe = { post: {} };</script>
+  <script type="text/javascript">window.pyppe = { post: {}, resourceHash: "{{site.resource_hash}}" };</script>
   {% include javascripts.html %}
   {% include googleAnalytics.html %}
   {% include twitterWidgets.html %}
