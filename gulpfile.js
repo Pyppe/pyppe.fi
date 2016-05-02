@@ -9,6 +9,7 @@ const util      = require('gulp-util');
 
 const _         = require('lodash');
 const exec      = require('child_process').exec;
+const execSync  = require('child_process').execSync;
 const fs        = require('fs');
 const glob      = require("glob");
 const path      = require('path');
@@ -71,6 +72,39 @@ gulp.task('clean', () => {
         if (!err) console.log(`Removed ${file}`)
       });
     })
+  });
+});
+
+gulp.task('processContent', () => {
+  const isImage = name => /\.(gif|jpg|png)$/.test(name);
+  const sizeConversions = [
+    ['thumb',   `convert -resize "200x200^" -gravity Center -crop 200x200+0+0 +repage`],
+    ['crop',    `convert -resize "300x180^" -gravity Center -crop 300x180+0+0 +repage`],
+    ['aside',   `convert -resize "500x400>"`],
+    ['listing', `convert -resize "800x600>" -modulate 120,50`],
+    ['large',   `convert -resize "1200x800>"`]
+  ];
+  return glob("./content/**/*", {nodir: true}, (error, files) => {
+    const images = _.filter(files, isImage);
+    _.forEach(images, img => {
+      const target = img.replace(/\/content\//, '/data/');
+      const targetDir = path.parse(target).dir;
+      const filename = path.basename(target);
+      const ext = path.extname(filename); // e.g. `.jpg`
+      const basename = path.basename(filename, ext);
+      console.log(`${basename} -> ${ext}`);
+      _.forEach(sizeConversions, params => {
+        console.log(`${params[1]} ${img} ${targetDir}/${basename}.${params[0]}${ext}`);
+        // TODO: Actual implementation
+        /*
+        execSync(cmd, function (err, stdout, stderr ) {
+          console.log(err);
+          console.log(stdout);
+          console.log(stderr);
+        });
+        */
+      });
+    });
   });
 });
 
