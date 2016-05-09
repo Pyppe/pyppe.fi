@@ -10,20 +10,19 @@ Highcharts.createElement('link', {
 (function() {
 
 Highcharts.theme = {
-  /*
   colors: ["#027891", "#90ee7e", "#f45b5b", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee",
-    "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],*/
-  colors: ['#aaeeee'],
+    "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+  //colors: ['#aaeeee'],
   chart: {
     backgroundColor: {
       linearGradient: { x1: 0, y1: 0, x2: 1, y2: 1 },
       stops: [
-        /*
         [0, '#2a2a2b'],
         [1, '#3e3e40']
-        */
+        /*
         [0, '#027891'],
         [1, '#074552']
+        */
       ]
     },
     style: {
