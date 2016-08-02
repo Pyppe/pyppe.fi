@@ -1,7 +1,11 @@
 #!/bin/bash
 
+OS=`uname`
+READLINK=readlink
+[ $OS = "Darwin" ] && READLINK=greadlink
+
 readonly PROGNAME=$(basename $0)
-readonly PROGDIR=$(readlink -m $(dirname $0))
+readonly PROGDIR=$($READLINK -m $(dirname $0))
 readonly ARGS="$@"
 GIVEN_TARGET_DIR="$1"
 
@@ -10,7 +14,7 @@ function processImage() {
   filename=$(basename $file)
   extension="${filename##*.}"
   filename="${filename%.*}"
-  targetDir=$(readlink -m $(dirname $file))
+  targetDir=$($READLINK -m $(dirname $file))
   targetDir=$(echo $targetDir | sed "s#$PROGDIR/content/#$PROGDIR/data/#")
   echo "Processing $file"
   cp $file $targetDir/${filename}.$extension > /dev/null 2>&1
@@ -24,7 +28,7 @@ function processImage() {
 cd $PROGDIR
 
 if [ -d "$GIVEN_TARGET_DIR" ]; then
-  GIVEN_TARGET_DIR=$(readlink -m $GIVEN_TARGET_DIR)
+  GIVEN_TARGET_DIR=$($READLINK -m $GIVEN_TARGET_DIR)
   if [[ "$GIVEN_TARGET_DIR" == "$PROGDIR/content"* ]]; then
     for image in $(find $GIVEN_TARGET_DIR -type f -name "*.jpg" -o -name "*.png" -o -name "*.gif"); do
       processImage $image;
@@ -36,7 +40,7 @@ if [ -d "$GIVEN_TARGET_DIR" ]; then
 else
   TARGET="data"
   rm -rf $TARGET
-  cp -ra content $TARGET
+  cp -Ra content $TARGET
   for image in $(find $TARGET -type f -name "*.jpg" -o -name "*.png" -o -name "*.gif"); do
     processImage $image
   done
