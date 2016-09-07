@@ -164,7 +164,6 @@ if (!window.console) {
     const $post = $('#post');
     if ($post.length === 0) return;
     const currentCanonicalUrl = location.pathname.replace(/\/blogi\//, "/blog/");
-    console.log(currentCanonicalUrl);
     $.get(`/posts.json?h=${pyppe.resourceHash}`).done(posts => {
       const now = moment();
       const currentPost = _.find(posts, {url: currentCanonicalUrl});
@@ -184,8 +183,9 @@ if (!window.console) {
         const $list = $('<div class="relevant-post-group"></div>').appendTo($parent);
         _.forEach(posts, post => {
           const image = post.imageAside || post.imageMeta || post.imageCover;
+          const localizedUrl = pageLanguage === 'fi' ? post.url.replace('/blog/', '/blogi/') : post.url;
           const $item = $(
-            `<a href="${post.url}" class="relevant-post">
+            `<a href="${localizedUrl}" class="relevant-post">
               <h5 class="post-heading">${post.title}</h5>
               <h5><small class="text-muted">${pyppe.util.parseMoment(post.time).format('LL')}</small></h5>
               <div style="clear:both"></div>
