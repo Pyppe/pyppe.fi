@@ -26,7 +26,7 @@ rm -rf $TARGET
 if [[ "$*" == *--no-process-content* ]]; then
   echo "WARNING: Not processing content dir"
 else
-  ./process-content.sh
+  gulp --env production processContent
 fi
 if [[ "$*" == *--no-gulp* ]]; then
   echo "WARNING: No gulp pipeline"

@@ -77,6 +77,8 @@ gulp.task('clean', () => {
 
 gulp.task('processContent', () => {
   const isImage = name => /\.(gif|jpg|png)$/.test(name);
+  const containsWhitespace = str => /.*\s.*/.test(str);
+  const startTime = Date.now();
   const sizeConversions = [
     ['thumb',   `convert -resize "200x200^" -gravity Center -crop 200x200+0+0 +repage`],
     ['crop',    `convert -resize "300x180^" -gravity Center -crop 300x180+0+0 +repage`],
@@ -86,25 +88,58 @@ gulp.task('processContent', () => {
   ];
   return glob("./content/**/*", {nodir: true}, (error, files) => {
     const images = _.filter(files, isImage);
+    let resizeCount = 0;
     _.forEach(images, img => {
       const target = img.replace(/\/content\//, '/data/');
       const targetDir = path.parse(target).dir;
       const filename = path.basename(target);
       const ext = path.extname(filename); // e.g. `.jpg`
       const basename = path.basename(filename, ext);
-      console.log(`${basename} -> ${ext}`);
-      _.forEach(sizeConversions, params => {
-        console.log(`${params[1]} ${img} ${targetDir}/${basename}.${params[0]}${ext}`);
-        // TODO: Actual implementation
-        /*
-        execSync(cmd, function (err, stdout, stderr ) {
-          console.log(err);
-          console.log(stdout);
-          console.log(stderr);
-        });
-        */
+      const resizeTargets = _.map(sizeConversions, ([size, convert]) => {
+        const targetFile = `${targetDir}/${basename}.${size}${ext}`;
+        return {
+          targetFile,
+          resizeCommand: `${convert} ${img} ${targetFile}`
+        };
       });
+
+      const allTargetsExist = (() => {
+        const targetFiles =_.map(resizeTargets, 'targetFile').concat([target]);
+        if (_.some(targetFiles, containsWhitespace)) {
+          console.error(`Cannot process file: ${img}`);
+          process.exit(1);
+        }
+        return _.every(targetFiles, f => {
+            try {
+              fs.statSync(f);
+              return true;
+            } catch (err) {
+              return false;
+            }
+          }
+        );
+      })();
+
+      if (allTargetsExist && md5File.sync(img) === md5File.sync(target)) {
+        // Do nothing
+      } else {
+        mkdirp.sync(targetDir);
+        const commands = [`cp ${img} ${target}`].concat(_.map(resizeTargets, 'resizeCommand'));
+        _.forEach(commands, cmd => {
+          execSync(cmd, function (err, stdout, stderr) {
+            console.log(err);
+            console.log(stdout);
+            console.log(stderr);
+            if (err) {
+              process.exit(1);
+            }
+          });
+        });
+        util.log(`Resized ${img}`);
+        resizeCount += 1;
+      }
     });
+    util.log(`Resized ${resizeCount} / ${_.size(images)} content images in ${Date.now() - startTime} ms`);
   });
 });
 
@@ -171,4 +206,4 @@ gulp.task('fileWatch', () => {
 
 gulp.task('pipeline', ['siteJs', 'customJs', 'vendorJs', 'vendorCss', 'vendorCssAssets', 'compass']);
 gulp.task('default', ['pipeline']);
-gulp.task('watch', ['default', 'fileWatch']);
+gulp.task('watch', ['pipeline', 'fileWatch']);
