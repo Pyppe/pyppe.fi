@@ -1,0 +1,112 @@
+---
+layout: post
+title: "Suomi-Twitterin verkkovisualisointi"
+date: 2016-09-27T08:50:00+0300
+post_language: fi
+custom_page_js: twitter-graph-2016-09.js
+custom_page_css: twitter-graph-2016-09.css
+titleCover: "graph.cover.jpg"
+titleStyle: "min-height: 190px;"
+meta_image: "graph.meta.jpg"
+tags: [twitter]
+meta_description: |
+  Verkkovisualisointi (graph visualization) Suomen Twitter-vaikuttajien interaktioista kuluvana vuonna 2016.
+  Yksityishenkilöistä verkon keskiössä majailevat @svuorikoski, @Maaninkavaara, @soalmila, @JohannaKukka ja @SarasvuoJari.
+---
+
+<p>
+  Koostin vajaa puoli vuotta sitten listan
+  <a href="/blogi/2016/05/suomi-twitterin-top-200-vaikuttajat/">Suomi-Twitterin TOP-200 vaikuttajista</a>.
+  Tällä kertaa kotiläksyinä syntyi verkkovisualisointi (engl. <em>graph visualization</em>) kyseisten käyttäjien interaktioista toisiinsa. Yksityishenkilöistä eniten huomiota muilta TOP-200 verkon käyttäjiltä ovat saaneet
+  <a href="https://twitter.com/svuorikoski" target="_blank">@svuorikoski</a>,
+  <a href="https://twitter.com/Maaninkavaara" target="_blank">@Maaninkavaara</a>,
+  <a href="https://twitter.com/soalmila" target="_blank">@soalmila</a>,
+  <a href="https://twitter.com/JohannaKukka" target="_blank">@JohannaKukka</a> ja
+  <a href="https://twitter.com/SarasvuoJari" target="_blank">@SarasvuoJari</a>.
+</p>
+
+<p>
+  Datalähteenä visualisoinnissa on <a href="http://pinnalla.pyppe.fi/" target="_blank">Pinnalla</a>-palvelun
+  kuluneen vuoden twiitit (yhteensä päälle 22 miljoonaa twiittiä vajaalta 10 kuukaudelta).
+  Tämän jälkeen twiittimassaa suodatettiin seuraavasti:
+</p>
+
+<!--more-->
+
+<table class="table table-sm">
+  <thead>
+    <tr>
+      <th>Suodatus</th>
+      <th>Twiittimäärä</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1. Twiittaaja oli joku TOP-200 vaikuttajasta</td>
+      <td>
+        <span class="label label-default has-tooltip" title="22 026 746">22M</span>
+        <i class="fa fa-long-arrow-right"></i>
+        <span class="label label-default has-tooltip" title="1 137 995">1,1M</span>
+      </td>
+    </tr>
+    <tr>
+      <td>2. Twiitti oli kohdistettu (RT / maininta) jollekin toiselle TOP-200 vaikuttajalle</td>
+      <td>
+        <span class="label label-default has-tooltip" title="1 137 995">1,1M</span>
+        <i class="fa fa-long-arrow-right"></i>
+        <span class="label label-default has-tooltip" title="228 632">229k</span>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>
+  Näin huomataan, että TOP-200 twiittajat muodostavat päälle prosentin koko Suomi-Twitterin sisällöstä.
+  Ja näistä twiiteistä peräti 20% on suunnattu (RT tai maininta) toiselle TOP-200 Twitter-vaikuttajalle.
+  Toisin sanoen: melko pienet piirit.
+</p>
+
+<h3>Interaktioiden visualisointi</h3>
+
+<p>Voit klikata käyttäjiä avataksesi tarkemmat tiedot heidän interaktioistaan toisiin käyttäjiin.</p>
+
+<div id="twitter-graph-2016-09"><div class="canvas"></div></div>
+
+<h4>Visualisoinnin tulkinta</h4>
+<ul>
+  <li>
+    Verkon solmun koko kuvaa sitä, kuinka monta interaktiota käyttäjä on saanut osakseen muilta TOP-200 vaikuttajilta.
+    Esimerkiksi:
+    <ul>
+      <li>
+        käyttäjän <a href="https://twitter.com/svuorikoski" target="_blank">@svuorikoski</a> solmun koko on suuri, koska muut
+        TOP-200 vaikuttajat ovat retwiitanneet ja maininneet häntä kaikista eniten
+      </li>
+      <li>
+        käyttäjän <a href="https://twitter.com/UnibetFinland" target="_blank">@UnibetFinland</a> solmun koko on pieni, koska
+        käyttäjän kohdeyleisö ei kuulu TOP-200 vaikuttajiin
+      </li>
+    </ul>
+  </li>
+  <li>
+    Verkon kaaren paksuus kuvaa sitä, kuinka paljon kahden käyttäjän välillä on ollut interaktioita. Valitettavasti Twitterin
+    Streaming API ei tarjoa tietoa siitä, miten käyttäjät ovat tykänneet (engl. <em>Like</em>) toistensa twiiteistä,
+    joten interaktioiden lukumäärä perustuu retwiitteihin sekä mainintoihin.
+    Kaaret näytetään vain merkittävimpien suhteiden merkiksi.
+    Käyttäjän kaikki interaktiot voi tarkastaa klikkaamalla verkon yhtä solmua.
+  </li>
+  <li>
+    Solmun reunuksen väri kuvaa pääaihealuetta, josta käyttäjä on twiitannut. Nämä on muodostettu siten, että suosituimmat hashtagit
+    on yhdistetty johonkin seitsemästä aihealueesta
+    (allekirjoittaneen täysin mutu-fiiliksen perusteella; toisin sanoen näistä ei kannata sen suurempia johtopäätöksiä vetää).
+    Aihealueet ovat:
+    <ol id="twitter-graph-2016-09-topics"></ol>
+  </li>
+</ul>
+
+<h3>Verkkodata JSON-muodossa</h3>
+
+<p>
+  Mikäli data kiinnostaa, voit tutkia tai ladata verkon muodostamiseen käytetyn datan täältä:
+  <a href="https://gist.github.com/Pyppe/1a36220cf8eb0e6a2ba2b405a6fcbb46" target="_blank">finnish-top-200-twitter-user-interactions-graph.json</a>.
+</p>

@@ -219,12 +219,7 @@ if (!window.console) {
     bindCoverTitleScrolling();
     createFancyboxImages();
     handleRelatedPosts();
-    $('.has-tooltip[title]').each(function() {
-      const $el = $(this);
-      $el.tooltip({
-        html: _.isString($el.attr('tip-is-html'))
-      });
-    });
+    pyppe.util.bindTooltips($('body'));
 
     // Life-story page
     $("#showMoreNostalgia").prop('disabled', false).click(function () {

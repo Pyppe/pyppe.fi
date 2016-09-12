@@ -34,6 +34,7 @@ const paths = (() => {
     'moment',
     'moment-fi',
     'fancybox/jquery.fancybox',
+    'select2.full',
 
     // TODO: Separate place for highcharts & d3
     'd3',
@@ -46,7 +47,8 @@ const paths = (() => {
   console.log('Using vendor scripts: ' + vendorScripts.join(' '));
 
   const vendorCss = [
-    'bootstrap'
+    'bootstrap',
+    'select2'
   ].map(name => `src/css/vendor/${name}.css`);
 
   const siteJs = [
@@ -58,6 +60,7 @@ const paths = (() => {
 
   return {
     siteJs,
+    resources: 'src/resources/*',
     customJs: 'src/js/custom/*',
     vendorJs: vendorScripts,
     vendorCss : vendorCss,
@@ -83,7 +86,7 @@ gulp.task('processContent', () => {
     ['thumb',   `convert -resize "200x200^" -gravity Center -crop 200x200+0+0 +repage`],
     ['crop',    `convert -resize "300x180^" -gravity Center -crop 300x180+0+0 +repage`],
     ['aside',   `convert -resize "500x400>"`],
-    ['listing', `convert -resize "800x600>" -modulate 120,50`],
+    ['listing', `convert -resize "800x600>" -modulate 120,80`],
     ['large',   `convert -resize "1200x800>"`]
   ];
   return glob("./content/**/*", {nodir: true}, (error, files) => {
@@ -159,17 +162,17 @@ gulp.task('compass', () => {
     pipe(gulp.dest(distCss));
 });
 
-gulp.task('vendorCss', () => {
-  return gulp.src(paths.vendorCss).
+gulp.task('vendorCss', () => (
+  gulp.src(paths.vendorCss).
     pipe(minifyCss({compatibility: ''})).
     pipe(concat('vendor.css')).
-    pipe(gulp.dest(distCss));
-});
+    pipe(gulp.dest(distCss))
+));
 
-gulp.task('vendorCssAssets', () => {
-  return gulp.src('./src/css/vendor/fancybox/**/*').
-    pipe(gulp.dest(`${distCss}/fancybox`));
-});
+gulp.task('vendorCssAssets', () => (
+  gulp.src('./src/css/vendor/fancybox/**/*').
+    pipe(gulp.dest(`${distCss}/fancybox`))
+));
 
 gulp.task('siteJs', () => {
   return gulp.src(paths.siteJs).
@@ -181,6 +184,12 @@ gulp.task('siteJs', () => {
     pipe(concat('site.js')).
     pipe(gulp.dest(distJs));
 });
+
+gulp.task('resources', () => (
+  gulp.
+    src(paths.resources).
+    pipe(gulp.dest('dist/resources'))
+));
 
 gulp.task('customJs', () => {
   return gulp.src(paths.customJs).
@@ -200,10 +209,11 @@ gulp.task('vendorJs', () => {
 
 gulp.task('fileWatch', () => {
   gulp.watch(paths.siteJs, ['siteJs']);
+  gulp.watch(paths.resources, ['resources']);
   gulp.watch(paths.customJs, ['customJs']);
   gulp.watch(paths.siteSass, ['compass']);
 });
 
-gulp.task('pipeline', ['siteJs', 'customJs', 'vendorJs', 'vendorCss', 'vendorCssAssets', 'compass']);
+gulp.task('pipeline', ['siteJs', 'resources', 'customJs', 'vendorJs', 'vendorCss', 'vendorCssAssets', 'compass']);
 gulp.task('default', ['pipeline']);
 gulp.task('watch', ['pipeline', 'fileWatch']);

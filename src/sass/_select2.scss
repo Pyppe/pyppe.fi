@@ -1,0 +1,20 @@
+@import "compass";
+
+.select2-container {
+  font-size: 13px;
+}
+
+.select2-container--default .select2-selection--single {
+  @include border-radius(0);
+}
+.select2-container .select2-selection--single {
+  height: 32px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  line-height: 32px;
+}
+
+.select2-dropdown {
+  @include border-radius(0);
+}

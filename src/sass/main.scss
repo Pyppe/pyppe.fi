@@ -10,6 +10,7 @@
 @import "_localization.scss";
 @import "_blog.scss";
 @import "_post.scss";
+@import "_select2.scss";
 
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700|Titillium+Web:400,700");
 
@@ -148,7 +149,7 @@ table.sortable {
       background-color: rgba($sortColor, 0.3);
     }
 
-    .fa {
+    .fa-caret-down {
       position: absolute;
       right: 4px;
       margin-top: 3px;

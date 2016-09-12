@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 gulp watch
 while [ $? -eq 1 ]; do
   echo "ERRORS... restarting"

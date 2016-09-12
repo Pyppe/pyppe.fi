@@ -39,13 +39,13 @@
     });
   }
 
-  function bindTableSorting($table) {
+  function bindTableSorting($table, initialSortIndex = 0) {
     $table.addClass('sortable');
     $table.find('th').each(function(i) {
       $(this).data('eq', i);
     });
     $table.find('th').click(function() {
-      $table.find('th i').remove();
+      $table.find('th i.fa-caret-down').remove();
       $table.find('th.sorted').removeClass('sorted');
       var $el = $(this);
       $el.addClass('sorted');
@@ -60,7 +60,7 @@
 
       sortTable($table, idx, $el.data('asc'));
     });
-    $table.find('th:eq(0)').click();
+    $table.find(`th:eq(${initialSortIndex})`).click();
   }
 
   pyppe.util = {
@@ -70,7 +70,32 @@
     integerFormat: n => numberFormat(n, 0, ',', nonBreakingSpace),
     decimalFormat: n => numberFormat(n, 1, ',', nonBreakingSpace),
     pageLanguage: () => $('html').hasClass('fi') ? 'fi' : 'en',
-    parseMoment: (text) => moment(text, 'YYYY-MM-DD[T]HH:mm:ssZ')
+    parseMoment: text => moment(text, 'YYYY-MM-DD[T]HH:mm:ssZ'),
+    parseQueryParams: search => {
+      const parts = search.replace(/^\?/, '').split('&');
+      return _.reduce(parts, (acc, pair) => {
+        const [key, value] = pair.split('=');
+        acc[key] = value;
+        return acc;
+      }, {});
+    },
+    replaceUrlSearch: search => {
+      if (window.history && _.isFunction(window.history.replaceState)) {
+        const cleanSearch = _.size(search) > 0 ? search.replace(/^\?/, '') : '';
+        const qs = _.size(cleanSearch) > 0 ? ('?' + cleanSearch) : '';
+        history.replaceState({}, document.title, location.pathname + qs);
+      }
+    },
+    bindTooltips: $parent => {
+      $parent.find('.has-tooltip[title]').each(function() {
+        const $el = $(this);
+        const tooltipClass = $el.attr('tooltip-class') || '';
+        $el.tooltip({
+          html: _.isString($el.attr('tip-is-html')),
+          template: `<div class="tooltip ${tooltipClass}" role="tooltip">` + '<div class="tooltip-arrow"></div>' + '<div class="tooltip-inner"></div></div>'
+        });
+      })
+    }
   };
 
 })();

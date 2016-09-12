@@ -1640,7 +1640,7 @@ tags: [twitter]
           return _.identity;
         } else {
           var counts = _.map(tweetData, 'tweetCount');
-          return d3.scale.sqrt().domain([_.min(counts), _.max(counts)]).range([10, 40]);
+          return d3.scaleSqrt().domain([_.min(counts), _.max(counts)]).range([10, 40]);
         }
       })();
 

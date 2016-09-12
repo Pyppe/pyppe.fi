@@ -146,11 +146,10 @@ $(function() {
 
     const activity = _.map(realActivity, a => -a);
     const activityDomain = [_.min(activity), _.max(activity)];
-    const x = d3.scale.linear().domain([0, _.size(activity)-1]).range([0, width]);
-    //const y = d3.scale.pow().exponent(0.5).domain(sparkLineActivityDomain).range([0, height]);
-    const y = d3.scale.pow().exponent(4).domain(activityDomain).range([0, height]);
+    const x = d3.scaleLinear().domain([0, _.size(activity)-1]).range([0, width]);
+    const y = d3.scalePow().exponent(4).domain(activityDomain).range([0, height]);
 
-    const line = d3.svg.line().
+    const line = d3.line().
       //interpolate("step-after").
       x((d,i) => {
         return x(i);
@@ -214,7 +213,7 @@ $(function() {
       } else {
         const values = _.map(relevantUserData, extractZAxisValue);
         // sqrt / log / pow
-        return d3.scale.pow().domain([_.min(values), _.max(values)]).range([5, 30]);
+        return d3.scalePow().domain([_.min(values), _.max(values)]).range([5, 30]);
       }
     })();
 
