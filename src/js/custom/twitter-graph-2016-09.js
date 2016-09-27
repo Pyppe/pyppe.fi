@@ -1,6 +1,7 @@
 $(function() {
   const profileUrl = d => `https://twitter.com/intent/user?user_id=${d.id}`;
-  const nodeImageUrl = d => `https://twitter.com/${d.screenName}/profile_image?size=bigger`;
+  //const nodeImageUrl = d => `https://twitter.com/${d.screenName}/profile_image?size=bigger`;
+  const nodeImageUrl = d => `/img/twitter/profile_images/${d.screenName}.jpg`;
 
   /*
   window.prepareForScreenshot = () => {
