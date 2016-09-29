@@ -19,6 +19,39 @@ $(function() {
   };
   */
 
+  /*
+  function hackDirectedAdjacencyMatrix(data) {
+    "use strict";
+    var screenNameById = id => _.find(data, {id}).screenName;
+    const sep = '\t';
+    var tsv = '';
+    const users = _.sortBy(data, u => u.screenName.toLowerCase());
+    const isLast = i => i === _.size(users) - 1;
+    tsv += sep;
+    _.forEach(users, (u, i) => {
+      tsv += u.screenName;
+      if (!isLast(i)) tsv += sep;
+    });
+    tsv += '\n';
+    _.forEach(users, user => {
+      const reactions = _.fromPairs(_.map(user.reactions, r => [screenNameById(r.id), r.count]));
+      tsv += user.screenName;
+      tsv += '\t';
+      _.forEach(users, (other, i) => {
+        if (other.id === user.id) {
+          tsv += '-';
+        } else {
+          tsv += reactions[other.screenName] || 0;
+        }
+        if (!isLast(i)) tsv += sep;
+      });
+      tsv += '\n';
+    });
+
+    $("<textarea />").appendTo($('body')).val(tsv);
+  }
+  */
+
   let onNodeClick = _.noop;
   let nodes = [];
   const Topics = {
@@ -103,6 +136,7 @@ $(function() {
   let openedUser = null;
 
   $.get('/dist/resources/twitter-graph-2016-09.json', {h: pyppe.resourceHash}).done(data => {
+    //hackDirectedAdjacencyMatrix(data);
     const formatOption = (option, manyLines) => option.id ? $(`
       <div class="twitter-graph-2016-09-user-option">
         <img src="${nodeImageUrl(option)}" alt="" />
