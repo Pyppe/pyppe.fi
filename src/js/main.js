@@ -141,7 +141,7 @@ if (!window.console) {
   }
 
   function createFancyboxImages() {
-    $(".image-collage a").fancybox({
+    $(".image-collage a, a.with-fancybox").fancybox({
       type: 'image',
       beforeLoad: function () {
         var title = $(this.element).find('.title').text();

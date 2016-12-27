@@ -39,12 +39,13 @@
     });
   }
 
-  function bindTableSorting($table, initialSortIndex = 0) {
+  function bindTableSorting({$table, initialSortIndex = 0, beforeSort = _.noop, afterSort = _.noop}) {
     $table.addClass('sortable');
     $table.find('th').each(function(i) {
       $(this).data('eq', i);
     });
     $table.find('th').click(function() {
+      beforeSort();
       $table.find('th i.fa-caret-down').remove();
       $table.find('th.sorted').removeClass('sorted');
       var $el = $(this);
@@ -59,30 +60,107 @@
       });
 
       sortTable($table, idx, $el.data('asc'));
+
+      afterSort();
     });
     $table.find(`th:eq(${initialSortIndex})`).click();
   }
 
+  function isElementInViewport(el, {bottomThreshold = 0}) {
+    const rect = el.getBoundingClientRect();
+    return (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      (rect.bottom - bottomThreshold) <= (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+  }
+
+  function createTableContent($table, columns, data) {
+    $(`
+      <thead>
+        <tr>
+          ${_.map(columns, ({label, tooltipHtml, ascending = false}) => {
+            const tooltipAttributes = _.isString(tooltipHtml) ?
+              `class="has-tooltip" title="${_.escape(tooltipHtml)}" tip-is-html`
+              : '';
+            return `<th data-asc="${ascending}" ${tooltipAttributes}>${label}</th>`;
+          })}
+        </tr>
+      </thead>
+    `).appendTo($table);
+
+    const $tbody = $('<tbody></tbody>').appendTo($table);
+    _.forEach(data, (item, idx) => {
+      const $tr = $(`<tr></tr>`);
+      _.forEach(columns, ({value, render, className, alterColumn}) => {
+        const $td = $(
+          `<td data-value="${value(item, idx)}"${className ? ` class="${className}"` : ''}>${render(item, idx)}</td>`
+        );
+        $td.appendTo($tr);
+        if (_.isFunction(alterColumn)) {
+          alterColumn($td, item);
+        }
+      });
+      $tr.appendTo($tbody);
+    });
+
+    return $table;
+  }
+
+  function parseQueryParams(search) {
+    const parts = search.replace(/^\?/, '').split('&');
+    return _.reduce(parts, (acc, pair) => {
+      const [key, value] = pair.split('=');
+      if (key !== '') {
+        acc[key] = value;
+      }
+      return acc;
+    }, {});
+  }
+
+  function onWindowWidthResized(callback) {
+    let previousWidth = $(window).width();
+    $(window).resize(_.debounce(() => {
+      const width = $(window).width();
+      if (previousWidth !== width) {
+        previousWidth = width;
+        callback(width);
+      }
+    }, 100, {maxWait: 100}));
+  }
+
   pyppe.util = {
+    isElementInViewport,
     sortTable,
     bindTableSorting,
+    createTableContent,
     numberFormat,
+    parseQueryParams,
+    onWindowWidthResized,
     integerFormat: n => numberFormat(n, 0, ',', nonBreakingSpace),
     decimalFormat: n => numberFormat(n, 1, ',', nonBreakingSpace),
     pageLanguage: () => $('html').hasClass('fi') ? 'fi' : 'en',
     parseMoment: text => moment(text, 'YYYY-MM-DD[T]HH:mm:ssZ'),
-    parseQueryParams: search => {
-      const parts = search.replace(/^\?/, '').split('&');
-      return _.reduce(parts, (acc, pair) => {
-        const [key, value] = pair.split('=');
-        acc[key] = value;
-        return acc;
-      }, {});
-    },
-    replaceUrlSearch: search => {
+    replaceUrlSearch: (params, settings) => {
+      const {keepPrevious = true, compact = true} = settings || {};
       if (window.history && _.isFunction(window.history.replaceState)) {
-        const cleanSearch = _.size(search) > 0 ? search.replace(/^\?/, '') : '';
-        const qs = _.size(cleanSearch) > 0 ? ('?' + cleanSearch) : '';
+        const existingParams = keepPrevious ? parseQueryParams(location.search) : {};
+        const keys = _.uniq(_.keys(existingParams).concat(_.keys(params)));
+        const keyValuePairs = _.reduce(keys, (acc, k) => {
+          const value = _.has(params, k) ? params[k] : existingParams[k];
+          if (compact && (value === null || value === undefined)) {
+            return acc;
+          }
+          acc.push([k, value]);
+          return acc;
+        }, []);
+
+        const qsPrefix = _.size(keyValuePairs) > 0 ? '?' : '';
+        const qs = qsPrefix + _.map(keyValuePairs, ([key, value]) =>
+          `${encodeURIComponent(key)}=${encodeURIComponent(value)}`
+        ).join('&');
+
         history.replaceState({}, document.title, location.pathname + qs);
       }
     },

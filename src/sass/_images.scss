@@ -6,12 +6,21 @@
 
 .frame {
   position: relative;
+
+  &:hover {
+    > .title {
+      opacity: 1;
+    }
+  }
   > .title {
     position: absolute;
     bottom: 0;
     background: rgba(black, 0.5);
     color: white;
     padding: 0.7rem 1.25rem;
+
+    opacity: 0;
+    @include transition(opacity 0.5s ease-in-out);
   }
 }
 

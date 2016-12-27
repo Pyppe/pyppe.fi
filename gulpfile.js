@@ -38,8 +38,10 @@ const paths = (() => {
 
     // TODO: Separate place for highcharts & d3
     'd3',
+    'd3.layout.cloud',
     'highcharts/highcharts',
     'highcharts/highcharts-more'
+    //'highcharts/themes/gray'
   ].map(function(prefix) {
     prefix = 'src/js/vendor/' + prefix;
     return isProduction ? prefix + '.min.js' : prefix + '.js';
@@ -55,7 +57,8 @@ const paths = (() => {
     //'highcharts.screenshot-theme',
     'highcharts.theme',
     'main',
-    'util'
+    'util',
+    'twitter-user-graph'
   ].map(file => `src/js/${file}.js`);
 
   return {
@@ -85,9 +88,9 @@ gulp.task('processContent', () => {
   const sizeConversions = [
     ['thumb',   `convert -resize "200x200^" -gravity Center -crop 200x200+0+0 +repage`],
     ['crop',    `convert -resize "300x180^" -gravity Center -crop 300x180+0+0 +repage`],
-    ['aside',   `convert -resize "500x400>"`],
+    ['aside',   `convert -resize "700x500>"`],
     ['listing', `convert -resize "800x600>" -modulate 120,80`],
-    ['large',   `convert -resize "1200x800>"`]
+    ['large',   `convert -resize "1400x1000>"`]
   ];
   return glob("./content/**/*", {nodir: true}, (error, files) => {
     const images = _.filter(files, isImage);

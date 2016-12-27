@@ -3,8 +3,6 @@ layout: post
 title: "Suomi-Twitterin verkkovisualisointi"
 date: 2016-09-27T08:50:00+0300
 post_language: fi
-custom_page_js: twitter-graph-2016-09.js
-custom_page_css: twitter-graph-2016-09.css
 titleCover: "graph.cover.jpg"
 titleStyle: "min-height: 190px;"
 meta_image: "graph.meta.jpg"
@@ -70,7 +68,7 @@ meta_description: |
 
 <p>Voit klikata käyttäjiä avataksesi tarkemmat tiedot heidän interaktioistaan toisiin käyttäjiin.</p>
 
-<div id="twitter-graph-2016-09"><div class="canvas"></div></div>
+<div id="twitter-user-graph"></div>
 
 <h4>Visualisoinnin tulkinta</h4>
 <ul>
@@ -100,7 +98,7 @@ meta_description: |
     on yhdistetty johonkin seitsemästä aihealueesta
     (allekirjoittaneen täysin mutu-fiiliksen perusteella; toisin sanoen näistä ei kannata sen suurempia johtopäätöksiä vetää).
     Aihealueet ovat:
-    <ol id="twitter-graph-2016-09-topics"></ol>
+    <ol id="twitter-user-graph-topics"></ol>
   </li>
 </ul>
 
@@ -110,3 +108,11 @@ meta_description: |
   Mikäli data kiinnostaa, voit tutkia tai ladata verkon muodostamiseen käytetyn datan täältä:
   <a href="https://gist.github.com/Pyppe/1a36220cf8eb0e6a2ba2b405a6fcbb46" target="_blank">finnish-top-200-twitter-user-interactions-graph.json</a>.
 </p>
+
+<script type="text/javascript">
+$(function() {
+  pyppe.twitterUserGraph.createTwitterUserGraph(
+    $.get('/dist/resources/twitter-graph-2016-09.json', {h: pyppe.resourceHash})
+  );
+});
+</script>

@@ -3,17 +3,6 @@
     display: block;
     margin-bottom: 20px;
   }
-  .frame {
-    &:hover {
-      .title {
-        opacity: 1;
-      }
-    }
-    .title {
-      opacity: 0;
-      @include transition(opacity 0.5s ease-in-out);
-    }
-  }
 }
 
 #relevant-posts {

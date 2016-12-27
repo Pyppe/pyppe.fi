@@ -1,6 +1,6 @@
 $(function() {
   const $table = $('#suomi-twitterin-top-200-vaikuttajat-2016-05');
-  pyppe.util.bindTableSorting($table);
+  pyppe.util.bindTableSorting({$table});
 
   const i = pyppe.util.integerFormat;
   const d = pyppe.util.decimalFormat;

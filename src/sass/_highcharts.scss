@@ -1,10 +1,45 @@
 .highcharts-tooltip {
+
+  z-index: 9999 !important;
+  background-color: white;
+  margin: 0 !important;
+
   .table {
     th,td {
       padding: 0.4rem;
     }
   }
 }
+
+.highcharts-tooltip-with-html-datalabels {
+  .highcharts-tooltip {
+    > span {
+      z-index: 9999 !important;
+
+      margin: 0 !important;
+      border: 1px solid $blue;
+      @include box-shadow(0 0 5px rgba(black, 0.5));
+    }
+  }
+}
+
 .highcharts-container {
   cursor: default;
+}
+
+.pyppe-highcharts-tooltip {
+  background-color: white;
+  z-index: 9999 !important;
+  padding: 10px;
+  > * {
+    margin: 0;
+  }
+  table {
+    margin-top: 10px;
+  }
+}
+.peak-data-label {
+  opacity: 0.6;
+  z-index: 0 !important;
+  font-weight: 400;
 }

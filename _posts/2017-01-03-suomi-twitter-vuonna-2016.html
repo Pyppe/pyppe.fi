@@ -1,0 +1,492 @@
+---
+layout: post
+title: "Suomi-Twitter vuonna 2016"
+date: 2017-01-03T10:40:00+0200
+post_language: fi
+custom_page_js: suomi-twitter-vuonna-2016.js
+custom_page_css: suomi-twitter-vuonna-2016.css
+published: true
+titleCover: "cover.jpg"
+titleClass: "cover-offset-0"
+titleStyle: "min-height: 250px;"
+meta_image: "meta.jpg"
+meta_description: |
+  Raportti vuoden 2016 twiittauksesta: 30,1 miljoonaa analysoitua twiittiä
+  533 tuhannelta käyttäjältä; TOP-5 yksityishenkilöt @svuorikoski, @Maaninkavaara,
+  @EskoSeppanen, @VilleNiinisto ja @VirtanenTatu; TOP-5 hashtagit #liiga, #yle,
+  #u20fi, #leijonat ja #emfutis.
+tags: [twitter]
+excerpt: |
+  <p>
+    Tämä on syväanalyysi Suomi-Twitterin tapahtumista ja twiittaajista vuodelta 2016.
+    Ymmärtääkseni nyt liikutaan syväanalyysi-tason pohjamudissa; itse en ole tietoinen
+    laajemmasta yhteenvedosta.
+    Analysoitu twiittimassa pohjautuu <a href="http://pinnalla.pyppe.fi/" target="_blank">Pinnalla</a>-palvelun
+    vuoden 2016 dataan.
+  </p>
+---
+
+{% comment %}<!--
+VAIKUTTAJAT
+===========
+- UserCompareAPI.adminTopUserStats ?cached=false&start=2016-01-01&end=2017-01-01&size=220
+- Relationships...
+
+VAIKUTTAJAVERKKO
+================
+- RelationshipsAPI.relationshipGraph
+
+VIRAALIT
+========
+- ViralAnalysisAPI.viralCandidates
+- ViralAnalysisAPI.extendViralCandidates
+- ViralAnalysisAPI.analysis
+
+TOP HASHTAGS
+============
+// playground
+Future.successful(AllTimeTopHashtags.topHashTagsInfoJson(
+  new Interval(
+    new LocalDate(2016, 1, 1).toDateTimeAtStartOfDay.plusHours(4), // 1451613600000
+    new LocalDate(2017, 1, 1).toDateTimeAtStartOfDay.plusHours(4) // 1483236000000
+  )
+)).map(Ok(_))
+
+YHTEENSÄ
+========
+// playground
+Totals.totalTweets(Left(
+  new Interval(
+    new LocalDate(2016, 1, 1).toDateTimeAtStartOfDay.plusHours(4),
+    new LocalDate(2017, 1, 1).toDateTimeAtStartOfDay.plusHours(4)
+  )
+)).map(Ok(_))
+
+
+RETWIITATUT
+===========
+{
+  "size" : 0,
+  "query" : {
+    "filtered" : {
+      "filter" : {
+        "bool" : {
+          "must" : [
+            {
+              "range" : {
+                "timestamp_ms": {
+                  "gte": "2016-01-01",
+                  "lt": "2017-01-02"
+                }
+              }
+            }
+           ]
+        }
+      }
+    }
+  },
+  "aggs" : {
+    "retweeted_terms": {
+      "terms": {
+        "field": "retweeted_status.id_str",
+        "size": 10
+      }
+    }
+  }
+}
+-->{% endcomment %}
+
+<ul id="suomi-twitter-2016-tabs" class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link" href="#yhteenveto">Yhteenveto</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#vaikuttajat">Vaikuttajat</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#vaikuttajaverkko">Vaikuttajaverkko</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#retwiitatut">Retwiitatut</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#viraali-ilmiot">Viraali-ilmiöt</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#hashtagit">Hashtagit</a>
+  </li>
+</ul>
+
+<div id="suomi-twitter-2016-tab-contents">
+  <div data-tab-id="yhteenveto">
+    <p>
+      Tämä on syväanalyysi Suomi-Twitterin tapahtumista ja twiittaajista vuodelta 2016.
+      Ymmärtääkseni nyt liikutaan syväanalyysi-tason pohjamudissa; itse en ole tietoinen
+      laajemmasta yhteenvedosta.
+      Analysoitu twiittimassa pohjautuu <a href="http://pinnalla.pyppe.fi/" target="_blank">Pinnalla</a>-palvelun
+      vuoden 2016 dataan.
+    </p>
+    <div class="row">
+      <div class="col-lg-5">
+        <table class="table table-striped yhteenveto">
+          <tbody>
+            <tr>
+              <td><i class="fa fa-twitter"></i> Twiittejä yhteensä</td>
+              <td><span class="text-nowrap">30 086 819</span></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-retweet"></i> Retwiittejä yhteensä</td>
+              <td><span class="text-nowrap">8 389 154</span></td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-retweet"></i> Retwiittien osuus</td>
+              <td>27,9 %</td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-line-chart"></i> Huippu <small>(ti 5.1.2016)</small></td>
+              <td><span class="text-nowrap">209 968</span> twiittiä/päivä</td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-user"></i> Twiittejä / käyttäjä</td>
+              <td><span class="text-nowrap">56,5</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-lg-7">
+        <table class="table table-striped yhteenveto">
+          <tbody>
+            <tr>
+              <td><i class="fa fa-user"></i> Uniikkeja käyttäjiä</td>
+              <td><span class="text-nowrap">532 545</span></td>
+            </tr>
+            <tr>
+              <td>TOP-5 henkilövaikuttajat</td>
+              <td>
+                <a href="https://twitter.com/intent/user?user_id=611004027" target="_blank">Salla Vuorikoski</a>,
+                <a href="https://twitter.com/intent/user?user_id=1610983362" target="_blank">👁Maaninka👁</a>,
+                <a href="https://twitter.com/intent/user?user_id=147517966" target="_blank">Esko Seppänen</a>,
+                <a href="https://twitter.com/intent/user?user_id=333954467" target="_blank">Ville Niinistö</a> ja
+                <a href="https://twitter.com/intent/user?user_id=560565355" target="_blank">Tatu Virtanen</a>
+              </td>
+            </tr>
+            <tr>
+              <td>TOP-5 uutismediat</td>
+              <td>
+                <a href="https://twitter.com/intent/user?user_id=23502747" target="_blank">Yle Uutiset</a>,
+                <a href="https://twitter.com/intent/user?user_id=39540130" target="_blank">Helsingin Sanomat</a>,
+                <a href="https://twitter.com/intent/user?user_id=130116237" target="_blank">MTV Uutiset</a>,
+                <a href="https://twitter.com/intent/user?user_id=34621907" target="_blank">Kauppalehti</a> ja
+                <a href="https://twitter.com/intent/user?user_id=29057955" target="_blank">Ilta-Sanomat</a>
+              </td>
+            </tr>
+            <tr>
+              <td>TOP-5 hashtagit</td>
+              <td>
+                <a href="https://twitter.com/search?q=%23liiga%20since%3A2016-01-01%20until%3A2017-01-01" target="_blank">#liiga</a>,
+                <a href="https://twitter.com/search?q=%23yle%20since%3A2016-01-01%20until%3A2017-01-01" target="_blank">#yle</a>,
+                <a href="https://twitter.com/search?q=%23u20fi%20since%3A2016-01-01%20until%3A2017-01-01" target="_blank">#u20fi</a>,
+                <a href="https://twitter.com/search?q=%23leijonat%20since%3A2016-01-01%20until%3A2017-01-01" target="_blank">#leijonat</a> ja
+                <a href="https://twitter.com/search?q=%23emfutis%20since%3A2016-01-01%20until%3A2017-01-01" target="_blank">#emfutis</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="highcharts-tooltip-with-html-datalabels" id="suomi-twitter-2016-totals-chart"></div>
+  </div>
+  <div data-tab-id="vaikuttajat">
+    <div class="row">
+      <div class="col-lg-6">
+       <p>
+          Käyttäjien sijoitusten laskemiseen on käytetty oheista kaavaa.
+        </p>
+        <a href="{{ page.id | content_path }}/{{ 'formula.png' | img_size:'large' }}" class="with-fancybox">
+          <div class="frame filler">
+            <img src="{{ page.id | content_path }}/{{ 'formula.png' | img_size:'aside' }}" />
+            <div class="title hide-for-small">
+              Käyttäjien sijoituksen laskemiseen käytetty kaava
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-6">
+        <p>
+          Mikäli haluat parantaa jatkossa tilastoja, käy kirjautumassa
+          Pinnalla-palveluun!
+        </p>
+        <blockquote class="blockquote">
+          <p>&mdash; Kirjautumalla autat Pinnalla-palvelua kehittymään ja varmistat omien twiittiesi näkymisen tilastoissa.</p>
+          <a class="btn btn-primary" href="http://pinnalla.pyppe.fi/kirjaudu" target="_blank">
+            <i class="fa fa-sign-in"></i> Haluan kirjautua
+          </a>
+        </blockquote>
+        <div class="alert alert-info" role="alert">
+          <i class="fa fa-info-circle fa-lg"></i>
+          Tämän listan Twitter-tileistä 56 kpl <small>(28%)</small> on käynyt
+          tunnistautumassa Pinnalla-palveluun.
+        </div>
+      </div>
+    </div>
+    <div id="suomi-twitter-2016-users"></div>
+  </div>
+  <div data-tab-id="vaikuttajaverkko">
+    <p>
+      Suomi-Twitterin piirin pienuudesta puhukoon mm. seuraavat faktat:
+      <ul>
+        <li>
+          5,3 prosentissa Suomi-twiiteistä on twiittaajana yksi TOP-200 vaikuttajasta
+          (<span class="has-tooltip" title="1 589 906">1,6 miljoonaa</span> twiittiä)
+        </li>
+        <li>
+          13,2% prosentissa Suomi-twiiteistä mainitaan vähintään yksi TOP-200 vaikuttajista
+          (<span class="has-tooltip" title="3 970 235">4 miljoonaa</span> twiittiä)
+        </li>
+      </ul>
+    </p>
+    <div id="twitter-user-graph"></div>
+    <h4>Visualisoinnin tulkinta</h4>
+    <ul>
+      <li>
+        Verkon solmun koko kuvaa sitä, kuinka monta interaktiota käyttäjä on saanut osakseen muilta TOP-200 vaikuttajilta.
+        Esimerkiksi:
+        <ul>
+          <li>
+            käyttäjän <a href="https://twitter.com/svuorikoski" target="_blank">@Maaninkavaara</a> solmun koko on suuri, koska muut
+            TOP-200 vaikuttajat ovat retwiitanneet ja maininneet häntä kaikista eniten
+          </li>
+          <li>
+            käyttäjän <a href="https://twitter.com/Tupakkalakko" target="_blank">@Tupakkalakko</a> solmun koko on pieni, koska
+            käyttäjän kohdeyleisö ei kuulu TOP-200 vaikuttajiin
+          </li>
+        </ul>
+      </li>
+      <li>
+        Verkon kaaren paksuus kuvaa sitä, kuinka paljon kahden käyttäjän välillä on ollut interaktioita. Valitettavasti Twitterin
+        Streaming API ei tarjoa tietoa siitä, miten käyttäjät ovat tykänneet (engl. <em>Like</em>) toistensa twiiteistä,
+        joten interaktioiden lukumäärä perustuu retwiitteihin sekä mainintoihin.
+        Kaaret näytetään vain merkittävimpien suhteiden merkiksi.
+        Käyttäjän kaikki interaktiot voi tarkastaa klikkaamalla verkon yhtä solmua.
+      </li>
+      <li>
+        Solmun reunuksen väri kuvaa pääaihealuetta, josta käyttäjä on twiitannut. Nämä on muodostettu siten, että suosituimmat hashtagit
+        on yhdistetty johonkin seitsemästä aihealueesta
+        (allekirjoittaneen täysin mutu-fiiliksen perusteella; toisin sanoen näistä ei kannata sen suurempia johtopäätöksiä vetää).
+        Aihealueet ovat:
+        <ol id="twitter-user-graph-topics"></ol>
+      </li>
+    </ul>
+  </div>
+  <div data-tab-id="hashtagit">
+    <p>
+      Alla on listattu TOP-200 eniten käytetyt hashtagit.
+      Koko vuoden twiiteistä ko. hashtagit kattavat huikeat
+      <span class="has-tooltip" title="5,3M twiitissä esiintyy väh. yksi TOP-200 hashtagistä (kun vuodessa twiittejä yhteensä 30,1M)">17,7%</span>.
+    </p>
+    <div id="suomi-twitter-2016-hashtags"></div>
+  </div>
+  <div data-tab-id="retwiitatut">
+    <p>Alle on kerätty vuonna 2016 suomalaisten retwiittaus-sormea erityisesti herkistäneitä twiittejä. Näyttäisipä mukaan mahtuvan yksi ostettuja retwiittejäkin sisältävä huudatus, mutta on sen verran "nokkela" että menköön... 😊</p>
+    <h3>Tammikuu</h3>
+    <div class="row">
+      <div class="col-md-4">
+        <!--{% tweet https://twitter.com/mikko/status/682946690689679360 %}-->
+        {% tweet https://twitter.com/leijonat/status/684482996980809732 %}
+        {% tweet https://twitter.com/LasPent/status/684483865776402434 %}
+        {% tweet https://twitter.com/leijonat/status/684493002409115648 %}
+      </div>
+      <div class="col-md-4">
+        {% tweet https://twitter.com/hsfi/status/684496128126128128 %}
+        {% tweet https://twitter.com/mikko/status/684739247031582720 %}
+        {% tweet https://twitter.com/Maahanmuuttovir/status/685354404334157824 %}
+        {% tweet https://twitter.com/eeddspeaks/status/689882014321905665 %}
+        {% tweet https://twitter.com/mikko/status/691534642466398208 %}
+      </div>
+      <div class="col-md-4">
+        {% tweet https://twitter.com/TeemuSel8nne/status/692465752255918080 %}
+        {% tweet https://twitter.com/niinisto/status/693429740628283392 %}
+        {% tweet https://twitter.com/kirkko_evl/status/693475294435500032 %}
+        {% tweet https://twitter.com/SiniRuohonen/status/693844607482892288 %}
+      </div>
+    </div>
+
+    <h3>Helmikuu</h3>
+    <div class="row">
+      <div class="col-md-4">
+        {% tweet https://twitter.com/jukkalindstrom/status/694230360708771841 %}
+      </div>
+      <div class="col-md-4">
+        {% tweet https://twitter.com/jukkadudeson/status/696960774426726400 %}
+      </div>
+      <div class="col-md-4">
+        {% tweet https://twitter.com/nastynapalm/status/702786311082659840 %}
+      </div>
+    </div>
+
+    <h3>Maaliskuu</h3>
+    <div class="row">
+      <div class="col-md-6">
+        {% tweet https://twitter.com/jaakkohameenant/status/705281684627922944 %}
+      </div>
+      <div class="col-md-6">
+        {% tweet https://twitter.com/IsacElliot/status/706394383655026688 %}
+      </div>
+    </div>
+
+    <h3>Huhtikuu</h3>
+    <div class="row">
+      <div class="col-md-4">
+        {% tweet https://twitter.com/mikko/status/721966925769785344 %}
+      </div>
+      <div class="col-md-4">
+        {% tweet https://twitter.com/Barkovsasha95/status/725000365544972288 %}
+        {% tweet https://twitter.com/Barkovsasha95/status/725642505874751488 %}
+      </div>
+      <div class="col-md-4">
+        {% tweet https://twitter.com/KevinSpacey/status/725856673961750528 %}
+        {% tweet https://twitter.com/Barkovsasha95/status/726065706241003520 %}
+      </div>
+    </div>
+
+    <h3>Toukokuu</h3>
+    <div class="row">
+      <div class="col-md-4">
+        {% tweet https://twitter.com/VirtanenTatu/status/726853256903835649 %}
+        {% tweet https://twitter.com/MrJallu101/status/730095170658705409 %}
+      </div>
+      <div class="col-md-4">
+        {% tweet https://twitter.com/NordicBetSuomi/status/733249456397766656 %}
+        {% tweet https://twitter.com/leijonat/status/734044280768090112 %}
+      </div>
+      <div class="col-md-4">
+        {% tweet https://twitter.com/armanalizad/status/734457361914597376 %}
+      </div>
+    </div>
+
+    <h3>Kesäkuu</h3>
+    <div class="row">
+      <div class="col-md-4">
+        {% tweet https://twitter.com/TarjaHalonen/status/739328636315111425 %}
+        {% tweet https://twitter.com/HerbaJuuso/status/742421687266869248 %}
+      </div>
+      <div class="col-md-4">
+        {% tweet https://twitter.com/Tupakkalakko/status/742421789075247104 %}
+      </div>
+      <div class="col-md-4">
+        {% tweet https://twitter.com/vvvili/status/747515166531665921 %}
+      </div>
+    </div>
+
+    <h3>Heinäkuu</h3>
+    <div class="row">
+      <div class="col-md-4">
+        {% tweet https://twitter.com/mikko/status/754042891627008000 %}
+        {% tweet https://twitter.com/4ndypyro/status/755763463343968258 %}
+      </div>
+      <div class="col-md-4">
+        {% tweet https://twitter.com/arnkil/status/757190431117549573 %}
+      </div>
+      <div class="col-md-4">
+        {% tweet https://twitter.com/maariamph/status/757299575967346689 %}
+        {% tweet https://twitter.com/mikko/status/757532380257222656 %}
+      </div>
+    </div>
+
+    <h3>Elokuu</h3>
+    <div class="row">
+      <div class="col-md-4">
+        {% tweet https://twitter.com/mikko/status/763373528703983616 %}
+      </div>
+      <div class="col-md-4">
+        {% tweet https://twitter.com/Tupakkalakko/status/763802586646450176 %}
+      </div>
+      <div class="col-md-4">
+        {% tweet https://twitter.com/docventures/status/769185655977086976 %}
+        {% tweet https://twitter.com/jonnegooglaa/status/770674412169392128 %}
+      </div>
+    </div>
+
+    <h3>Syyskuu</h3>
+    <div class="row">
+      <div class="col-md-6">
+        {% tweet https://twitter.com/lukiogooglaa/status/773514184973750272 %}
+        {% tweet https://twitter.com/VilleNiinisto/status/773775853134221312 %}
+        {% tweet https://twitter.com/MuumienParhaat/status/774850928558141440 %}
+        {% tweet https://twitter.com/markkola/status/776486110755164160 %}
+      </div>
+      <div class="col-md-6">
+        {% tweet https://twitter.com/sauerka/status/778445255947329536 %}
+        {% tweet https://twitter.com/mikko/status/779246215909236736 %}
+        {% tweet https://twitter.com/speciaalidesign/status/780830134517587968 %}
+      </div>
+    </div>
+
+    <h3>Lokakuu</h3>
+    <div class="row">
+      <div class="col-md-4">
+        {% tweet https://twitter.com/NinniWorlds2017/status/784365614953627648 %}
+        {% tweet https://twitter.com/MIT/status/785551840205307904 %}
+        {% tweet https://twitter.com/rasmrist55/status/785990663439515648 %}
+        {% tweet https://twitter.com/Aino_Kaisa/status/786567079092686848 %}
+      </div>
+      <div class="col-md-4">
+        {% tweet https://twitter.com/NiklasHagman/status/786628669724848128 %}
+        {% tweet https://twitter.com/KaisaNyberg/status/788673435564183552 %}
+        {% tweet https://twitter.com/mikko/status/789450388235808768 %}
+      </div>
+      <div class="col-md-4">
+        {% tweet https://twitter.com/HANSOLSETTERS/status/790740801882054656 %}
+        {% tweet https://twitter.com/mikhaleksandr/status/791019053833920516 %}
+      </div>
+    </div>
+
+    <h3>Marraskuu</h3>
+    <div class="row">
+      <div class="col-md-4">
+        {% tweet https://twitter.com/Vilsepi/status/795254546763313152 %}
+        {% tweet https://twitter.com/lehtinen20/status/795716464812720128 %}
+        {% tweet https://twitter.com/MuumienParhaat/status/796230402281246720 %}
+        {% tweet https://twitter.com/rikuriihilahti/status/797151437050544128 %}
+      </div>
+      <div class="col-md-4">
+        {% tweet https://twitter.com/ErkkaRailo/status/799534605695062017 %}
+        {% tweet https://twitter.com/SonyMusicFIN/status/799651426129448960 %}
+        {% tweet https://twitter.com/NESRetku/status/800669929909301248 %}
+      </div>
+      <div class="col-md-4">
+        {% tweet https://twitter.com/mjstyeyed/status/801503055091007489 %}
+        {% tweet https://twitter.com/HeimoCo/status/802979413482618880 %}
+        {% tweet https://twitter.com/mikko/status/803489489066803200 %}
+        {% tweet https://twitter.com/FinnishClique/status/804014836447346692 %}
+      </div>
+    </div>
+
+    <h3>Joulukuu</h3>
+    <div class="row">
+      <div class="col-md-4">
+        {% tweet https://twitter.com/reginkunnr/status/806200744391098368 %}
+        {% tweet https://twitter.com/mikko/status/807562332880650240 %}
+        {% tweet https://twitter.com/saaraaalto/status/807870654666207233 %}
+      </div>
+      <div class="col-md-4">
+        <!--{% tweet https://twitter.com/mikko/status/808291700921737216 %}-->
+        {% tweet https://twitter.com/JussiEronen/status/808952610300502016 %}
+        {% tweet https://twitter.com/svuorikoski/status/808970140146601984 %}
+        {% tweet https://twitter.com/VirtanenTatu/status/809756103970091008 %}
+      </div>
+      <div class="col-md-4">
+        {% tweet https://twitter.com/ValtteriBottas/status/812659753197436928 %}
+        {% tweet https://twitter.com/SuomiFinland100/status/815275564214915073 %}
+      </div>
+    </div>
+  </div>
+  <div data-tab-id="viraali-ilmiot">
+    <p>Viraali-ilmiöksi noustakseen aiheen tuli täyttää seuraavat kriteerit:</p>
+    <ol>
+      <li>Vähintään 400 uniikin twiittaajan tuli käyttää hashtägiä vuorokauden sisällä.</li>
+      <li>Viraaliasteen (ks. määritelmä alta) tuli olla vähintään 70%, tai pitempikestoisten tapahtumien osalta yli 30% (ja vähintään 750 uniikkia twiittaajaa vuorokaudessa).</li>
+    </ol>
+    <div id="suomi-twitter-2016-virals"></div>
+  </div>
+</div>

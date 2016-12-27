@@ -1,0 +1,78 @@
+@charset "UTF-8";
+@import "compass";
+@import "_mixins.scss";
+
+@mixin layover-table() {
+  table {
+    td {
+      padding: 2px 0px 2px 10px;
+    }
+    th {
+      padding: 2px 2px 2px 0px;
+    }
+  }
+}
+
+#suomi-twitter-2016-virals {
+  .form-inline {
+    margin-bottom: 10px;
+  }
+}
+
+#suomi-twitter-2016-tab-contents {
+  margin-top: 20px;
+
+  > div {
+    display: none;
+  }
+
+  table.yhteenveto {
+    td:first-child {
+      white-space: nowrap;
+    }
+  }
+
+  .twitter-user-col .user {
+    margin-bottom: 5px;
+  }
+
+  .spark-area {
+    display: inline-block;
+    padding: 1px;
+    border: 1px solid rgba($blue, 0.8);
+    float: left;
+    margin-right: 5px;
+    margin-top: 2px;
+    background: rgba($blue, 0.2);
+    &:hover {
+      background: rgba($blue, 0.4);
+    }
+
+    .activity-line {
+      stroke: $blue;
+      stroke-width: 1.5;
+      fill: transparent;
+    }
+  }
+
+  .show-top-tweet {
+    cursor: pointer;
+  }
+}
+
+#suomi-twitter-vuonna-2016-users-chart {
+  .highcharts-tooltip {
+    img.avatar {
+      @include border-radius(50%);
+      width: 32px;
+      height: 32px;
+      margin-right: 5px;
+    }
+    //@include layover-table();
+  }
+}
+
+.popover {
+  min-width: 450px;
+  @include layover-table();
+}
