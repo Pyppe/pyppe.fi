@@ -2,27 +2,26 @@
 layout: default
 ---
 
-<div class="container">
-
-  <div class="row">
-    <div id="title" class="cover{% if page.titleClass %} {{page.titleClass}}{%endif%}"
-         style="background-image: url('{% if page.titleCover %}{% if page.id %}{{ page.id | content_path }}/{% endif %}{{ page.titleCover }}{% else %}/img/jumbotron.jpg{% endif %}');{% if page.titleStyle %} {{page.titleStyle}}{% endif %}">
-      <div class="text">
-        <h1>
-          {% if page.titleHtml %}
-            {{ page.titleHtml }}
-          {% else %}
-            {{ page.title }}
-          {% endif %}
-        </h1>
-        {% if page.date %}
-          <h3>
-            <span class="time-title">{{ page.date | date_to_xmlschema }}</span>
-          </h3>
+<div id="title" class="jumbotron jumbotron-fluid cover{% if page.titleClass %} {{page.titleClass}}{%endif%}"
+     style="background-image: url('{% if page.titleCover %}{% if page.id %}{{ page.id | content_path }}/{% endif %}{{ page.titleCover }}{% else %}/img/jumbotron.jpg{% endif %}');{% if page.titleStyle %} {{page.titleStyle}}{% endif %}">
+  <div class="container">
+    <div class="text">
+      <h1>
+        {% if page.titleHtml %}
+          {{ page.titleHtml }}
+        {% else %}
+          {{ page.title }}
         {% endif %}
-      </div>
+      </h1>
+      {% if page.date %}
+        <h3>
+          <span class="time-title">{{ page.date | date_to_xmlschema }}</span>
+        </h3>
+      {% endif %}
     </div>
   </div>
+</div>
 
+<div class="container">
   {{ content }}
 </div>
