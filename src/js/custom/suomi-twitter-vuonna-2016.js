@@ -108,6 +108,8 @@ $(function() {
     if (!ActionsDone[id]) {
       ActionsDone[id] = true;
       Actions[id]();
+    } else {
+      $(window).resize();
     }
   });
 
@@ -537,7 +539,7 @@ $(function() {
 
     const $canvas = $('<div class="canvas"></div>').appendTo($container);
     drawHashtagCloud(hashtags, $canvas);
-    pyppe.util.onWindowWidthResized(() => {
+    pyppe.util.onWindowWidthResized($canvas, () => {
       d3.selectAll('#suomi-twitter-2016-hashtags .canvas svg').remove(); // remove existing
       drawHashtagCloud(hashtags, $canvas);
     });

@@ -119,13 +119,15 @@
     }, {});
   }
 
-  function onWindowWidthResized(callback) {
+  function onWindowWidthResized($el, callback) {
     let previousWidth = $(window).width();
     $(window).resize(_.debounce(() => {
-      const width = $(window).width();
-      if (previousWidth !== width) {
-        previousWidth = width;
-        callback(width);
+      if ($el.is(':visible')) {
+        const width = $(window).width();
+        if (previousWidth !== width) {
+          previousWidth = width;
+          callback(width);
+        }
       }
     }, 100, {maxWait: 100}));
   }

@@ -150,9 +150,9 @@
       `) : $(`<div class="twitter-user-graph-user-option">${option.text}</div>`);
       graphData = data;
       drawGraph(data, isInitialFullscreen, true);
-      pyppe.util.onWindowWidthResized(() =>
-        drawGraph(graphData, $container.is('.fullscreen'))
-      );
+      pyppe.util.onWindowWidthResized($container, () => {
+        drawGraph(graphData, $container.is('.fullscreen'));
+      });
 
       $selectUser.
         select2({
