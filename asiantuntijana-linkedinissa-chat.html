@@ -1,0 +1,302 @@
+---
+layout: page
+language: fi
+permalink: /asiantuntijana-linkedinissa-chat/
+title: "Asiantuntijana LinkedInissä: Online-koulutus (chat-historia)"
+published: true
+---
+
+{% comment %}
+  def makeHtml(text: String) = {
+    text.
+      replaceAll("""\b(https?://[^\s,]+)""", """<a href="$1">$1</a>""").
+      replaceAll(""" (www\.[^\s,]+)""", """ <a href="http://$1">$1</a>""").
+      replaceAll("""^(www\.[^\s,]+)""", """<a href="http://$1">$1</a>""").
+      replaceAll("""fi.linkedin.com/in/satu-savolainen-474b3a82""", """<a href="http://fi.linkedin.com/in/satu-savolainen-474b3a82">fi.linkedin.com/in/satu-savolainen-474b3a82</a>""").
+      replaceAll("""(\s|:)@(\w+)\b""", """$1<a href="https://twitter.com/$2">@$2</a>""").
+      replaceAll("""(\w[\w.]+@\w+\.\w{2,3})\b""", """<a href="mailto:$1">$1</a>""")
+  }
+
+  def doIt: Unit = {
+    val dir = "/Users/pyppe/dev/own_projects/pyppe.fi"
+    val lines = scala.io.Source.fromFile(new File(s"/$dir/asiantuntijana-linkedinissa-chat.txt")).getLines.toList
+
+    val fw = new FileWriter(s"$dir/output.html")
+
+    fw.write("""<table class="table table-striped" id="chat-history"><tbody>""")
+
+    lines.grouped(2).toList.distinct.foreach {
+      case from :: text :: Nil =>
+        fw.write("<tr>")
+        fw.write(s"<th>${from}</th>")
+        fw.write(s"<td>${makeHtml(text)}</td>")
+        fw.write("</tr>")
+        fw.write("\n")
+      case x =>
+        println(s"ERROR: $x")
+    }
+
+    fw.write("</tbody></table>")
+
+    fw.close
+  }
+{% endcomment %}
+
+<style type="text/css">
+#chat-history th {
+  white-space: nowrap;
+}
+</style>
+
+<table class="table table-striped" id="chat-history"><tbody><tr><th>Juha Hyvärinen</th><td>"looking for" on hyvä, käytän itse sitä</td></tr>
+<tr><th>Laura</th><td>Kiitos Tom! Täältä mut löytää: twitter ja muut somet: <a href="https://twitter.com/lauravuok">@lauravuok</a> ja LI: <a href="https://fi.linkedin.com/in/lauravuoriokuokka">https://fi.linkedin.com/in/lauravuoriokuokka</a></td></tr>
+<tr><th>Sofia</th><td>Tom, Voiko Showcase -sivun tehdä muukin kuin yrittäjä? Esim. omalle palvelulle, jota tarjoaa freelance - työntekijänä/työnhakijana/tarjoajana ei yrittäjänä?</td></tr>
+<tr><th>Paula</th><td>Kiitos! Valitettavasti joudun nyt poistumaan, mutta näitä lisää!</td></tr>
+<tr><th>Tiina</th><td>Paljon kiitoksia oivasta webinaarista!</td></tr>
+<tr><th>Pauliina</th><td>Jouduin lähtemään jo alussa pois, joten jään odottamaan tallennetta :) Kiitos Tom!</td></tr>
+<tr><th>Raili</th><td>Kiitos Tom; hyötyoppia! Iltapäivä parempi kuin ilta.</td></tr>
+<tr><th>Teija</th><td>Tämä vastaus kutsuun liittyen hyvä Tom</td></tr>
+<tr><th>Heikki</th><td>Kiitos tästä Tom. Palataan mahdollisesti asiaan.</td></tr>
+<tr><th>Satu</th><td>Hei! Onko myöhemmin keväällä tulossa uusi vastaava kolmen kerran verkkokurssi? Olisin kyllä kiinnostunut, mutta nuo ensimmäisen kurssin päivät on jo lukittu.</td></tr>
+<tr><th>Nina</th><td>Kiitos paljon Tom ja te muut osallistujat! Verkostoidutaan!</td></tr>
+<tr><th>Tiina</th><td>kollegan profiilissa aika onnistunut versio kuvakollasista <a href="https://fi.linkedin.com/in/minnamoshnikoff">https://fi.linkedin.com/in/minnamoshnikoff</a></td></tr>
+<tr><th>Teija</th><td>Kiitos jälleen loistavasta webinaarista!!</td></tr>
+<tr><th>Kaisa S.</th><td>Kiitos Tom & kiitokset, jatketaan verkostoitumista</td></tr>
+<tr><th>Jukka</th><td>Saako eläkeläiset ja työttömät alennusta kurssista?</td></tr>
+<tr><th>Marianne</th><td>Kiitos Tom, oli hyvää kertausta vuosi sitten Oulun opeille!</td></tr>
+<tr><th>Sari</th><td>Kiitos Tom. Millä ohjelmalla järjestit tämän webinaarin?</td></tr>
+<tr><th>Aki</th><td>klo 13-15</td></tr>
+<tr><th>Aki</th><td>Torstaina 16.2, 23.2 ja 2.3</td></tr>
+<tr><th>Kari</th><td>Good Job. Tom</td></tr>
+<tr><th>Taru</th><td>Kiitos Tom! Myynti kutsuu. Toivottavasti tapaamme jälleen 16.2. :)</td></tr>
+<tr><th>Jouni Liimatainen</th><td>Mitkä ne kurssin muut päivät olivat?</td></tr>
+<tr><th>Sakari</th><td>Kiitokset kaikille verkostoitumisesta! Tavoitatte <a href="https://fi.linkedin.com/in/sakarimakinen">https://fi.linkedin.com/in/sakarimakinen</a> ja jos kasvuyritys- yhteisö kiinnostaa, niin ehdottamasti lisää minut verkostoosi! - Sakari</td></tr>
+<tr><th>Patrik</th><td>LI-mainoksen ostaminen työnhakijana: etsin töitä. Toimisiko? Kokemuksia?</td></tr>
+<tr><th>Nina</th><td>yes,kiitos!! t. Nina : )</td></tr>
+<tr><th>Kirsi</th><td>Kiitos!</td></tr>
+<tr><th>riikka</th><td>Ollaan yhteydessä. Minulla on uusi LinkedIn versio käytössä. <a href="https://www.linkedin.com/in/riikkaoksanen">https://www.linkedin.com/in/riikkaoksanen</a></td></tr>
+<tr><th>Juha</th><td>Kiitos, Tom</td></tr>
+<tr><th>Johanna</th><td><a href="https://www.linkedin.com/in/koponenjohanna">https://www.linkedin.com/in/koponenjohanna</a></td></tr>
+<tr><th>Matti</th><td>LinkedIN taustaKUVA millainen se pitäisi olla? KuvaKooste toimi-alasta vai MAISEMA?</td></tr>
+<tr><th>Minna</th><td>Kiitos hyvästä webinaarista Tom! :) Kiitos kaikille verkostoitumisesta!</td></tr>
+<tr><th>Arja</th><td>Kiitos Tomppa!</td></tr>
+<tr><th>Päivi</th><td>Mitä maksaa uusi verkkokurssi?</td></tr>
+<tr><th>Larissa Rima</th><td>Olipa hyvä setti, kiitos!</td></tr>
+<tr><th>Kaisa S.</th><td><a href="https://fi.linkedin.com/in/kaisasulasalmi">https://fi.linkedin.com/in/kaisasulasalmi</a> Twitter:<a href="https://twitter.com/kaisasulasalmi">@kaisasulasalmi</a></td></tr>
+<tr><th>Petra</th><td>Kiitos jo Tom. Petra Heikkari</td></tr>
+<tr><th>riikka</th><td><a href="https://www.linkedin.com/in/riikkaoksanen">https://www.linkedin.com/in/riikkaoksanen</a></td></tr>
+<tr><th>Heikki</th><td>Täältäkin sitten mainosta: oletko lähdössä EMEA b2b markkinoille? <a href="https://www.linkedin.com/in/heikki-tallgren-9042036">https://www.linkedin.com/in/heikki-tallgren-9042036</a></td></tr>
+<tr><th>Päivi</th><td>Oon LION eli LinkedIn Open Networker: <a href="https://fi.linkedin.com/in/paivisuhonen">https://fi.linkedin.com/in/paivisuhonen</a> Let ́s connect! :)</td></tr>
+<tr><th>Teija</th><td>Voiko seminaarista saada kutsun Tom? Välittäisin eteenpäin.</td></tr>
+<tr><th>Jarmo</th><td>Tuleeko mailiin muistutusta 16.2. alkavasta kurssista nyt osallistuneille? (No aika varmaasti:-)</td></tr>
+<tr><th>Jessica</th><td>Matkailu- ja kaupunkimarkkinointi <a href="https://www.linkedin.com/in/jessica-backman-29312aaa/">https://www.linkedin.com/in/jessica-backman-29312aaa/</a></td></tr>
+<tr><th>riikka</th><td>Kiitos Tom jälleen hyvästä koulutuksesta!</td></tr>
+<tr><th>Tiina</th><td>Etsin asiakasta LinkedInistä nimen perusteella, ja oikean henkilön tiedot tuli esiin vasta 3. sivulla ja sukunimestä oli vain alkukirjain eikä kuvaa näkynyt - Miksi näin?</td></tr>
+<tr><th>Tiina</th><td>Kiitos tosi hyvästä setistä, täytti ellei peräti ylittänyt odotuksiani!</td></tr>
+<tr><th>Terhi</th><td>Verkostoidutaan! :) Teen viestintää, koulutan puhetta ja ääntä, opetan ilmaisua ja toimitan <a href="https://fi.linkedin.com/in/terhimerilainen">https://fi.linkedin.com/in/terhimerilainen</a></td></tr>
+<tr><th>Tarmo Antila</th><td><a href="https://fi.linkedin.com/in/tarmoantila">https://fi.linkedin.com/in/tarmoantila</a></td></tr>
+<tr><th>Harri</th><td>Tämä laittoi ajatteluelimet pyörimään, miten LinkedInä voisi käyttää paremmin</td></tr>
+<tr><th>Jaana</th><td>Kannattako todella mainita "Looking for new opportunities"?</td></tr>
+<tr><th>Jaakko</th><td>Oliko sinulla hyviä esimerkkejä kansikuvista</td></tr>
+<tr><th>Jani</th><td>Mahtavaa kuunnella ihmistä, joka on aidosti innostunut asiastaan!</td></tr>
+<tr><th>Sirpa</th><td>Ongelmana tehdä maantieteellisiä päivityksia koska minini seuraajamäärä on 300 henkilöä. ONko tähän jotain ratkaisua, muuta kuin odottaa, että seuraajia on niin paljon.</td></tr>
+<tr><th>Juha</th><td>Idearikas innovaattori ja markkinoinnin moniottelija vapaana työtarjouksille ja alihankintaan: <a href="https://www.linkedin.com/in/juhavaisanen10">https://www.linkedin.com/in/juhavaisanen10</a></td></tr>
+<tr><th>NOORA</th><td>Käy tsekaa! <a href="https://www.linkedin.com/in/noora-retulainen-40615a127?trk=nav_responsive_tab_profile">https://www.linkedin.com/in/noora-retulainen-40615a127?trk=nav_responsive_tab_profile</a></td></tr>
+<tr><th>Hanna</th><td>Kannattaako/voiko olla useampia (esim 2) profiilia, jos haluaa profiloitua eri ammattialoilla</td></tr>
+<tr><th>Virpi</th><td>Kiitos Tom. Vakuuttavaa!</td></tr>
+<tr><th>Sari</th><td>Kysymys: Mikä on People are talking about -osio? Mikä sen tarkoiitus on? Maksullinen?</td></tr>
+<tr><th>Juha-Pekka</th><td>Mitä mieltä olet mainonnan hinnoittelusta Linkedinissä, impressionien vai clickien mukaan?</td></tr>
+<tr><th>Kati</th><td>Mites myynti B2C LinkedIn:ssä?</td></tr>
+<tr><th>Hannele</th><td>Kiitos, hyvä setti! Kannustit taas laittamaan omaa profiilia paremmin ajan tasalle</td></tr>
+<tr><th>Teija</th><td>Triplaseminaari kiinnostaa. Saammehan siitä tietoa, ajankohdista, jne.?</td></tr>
+<tr><th>Juho</th><td>Voiko LinkedIn:ssä merkitä olevansa työnhakija tai työpaikan vaihtaja niin että se vaikuttaa hakualgoritmiin?</td></tr>
+<tr><th>Harri</th><td>Onko omana kuvauksena parempi / toimivampi ammatillisen osaamisen termistöä vai hevisti brändäävää mileikuvasanoastoa tyyliin Gutru, voittaja, Teräsmies ... jne ?</td></tr>
+<tr><th>Larissa Rima</th><td>Viestintä, markkinointi, <a href="https://fi.linkedin.com/in/larissarima">https://fi.linkedin.com/in/larissarima</a></td></tr>
+<tr><th>Merja</th><td>Tervetuloa! <a href="https://fi.linkedin.com/in/merjaporopudas">https://fi.linkedin.com/in/merjaporopudas</a></td></tr>
+<tr><th>Virpi</th><td>Onko yrityssivun perustamiseen tulossa "vapautuksia"? Eli aiemmin linkittyi sähköpostiosoitteeseen ja domain-nimeen.</td></tr>
+<tr><th>Janne</th><td>@Tom: Mitä merkitystä on connectia painettaessa valinnalla friend, colleague tai done business together -listalla?</td></tr>
+<tr><th>Päivi</th><td><a href="https://fi.linkedin.com/in/päivi-tuomikoski-35a438b3">https://fi.linkedin.com/in/päivi-tuomikoski-35a438b3</a></td></tr>
+<tr><th>Tuija</th><td>Onko sinulla kokemusta Kiinasta ja heidän LinkedIn -käytöstään? Palomuuri kun estää suurimman osan länkkärimateriaalista, niin näkyykö yritysprofiilien postaukset sinne?</td></tr>
+<tr><th>Annika Perho</th><td>Ja sorry Tom, Chatti on nyt aika täynnä verkostoitumisviestejä. Kiitti upeasta läpikäynnistä jälleen kerran!</td></tr>
+<tr><th>ritva luukkonen</th><td>...nyt kyl sähköisen kirjanpidon tarve ois kiva, jos joku tekee ja tarjoaa myös ystävätär yksityisyrittäjänä</td></tr>
+<tr><th>Juha</th><td>KYSYMYS: miten poistetaan henkilö omasta Linkedinistä?</td></tr>
+<tr><th>Raili</th><td>Key to business is Customer Service! Not more not less.</td></tr>
+<tr><th>Jukka Ala-Mutka</th><td>thx</td></tr>
+<tr><th>Jaana</th><td>Kiitos jälleen Tom ;)</td></tr>
+<tr><th>Jouni Liimatainen</th><td>Jos teollisuusventtiilit ovat mielenkiintonne kohteena <a href="https://fi.linkedin.com/in/jouni-liimatainen-77756b22">https://fi.linkedin.com/in/jouni-liimatainen-77756b22</a></td></tr>
+<tr><th>Freja Harkke</th><td><a href="https://fi.linkedin.com/in/frejaharkke">https://fi.linkedin.com/in/frejaharkke</a> Teknologian parissa työskentelevänä mArkkinoinnin ja viestinnän ammattilaisena verkostoidun mielelläni M&V, IT alan asiantuntijoiden kanssa</td></tr>
+<tr><th>Pauliina</th><td><a href="https://www.linkedin.com/in/pauliinamakela">https://www.linkedin.com/in/pauliinamakela</a> :D</td></tr>
+<tr><th>Mari</th><td>Nyt ollut vuoden verran aktiivisempana käyttäjänä: <a href="https://fi.linkedin.com/in/mari-sumuranta-99a8b517">https://fi.linkedin.com/in/mari-sumuranta-99a8b517</a></td></tr>
+<tr><th>Inca</th><td>Tervetuloa verkostoitumaan <a href="https://fi.linkedin.com/in/incaviljakainen">https://fi.linkedin.com/in/incaviljakainen</a></td></tr>
+<tr><th>Merja</th><td>Mukana: <a href="https://www.linkedin.com/in/merja-laamanen-075a222">https://www.linkedin.com/in/merja-laamanen-075a222</a></td></tr>
+<tr><th>Jouni Liimatainen</th><td>Jos teollisuusventtiilit ovat mielenkiintonne kohteena: <a href="https://fi.linkedin.com/in/jouni-liimatainen-77756b22">https://fi.linkedin.com/in/jouni-liimatainen-77756b22</a></td></tr>
+<tr><th>Outi</th><td>Haluan verkostoitua palvelujen toimittamisen, projektihallinnan ja työn kehittäjien kanssa. T. Outi Tötterman</td></tr>
+<tr><th>Tiina</th><td>Verkostoidun mielelläni Tiina Airaksinen, kirjoitusvalmentaja, tekstinohjaaja, kirjoittaja, editoija, tekstimentori <a href="https://fi.linkedin.com/in/tiinaairaksinentekstitaivas">https://fi.linkedin.com/in/tiinaairaksinentekstitaivas</a></td></tr>
+<tr><th>Sanna</th><td>Tom, teikä on Linkedin-Velho, kiitos myös tunteenpalosta.</td></tr>
+<tr><th>Jarmo</th><td>PItää varmaan kuunnella Tomin jutut uudelleen, kun aika on mennyt ihan liikaa tähän chattipalstaan:-)</td></tr>
+<tr><th>Mia</th><td>Mukana! Twitter <a href="https://twitter.com/mia_lahtee">@mia_lahtee</a> <a href="https://fi.linkedin.com/in/mialahteenmaki">https://fi.linkedin.com/in/mialahteenmaki</a></td></tr>
+<tr><th>Päivi</th><td>Työnhaussa turvallisuusasiantuntijaksi entry level-tasolle, verkostoa rakentamassa :-) <a href="https://fi.linkedin.com/in/päivi-tuomikoski-35a438b3">https://fi.linkedin.com/in/päivi-tuomikoski-35a438b3</a></td></tr>
+<tr><th>Harri</th><td>Kun en halua spämmätä verkostoitumista ihan mihin vaan rädomilla, niin millaisilla tavoilla voi löytää itselle / omalle osaamisalallle hyviä kohteita?</td></tr>
+<tr><th>Teija</th><td>Verkostoitumalla voimme antaa ja saada, uskon vakaasti</td></tr>
+<tr><th>Jari</th><td><a href="https://fi.linkedin.com/in/jarijsarja">https://fi.linkedin.com/in/jarijsarja</a></td></tr>
+<tr><th>Jarmo</th><td>Lisääkin saa tulla, siis: <a href="https://www.linkedin.com/in/jarmolahti">https://www.linkedin.com/in/jarmolahti</a></td></tr>
+<tr><th>Larissa Rima</th><td>Miten tunnistaa feikkiprofiilit?</td></tr>
+<tr><th>anne innanen</th><td>rakennetaan verkostoa :) <a href="https://fi.linkedin.com/in/anneinnanen">https://fi.linkedin.com/in/anneinnanen</a></td></tr>
+<tr><th>Juha</th><td>Minäki kaipaan vinkkejä siihen, miten voin saada yrityksen profiiliin lisää tykkääjiä..<a href="mailto:juha.herrainsilta@gmail.com">juha.herrainsilta@gmail.com</a></td></tr>
+<tr><th>Sari</th><td><a href="https://www.linkedin.com/in/sari-neva-aho-4125202b">https://www.linkedin.com/in/sari-neva-aho-4125202b</a></td></tr>
+<tr><th>Pekka</th><td>Mikäli asiakastyytyväisyyden kehittäminen kiinnostaa, pohditaan asiaa yhdessä ! <a href="http://www.linkedin.com/in/pekka-laaksonen-22228971">www.linkedin.com/in/pekka-laaksonen-22228971</a></td></tr>
+<tr><th>Teija</th><td>No way!!</td></tr>
+<tr><th>Jarmo</th><td>Kiitos verkostoitumispyynnöistä LI:ssä, klikkailin juuri ok:ta.</td></tr>
+<tr><th>Timo Rainioq</th><td>Jos digitalisuus teollisuudessa ja liikenteessä kiinnostaa niin tässä pari linkedin ryhmää, Tervetuloa mukaan: <a href="https://www.linkedin.com/groups/3454994">https://www.linkedin.com/groups/3454994</a></td></tr>
+<tr><th>Teppo Toivonen</th><td>ja koska tuo suora linkki ei kaikilla toimi niin; <a href="mailto:teppo.sales@gmail.com">teppo.sales@gmail.com</a></td></tr>
+<tr><th>Raija</th><td>Miten tään chatin vosi tallentaa itselle. Hyviä linkkejä.</td></tr>
+<tr><th>Satu</th><td><a href="http://fi.linkedin.com/in/satu-savolainen-474b3a82">fi.linkedin.com/in/satu-savolainen-474b3a82</a></td></tr>
+<tr><th>Matti</th><td>WEBinaari tilttasi sw-jumi OULUssa</td></tr>
+<tr><th>Marika</th><td>Pelaako Ari taustalla pingistä vai mistä tuo outo taustalla kuuluva ääni tulee?</td></tr>
+<tr><th>Tommi</th><td><a href="https://www.linkedin.com/in/tommi-lampila/">https://www.linkedin.com/in/tommi-lampila/</a></td></tr>
+<tr><th>Toni</th><td><a href="https://fi.linkedin.com/in/tonimettovaara">https://fi.linkedin.com/in/tonimettovaara</a></td></tr>
+<tr><th>Jari Luostarinen</th><td><a href="https://www.linkedin.com/in/jari-luostarinen-31315885/">https://www.linkedin.com/in/jari-luostarinen-31315885/</a></td></tr>
+<tr><th>Sofia</th><td>... Siinä samassa kun olin kirjoittanut sen Sinulle, haastoin sen ajatuksen ja pian jo Liityin. Nyt olen todella innoissani LinkedInistä. Otan erittäin mielelläni vastaan kaikki vinkit ja palautteet. Tässä linkki tuoreeseen profiiliini: <a href="https://fi.linkedin.com/in/sofiapeltoniemi">https://fi.linkedin.com/in/sofiapeltoniemi</a></td></tr>
+<tr><th>Jani</th><td>LinkedIn: <a href="mailto:jani.rajaniemi@gmail.com">jani.rajaniemi@gmail.com</a> ja <a href="http://www.linkedin.com/in/janirajaniemi">http://www.linkedin.com/in/janirajaniemi</a> ... Twitter: <a href="https://twitter.com/jrajaniem">@jrajaniem</a>. Saa verkostoitua :)</td></tr>
+<tr><th>Heikki</th><td>Annikan pyynnöstä tässä yhteystiedot: heikki.tallgren(ad)tallgren.eu</td></tr>
+<tr><th>Anne</th><td><a href="https://www.linkedin.com/in/anne-vaittinen-a90b2b96">https://www.linkedin.com/in/anne-vaittinen-a90b2b96</a></td></tr>
+<tr><th>Krista</th><td>Autan mielelläni niin myyntitiiminne rekrytoinneissa sekä tietenkin myös teidän oman mahdollisen työnhakunne tiimoilta. Eiköhän verkostoiduta <a href="https://fi.linkedin.com/in/kristapulkkinen">https://fi.linkedin.com/in/kristapulkkinen</a></td></tr>
+<tr><th>Tapio</th><td><a href="https://fi.linkedin.com/in/tapio-oksa">https://fi.linkedin.com/in/tapio-oksa</a></td></tr>
+<tr><th>Jari Luostarinen</th><td><a href="http://www.linkedin.com/in/">www.linkedin.com/in/</a></td></tr>
+<tr><th>Kaija</th><td>millä alalla olet Ritva?</td></tr>
+<tr><th>Harri</th><td>PING tänne wellcome! <a href="https://fi.linkedin.com/in/harrikonttila">https://fi.linkedin.com/in/harrikonttila</a> (y)</td></tr>
+<tr><th>Rami</th><td><a href="https://fi.linkedin.com/in/rami-juvonen-28b27211">https://fi.linkedin.com/in/rami-juvonen-28b27211</a></td></tr>
+<tr><th>Timo Rainioq</th><td>Timo Rainio löytyy tällaisella profiililla: <a href="https://fi.linkedin.com/in/timorainio">https://fi.linkedin.com/in/timorainio</a></td></tr>
+<tr><th>Karoliina</th><td><a href="https://fi.linkedin.com/in/karoliinabehm">https://fi.linkedin.com/in/karoliinabehm</a></td></tr>
+<tr><th>Jyri</th><td>Tosta noin: <a href="https://fi.linkedin.com/in/jyribehm">https://fi.linkedin.com/in/jyribehm</a></td></tr>
+<tr><th>Maija</th><td><a href="https://www.linkedin.com/in/anna-maia.halme">https://www.linkedin.com/in/anna-maia.halme</a></td></tr>
+<tr><th>ritva luukkonen</th><td>Ainakin minun alalla paljon "tiskin alta" saa työpaikat varmimmin..</td></tr>
+<tr><th>Freja Harkke</th><td>@jarmolahti Sinulla on monta kaimaa LInkedInissä. MIkä on profiilisi uoralinkki? :-)</td></tr>
+<tr><th>Iris</th><td><a href="https://www.linkedin.com/in/iris-humala-ba46102/">https://www.linkedin.com/in/iris-humala-ba46102/</a></td></tr>
+<tr><th>Pia Suominen</th><td>Tavataan Twitterissä! <a href="https://twitter.com/piaksuomi">@piaksuomi</a></td></tr>
+<tr><th>Juha</th><td>Korjattu profiilini on osoitteessa <a href="https://fi.linkedin.com/in/juhaherrainsilta">https://fi.linkedin.com/in/juhaherrainsilta</a></td></tr>
+<tr><th>Larissa Rima</th><td>Twitterissä: <a href="https://twitter.com/LarissaRima">@LarissaRima</a> <a href="https://twitter.com/LarissaRima">https://twitter.com/LarissaRima</a></td></tr>
+<tr><th>Päivi</th><td><a href="https://www.linkedin.com/in/paivi-koivuniemi">https://www.linkedin.com/in/paivi-koivuniemi</a></td></tr>
+<tr><th>Ulla</th><td>Mukana myös! <a href="https://fi.linkedin.com/in/ulla-harju">https://fi.linkedin.com/in/ulla-harju</a></td></tr>
+<tr><th>MARJA TUHKANEN</th><td>Mukana myös <a href="https://twitter.com/MarjaTuhkanen67">@MarjaTuhkanen67</a></td></tr>
+<tr><th>Tiina</th><td>Hurjan hyvä valmennus :.</td></tr>
+<tr><th>Jaana</th><td>kiitos Jarmo L.</td></tr>
+<tr><th>Sirpa</th><td><a href="https://www.linkedin.com/in/sirpalund">https://www.linkedin.com/in/sirpalund</a></td></tr>
+<tr><th>Tomi</th><td>Mukana verkostoitumassa <a href="https://fi.linkedin.com/in/tomitapper">https://fi.linkedin.com/in/tomitapper</a></td></tr>
+<tr><th>MARJA TUHKANEN</th><td>Mukana verkostoitumassa! <a href="https://www.linkedin.com/in/marjatuhkanen">https://www.linkedin.com/in/marjatuhkanen</a> @</td></tr>
+<tr><th>Petra Viitanen</th><td><a href="http://www.linkedin.com/in/petraviitanen">www.linkedin.com/in/petraviitanen</a></td></tr>
+<tr><th>Helena</th><td><a href="https://fi.linkedin.com/in/helenahornborg">https://fi.linkedin.com/in/helenahornborg</a></td></tr>
+<tr><th>Mikko</th><td>Twitterissäkin saa seurata <a href="https://twitter.com/MikkoPehkonen">https://twitter.com/MikkoPehkonen</a></td></tr>
+<tr><th>Jarmo</th><td>Yritän muistaa ottaa talteen tämän chattipalstan lopussa. Jaan sen, jos muistan. Seuratkaa LinkedInissä tai Twitterissä; <a href="https://twitter.com/jarmolahti">@jarmolahti</a></td></tr>
+<tr><th>Antti</th><td><a href="https://www.linkedin.com/in/anttileijala">https://www.linkedin.com/in/anttileijala</a></td></tr>
+<tr><th>Sofia</th><td>Kiitos Sinun ohjeidesi Tom Laine ja ystäväni Jukka Raisamon kannustuksen, liityin LinkedIniin vuodenvaihteessa. Tähän webinaariin liittymisen yhteydessä kysymääsi kysymykseen vastaaminen - kysymys oli muistaakseni siitä, minkä koet suurimmaksi haasteeksi - myös avasi perspektiivini... (jatkuu)</td></tr>
+<tr><th>Kiti</th><td><a href="https://fi.linkedin.com/in/kitisiren">https://fi.linkedin.com/in/kitisiren</a></td></tr>
+<tr><th>Sari</th><td><a href="http://www.linkedin.com/in/silventoinensari">www.linkedin.com/in/silventoinensari</a></td></tr>
+<tr><th>Kaisa</th><td><a href="https://fi.linkedin.com/in/kaisa-luoto-4a5363a3">https://fi.linkedin.com/in/kaisa-luoto-4a5363a3</a></td></tr>
+<tr><th>Pasi</th><td>Linkedin - työttömien Facebook</td></tr>
+<tr><th>Kirsi</th><td>LI: <a href="http://www.linkedin.com/in/kirsitervamaki">www.linkedin.com/in/kirsitervamaki</a> Twitter: <a href="https://twitter.com/KirsiTervamki">@KirsiTervamki</a></td></tr>
+<tr><th>Jani</th><td>Pari profiilin katsontakertaa Tomilla :-)</td></tr>
+<tr><th>Petri</th><td><a href="https://fi.linkedin.com/in/petrivpitkanen">https://fi.linkedin.com/in/petrivpitkanen</a></td></tr>
+<tr><th>Mirva</th><td>Aina pari uutta kontaktia mahtuu! ;) <a href="https://fi.linkedin.com/in/mirvanoren">https://fi.linkedin.com/in/mirvanoren</a></td></tr>
+<tr><th>Juha</th><td>Lupa verkostoitua <a href="https://fi.linkedin.com/in/juha-herrainsilta">https://fi.linkedin.com/in/juha-herrainsilta</a></td></tr>
+<tr><th>Mikko</th><td><a href="https://www.linkedin.com/in/mikkopehkonen">https://www.linkedin.com/in/mikkopehkonen</a></td></tr>
+<tr><th>Antero</th><td>Mukavaa verkostoitua :) <a href="https://www.linkedin.com/in/anterovesterinen">https://www.linkedin.com/in/anterovesterinen</a></td></tr>
+<tr><th>Janne</th><td>Kun Tom mainitsi artikkelit ja erityisesti asiakaskokemuksen, pakko puffata omaa postausta eiliseltä. Käykää tykkäämässä , haastamassa ja jakamassa jos siltä tuntuu: <a href="https://www.linkedin.com/pulse/opit-ja-ennustukset-vuodelle-2017-janne-uggeldahl?trk=prof-post">https://www.linkedin.com/pulse/opit-ja-ennustukset-vuodelle-2017-janne-uggeldahl?trk=prof-post</a></td></tr>
+<tr><th>Annika Perho</th><td>Tom tiedätkö paljonko hakuja voi tehdä ennen kuin "ammattikäyttäjän" rajoitus tulee vastaan? Minulla se tuli parissa päivässä, muutaman firman kaivelun jälkeen.</td></tr>
+<tr><th>JP</th><td><a href="https://fi.linkedin.com/in/jpwirta">https://fi.linkedin.com/in/jpwirta</a></td></tr>
+<tr><th>JP</th><td>Saa linkittyä, mut ei pakko hei : )</td></tr>
+<tr><th>Sari</th><td>Mukana verkostoitumassa! <a href="http://fi.linkedin.com/in/sarisuomi">http://fi.linkedin.com/in/sarisuomi</a></td></tr>
+<tr><th>Pia Suominen</th><td>Happy to connect! <a href="https://www.linkedin.com/in/piasuominen/">https://www.linkedin.com/in/piasuominen/</a></td></tr>
+<tr><th>Raili</th><td>Jarmolla hyvä kysymys: jääkö chatti talteen, muistakseni ei edellisessä webinaarissa. Olis hyvä!</td></tr>
+<tr><th>Taru</th><td>Mukana yös :) <a href="http://www.linkedin.com/in/tarupietikainen">www.linkedin.com/in/tarupietikainen</a></td></tr>
+<tr><th>Mari</th><td><a href="https://fi.linkedin.com/in/marimaenpaa">https://fi.linkedin.com/in/marimaenpaa</a></td></tr>
+<tr><th>Patrik</th><td><a href="https://fi.linkedin.com/in/patefa">https://fi.linkedin.com/in/patefa</a></td></tr>
+<tr><th>Teija</th><td>Komppaan Matsua, mutta eiköhän tämä jää talteen, jotta voi hyödyntää, ja verkostoitua myöhemmin lisää.</td></tr>
+<tr><th>Sari</th><td>Verkostoidu, mikäli koet niin: <a href="https://fi.linkedin.com/in/sarimakela">https://fi.linkedin.com/in/sarimakela</a></td></tr>
+<tr><th>Sirpa</th><td><a href="https://fi.linkedin.com/in/sirpah/">https://fi.linkedin.com/in/sirpah/</a></td></tr>
+<tr><th>Tea</th><td><a href="https://fi.linkedin.com/in/teapatsi">https://fi.linkedin.com/in/teapatsi</a></td></tr>
+<tr><th>Matsu</th><td>Saadaanhan jakoon myös nämä kommentit? Tahtoisin verkottoitua, mutten malttaisi tehdä sitä tässä sivussa. Nimimerkki Laiska multitaskaaja</td></tr>
+<tr><th>Sanna</th><td>Me too: <a href="https://fi.linkedin.com/in/sannalinden">https://fi.linkedin.com/in/sannalinden</a></td></tr>
+<tr><th>Kati</th><td><a href="https://fi.linkedin.com/in/katisaario">https://fi.linkedin.com/in/katisaario</a></td></tr>
+<tr><th>Tiina</th><td>Mukana! <a href="https://fi.linkedin.com/in/tiina-hailla-79a41127">https://fi.linkedin.com/in/tiina-hailla-79a41127</a></td></tr>
+<tr><th>Freja Harkke</th><td>Mukana verkostoitumassa! <a href="https://fi.linkedin.com/in/frejaharkke">https://fi.linkedin.com/in/frejaharkke</a></td></tr>
+<tr><th>Hannele</th><td>Mukana verkostoitumassa! <a href="https://fi.linkedin.com/in/hanneleisokangas">https://fi.linkedin.com/in/hanneleisokangas</a></td></tr>
+<tr><th>Janne</th><td>Niin just mukana myös twitterissä <a href="https://twitter.com/JanneKoukonen">https://twitter.com/JanneKoukonen</a></td></tr>
+<tr><th>Jarmo</th><td><a href="https://www.linkedin.com/in/jarmojaakkola">https://www.linkedin.com/in/jarmojaakkola</a></td></tr>
+<tr><th>Kati</th><td><a href="https://www.linkedin.com/in/kati-sarkka/">https://www.linkedin.com/in/kati-sarkka/</a></td></tr>
+<tr><th>Jarmo</th><td>Jääköhän tämä chattipalsta talteen. Ei tässä kuunnellessa ehdi verkostoitumaan, etenkin kun LI:n webkälissä ei onnistu suoraan.</td></tr>
+<tr><th>Timo</th><td><a href="https://www.linkedin.com/in/timo-paananen-2229b814?trk=nav_responsive_tab_profile">https://www.linkedin.com/in/timo-paananen-2229b814?trk=nav_responsive_tab_profile</a></td></tr>
+<tr><th>Nina-Maarit</th><td><a href="https://fi.linkedin.com/in/ninamaarit">https://fi.linkedin.com/in/ninamaarit</a></td></tr>
+<tr><th>Rita</th><td><a href="https://fi.linkedin.com/in/ritavalve">https://fi.linkedin.com/in/ritavalve</a></td></tr>
+<tr><th>Rita</th><td>Mukana !</td></tr>
+<tr><th>Teppo Toivonen</th><td><a href="https://fi.linkedin.com/in/teppotoivonen">https://fi.linkedin.com/in/teppotoivonen</a> - olisitko juuri SINä minun 5000s kontaktini? Tervetuloa verkostoitumaan</td></tr>
+<tr><th>Tiina</th><td><a href="http://www.linkedin.com/in/tiinakekkonen">www.linkedin.com/in/tiinakekkonen</a></td></tr>
+<tr><th>Tiina</th><td>Verkostoidutaan!</td></tr>
+<tr><th>Nina</th><td>Mukana! <a href="https://fi.linkedin.com/in/ninasmidtslund">https://fi.linkedin.com/in/ninasmidtslund</a> <a href="mailto:nina.smidtslund@hrmpartners.fi">nina.smidtslund@hrmpartners.fi</a></td></tr>
+<tr><th>Jani</th><td><a href="https://fi.linkedin.com/in/janikarhunen">https://fi.linkedin.com/in/janikarhunen</a></td></tr>
+<tr><th>Satu</th><td>Täällä minä <a href="https://fi.linkedin.com/in/satukantti">https://fi.linkedin.com/in/satukantti</a></td></tr>
+<tr><th>Marjut</th><td><a href="https://www.linkedin.com/in/marjut/">https://www.linkedin.com/in/marjut/</a></td></tr>
+<tr><th>Lotta</th><td><a href="https://www.linkedin.com/in/lotta-lilja-b5a53a1a?trk=hp-identity-name">https://www.linkedin.com/in/lotta-lilja-b5a53a1a?trk=hp-identity-name</a></td></tr>
+<tr><th>Raili</th><td>thanks so far!</td></tr>
+<tr><th>Aija</th><td>Tavataan Twitterissä <a href="https://twitter.com/AijaL">@AijaL</a> ja LinkedInissä: <a href="https://fi.linkedin.com/in/aijal">https://fi.linkedin.com/in/aijal</a></td></tr>
+<tr><th>Annika Perho</th><td><a href="https://fi.linkedin.com/in/annikaperho">https://fi.linkedin.com/in/annikaperho</a></td></tr>
+<tr><th>Marja-Liisa</th><td><a href="https://fi.linkedin.com/in/marjaliisalehtinen">https://fi.linkedin.com/in/marjaliisalehtinen</a></td></tr>
+<tr><th>Kari</th><td>Hei, lähdetkö kaffelle <a href="mailto:kari.kettumaki@gmail.com">kari.kettumaki@gmail.com</a></td></tr>
+<tr><th>Leena</th><td>Nice to meet you!<a href="https://fi.linkedin.com/in/paavolajakovlev">https://fi.linkedin.com/in/paavolajakovlev</a></td></tr>
+<tr><th>Tanja</th><td>miten ne artikkelit lisätään?</td></tr>
+<tr><th>Nina</th><td>Mukana! <a href="https://fi.linkedin.com/in/ninatoivola">https://fi.linkedin.com/in/ninatoivola</a></td></tr>
+<tr><th>Juha</th><td>Vinkki täällä verkostoitujille: Laittakaa suoraan se Linkedin-profiilinne julkinen linkki, koska se mahdollistaa verkostoitumisen kahdella klikkauksella. Mobiiliaikana ihmiset ovat laiskoja.. :)</td></tr>
+<tr><th>Tiina</th><td><a href="https://www.linkedin.com/in/tiinalehtonen">https://www.linkedin.com/in/tiinalehtonen</a></td></tr>
+<tr><th>Janne</th><td>Mielenkiintoista. Profiilia on päivitettävä. Mutta tervetuloa mun verkostoon <a href="https://www.linkedin.com/in/jannekoukonen">https://www.linkedin.com/in/jannekoukonen</a></td></tr>
+<tr><th>Jukka</th><td>Ahkerille verkostoitujille ;) <a href="https://fi.linkedin.com/in/jukka-raisamo">https://fi.linkedin.com/in/jukka-raisamo</a> <a href="mailto:jukka.raisamo@gmail.com">jukka.raisamo@gmail.com</a></td></tr>
+<tr><th>Annika Perho</th><td>Hauskaa, että niin moni lähtee mukaan!</td></tr>
+<tr><th>Teija</th><td>teija.messula@te-toimisto.fi, verkostoitumisodotuksin</td></tr>
+<tr><th>Tiina</th><td>tiina.airaksinen(at)tekstitaivas(dot)fi Twitter <a href="https://twitter.com/TiinaAiraksinen">@TiinaAiraksinen</a> ja <a href="https://twitter.com/Tekstitaivas">@Tekstitaivas</a></td></tr>
+<tr><th>leena</th><td>Mukana <a href="https://fi.linkedin.com/in/leenalagerblom">https://fi.linkedin.com/in/leenalagerblom</a></td></tr>
+<tr><th>jere</th><td>itselleni tuli eilen</td></tr>
+<tr><th>jere</th><td>Uusi versio tulee ilmeisesti portaittain ihmisille</td></tr>
+<tr><th>Marika Kakko</th><td>Marika Kakko, <a href="https://fi.linkedin.com/in/marikakakko">https://fi.linkedin.com/in/marikakakko</a> , hauska verkostoitua!</td></tr>
+<tr><th>Jani</th><td>Milloin tämä uusi on käytettävissä?</td></tr>
+<tr><th>Raili</th><td>rkhalme at gmail.com ja Linkedin Raili Halme; twitterissä myös</td></tr>
+<tr><th>Jarmo</th><td><a href="https://www.linkedin.com/in/jarmolahti">https://www.linkedin.com/in/jarmolahti</a></td></tr>
+<tr><th>Petra</th><td>Jannea mukaillen. Linkedin-verkostooni mukaan <a href="mailto:pheikkari@gmail.com">pheikkari@gmail.com</a>. Petra Heikkari</td></tr>
+<tr><th>Sari</th><td>Olen Twitterissä nimellä <a href="https://twitter.com/SariNeva">@SariNeva</a>, jos joku haluaa verkostoitua</td></tr>
+<tr><th>Jani</th><td>Verkostoitumaan, <a href="https://www.linkedin.com/in/jani-hautanen-69204995">https://www.linkedin.com/in/jani-hautanen-69204995</a>, <a href="mailto:jani.hautanen@gmail.com">jani.hautanen@gmail.com</a></td></tr>
+<tr><th>Outi</th><td>Tuula, kirjoita sp-osoitteesi "hassuun" muotoon etunimi.sukunimi(at)gmail(dot)com</td></tr>
+<tr><th>Outi</th><td>Tuula, kirjoita sp-osoitteesi "hassuun" muotoon etunimi.sukunimi(at)gmail(dot)comoon</td></tr>
+<tr><th>Annika Perho</th><td>@Tuula - myös minun yhteystietoni LinkedInissä (at) -versiona,</td></tr>
+<tr><th>Janne</th><td>Mä lätkäisen myös yhteystietoni tähän: Janne Uggeldahl (<a href="mailto:janneu@gmail.com">janneu@gmail.com</a>), tervetuloa verkostoitumaan LinkedInissä :-)</td></tr>
+<tr><th>Laura</th><td>@Tuula. Moni käyttää etunimi dot sukunimi at jne. jne.</td></tr>
+<tr><th>Marika</th><td>@Tuula kyllä voi. Kirjoita osoitteeksesi tuula.sukunimesi (at) hotmail.com tms.</td></tr>
+<tr><th>Annika Perho</th><td>@Tuula, ainakaan minulla ei ole lisännyt kuin muutamallla viestillä ihan alussa.</td></tr>
+<tr><th>Tuula</th><td>voikohan sähköpostiosoite linkedinissä lisätä roskapostin määrää? voiko sen jotenkin estää?</td></tr>
+<tr><th>Annika Perho</th><td>Moi, yhteystiedot näkyviiin :-). annika.perho(at)gmail.com - kaikki koulutuksen kuuntelijat tervetuloa verkostoitumaan LinkedInissä!</td></tr>
+<tr><th>Jukka Ala-Mutka</th><td>'youtuben kautta voi katsoa, kun klikkaa oikeassa alakulmassa olevaa YT-logoa</td></tr>
+<tr><th>Tommi</th><td>Löytyykö jostain listausta käytetyimistä hakusanoista linkedissä</td></tr>
+<tr><th>Jaana</th><td>saarnaa vaan!</td></tr>
+<tr><th>Raili</th><td>hyvä Tom!</td></tr>
+<tr><th>Petra</th><td>kansikuva heti lisätty:)</td></tr>
+<tr><th>Jarmo</th><td>Raili, etsi YouTubesta ja katso kokoruudulla:-)</td></tr>
+<tr><th>Tiina</th><td>Samat pätee Tinderiin</td></tr>
+<tr><th>Mari</th><td>Saako kansikuvan näkymään myös julkiseen profiiliin?</td></tr>
+</tbody></table>
+
+<script type="text/javascript">
+  $('#chat-history a[href]').each(function() {
+    var link = $(this).attr('href');
+    var linkedIn = new RegExp(".*linkedin.com/in/([.-\\wöä]+)/?(\\?.*)?$", "gi").exec(link);
+    if (_.size(linkedIn) === 3) {
+      $(this).html('<i class="fa fa-linkedin-square" style="margin-right: 2px"></i>' + linkedIn[1]);
+    } else {
+      var twitter = new RegExp(".*twitter.com/([-\\w]+)/?$", "g").exec(link);
+      if (_.size(twitter) === 2) {
+        $(this).html('<i class="fa fa-twitter-square" style="margin-right: 2px"></i>' + twitter[1]);
+      } else {
+        var email = new RegExp("^mailto:(.+)", "g").exec(link);
+        if (_.size(email) === 2) {
+          $(this).html('<i class="fa fa-envelope" style="margin-right: 2px"></i>' + email[1]);
+        }
+      }
+    }
+  });
+</script>
