@@ -33,8 +33,8 @@ if (!window.console) {
       'blogi': { otherLanguage: window.location.pathname.replace('/blogi/', '/blog/'), nav: 'blog' }
     };
     var path = window.location.pathname.split('/')[1] || '/';
-    if (path === 'blog') $('html').addClass('en');
-    if (path === 'blogi') $('html').addClass('fi');
+    if (path === 'blog') $('html').addClass('en').removeClass('fi');
+    if (path === 'blogi') $('html').addClass('fi').removeClass('en');
     if (pyppe.finnishPageTitle && window.location.pathname === '/blogi/') {
       document.title = pyppe.finnishPageTitle;
     }
