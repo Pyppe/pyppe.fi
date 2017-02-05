@@ -160,6 +160,32 @@ if (!window.console) {
     });
   }
 
+  function renderRelatedPosts($parent, posts) {
+    const $list = $('<div class="relevant-post-group"></div>').appendTo($parent);
+    _.forEach(posts, post => {
+      const image = post.imageAside || post.imageMeta || post.imageCover;
+      const localizedUrl = pageLanguage === 'fi' ? post.url.replace('/blog/', '/blogi/') : post.url;
+      const $item = $(
+        `<a href="${localizedUrl}" class="relevant-post">
+          <h5 class="post-heading">${post.title}</h5>
+          <h5><small class="text-muted">${pyppe.util.parseMoment(post.time).format('LL')}</small></h5>
+          <div style="clear:both"></div>
+        </a>`
+      ).appendTo($list);
+      if (image) {
+        $(`<img src=${image} />`).prependTo($item);
+      } else {
+        $('<div class="image"></div>').prependTo($item);
+      }
+      /*
+      const $tagContainer = $('<div class="tags"></div>').appendTo($item);
+      _.forEach(post.tags, tag => {
+        $(`<span class="label label-default"><i class="fa fa-tag"></i> ${tag}</span>`).appendTo($tagContainer);
+      });
+      */
+    });
+  }
+
   function handleRelatedPosts() {
     const $post = $('#post');
     if ($post.length === 0) return;
@@ -179,36 +205,51 @@ if (!window.console) {
 
       const $relevant = $('#relevant-posts');
 
-      const populateColumn = ($parent, posts) => {
-        const $list = $('<div class="relevant-post-group"></div>').appendTo($parent);
-        _.forEach(posts, post => {
-          const image = post.imageAside || post.imageMeta || post.imageCover;
-          const localizedUrl = pageLanguage === 'fi' ? post.url.replace('/blog/', '/blogi/') : post.url;
-          const $item = $(
-            `<a href="${localizedUrl}" class="relevant-post">
-              <h5 class="post-heading">${post.title}</h5>
-              <h5><small class="text-muted">${pyppe.util.parseMoment(post.time).format('LL')}</small></h5>
-              <div style="clear:both"></div>
-            </a>`
-          ).appendTo($list);
-          if (image) {
-            $(`<img src=${image} />`).prependTo($item);
-          } else {
-            $('<div class="image"></div>').prependTo($item);
-          }
-          /*
-          const $tagContainer = $('<div class="tags"></div>').appendTo($item);
-          _.forEach(post.tags, tag => {
-            $(`<span class="label label-default"><i class="fa fa-tag"></i> ${tag}</span>`).appendTo($tagContainer);
-          });
-          */
-        });
-      };
-
-      populateColumn($relevant.find('[data-first-col]'), _.take(relatedPosts, 3));
-      populateColumn($relevant.find('[data-second-col]'), _.take(_.drop(relatedPosts, 3), 3));
+      renderRelatedPosts($relevant.find('[data-first-col]'), _.take(relatedPosts, 3));
+      renderRelatedPosts($relevant.find('[data-second-col]'), _.take(_.drop(relatedPosts, 3), 3));
       $relevant.show();
+    });
+  }
 
+  function handleNotFound() {
+    const $container = $('#did-you-mean-404');
+    if ($container.length === 0) return;
+
+    const createUrlWords = url => _.flatMap(url.split(/\b/), word =>
+      _.size(word.replace(/^blogi?$/, '').replace(/\W/g, '')) === 0 ? [] : [word]
+    );
+
+    $.get(`/posts.json?h=${pyppe.resourceHash}`).done(posts => {
+      const urlWords = createUrlWords(location.pathname);
+
+      const relevantPosts = (() => {
+        const scoredPosts = _.sortBy(
+          _.flatMap(posts, p => {
+            const matchingWordCount = _.size(_.intersection(urlWords, createUrlWords(p.url)));
+            if (matchingWordCount > 0) {
+              return [{...p, matchingWordCount}];
+            } else {
+              return [];
+            }
+          }),
+          p => -p.matchingWordCount
+        );
+
+        if (_.size(scoredPosts) > 0) {
+          const maxScore = scoredPosts[0].matchingWordCount;
+          return _.takeWhile(scoredPosts, ({matchingWordCount}) => matchingWordCount >= maxScore-1);
+        } else {
+          return posts;
+        }
+      })();
+
+      const $relevants = $container.find('#relevant-posts');
+      renderRelatedPosts(
+        $relevants,
+        _.take(relevantPosts, 6)
+      );
+      $container.show();
+      $relevants.show();
     });
   }
 
@@ -219,6 +260,7 @@ if (!window.console) {
     bindCoverTitleScrolling();
     createFancyboxImages();
     handleRelatedPosts();
+    handleNotFound();
     pyppe.util.bindTooltips($('body'));
 
     // Life-story page

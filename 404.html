@@ -2,18 +2,30 @@
 layout: page
 language: en
 title: "Oh noes, page not found (404)"
+titleHtml: |
+  <h1>
+    <span class="lang-en">Oh noes, page not found (404)</span>
+    <span class="lang-fi">Voi ei, sivua ei löytynyt (404)</span>
+  </h1>
+  <script>pyppe.finnishPageTitle = 'Voi ei, sivua ei löytynyt (404)';</script>
 permalink: /404/
 ---
 
 <div class="row">
-  <div class="col-md-9">
-    <!--<h1>Oh noes, page not found <strong>(404)</strong></h1>-->
+  <div class="col-md-6">
     <blockquote class="blockquote">
-      Of all the unhappy people in the world, the unhappiest are those who have not found something they want to do
-      <small>Lyn Yutang</small>
+      Of all the unhappy people in the world, the unhappiest are those who have not found something they want to do.
+      <footer class="blockquote-footer">Lyn Yutang</footer>
     </blockquote>
+    <img id="notFoundGif" src="/img/404-not-found.gif?h={{site.resource_hash}}" />
   </div>
-  <div class="col-md-3">
-    <img id="notFoundGif" src="https://dl.dropboxusercontent.com/u/6281024/persistent/pyppe_giffed_face.gif" />
+  <div class="col-md-6">
+    <div id="did-you-mean-404">
+      <h4>
+        <span class="lang-fi">Mutta tsekkaapa nämä</span>
+        <span class="lang-en">But check this out</span>
+      </h4>
+      <div id="relevant-posts"></div>
+    </div>
   </div>
 </div>

@@ -6,13 +6,11 @@ layout: default
      style="background-image: url('{% if page.titleCover %}{% if page.id %}{{ page.id | content_path }}/{% endif %}{{ page.titleCover }}{% else %}/img/jumbotron.jpg{% endif %}');{% if page.titleStyle %} {{page.titleStyle}}{% endif %}">
   <div class="container">
     <div class="text">
-      <h1>
-        {% if page.titleHtml %}
-          {{ page.titleHtml }}
-        {% else %}
-          {{ page.title }}
-        {% endif %}
-      </h1>
+      {% if page.titleHtml %}
+        {{ page.titleHtml }}
+      {% else %}
+        <h1>{{ page.title }}</h1>
+      {% endif %}
       {% if page.date %}
         <h3>
           <span class="time-title">{{ page.date | date_to_xmlschema }}</span>
