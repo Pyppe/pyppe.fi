@@ -9,59 +9,61 @@ published: false
 <div id="playground">
 
 <script>
+'use strict';
 $(function () {
-    $(document).ready(function () {
-
-        // Build the chart
-        $('#playground').highcharts({
-            chart: {
-                plotBackgroundColor: null,
-                plotBorderWidth: null,
-                plotShadow: false,
-                type: 'pie'
-            },
-            title: {
-                text: 'Suomessa käytetyt Twitter-clientit'
-            },
-            subtitle: {
-                text: '(data perustuu 20M twiittiin edelliseltä 7 kuukaudelta)'
-            },
-            tooltip: {
-                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
-            },
-            plotOptions: {
-                pie: {
-                    allowPointSelect: true,
-                    cursor: 'pointer',
-                    dataLabels: {
-                        enabled: true,
-                        format: '<b>{point.name}</b>: {point.percentage:.1f} %'
-                    },
-                    showInLegend: true
-                }
-            },
-            series: [{
-                name: 'Brands',
-                colorByPoint: true,
-                data: [
-                {
-                    name: 'Twitter Web Client (4,7M)',
-                    y: 4702035
-                }, {
-                    name: 'Twitter for iPhone (4,5M)',
-                    y: 4548935
-                    //sliced: true,
-                    //selected: true
-                }, {
-                    name: 'Twitter for Android (4,3M)',
-                    y: 4315685
-                }, {
-                    name: 'Twitter for Windows Phone (997k)',
-                    y: 997007
-                }
-                ]
-            }]
-        });
+  $(document).ready(function () {
+    // Build the chart
+    $('#playground').highcharts({
+      //legend: { enabled: false },
+      credits: false,
+      chart: {
+        plotBackgroundColor: null,
+        plotBorderWidth: null,
+        plotShadow: false,
+        type: 'pie'
+      },
+      title: {
+        text: 'Suomessa käytetyt Twitter-clientit'
+      },
+      subtitle: {
+        text: '(data perustuu 20M twiittiin edelliseltä 7 kuukaudelta)'
+      },
+      tooltip: {
+        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+      },
+      plotOptions: {
+        pie: {
+          allowPointSelect: true,
+          cursor: 'pointer',
+          dataLabels: {
+            enabled: true,
+            format: '<b>{point.name}</b>: {point.percentage:.1f} %'
+          },
+          showInLegend: true
+        }
+      },
+      series: [{
+        name: 'Brands',
+        colorByPoint: true,
+        data: [
+          {
+            name: 'Twitter Web Client (4,7M)',
+            y: 4702035
+          }, {
+            name: 'Twitter for iPhone (4,5M)',
+            y: 4548935
+            //sliced: true,
+            //selected: true
+          }, {
+            name: 'Twitter for Android (4,3M)',
+            y: 4315685
+          }, {
+            name: 'Twitter for Windows Phone (997k)',
+            y: 997007
+          }
+        ]
+      }]
     });
+  });
 });
 </script>
