@@ -46,7 +46,7 @@ if (!window.console) {
     $('#topbar .change-lang').attr('href', current.otherLanguage);
     var lang = $('html').hasClass('fi') ? 'fi' : 'en';
     pageLanguage = lang;
-    moment.lang(lang);
+    moment.locale(lang);
     $('html').attr('lang', lang);
   }
 
