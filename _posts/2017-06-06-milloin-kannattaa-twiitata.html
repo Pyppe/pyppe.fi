@@ -1,0 +1,78 @@
+---
+layout: post
+title: "Milloin kannattaa twiitata?"
+date: 2017-06-06T14:18:00+0300
+post_language: fi
+custom_page_js: milloin-kannattaa-twiitata.js
+meta_description: |
+  Mikä on paras viikonpäivä ja kellonaika tajunnanräjäyttävän viserryksen rustaamiseen?
+tags: [twitter]
+excerpt: |
+  <p>
+    Twitterissä
+    <a href="https://twitter.com/intent/user?screen_name=BergholmHanne">Hanne Bergholm</a>
+    pohdiskeli, mikä olisi paras aika twiitata.
+  </p>
+  <p>
+    No mutta hyvänen aika, <a href="http://pinnalla.pyppe.fi/" target="_blank">Pinnalla</a>-palvelun datahan kertoo aukottomasti oikean vastauksen! Laskenta suoritettiin seuraavasti:
+  </p>
+  <ul>
+    <li>
+      Kerättiin <a href="/blogi/2017/01/suomi-twitter-vuonna-2016/?view=vaikuttajat">Suomi-Twitterin TOP-200 vaikuttajan</a> twiitit viimeisen päälle 12 kuukauden ajalta. Yhteensä retwiittauksia datajoukossa on
+      <span class="has-tooltip" title="1 923 032">1,9 miljoonaa</span>.
+    </li>
+    <li>Jokaisesta retwiitistä otettiin talteen sekä retwiit-aika että alkuperäisen twiitin lähetysaika.</li>
+  </ul>
+---
+
+<div class="row">
+  <div class="col-lg-6 col-md-7">
+    {{ page.excerpt }}
+  </div>
+  <div class="col-lg-6 col-md-5">
+    {% tweet https://twitter.com/BergholmHanne/status/871741486945234944 %}
+  </div>
+</div>
+
+<h2>1. TLDR;</h2>
+
+<p>
+  Peukalosääntö näyttäisi olevan, että eniten pöhinää Twitterissä on <b>arki-iltaisin noin kello 21-22 (poislukien perjantai)</b>. Lisäksi <b>keskiviikkoaamuisin noin kello 10-12</b> on hieman enemmän liikennettä muihin arkiaamuihin verrattuna. Viikonloppuna on selkeästi hiljaisempaa. Myös maanantai-aamupäivä on hiljaisempi muihin arkipäiviin verrattuna.
+</p>
+
+<p>
+  Entä mistä johtuu se, että <a href="#3.2">maanantaisin kello 14-15</a> on selkeä poikkeama retwiittien aktiivisuudessa? No ihan siitä syystä, että sattumoisin maanantaihin kyseiseen kellonaikaan on osunut pari erittäin suosittua twiittiä:
+</p>
+
+<div class="row">
+  <div class="col-md-4">{% tweet https://twitter.com/toivohaimi/status/843804977126686720 %}</div>
+  <div class="col-md-4">{% tweet https://twitter.com/mikko/status/757532380257222656 %}</div>
+  <div class="col-md-4">
+    <blockquote class="blockquote">
+      Toisin sanoen... ajankohdalla ei ole väliä, kunhan visertää timanttista twiittiä eetteriin. <code>M.O.T.</code>
+    </blockquote>
+  </div>
+</div>
+
+<h2>2. Milloin retwiitataan?</h2>
+<p>
+  Seuraavassa kahdessa visualisoinnissa retwiitin ajankohdaksi on valittu retwiitin lähetyshetki (eikä siis alkuperäisen twiitin kellonaikaa).
+</p>
+
+<h4><a name="2.1"></a>2.1. Yhteensä <small class="text-muted">(per retwiitin kellonaika)</small></h4>
+<div id="milloin-kannattaa-twiitata-totals-rt"></div>
+
+<h4><a name="2.2"></a>2.2. Viikonpäivittäin <small class="text-muted">(per retwiitin kellonaika)</small></h4>
+<div id="milloin-kannattaa-twiitata-daily-rt"></div>
+
+<h2>3. Milloin retwiitatut on twiitattu?</h2>
+
+<p>
+  Seuraavassa kahdessa visualisoinnissa retwiitin ajankohdaksi on valittu alkuperäisen twiitin luontihetki.
+</p>
+
+<h4><a name="3.1"></a>3.1. Yhteensä</a> <small class="text-muted">(per alkuperäisen twiitin kellonaika)</small></h4>
+<div id="milloin-kannattaa-twiitata-totals-original"></div>
+
+<h4><a name="3.2"></a>3.2. Viikonpäivittäin <small class="text-muted">(per alkuperäisen twiitin kellonaika)</small></h4>
+<div id="milloin-kannattaa-twiitata-daily-original"></div>
