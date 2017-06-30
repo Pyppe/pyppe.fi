@@ -1,7 +1,9 @@
 (() => {
   $.get(`/dist/resources/4gstatus.json`, {h: pyppe.resourceHash}).then(res => {
+    /*
     console.log('abort 4g status');
     return;
+    */
 
     //moment.locale('en');
 
@@ -10,7 +12,7 @@
 
     const data = _.chain(res).
       //filter(({time}) => time > Date.UTC(2017,4,1,13) && time < Date.UTC(2017,4,6,12)).
-      filter(({time}) => time > Date.UTC(2017,4,14)).
+      filter(({time}) => time > Date.UTC(2017,5,1)).
       groupBy('status.Z_CELL_ID').
       toPairs().
       filter(kv => _.size(kv[1]) > 10).
