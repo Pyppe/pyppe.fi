@@ -1,0 +1,178 @@
+---
+layout: post
+title: "Twitterin käyttö Suomessa"
+date: 2017-07-19T11:25:00+0300
+post_language: fi
+custom_page_js: twitterin-kaytto-suomessa.js
+custom_page_css: twitterin-kaytto-suomessa.css
+tags: [twitter]
+titleStyle: "min-height: 290px;"
+titleCover: cover.cartography.jpg
+meta_image: cover.cartography.jpg
+meta_description: |
+  Twitter näyttäisi olevan Suomessa vahvasti pääkaupunkiseutukeskeinen marginaalimedia.
+  Vain vajaa 5% suomalaisista on twiitannut viimeisen vuoden sisällä ja
+  peräti 45% twiiteistä on lähetetty pääkaupunkiseudulta.
+excerpt: |
+  <p>
+    DNA julkaisi 9.6.2017
+    <a href="https://corporate.dna.fi/lehdistotiedotteet?type=stt2&id=61695758" target="_blank">somebarometrin</a>,
+    jossa selviteltiin suomalaisten sosiaalisen median ja puhelimen käyttöä. Kyselyn perusteella peräti
+    <b>35% suomalaisista käyttäisi Twitteriä</b>.
+  </p>
+  <p>
+    Otosryhmän pienuus <small>(<code>N = 1005</code>)</small> herätti keskustelua, sekä itseäni jäi mietityttämään
+    mitä tarkoittaa <em>"tulokset on painotettu Suomen väestöä edustaviksi"</em>. Millä tavalla painotus on tehty?
+  </p>
+  <p>
+    Päätin tarttua härkää sarvista, ja tutkia <a href="http://pinnalla.pyppe.fi" target="_blank">Pinnalla-palvelun</a>
+    viimeisen vuoden
+    <small>(1.7.2016&ndash;30.6.2017)</small> twiittejä
+    <small>(yhteensä <span class="has-tooltip" title="29 057 547">29,1 miljoonaa</span>)</small>. Selvitetään kuinka paljon suomalaisia
+    Twitter-käyttäjiä näyttäisi datan perusteella oikeasti olevan. Ja missä käyttäjät maantieteellisesti sijaitsevat?
+    Voidaanko puhua pääkaupunkikeskeisestä kuplasta?
+  </p>
+  <p>
+    <b>HUOM:</b> Tässä tulee samalla vedettyä selkeä rajanveto, mitä tarkoitetaan "Twitterin käyttämisellä":
+    <blockquote class="blockquote">
+      Tässä analyysissä tutkitaan vain konkreettisia twiittejä (Twitteriin kirjatuneilta käyttäjiltä).
+      Twiittien lukemista tai "tykkäämistä" ei tässä tarkastelussa huomioida.
+    </blockquote>
+  </p>
+---
+
+{% comment %}
+http://arachnoid.com/latex/
+https://cdn.mathjax.org/mathjax/latest/test/sample-dynamic.html
+----------------------------------------------------------------------------------
+\displaystyle Pisteet =
+\left(
+\frac{Twiitit\ kunnassa}{Twiitit\ yhteensä} +
+\frac{Twiittaajat\ kunnassa}{Twiittaajat\ yhteensä} +
+\frac{Twiittaajat\ kunnassa}{\frac{1}{3}*Kunnan\ asukasluku^{0.7}}
+\right) * 100
+
+\\[20pt]
+\text{Jolloin esimerkiksi } \textbf{Helsinki} \text{ saa pisteitä seuraavasti:}
+\\
+
+\displaystyle
+\left(
+\frac{4\ 954\ 687}{13\ 548\ 987} +
+\frac{41\ 206}{104\ 294} +
+\frac{41\ 206}{\frac{1}{3}*639\ 222^{0.7}}
+\right) * 100
+= \textbf{194,6}
+----------------------------------------------------------------------------------
+finnish_tweet_analysis.json
+===========================
+{
+  "must": [
+    {
+      "range" : {
+        "timestamp_ms": {
+          "gte": "2016-07-01",
+          "lt": "2017-07-01"
+        }
+      }
+    }
+  ],
+  "includeHashtags": true
+}
+curses.json
+===========
+{
+  "must": [
+    {
+      "range" : {
+        "timestamp_ms": {
+          "gte": "2016-07-01",
+          "lt": "2017-07-01"
+        }
+      }
+    }
+  ],
+  "query": {
+    "simple_query_string" : {
+      "query": "helv* | jumalau* | pask* | perkel* | saatana* | vitu* | vittu*",
+      "fields": ["text", "retweeted_status.text", "quoted_status.text"],
+      "default_operator": "and"
+    }
+  },
+  "includeHashtags": false
+}
+{% endcomment %}
+
+<div id="twitterin-kaytto-suomessa-container">
+  <div class="row">
+    <div class="col-lg-7">
+     {{ page.excerpt }}
+    </div>
+    <div class="col-lg-5">
+      {% tweet https://twitter.com/RiikkaJ/status/876438620072284160 hide_media=true %}
+      {% tweet https://twitter.com/Tony_Virtanen/status/876453113066074113 %}
+    </div>
+  </div>
+
+  <h2>Suomalaisten Twitterin käyttö</h2>
+
+  <p>
+    Pinnalla-palvelun twiitit (<span class="has-tooltip" title="29 057 547">29,1 miljoonaa</span> twiittiä
+    <span class="has-tooltip" title="620 277">620 tuhannelta</span> uniikilta käyttäjältä) sisältävät myös retwiittejä ja vastauksia ei-suomalaisilta käyttäjiltä, joissa retwiitataan tai vastataan suomalaisten lähettämiin twiitteihin. Keskitytään
+    tässä tapauksessa vain suomalaisten käyttäjien kirjoittamiin twiitteihin.
+    Tällöin <b>vuodessa suomalaisten lähettämiä twiittejä on
+    <span class="has-tooltip" title="27 850 647">27,9 miljoonaa</span></b>.
+  </p>
+  <p>
+    Keskimäärin suomalaiset lähettävät
+    <b><span class="has-tooltip" title="2 320 887">2,3 miljoonaa</span> twiittiä kuukaudessa</b>.
+    Ja keskimäärin twiittejä lähettäviä suomalaisia
+    <b>käyttäjiä on <span class="has-tooltip" title="96 138">96,1 tuhatta</span> kuukaudessa</b>.
+  </p>
+  <p>
+    Jos toisaalta tutkitaan uniikkien suomalaisten käyttäjien lukumäärää koko vuoden ajalta, on
+    <b>Suomessa <span class="has-tooltip" title="254 867">255 tuhatta</span> Twitterin käyttäjää</b>.
+    Tämä tarkoittaisi sitä, että vaivaiset <b>4,6% suomalaisista on twiitannut viimeisen 12 kuukauden sisällä</b>.
+  </p>
+
+  <div data-monthly-chart></div>
+
+  <h2>Twiittien maantieteellinen jakauma</h2>
+
+  <p>
+    Tutkitaan seuraavaksi, miten Twitterin käyttäjät ovat jakautuneet maantieteellisesti (kunnittain).
+    Otetaan täten em. 27,9 miljoonasta suomalaisen lähettämästä twiitistä jatkokäsittelyyn ne, jotka pystytään yhdistämään maantieteellisesti johonkin Suomen kunnista (joko käyttäjän profiilin tai twiitissä olevan paikkatiedon perusteella). Tällöin datajoukko suppenee
+    <span class="has-tooltip" title="13 548 987">13,5 miljoonaan</span> twiittiin, ja
+    <span class="has-tooltip" title="104 294">104 tuhanteen</span> uniikkiin käyttäjään.
+  </p>
+
+  <p>
+    Laitetaan ensin kunnat suuruusjärjestykseen raa'asti sen mukaan, kuinka paljon mistäkin kunnasta on lähetetty twiittejä.
+    Huomaamme että toden totta: Twitterin käytössä on havaittavissa selkeää pääkaupunkikeskeisyyttä.
+    Peräti <b>36,6% twiiteistä on peräisin Helsingistä</b>, ja muhkeat <b>45,0% twiiteistä on pääkaupunkiseudun sisältä</b>.
+    Toki Helsingissä asuu vajaa 12% suomalaisista, mutta Helsinki-keskeisyys on siitä huolimatta valtava.
+  </p>
+
+  <div class="row" data-tweet-map>
+    <div class="col-md-6"><div data-map></div></div>
+    <div class="col-md-6"><div data-stats></div></div>
+  </div>
+
+  <h2>Suhteellinen maantieteellinen jakauma</h2>
+
+  <p>
+    Otetaan seuraavaksi huomioon twiittien lisäksi kunnan asukasluku sekä uniikkien twiittaajien lukumäärä.
+    Kunnan asukasluvun huomioiminen on siinä mielessä hankalaa, että asukasluvultaan pienissä kunnissa matkailijoiden
+    twiitit vaikuttavat suhteettoman paljon. Mitään absoluuttisesti oikeaa vertailutapaa ei ole, mutta
+    Stetson-Harrison <span class="text-nowrap">-menetelmää</span> soveltamalla päädymme kuitenkin kaavaan, jossa huomioidaan kaikki em. tekijät:
+  </p>
+  {% include postImage.html css="bordered-post-image" name="formula.png" %}
+
+  <div class="row" data-scored-map>
+    <div class="col-md-6"><div data-map></div></div>
+    <div class="col-md-6"><div data-stats></div></div>
+  </div>
+
+  <h2>Yhteenveto kaikista kunnista</h2>
+  <div data-master-table></div>
+</div>

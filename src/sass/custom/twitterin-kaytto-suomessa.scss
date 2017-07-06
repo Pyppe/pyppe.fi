@@ -1,0 +1,111 @@
+@charset "UTF-8";
+@import "compass";
+@import "_mixins.scss";
+
+#twitterin-kaytto-suomessa-container {
+  table .label {
+    line-height: 1.1;
+    em {
+      font-weight: 400;
+      font-style: normal;
+    }
+  }
+
+  table.city-numbers {
+    .label {
+      width: 40px;
+      font-weight: 400;
+    }
+    td:first-child, th:first-child {
+      white-space: nowrap;
+      padding-right: 10px;
+    }
+    td:nth-child(2) {
+      width: 90%;
+    }
+  }
+
+  .bar-wrapper {
+    position: relative;
+    display: block;
+    padding-left: 60px;
+    line-height: 1;
+    .bar {
+      display: inline-block;
+      background: green;
+      box-sizing: border-box;
+      height: 22px;
+      vertical-align: top;
+    }
+    .number {
+      position: absolute;
+      left: 0;
+      top: 2px;
+    }
+  }
+}
+
+.d3-map {
+  position: relative;
+  .btn {
+    display: none;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+  }
+  &.zoomed {
+    .btn {
+      display: inherit;
+    }
+    svg {
+      border: 1px solid #ddd;
+    }
+  }
+}
+
+.d3-tooltip {
+  position: absolute;
+  max-width: 350px;
+  padding: 6px 10px;
+  background: black;
+  color: white;
+  @include box-shadow(0 0 2px rgba(black, 0.3));
+  border: 0px;
+  border-radius: 2px;
+  pointer-events: none;
+}
+
+.scored-tooltip {
+  min-width: 230px;
+  dl {
+    //font-weight: 400;
+    font-size: 14px;
+  }
+  dd {
+    height: 30px;
+  }
+}
+
+svg {
+  //https://developer.mozilla.org/en-US/docs/Web/CSS/radial-gradient
+  // TODO
+  //background-image: radial-gradient(ellipse farthest-corner at 50% 45px , #00FFFF 0%, rgba(0, 0, 255, 0) 50%, #0000FF 95%);
+  //@include background-image(radial-gradient(center, ellipse cover, rgba(73,155,234,0.4) 0%, rgba(32,124,229,0) 60%));
+}
+
+/*
+.bar-wrapper {
+  position: relative;
+  > span:first-child {
+    width: 70px;
+    display: inline-block;
+  }
+  .bar {
+    box-sizing: border-box;
+    background-color: red;
+    height: 22px;
+    display: inline-block;
+    position: absolute;
+  }
+}
+*/

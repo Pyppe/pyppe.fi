@@ -98,27 +98,19 @@ meta_image: "top-200-vaikuttajat.meta.jpg"
 http://arachnoid.com/latex/
 https://cdn.mathjax.org/mathjax/latest/test/sample-dynamic.html
 ----------------------------------------------------------------------------------
-\displaystyle Pisteet = \min(T_{omat}, 2*P_{lkm}) +
-\left[
-\frac{M(\theta_{kk})}{100} +
-10*M(RT_{uniq}) + \frac{M(RT_{yht})}{2} +
-6*M(Kesk_{uniq}) + \frac{M(Kesk_{yht})}{3}
-\right]
-* K^{0.2} * S^{0.9} \\\\
+\displaystyle Pisteet =
+\left(
+\frac{Twiitit\ kunnassa}{Twiitit\ yhteensä} +
+\frac{Twiittaajat\ kunnassa}{Twiittaajat\ yhteensä} +
+\frac{Twiittaajat\ kunnassa}{Kunnan\ asukasluku^{0.7}}
+\right) * 100
 
-\displaystyle \begin{array}{lll}\\
-\text{Missä:}\\\\
-T_{omat}    & = & \text{Omat twiitit} \\
-P_{lkm}     & = & \text{Ajanjakson päivien lukumäärä } \\
-M()         & = & \text{Kuukauden aikaikkunoiden keskiarvon ja mediaanin summa} \\
-\theta_{kk} & = & \text{Tavoittavuus } \textit{(retwiittaajien yhteenlaskettu seuraajamäärä)} \\
-RT_{uniq}   & = & \text{Uniikit retwiittajat }  \\
-RT_{yht}    & = & \text{Retwiitit yhteensä } \\
-Kesk_{uniq} & = & \text{Uniikit keskustelijat } \\
-Kesk_{yht}  & = & \text{Keskusteluviestit yhteensä } \\
-K           & = & \text{Kiehtovuus } \textit{(retwiittaajien & keskustelijoiden suhde käyttäjän seuraajiin)} \\
-S           & = & \text{Yleisön "suomalaisuusaste"} \\
-\end{array}
+\\
+\text{Jolloin esimerkiksi Helsinki saa pisteitä seuraavasti:}
+\\
+
+
+Foo
 ----------------------------------------------------------------------------------
 {% endcomment %}
 

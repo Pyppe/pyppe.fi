@@ -1,0 +1,5047 @@
+{
+  "totalTweets": 29057547,
+  "totalFinnishTweets": 27850647,
+  "totalFinnishUsers": 254867,
+  "cityTweets": 13548987,
+  "cityUsers": 104294,
+  "months": {
+    "2016-07": {
+      "tweets": 1953666,
+      "users": 83994,
+      "cumulativeUsers": 83994
+    },
+    "2016-08": {
+      "tweets": 2241841,
+      "users": 89686,
+      "cumulativeUsers": 114940
+    },
+    "2016-09": {
+      "tweets": 2495282,
+      "users": 96900,
+      "cumulativeUsers": 139403
+    },
+    "2016-10": {
+      "tweets": 2524306,
+      "users": 101439,
+      "cumulativeUsers": 160177
+    },
+    "2016-11": {
+      "tweets": 2494337,
+      "users": 101289,
+      "cumulativeUsers": 176943
+    },
+    "2016-12": {
+      "tweets": 2271976,
+      "users": 96117,
+      "cumulativeUsers": 189466
+    },
+    "2017-01": {
+      "tweets": 2373288,
+      "users": 95559,
+      "cumulativeUsers": 201953
+    },
+    "2017-02": {
+      "tweets": 2215792,
+      "users": 98009,
+      "cumulativeUsers": 214621
+    },
+    "2017-03": {
+      "tweets": 2527399,
+      "users": 101748,
+      "cumulativeUsers": 226914
+    },
+    "2017-04": {
+      "tweets": 2304909,
+      "users": 98728,
+      "cumulativeUsers": 237135
+    },
+    "2017-05": {
+      "tweets": 2307938,
+      "users": 97895,
+      "cumulativeUsers": 246722
+    },
+    "2017-06": {
+      "tweets": 2139913,
+      "users": 92296,
+      "cumulativeUsers": 254867
+    }
+  },
+  "cities": {
+    "Helsinki": {
+      "tweets": 4954687,
+      "users": 41206,
+      "hashtags": {
+        "helsinki": 71904,
+        "sote": 27033,
+        "yle": 25639,
+        "liiga": 24011,
+        "jokerit": 22587,
+        "digitalist": 21999,
+        "rekry": 21602,
+        "mtvuutiset": 20712,
+        "finland": 20131,
+        "hallitus": 18884
+      }
+    },
+    "Tampere": {
+      "tweets": 1162085,
+      "users": 10373,
+      "hashtags": {
+        "tampere": 51111,
+        "ilves": 24411,
+        "liiga": 24027,
+        "tappara": 15737,
+        "yle": 9721,
+        "trevaltuusto": 6958,
+        "työpaikat": 6881,
+        "veikkausliiga": 5319,
+        "salibandy": 4767,
+        "sote": 4727
+      }
+    },
+    "Turku": {
+      "tweets": 976449,
+      "users": 7750,
+      "hashtags": {
+        "turku": 27114,
+        "hctps": 10168,
+        "merirosvot": 8749,
+        "liiga": 7822,
+        "yle": 6546,
+        "fctps": 5212,
+        "työpaikat": 5193,
+        "salibandy": 4871,
+        "turunsanomat": 3560,
+        "veikkausliiga": 3206
+      }
+    },
+    "Espoo": {
+      "tweets": 659147,
+      "users": 8583,
+      "hashtags": {
+        "espoo": 12621,
+        "rekry": 9633,
+        "työpaikat": 7471,
+        "espoounited": 3811,
+        "yle": 3408,
+        "ravit": 2987,
+        "sote": 2947,
+        "digitalist": 2691,
+        "helsinki": 2674,
+        "salibandy": 2621
+      }
+    },
+    "Oulu": {
+      "tweets": 553464,
+      "users": 5040,
+      "hashtags": {
+        "oulu": 31600,
+        "kärpät": 9600,
+        "liiga": 6639,
+        "työpaikat": 6203,
+        "uutiset": 5328,
+        "finland": 2596,
+        "yle": 2534,
+        "sote": 2377,
+        "rekry": 2045,
+        "nhlfi": 1936
+      }
+    },
+    "Vantaa": {
+      "tweets": 476269,
+      "users": 6446,
+      "hashtags": {
+        "vantaa": 9060,
+        "työpaikat": 5501,
+        "kvantaa": 3179,
+        "rekry": 2771,
+        "foibekartano": 2535,
+        "jokerit": 2325,
+        "liiga": 2086,
+        "mestis": 2038,
+        "matkailu": 1931,
+        "yle": 1827
+      }
+    },
+    "Jyväskylä": {
+      "tweets": 419140,
+      "users": 4781,
+      "hashtags": {
+        "jyväskylä": 12003,
+        "liiga": 6620,
+        "jypliiga": 5595,
+        "salibandy": 3822,
+        "mmkisat": 2014,
+        "rekry": 1874,
+        "nhlfi": 1795,
+        "jyvaskyla": 1709,
+        "leijonat": 1518,
+        "yle": 1506
+      }
+    },
+    "Lahti": {
+      "tweets": 300175,
+      "users": 3291,
+      "hashtags": {
+        "pelicansfi": 8161,
+        "lahti": 7790,
+        "liiga": 5975,
+        "lahti2017": 4283,
+        "fclahti": 1387,
+        "rekry": 1350,
+        "ravit": 1333,
+        "veikkausliiga": 1299,
+        "yle": 1143,
+        "digitalist": 1034
+      }
+    },
+    "Kuopio": {
+      "tweets": 214289,
+      "users": 2504,
+      "hashtags": {
+        "kalpa": 6387,
+        "kuopio": 5993,
+        "liiga": 5680,
+        "yle": 3612,
+        "kups": 2071,
+        "nhlfi": 1731,
+        "veikkausliiga": 1562,
+        "leijonat": 1235,
+        "mmkisat": 1189,
+        "serieafi": 1112
+      }
+    },
+    "Lappeenranta": {
+      "tweets": 201660,
+      "users": 1650,
+      "hashtags": {
+        "saipa": 10363,
+        "meidänpojat": 6889,
+        "saipanation": 5050,
+        "mitävittua": 4439,
+        "lappeenranta": 4405,
+        "liiga": 3944,
+        "rekry": 2279,
+        "työpaikat": 2165,
+        "salibandy": 1664,
+        "nhlfi": 1531
+      }
+    },
+    "Joensuu": {
+      "tweets": 179735,
+      "users": 1791,
+      "hashtags": {
+        "joensuu": 2878,
+        "turpo": 1836,
+        "ravit": 1101,
+        "betsit": 982,
+        "korisliiga": 961,
+        "pesis": 804,
+        "nhlfi": 797,
+        "rekry": 761,
+        "yle": 723,
+        "olut": 693
+      }
+    },
+    "Rovaniemi": {
+      "tweets": 149482,
+      "users": 1763,
+      "hashtags": {
+        "rovaniemi": 5407,
+        "rekry": 3248,
+        "lappi": 2737,
+        "veikkausliiga": 1916,
+        "rops": 1682,
+        "huuhkajat": 1038,
+        "vihreät": 1009,
+        "matkailu": 738,
+        "rokihockey": 732,
+        "yleastudio": 683
+      }
+    },
+    "Vaasa": {
+      "tweets": 146890,
+      "users": 1888,
+      "hashtags": {
+        "vaasa": 5544,
+        "rekry": 4154,
+        "työpaikat": 3437,
+        "liiga": 2837,
+        "yle": 2046,
+        "vepsu": 1954,
+        "vaasansport": 1952,
+        "veikkausliiga": 1814,
+        "vpslive": 819,
+        "hifk": 692
+      }
+    },
+    "Kouvola": {
+      "tweets": 136434,
+      "users": 1443,
+      "hashtags": {
+        "liiga": 3416,
+        "kookoo": 2602,
+        "paremmin": 1942,
+        "pesis": 1646,
+        "kouvola": 1602,
+        "leijonat": 718,
+        "mmkisat": 707,
+        "nhlfi": 621,
+        "korisliiga": 530,
+        "yle": 505
+      }
+    },
+    "Hämeenlinna": {
+      "tweets": 135695,
+      "users": 1963,
+      "hashtags": {
+        "liiga": 3568,
+        "nhlfi": 1920,
+        "hämeenlinna": 1775,
+        "hpk": 1368,
+        "ässät": 1322,
+        "salibandy": 1170,
+        "sens": 1048,
+        "hctps": 732,
+        "leijonat": 568,
+        "betsit": 565
+      }
+    },
+    "Salo": {
+      "tweets": 126525,
+      "users": 1363,
+      "hashtags": {
+        "uutisvahti": 2717,
+        "korisliiga": 2559,
+        "salo": 1106,
+        "turku": 866,
+        "turunsanomat": 811,
+        "sisäilma": 729,
+        "yle": 480,
+        "viestintä": 449,
+        "tisuomi": 375,
+        "salovaltuusto": 335
+      }
+    },
+    "Pori": {
+      "tweets": 125798,
+      "users": 2160,
+      "hashtags": {
+        "ässät": 6301,
+        "liiga": 4205,
+        "yhdessä": 3473,
+        "pori": 3297,
+        "suomiareena": 2162,
+        "yle": 1339,
+        "pesis": 1270,
+        "nhlfi": 829,
+        "sote": 818,
+        "rekry": 771
+      }
+    },
+    "Kotka": {
+      "tweets": 115039,
+      "users": 1029,
+      "hashtags": {
+        "kotka": 2513,
+        "yle": 2107,
+        "sote": 491,
+        "liiga": 483,
+        "titaanit": 437,
+        "valioliiga": 375,
+        "hamina": 365,
+        "suomisarja": 364,
+        "kärpät": 363,
+        "huuhkajat": 355
+      }
+    },
+    "Rauma": {
+      "tweets": 75226,
+      "users": 1082,
+      "hashtags": {
+        "lukko": 3295,
+        "liiga": 2725,
+        "rauma": 1701,
+        "palloiirot": 889,
+        "pesis": 872,
+        "salibandy": 591,
+        "yle": 550,
+        "lukkopesis": 461,
+        "leijonat": 381,
+        "ässät": 374
+      }
+    },
+    "Seinäjoki": {
+      "tweets": 74996,
+      "users": 1390,
+      "hashtags": {
+        "seinäjoki": 2575,
+        "salibandy": 1709,
+        "sjk07": 1309,
+        "veikkausliiga": 1216,
+        "spvlive": 1166,
+        "sjklive": 709,
+        "rekry": 584,
+        "liiga": 505,
+        "kesätyö": 463,
+        "haiku": 422
+      }
+    },
+    "Hyvinkää": {
+      "tweets": 67353,
+      "users": 1398,
+      "hashtags": {
+        "hyvinkää": 1832,
+        "liiga": 690,
+        "nhlfi": 678,
+        "pesis": 528,
+        "photo": 461,
+        "tappara": 461,
+        "mmkisat": 436,
+        "leijonat": 409,
+        "jokerit": 348,
+        "yle": 288
+      }
+    },
+    "Tuusula": {
+      "tweets": 64137,
+      "users": 1178,
+      "hashtags": {
+        "tuusula": 727,
+        "tisuomi": 642,
+        "mmkisat": 574,
+        "liiga": 496,
+        "leijonat": 486,
+        "yle": 339,
+        "sote": 312,
+        "pirkkohommat": 290,
+        "turpo": 259,
+        "aamunajatus": 244
+      }
+    },
+    "Kajaani": {
+      "tweets": 61264,
+      "users": 721,
+      "hashtags": {
+        "mestislive": 1160,
+        "kainuu": 1078,
+        "mestis": 921,
+        "kajaani": 863,
+        "hokki": 778,
+        "pesis": 472,
+        "liiga": 468,
+        "sote": 418,
+        "kaipr": 392,
+        "khlfi": 352
+      }
+    },
+    "Kokkola": {
+      "tweets": 60323,
+      "users": 740,
+      "hashtags": {
+        "yle": 1253,
+        "nhlfi": 833,
+        "kokkola": 741,
+        "sote": 468,
+        "valioliiga": 459,
+        "liiga": 433,
+        "mcfc": 334,
+        "turpo": 307,
+        "jokerit": 300,
+        "salibandy": 295
+      }
+    },
+    "Kerava": {
+      "tweets": 60226,
+      "users": 1149,
+      "hashtags": {
+        "liiga": 944,
+        "kerava": 621,
+        "hifk": 456,
+        "nhlfi": 444,
+        "jokerit": 398,
+        "khlfi": 386,
+        "sote": 349,
+        "leijonat": 342,
+        "mmkisat": 284,
+        "kärpät": 274
+      }
+    },
+    "Mikkeli": {
+      "tweets": 59416,
+      "users": 1123,
+      "hashtags": {
+        "mikkeli": 4214,
+        "liiga": 1674,
+        "jukurit": 1595,
+        "yle": 696,
+        "ravit": 526,
+        "mlivaltuusto": 450,
+        "xamk": 416,
+        "kuntavaalit": 329,
+        "tohtoriverkosto": 295,
+        "cmadfi": 270
+      }
+    },
+    "Porvoo": {
+      "tweets": 52104,
+      "users": 1562,
+      "hashtags": {
+        "porvoo": 1044,
+        "salibandy": 480,
+        "sote": 433,
+        "rekry": 430,
+        "kesätyö": 382,
+        "yle": 340,
+        "tvp": 316,
+        "jokerit": 264,
+        "porvoox": 235,
+        "kuntavaalit": 235
+      }
+    },
+    "Kirkkonummi": {
+      "tweets": 51385,
+      "users": 1250,
+      "hashtags": {
+        "jokerit": 512,
+        "khlfi": 365,
+        "sote": 365,
+        "suunnistus": 307,
+        "yle": 304,
+        "kirkkonummi": 303,
+        "suomi100": 296,
+        "digitalist": 273,
+        "yleisurheilu": 265,
+        "helsinki": 251
+      }
+    },
+    "Järvenpää": {
+      "tweets": 47611,
+      "users": 1289,
+      "hashtags": {
+        "järvenpää": 1112,
+        "ammatillinenkoulutus": 840,
+        "akunews": 599,
+        "kuntavaalit": 407,
+        "uutisvahti": 347,
+        "sote": 338,
+        "yle": 327,
+        "aamutv": 208,
+        "politiikka": 197,
+        "kokoomus": 189
+      }
+    },
+    "Lempäälä": {
+      "tweets": 41676,
+      "users": 826,
+      "hashtags": {
+        "liiga": 1953,
+        "tappara": 1313,
+        "ilves": 985,
+        "leki": 887,
+        "lempäälä": 566,
+        "mestislive": 497,
+        "mestis": 448,
+        "leijonat": 400,
+        "parastapohjoiseen": 387,
+        "tampere": 383
+      }
+    },
+    "Kaarina": {
+      "tweets": 41204,
+      "users": 770,
+      "hashtags": {
+        "liiga": 1247,
+        "turku": 667,
+        "onur": 473,
+        "lale": 470,
+        "turunsanomat": 459,
+        "no309": 400,
+        "furkanpalali": 352,
+        "bugüngünlerdenno309": 326,
+        "kaapolive": 322,
+        "lalon": 315
+      }
+    },
+    "Lohja": {
+      "tweets": 41082,
+      "users": 1222,
+      "hashtags": {
+        "lohja": 1072,
+        "yle": 324,
+        "johtaminen": 255,
+        "kisakallio": 242,
+        "laligafi": 224,
+        "suomi100": 216,
+        "politiikka": 211,
+        "sote": 175,
+        "finland": 174,
+        "mtvf1": 163
+      }
+    },
+    "Nokia": {
+      "tweets": 40868,
+      "users": 1178,
+      "hashtags": {
+        "korisliiga": 820,
+        "liiga": 712,
+        "yellowrush": 523,
+        "tappara": 457,
+        "mwc17": 392,
+        "ilves": 358,
+        "tampere": 327,
+        "nokia": 264,
+        "5g": 245,
+        "leijonat": 219
+      }
+    },
+    "Riihimäki": {
+      "tweets": 37781,
+      "users": 711,
+      "hashtags": {
+        "riihimäki": 1195,
+        "hamk": 341,
+        "älykukka": 327,
+        "iot": 313,
+        "raspberrypi": 301,
+        "euroviisut": 231,
+        "yle": 207,
+        "juoksu": 154,
+        "kuokkavieras": 131,
+        "nowplaying": 126
+      }
+    },
+    "Ylivieska": {
+      "tweets": 36790,
+      "users": 221,
+      "hashtags": {
+        "ff": 1637,
+        "halaus": 738,
+        "friendship": 715,
+        "pesis": 481,
+        "uutisvahti": 409,
+        "nightmusic": 359,
+        "aamuhalaus": 358,
+        "unihalaus": 352,
+        "futsalfi": 290,
+        "kyber": 223
+      }
+    },
+    "Raisio": {
+      "tweets": 36270,
+      "users": 676,
+      "hashtags": {
+        "liiga": 514,
+        "hctps": 458,
+        "turku": 365,
+        "turunsanomat": 336,
+        "mmkisat": 304,
+        "riofi": 229,
+        "valioliiga": 205,
+        "uclfi": 177,
+        "aamunajatus": 172,
+        "huuhkajat": 141
+      }
+    },
+    "Valkeakoski": {
+      "tweets": 35880,
+      "users": 643,
+      "hashtags": {
+        "liiga": 1155,
+        "tappara": 977,
+        "valkeakoski": 655,
+        "ilves": 501,
+        "tampere": 300,
+        "fchaka": 190,
+        "ykkönen": 180,
+        "haamuveljet": 174,
+        "luonto": 168,
+        "canontalvi": 166
+      }
+    },
+    "Nurmijärvi": {
+      "tweets": 33842,
+      "users": 950,
+      "hashtags": {
+        "yle": 515,
+        "mtvsport": 240,
+        "nurmijärvi": 221,
+        "sote": 193,
+        "helsinki": 162,
+        "mies": 159,
+        "markkinointi": 156,
+        "suomi100": 150,
+        "ilmastonmuutos": 144,
+        "kokoomus": 124
+      }
+    },
+    "Pirkkala": {
+      "tweets": 33205,
+      "users": 628,
+      "hashtags": {
+        "pirkkala": 936,
+        "tampere": 835,
+        "plavaltuusto": 545,
+        "sote": 471,
+        "liiga": 452,
+        "ravit": 327,
+        "tappara": 321,
+        "ilves": 303,
+        "rekry": 264,
+        "yle": 246
+      }
+    },
+    "Savonlinna": {
+      "tweets": 31940,
+      "users": 528,
+      "hashtags": {
+        "sapko": 1278,
+        "mestis": 1213,
+        "uef": 600,
+        "yle": 502,
+        "mestislive": 475,
+        "savonlinna": 430,
+        "sarvetesiin": 312,
+        "liiga": 260,
+        "sote": 230,
+        "metsä": 197
+      }
+    },
+    "Vihti": {
+      "tweets": 30077,
+      "users": 781,
+      "hashtags": {
+        "vihti": 433,
+        "salibandy": 381,
+        "hifk": 360,
+        "liiga": 260,
+        "huomenta": 184,
+        "yle": 184,
+        "ravit": 155,
+        "hyvääyötä": 117,
+        "koulut": 105,
+        "vuorenmäki": 104
+      }
+    },
+    "Tornio": {
+      "tweets": 29554,
+      "users": 461,
+      "hashtags": {
+        "kirjat": 539,
+        "tornio": 313,
+        "dekkarit": 222,
+        "kirja": 214,
+        "eiku": 196,
+        "dekkari": 191,
+        "lappi": 171,
+        "nhlfi": 160,
+        "yle": 142,
+        "tvsarjat": 123
+      }
+    },
+    "Kangasala": {
+      "tweets": 29466,
+      "users": 744,
+      "hashtags": {
+        "kangasala": 542,
+        "tappara": 424,
+        "liiga": 304,
+        "ilves": 250,
+        "tampere": 244,
+        "sähköauto": 192,
+        "leijonat": 172,
+        "sote": 153,
+        "mmkisat": 135,
+        "työhyvinvointi": 125
+      }
+    },
+    "Forssa": {
+      "tweets": 28862,
+      "users": 374,
+      "hashtags": {
+        "fjk": 320,
+        "mtv": 301,
+        "forssa": 266,
+        "munat": 200,
+        "yle": 155,
+        "ravit": 122,
+        "mtvuutiset": 121,
+        "suomisarja": 94,
+        "pelipäivä": 94,
+        "uutisextra": 84
+      }
+    },
+    "Ylöjärvi": {
+      "tweets": 28712,
+      "users": 758,
+      "hashtags": {
+        "ylöjärvi": 1857,
+        "ilves": 699,
+        "liiga": 623,
+        "tampere": 534,
+        "säästöpankki": 437,
+        "tappara": 311,
+        "ravit": 177,
+        "pankki": 157,
+        "johtaminen": 152,
+        "pirkanmaa": 152
+      }
+    },
+    "Mäntsälä": {
+      "tweets": 28606,
+      "users": 727,
+      "hashtags": {
+        "mäntsälä": 267,
+        "robination": 241,
+        "huomenta": 177,
+        "jotainaitoo": 131,
+        "nowplaying": 113,
+        "jbhfinland": 100,
+        "finlandneeds5sos": 94,
+        "btsbbmas": 85,
+        "kuntavaalit": 82,
+        "yle": 81
+      }
+    },
+    "Kemi": {
+      "tweets": 28507,
+      "users": 445,
+      "hashtags": {
+        "pskemi": 1079,
+        "nhlfi": 807,
+        "veikkausliiga": 737,
+        "kemi": 580,
+        "lappi": 572,
+        "merilappi": 280,
+        "tornio": 232,
+        "mmkisat": 212,
+        "yle": 143,
+        "cmoref1": 141
+      }
+    },
+    "Akaa": {
+      "tweets": 28340,
+      "users": 566,
+      "hashtags": {
+        "nflfi": 796,
+        "akaa": 550,
+        "liiga": 448,
+        "luonto": 427,
+        "ilves": 362,
+        "tappara": 341,
+        "tampere": 240,
+        "nhlfi": 228,
+        "rioyle": 179,
+        "canonkesä": 157
+      }
+    },
+    "Imatra": {
+      "tweets": 27670,
+      "users": 496,
+      "hashtags": {
+        "imatra": 434,
+        "ketterä": 366,
+        "saipa": 343,
+        "pesis": 304,
+        "liiga": 276,
+        "suomisarja": 259,
+        "samungalleria": 259,
+        "art": 251,
+        "mestis": 191,
+        "vuoksensoturit": 135
+      }
+    },
+    "Pieksämäki": {
+      "tweets": 27368,
+      "users": 295,
+      "hashtags": {
+        "kolmonen": 183,
+        "tepalvelut": 134,
+        "työ": 133,
+        "yle": 133,
+        "eteläsavo": 116,
+        "periscope": 108,
+        "wrc2": 108,
+        "enlightenment": 87,
+        "pieksämäki": 79,
+        "kärpät": 78
+      }
+    },
+    "Loimaa": {
+      "tweets": 24371,
+      "users": 493,
+      "hashtags": {
+        "mestaruusliiga": 794,
+        "nhlfi": 728,
+        "loimaa": 509,
+        "ravit": 394,
+        "uutisvahti": 379,
+        "larbaperhe": 375,
+        "liiga": 356,
+        "jokerit": 323,
+        "sijoittaminen": 287,
+        "nflfi": 259
+      }
+    },
+    "Kuusamo": {
+      "tweets": 22447,
+      "users": 466,
+      "hashtags": {
+        "kuusamo": 1321,
+        "valioliiga": 318,
+        "ruka": 314,
+        "politiikka": 228,
+        "vihreät": 222,
+        "rukanordic": 188,
+        "euroviisut": 173,
+        "liiga": 166,
+        "khlfi": 136,
+        "yle": 134
+      }
+    },
+    "Jämsä": {
+      "tweets": 22117,
+      "users": 607,
+      "hashtags": {
+        "jypliiga": 401,
+        "jämsä": 360,
+        "liiga": 336,
+        "uutisvahti": 280,
+        "jyväskylä": 170,
+        "yle": 153,
+        "luonto": 112,
+        "suomi100": 109,
+        "yleisurheilu": 95,
+        "finland": 93
+      }
+    },
+    "Heinola": {
+      "tweets": 21839,
+      "users": 657,
+      "hashtags": {
+        "mestislive": 817,
+        "peliitat": 686,
+        "heinola": 626,
+        "mestis": 284,
+        "nhlfi": 276,
+        "liiga": 228,
+        "yle": 228,
+        "lahti": 176,
+        "hollola": 139,
+        "vierumäki": 127
+      }
+    },
+    "Kittilä": {
+      "tweets": 21019,
+      "users": 410,
+      "hashtags": {
+        "yle": 592,
+        "kittilä": 177,
+        "finland": 176,
+        "lappi": 123,
+        "levi": 72,
+        "lapland": 60,
+        "levilapland": 56,
+        "tisuomi": 49,
+        "apteekki": 49,
+        "matkailu": 46
+      }
+    },
+    "Sastamala": {
+      "tweets": 20714,
+      "users": 616,
+      "hashtags": {
+        "sastamala": 1314,
+        "ravit": 519,
+        "poliisi": 167,
+        "tampere": 101,
+        "yle": 101,
+        "kokoomus": 101,
+        "liiga": 95,
+        "sote": 88,
+        "pelaajaporukka": 87,
+        "huittinen": 80
+      }
+    },
+    "Kempele": {
+      "tweets": 20263,
+      "users": 275,
+      "hashtags": {
+        "nastajengi": 466,
+        "pesis": 419,
+        "oulu": 214,
+        "twitternovellit": 186,
+        "haiku": 166,
+        "pesislive": 161,
+        "kempele": 148,
+        "sote": 129,
+        "lähitapiola": 105,
+        "alueet": 105
+      }
+    },
+    "Lieksa": {
+      "tweets": 20149,
+      "users": 248,
+      "hashtags": {
+        "puujalka": 700,
+        "takki": 259,
+        "kpmadlove": 182,
+        "lieksa": 120,
+        "huumori": 61,
+        "mustahuumori": 57,
+        "eiku": 55,
+        "finland": 45,
+        "luonto": 44,
+        "koli": 43
+      }
+    },
+    "Hollola": {
+      "tweets": 19978,
+      "users": 477,
+      "hashtags": {
+        "hollola": 1551,
+        "pelicansfi": 599,
+        "liiga": 463,
+        "sote": 269,
+        "ravit": 196,
+        "lahti": 139,
+        "rautaliiga": 135,
+        "yle": 134,
+        "kokoomus": 120,
+        "hcgiants": 107
+      }
+    },
+    "Naantali": {
+      "tweets": 18273,
+      "users": 619,
+      "hashtags": {
+        "uutisvahti": 617,
+        "turku": 255,
+        "turunsanomat": 253,
+        "naantali": 178,
+        "yleastudio": 168,
+        "pressiklubi": 99,
+        "suomisarja": 95,
+        "yrittäjät": 87,
+        "yle": 81,
+        "turpo": 73
+      }
+    },
+    "Sipoo": {
+      "tweets": 18244,
+      "users": 647,
+      "hashtags": {
+        "salibandy": 501,
+        "sipoo": 288,
+        "divari": 195,
+        "pelimies": 124,
+        "kuntavaalit": 116,
+        "yle": 110,
+        "hifk": 94,
+        "liiga": 85,
+        "porvoo": 64,
+        "sote": 63
+      }
+    },
+    "Muurame": {
+      "tweets": 18035,
+      "users": 381,
+      "hashtags": {
+        "jyväskylä": 370,
+        "salibandy": 173,
+        "rioyle": 124,
+        "leijonat": 114,
+        "riofi": 114,
+        "emfutis": 101,
+        "johtaminen": 98,
+        "yle": 97,
+        "muurame": 94,
+        "suomi100": 94
+      }
+    },
+    "Uusikaupunki": {
+      "tweets": 17021,
+      "users": 360,
+      "hashtags": {
+        "liiga": 1501,
+        "nhlfi": 1148,
+        "hctps": 933,
+        "korisliiga": 741,
+        "korihait": 377,
+        "uusikaupunki": 370,
+        "hifk": 252,
+        "mestis": 214,
+        "tappara": 211,
+        "ilves": 209
+      }
+    },
+    "Ruovesi": {
+      "tweets": 16844,
+      "users": 204,
+      "hashtags": {
+        "tappara": 3737,
+        "liiga": 2753,
+        "tampere": 664,
+        "nhlfi": 486,
+        "ilves": 452,
+        "leijonat": 290,
+        "hifk": 283,
+        "rioyle": 207,
+        "kalpa": 205,
+        "riofi": 196
+      }
+    },
+    "Kankaanpää": {
+      "tweets": 16539,
+      "users": 246,
+      "hashtags": {
+        "pesislive": 1885,
+        "uutisvahti": 430,
+        "pesis": 218,
+        "yle": 160,
+        "turpo": 124,
+        "tappara": 84,
+        "liiga": 73,
+        "kankaanpää": 64,
+        "mastersfi": 50,
+        "sote": 47
+      }
+    },
+    "Lieto": {
+      "tweets": 15826,
+      "users": 484,
+      "hashtags": {
+        "sote": 313,
+        "turku": 303,
+        "turunsanomat": 258,
+        "kirjamessut": 194,
+        "lieto": 186,
+        "saamelaistenasema": 134,
+        "vihreät": 109,
+        "valinnanvapaus": 92,
+        "yrittäjät": 90,
+        "lietokoris": 84
+      }
+    },
+    "Raahe": {
+      "tweets": 15630,
+      "users": 224,
+      "hashtags": {
+        "pesis": 329,
+        "raahe": 328,
+        "tähdettähdet": 248,
+        "pesislive": 194,
+        "yle": 121,
+        "speciaali": 120,
+        "yrittäjä": 72,
+        "sarkanniemi": 52,
+        "vainelämää": 47,
+        "sinkut": 38
+      }
+    },
+    "Hamina": {
+      "tweets": 15543,
+      "users": 312,
+      "hashtags": {
+        "hamina": 669,
+        "vihreät": 476,
+        "haminavaltuusto": 283,
+        "mariiashealthjourney": 144,
+        "vainelämää": 143,
+        "kotka": 131,
+        "haminatattoo": 112,
+        "yle": 110,
+        "tähdettähdet": 109,
+        "yleteema": 108
+      }
+    },
+    "Sotkamo": {
+      "tweets": 14544,
+      "users": 345,
+      "hashtags": {
+        "pesis": 731,
+        "kainuu": 275,
+        "hifk": 211,
+        "uutisvahti": 157,
+        "sotkamo": 156,
+        "tisuomi": 110,
+        "rioyle": 99,
+        "uinti": 97,
+        "hiihto": 96,
+        "yle": 94
+      }
+    },
+    "Kangasniemi": {
+      "tweets": 13860,
+      "users": 129,
+      "hashtags": {
+        "kangasniemi": 831,
+        "rautaliiga": 255,
+        "puula": 146,
+        "tehometareena": 93,
+        "vihreät": 77,
+        "yle": 73,
+        "kuntavaalit": 64,
+        "yhdessä": 60,
+        "sote": 47,
+        "kirja": 44
+      }
+    },
+    "Äänekoski": {
+      "tweets": 13802,
+      "users": 402,
+      "hashtags": {
+        "liiga": 1340,
+        "jypliiga": 809,
+        "mmkisat": 339,
+        "nhlfi": 320,
+        "biotuotetehdas": 313,
+        "leijonat": 266,
+        "hifk": 259,
+        "tappara": 250,
+        "wrc": 183,
+        "kalpa": 180
+      }
+    },
+    "Ikaalinen": {
+      "tweets": 13787,
+      "users": 323,
+      "hashtags": {
+        "ikaalinen": 925,
+        "tampere": 438,
+        "yle": 317,
+        "puistofilosofia": 286,
+        "yletampere": 178,
+        "ilmastonmuutos": 160,
+        "sote": 112,
+        "ilves": 101,
+        "suomi100": 101,
+        "lukusuositus": 90
+      }
+    },
+    "Kauniainen": {
+      "tweets": 13612,
+      "users": 478,
+      "hashtags": {
+        "hifk": 320,
+        "liiga": 252,
+        "kauniainen": 151,
+        "sote": 105,
+        "viasat": 85,
+        "johtaminen": 84,
+        "yle": 79,
+        "kuntavaalit": 78,
+        "rio2016": 74,
+        "suomi100": 69
+      }
+    },
+    "Parainen": {
+      "tweets": 12644,
+      "users": 496,
+      "hashtags": {
+        "veikkausliiga": 240,
+        "turku": 224,
+        "fctps": 218,
+        "turunsanomat": 192,
+        "fanseat": 152,
+        "hallitus": 140,
+        "parainen": 119,
+        "sote": 93,
+        "ykkönen": 91,
+        "huuhkajat": 90
+      }
+    },
+    "Iisalmi": {
+      "tweets": 12480,
+      "users": 318,
+      "hashtags": {
+        "mestis": 326,
+        "ipkedustus": 220,
+        "iisalmi": 203,
+        "yle": 137,
+        "liiga": 114,
+        "mtvf1": 100,
+        "kuntavaalit": 94,
+        "kalpa": 75,
+        "pk37": 64,
+        "ipk": 58
+      }
+    },
+    "Paimio": {
+      "tweets": 12135,
+      "users": 398,
+      "hashtags": {
+        "turku": 178,
+        "turunsanomat": 175,
+        "suunnistus": 156,
+        "excellenceinaction": 129,
+        "tehdas": 102,
+        "snookerfi": 101,
+        "paimio": 91,
+        "tuulivoima": 82,
+        "yle": 80,
+        "huuhkajat": 55
+      }
+    },
+    "Rantasalmi": {
+      "tweets": 12029,
+      "users": 116,
+      "hashtags": {
+        "kuluttaja": 211,
+        "rantasalmi": 180,
+        "saimaa": 52,
+        "haukivesi": 43,
+        "periscope": 41,
+        "akkainjahti": 32,
+        "syödäänyhdessä": 32,
+        "loma": 29,
+        "töissä": 29,
+        "perhe": 28
+      }
+    },
+    "Kalajoki": {
+      "tweets": 11501,
+      "users": 162,
+      "hashtags": {
+        "ravit": 180,
+        "turpo": 111,
+        "kärpät": 99,
+        "aamulypsy": 61,
+        "liiga": 61,
+        "kalajoki": 48,
+        "mtvposse": 47,
+        "yle": 47,
+        "suomi100": 37,
+        "khlfi": 36
+      }
+    },
+    "Inari": {
+      "tweets": 11469,
+      "users": 360,
+      "hashtags": {
+        "yle": 1533,
+        "yledál": 1008,
+        "sámediggi": 814,
+        "saamelaistenasema": 504,
+        "inari": 211,
+        "drss": 188,
+        "saamelaiset": 181,
+        "nhlfi": 171,
+        "lappi": 138,
+        "ylespr": 124
+      }
+    },
+    "Nurmes": {
+      "tweets": 11331,
+      "users": 155,
+      "hashtags": {
+        "yläkarjala": 254,
+        "musiikki": 245,
+        "nurmes": 179,
+        "irwingoodman": 152,
+        "muuten": 91,
+        "runous": 88,
+        "kenu16": 87,
+        "yle": 81,
+        "politiikka": 78,
+        "juiceleskinen": 64
+      }
+    },
+    "Ulvila": {
+      "tweets": 11289,
+      "users": 283,
+      "hashtags": {
+        "ässät": 586,
+        "liiga": 506,
+        "turpo": 272,
+        "pelataan": 220,
+        "kotimaassa": 206,
+        "youtube": 168,
+        "valioliiga": 161,
+        "yhdessä": 159,
+        "yle": 149,
+        "hctps": 128
+      }
+    },
+    "Varkaus": {
+      "tweets": 11003,
+      "users": 325,
+      "hashtags": {
+        "varkaus": 299,
+        "warkis": 133,
+        "mtvposse": 131,
+        "rautaliiga": 122,
+        "suomi100": 102,
+        "varkaudessa": 83,
+        "yhdessä": 83,
+        "kuopio": 66,
+        "liiga": 53,
+        "savo": 50
+      }
+    },
+    "Mustasaari": {
+      "tweets": 10565,
+      "users": 432,
+      "hashtags": {
+        "liiga": 423,
+        "vaasa": 301,
+        "veikkausliiga": 206,
+        "hifk": 201,
+        "vaasansport": 182,
+        "vepsu": 173,
+        "nhlfi": 100,
+        "yleisurheilu": 96,
+        "seinäjoki": 87,
+        "rio2016": 84
+      }
+    },
+    "Pietarsaari": {
+      "tweets": 10108,
+      "users": 401,
+      "hashtags": {
+        "oikeamedia": 466,
+        "liiga": 217,
+        "suomifilmilive": 187,
+        "hifk": 172,
+        "pietarsaari": 87,
+        "avaraluontolive": 72,
+        "opehommat": 72,
+        "ravit": 64,
+        "nhlfi": 53,
+        "yle": 53
+      }
+    },
+    "Hämeenkyrö": {
+      "tweets": 10094,
+      "users": 338,
+      "hashtags": {
+        "sastamala": 198,
+        "hämeenkyrö": 193,
+        "ravit": 155,
+        "tampere": 93,
+        "ilves": 69,
+        "liiga": 65,
+        "ritajärvi": 58,
+        "ikaalinen": 55,
+        "ralli": 54,
+        "suomi100": 47
+      }
+    },
+    "Vesilahti": {
+      "tweets": 9991,
+      "users": 183,
+      "hashtags": {
+        "vesilahti": 231,
+        "tampere": 131,
+        "lempäälä": 82,
+        "suomi100": 78,
+        "yle": 62,
+        "partioscout": 48,
+        "sote": 48,
+        "joulukalenteri": 46,
+        "kuntavaalit": 45,
+        "onni": 40
+      }
+    },
+    "Kauhajoki": {
+      "tweets": 9878,
+      "users": 170,
+      "hashtags": {
+        "korisliiga": 1148,
+        "tappara": 379,
+        "mmkisat": 253,
+        "oranssionmeirän": 242,
+        "pesis": 199,
+        "kauhajoki": 181,
+        "politiikka": 174,
+        "nhlfi": 139,
+        "karhubasket": 122,
+        "oranssionmeidän": 119
+      }
+    },
+    "Brändö": {
+      "tweets": 9403,
+      "users": 10,
+      "hashtags": {
+        "5g": 827,
+        "mwc17": 715,
+        "iot": 513,
+        "vr": 244,
+        "teamnokia": 243,
+        "innovation": 232,
+        "ozo": 219,
+        "nokia": 196,
+        "cloud": 193,
+        "nokiaiar": 180
+      }
+    },
+    "Iitti": {
+      "tweets": 9213,
+      "users": 234,
+      "hashtags": {
+        "iitti": 186,
+        "hifk": 151,
+        "liiga": 142,
+        "digitalist": 126,
+        "uutisvahti": 104,
+        "palvelumuotoilu": 79,
+        "kouvola": 75,
+        "lahti2017": 66,
+        "asiakaskokemus": 62,
+        "markkinointi": 49
+      }
+    },
+    "Hattula": {
+      "tweets": 9021,
+      "users": 265,
+      "hashtags": {
+        "turpo": 228,
+        "sipilä": 189,
+        "hattula": 157,
+        "yle": 152,
+        "hallitus": 93,
+        "salibandy": 81,
+        "liiga": 75,
+        "hämeenlinna": 73,
+        "lepaa": 58,
+        "youtubefi": 56
+      }
+    },
+    "Eura": {
+      "tweets": 8938,
+      "users": 227,
+      "hashtags": {
+        "liiga": 231,
+        "lukko": 192,
+        "ässät": 109,
+        "yle": 108,
+        "biolan": 76,
+        "nhlfi": 73,
+        "worldcupfi": 69,
+        "betsit": 67,
+        "leijonat": 65,
+        "eura": 59
+      }
+    },
+    "Masku": {
+      "tweets": 8852,
+      "users": 259,
+      "hashtags": {
+        "turku": 187,
+        "turunsanomat": 138,
+        "valioliiga": 121,
+        "sote": 105,
+        "masku": 95,
+        "golffi": 89,
+        "uclfi": 78,
+        "nhlfi": 61,
+        "emfutis": 60,
+        "manutd": 59
+      }
+    },
+    "Orimattila": {
+      "tweets": 8606,
+      "users": 315,
+      "hashtags": {
+        "ravit": 151,
+        "orimattila": 142,
+        "mitävittua": 109,
+        "periscope": 98,
+        "kuntavaalit": 42,
+        "yle": 42,
+        "sote": 41,
+        "yleastudio": 39,
+        "euroviisut": 34,
+        "hifk": 33
+      }
+    },
+    "Taipalsaari": {
+      "tweets": 8574,
+      "users": 131,
+      "hashtags": {
+        "taipalsaari": 51,
+        "saipa": 47,
+        "lappeenranta": 42,
+        "eläke": 37,
+        "saimaa": 34,
+        "uutisvahti": 34,
+        "periscope": 32,
+        "ravit": 32,
+        "sote": 32,
+        "sorjonen": 29
+      }
+    },
+    "Loviisa": {
+      "tweets": 8377,
+      "users": 391,
+      "hashtags": {
+        "salibandy": 292,
+        "divari": 202,
+        "luomu": 114,
+        "loviisa": 96,
+        "nuvaliittari": 75,
+        "periscope": 50,
+        "kuntavaalit": 50,
+        "enlightenment": 43,
+        "suomi100": 41,
+        "yle": 40
+      }
+    },
+    "Laukaa": {
+      "tweets": 8146,
+      "users": 429,
+      "hashtags": {
+        "salibandy": 193,
+        "ravit": 190,
+        "laukaa": 86,
+        "liiga": 72,
+        "luonto": 69,
+        "finland": 66,
+        "valokuvaus": 63,
+        "hifk": 60,
+        "suomi100": 58,
+        "tappara": 58
+      }
+    },
+    "Ii": {
+      "tweets": 8106,
+      "users": 328,
+      "hashtags": {
+        "esportsfi": 458,
+        "ässät": 296,
+        "ravit": 276,
+        "sc2fi": 264,
+        "liiga": 194,
+        "suomistriimit": 178,
+        "ii": 153,
+        "wcs": 144,
+        "kärpät": 110,
+        "kesäauto": 56
+      }
+    },
+    "Inkoo": {
+      "tweets": 8021,
+      "users": 227,
+      "hashtags": {
+        "palaminua": 106,
+        "digitalist": 96,
+        "inkoo": 57,
+        "dingle": 46,
+        "emfutis": 41,
+        "yle": 41,
+        "uutisvahti": 39,
+        "huuhkajat": 31,
+        "veikkausliiga": 28,
+        "sote": 27
+      }
+    },
+    "Raasepori": {
+      "tweets": 7973,
+      "users": 537,
+      "hashtags": {
+        "työelämä": 96,
+        "yle": 89,
+        "nordea": 46,
+        "johtaminen": 41,
+        "esc2017": 37,
+        "jhl": 34,
+        "euroviisut": 32,
+        "työhyvinvointi": 32,
+        "kevapva": 31,
+        "raasepori": 31
+      }
+    },
+    "Siilinjärvi": {
+      "tweets": 7606,
+      "users": 347,
+      "hashtags": {
+        "siilinjärvi": 340,
+        "kalpa": 246,
+        "pesis": 189,
+        "liiga": 142,
+        "työpaikat": 95,
+        "työ": 92,
+        "duuni": 89,
+        "terrafame": 80,
+        "siipe": 78,
+        "siilinlukio": 66
+      }
+    },
+    "Enontekiö": {
+      "tweets": 7503,
+      "users": 129,
+      "hashtags": {
+        "politiikka": 396,
+        "vihreät": 80,
+        "puoluekokous": 79,
+        "yleastudio": 55,
+        "hallitus": 54,
+        "turkki": 54,
+        "lappi": 50,
+        "trump": 48,
+        "enontekiö": 45,
+        "terrorismi": 39
+      }
+    },
+    "Hausjärvi": {
+      "tweets": 7420,
+      "users": 197,
+      "hashtags": {
+        "rubicaamu": 162,
+        "tappara": 152,
+        "liiga": 144,
+        "aikuistubettajat": 67,
+        "periscope": 63,
+        "kumina": 62,
+        "järjestöt": 61,
+        "vegan": 59,
+        "vegaaninen": 51,
+        "vegaanihaaste": 47
+      }
+    },
+    "Nivala": {
+      "tweets": 7168,
+      "users": 89,
+      "hashtags": {
+        "valioliiga": 465,
+        "mufc": 384,
+        "nhlfi": 163,
+        "trailfi": 154,
+        "nivala": 134,
+        "liiga": 110,
+        "kirja": 106,
+        "kärpät": 96,
+        "emfutis": 85,
+        "pesis": 85
+      }
+    },
+    "Kuhmo": {
+      "tweets": 6987,
+      "users": 153,
+      "hashtags": {
+        "kuhmo": 455,
+        "hiihto": 194,
+        "kainuu": 186,
+        "kainuunraja": 114,
+        "yle": 102,
+        "lahti2017": 93,
+        "luonto": 87,
+        "itäraja": 87,
+        "poliisi": 63,
+        "suomi100": 62
+      }
+    },
+    "Kontiolahti": {
+      "tweets": 6800,
+      "users": 284,
+      "hashtags": {
+        "kontiolahti": 183,
+        "biathlon": 181,
+        "kontiolahti2017": 145,
+        "kon17": 133,
+        "ravit": 112,
+        "salibandy": 88,
+        "joensuu": 83,
+        "kuntavaalit": 83,
+        "biotalous": 82,
+        "kd": 80
+      }
+    },
+    "Asikkala": {
+      "tweets": 6788,
+      "users": 228,
+      "hashtags": {
+        "nflfi": 687,
+        "liiga": 191,
+        "betsit": 141,
+        "pelicansfi": 130,
+        "hifk": 78,
+        "vaahteraliiga": 55,
+        "flyeaglesfly": 44,
+        "suomijefu": 40,
+        "kohtitinamaljaa": 31,
+        "yle": 29
+      }
+    },
+    "Haapajärvi": {
+      "tweets": 6771,
+      "users": 71,
+      "hashtags": {
+        "hctps": 142,
+        "liiga": 71,
+        "haapajärvi": 21,
+        "nowplaying": 11,
+        "leffa": 10,
+        "ilves": 10,
+        "fctps": 9,
+        "kirja": 8,
+        "mtvlifestyle": 8,
+        "mestis": 8
+      }
+    },
+    "Lapua": {
+      "tweets": 6355,
+      "users": 207,
+      "hashtags": {
+        "pesis": 301,
+        "korisliiga": 151,
+        "ravit": 140,
+        "lapua": 85,
+        "kirja": 80,
+        "whitearmy": 46,
+        "mallaskuu": 45,
+        "trump": 33,
+        "turpo": 33,
+        "yle": 32
+      }
+    },
+    "Viitasaari": {
+      "tweets": 6135,
+      "users": 247,
+      "hashtags": {
+        "lapemuutos": 480,
+        "sote": 233,
+        "lapset": 94,
+        "viitasaari": 91,
+        "lastensuojelu": 62,
+        "kuntavaalit": 55,
+        "nuoret": 53,
+        "lapsenoikeudet": 52,
+        "kärkihanke": 52,
+        "suomi100": 42
+      }
+    },
+    "Huittinen": {
+      "tweets": 6092,
+      "users": 287,
+      "hashtags": {
+        "liiga": 140,
+        "hctps": 99,
+        "yle": 85,
+        "huittinen": 79,
+        "euroviisut": 49,
+        "salibandy": 34,
+        "sastamala": 32,
+        "sote": 30,
+        "suomi100": 23,
+        "tappara": 23
+      }
+    },
+    "Keminmaa": {
+      "tweets": 6088,
+      "users": 202,
+      "hashtags": {
+        "veikkausliiga": 121,
+        "pskemi": 104,
+        "yle": 69,
+        "eioomuutako": 57,
+        "lappi": 55,
+        "kemi": 50,
+        "ravit": 44,
+        "kaito16": 44,
+        "keminmaa": 42,
+        "suunnistus": 40
+      }
+    },
+    "Salla": {
+      "tweets": 5760,
+      "users": 129,
+      "hashtags": {
+        "mmkisat": 61,
+        "veikkausliiga": 60,
+        "ylegate": 33,
+        "salla": 24,
+        "pspuoluekokous": 24,
+        "huuhkajat": 23,
+        "uclfi": 18,
+        "yle": 17,
+        "leijonat": 16,
+        "lahti2017": 15
+      }
+    },
+    "Keuruu": {
+      "tweets": 5697,
+      "users": 325,
+      "hashtags": {
+        "mestis": 272,
+        "keupaht": 197,
+        "kasvuopen": 170,
+        "ihmistenjoukkue": 167,
+        "keuruu": 165,
+        "keskisuomi": 164,
+        "kasvunmaakunta": 145,
+        "luonto": 99,
+        "pehmeätkyydit": 78,
+        "nature": 71
+      }
+    },
+    "Liperi": {
+      "tweets": 5615,
+      "users": 208,
+      "hashtags": {
+        "robot": 159,
+        "varhaiskasvatus": 144,
+        "robotisaatio": 119,
+        "liperi": 104,
+        "yle": 95,
+        "pohjoiskarjala": 73,
+        "tekoäly": 60,
+        "sote": 59,
+        "johtaminen": 53,
+        "ai": 53
+      }
+    },
+    "Suomussalmi": {
+      "tweets": 5586,
+      "users": 164,
+      "hashtags": {
+        "sää": 296,
+        "talvi": 145,
+        "mmkisat": 138,
+        "kainuu": 131,
+        "suomussalmi": 126,
+        "leijonat": 107,
+        "suomi100": 105,
+        "kevät": 86,
+        "hossa": 71,
+        "valokuvaus": 53
+      }
+    },
+    "Loppi": {
+      "tweets": 5558,
+      "users": 137,
+      "hashtags": {
+        "kokoomus": 543,
+        "politiikka": 256,
+        "vihreät": 250,
+        "sdp": 159,
+        "sport": 152,
+        "hallitus": 149,
+        "kuntavaalit": 134,
+        "turpo": 129,
+        "sote": 117,
+        "keskusta": 105
+      }
+    },
+    "Lapinlahti": {
+      "tweets": 5491,
+      "users": 158,
+      "hashtags": {
+        "yrittäjät": 407,
+        "yrittäjyys": 95,
+        "sote": 93,
+        "keskusta": 91,
+        "photography": 90,
+        "kuntavaalit": 67,
+        "suomiareena": 50,
+        "finland": 46,
+        "yrittäjäsanomat": 44,
+        "työ": 40
+      }
+    },
+    "Eurajoki": {
+      "tweets": 5411,
+      "users": 168,
+      "hashtags": {
+        "liiga": 128,
+        "kohtinelosta": 126,
+        "salibandy": 104,
+        "nhlfi": 101,
+        "jobs": 97,
+        "finland": 95,
+        "olkiluoto": 82,
+        "yle": 82,
+        "tvo": 81,
+        "höntsä": 80
+      }
+    },
+    "Siuntio": {
+      "tweets": 5349,
+      "users": 285,
+      "hashtags": {
+        "liiga": 337,
+        "tappara": 305,
+        "siuntio": 177,
+        "hifk": 173,
+        "leijonat": 115,
+        "valioliiga": 103,
+        "nhlfi": 87,
+        "mmkisat": 76,
+        "kalpa": 66,
+        "worldcupfi": 50
+      }
+    },
+    "Paltamo": {
+      "tweets": 5206,
+      "users": 127,
+      "hashtags": {
+        "kainuu": 72,
+        "turpo": 49,
+        "paltamo": 48,
+        "klikinsäästö": 43,
+        "klikinsäästäjä": 36,
+        "sote": 24,
+        "biotalous": 20,
+        "yle": 19,
+        "kuntavaalit2017": 16,
+        "putous": 15
+      }
+    },
+    "Laihia": {
+      "tweets": 5128,
+      "users": 308,
+      "hashtags": {
+        "liiga": 104,
+        "iot": 98,
+        "hifk": 63,
+        "vaasa": 44,
+        "pesis": 36,
+        "yle": 36,
+        "iiot": 33,
+        "internetofthings": 29,
+        "ioe": 27,
+        "bigdata": 26
+      }
+    },
+    "Hanko": {
+      "tweets": 4934,
+      "users": 356,
+      "hashtags": {
+        "matkachat": 441,
+        "hanko": 88,
+        "itämeri": 33,
+        "iihfworlds": 32,
+        "finland": 28,
+        "yle": 21,
+        "finvscze": 20,
+        "säihke2017": 18,
+        "partioscout": 15,
+        "zethanke": 13
+      }
+    },
+    "Janakkala": {
+      "tweets": 4859,
+      "users": 390,
+      "hashtags": {
+        "hiukset": 93,
+        "janakkala": 92,
+        "liiga": 55,
+        "hpk": 50,
+        "kaunisliike": 44,
+        "digitalist": 40,
+        "parturi": 37,
+        "kampaaja": 31,
+        "hiusvita": 29,
+        "sponsorointi": 28
+      }
+    },
+    "Orivesi": {
+      "tweets": 4855,
+      "users": 376,
+      "hashtags": {
+        "orivesi": 128,
+        "mestaruusliiga": 109,
+        "cmoref1": 76,
+        "tappara": 57,
+        "ahlman": 54,
+        "tampere": 54,
+        "tsiigaaliigaa": 38,
+        "mtvf1": 33,
+        "mmkisat": 32,
+        "liiga": 29
+      }
+    },
+    "Kokemäki": {
+      "tweets": 4836,
+      "users": 182,
+      "hashtags": {
+        "yle": 121,
+        "kokemäki": 117,
+        "poliisi": 56,
+        "sataedu": 35,
+        "vimma2017": 35,
+        "satakunta": 33,
+        "kuntavaalit": 32,
+        "tähdettähdet": 31,
+        "suomiareena": 30,
+        "sote": 30
+      }
+    },
+    "Somero": {
+      "tweets": 4787,
+      "users": 249,
+      "hashtags": {
+        "turunsanomat": 117,
+        "turku": 91,
+        "somero": 78,
+        "yle": 76,
+        "säästöpankki": 65,
+        "futsalfi": 46,
+        "yrittäjät": 39,
+        "suomi100": 31,
+        "lannoitus": 22,
+        "kuntavaalit": 21
+      }
+    },
+    "Kurikka": {
+      "tweets": 4763,
+      "users": 111,
+      "hashtags": {
+        "tuulivoima": 716,
+        "saksa": 225,
+        "luonto": 194,
+        "suomi": 124,
+        "terveys": 102,
+        "pohjanmaan": 99,
+        "lintu": 88,
+        "energia": 81,
+        "ympäristö": 75,
+        "infraääni": 73
+      }
+    },
+    "Liminka": {
+      "tweets": 4688,
+      "users": 150,
+      "hashtags": {
+        "salibandy": 158,
+        "kärpät": 133,
+        "liminka": 129,
+        "liiga": 110,
+        "vasemmisto": 53,
+        "divari": 47,
+        "oulu": 44,
+        "nhlfi": 44,
+        "kuntavaalit": 41,
+        "valokuitu": 27
+      }
+    },
+    "Pukkila": {
+      "tweets": 4613,
+      "users": 105,
+      "hashtags": {
+        "pelicansfi": 232,
+        "liiga": 140,
+        "perinnelaboratorio": 65,
+        "kiina": 52,
+        "sväng": 47,
+        "betsit": 32,
+        "muuten": 30,
+        "kansanmusiikki": 30,
+        "kiertue": 29,
+        "mailmanlopunmaanitus": 26
+      }
+    },
+    "Lumijoki": {
+      "tweets": 4459,
+      "users": 21,
+      "hashtags": {
+        "oulu": 149,
+        "lumijoki": 126,
+        "keskusta": 109,
+        "suomi100": 109,
+        "politiikka": 83,
+        "kuntavaalit": 82,
+        "kesä": 54,
+        "yle": 53,
+        "joulu": 51,
+        "kevät": 48
+      }
+    },
+    "Merikarvia": {
+      "tweets": 4437,
+      "users": 112,
+      "hashtags": {
+        "merirosvot": 45,
+        "yle": 30,
+        "ylerio": 17,
+        "bubblecap": 12,
+        "rioyle": 11,
+        "lahti2017": 10,
+        "emfutis": 10,
+        "merikarvia": 9,
+        "rauma": 8,
+        "pori": 8
+      }
+    },
+    "Vimpeli": {
+      "tweets": 4398,
+      "users": 57,
+      "hashtags": {
+        "pesis": 874,
+        "forzavive": 406,
+        "mestis": 133,
+        "nhlfi": 81,
+        "saarikenttä": 48,
+        "herveu": 43,
+        "periscope": 42,
+        "liiga": 40,
+        "uclfi": 31,
+        "vimpelinveto": 31
+      }
+    },
+    "Mänttä-Vilppula": {
+      "tweets": 4366,
+      "users": 314,
+      "hashtags": {
+        "tappara": 107,
+        "liiga": 68,
+        "mänttä": 49,
+        "mänttävilppula": 44,
+        "tampere": 42,
+        "kalastus": 32,
+        "lionsfinland": 28,
+        "taidekaupunki": 27,
+        "mmkisat": 26,
+        "maaoonsomessa": 26
+      }
+    },
+    "Kuhmoinen": {
+      "tweets": 4232,
+      "users": 148,
+      "hashtags": {
+        "sote": 60,
+        "kuhmoinen": 41,
+        "jämsä": 33,
+        "kuntavaalit": 32,
+        "perussuomalaiset": 31,
+        "hallitus": 30,
+        "yleastudio": 26,
+        "usavaalit": 24,
+        "suomi100": 18,
+        "muuten": 16
+      }
+    },
+    "Joroinen": {
+      "tweets": 4124,
+      "users": 122,
+      "hashtags": {
+        "triathlon": 72,
+        "yhteisöunelmille": 58,
+        "joroinen": 44,
+        "yle": 41,
+        "finntriathlon": 39,
+        "keskustanuoret": 21,
+        "yleastudio": 21,
+        "kuntavaalit": 20,
+        "keskusta": 18,
+        "kepuvaltuusto": 18
+      }
+    },
+    "Pielavesi": {
+      "tweets": 4063,
+      "users": 99,
+      "hashtags": {
+        "lähitapiola": 66,
+        "johtaminen": 36,
+        "oikeamedia": 32,
+        "liikenneturvallisuus": 29,
+        "a2ilta": 27,
+        "yle": 26,
+        "positiivisuus": 21,
+        "elämänturva": 20,
+        "työelämä": 20,
+        "yleastudio": 20
+      }
+    },
+    "Tammela": {
+      "tweets": 4061,
+      "users": 241,
+      "hashtags": {
+        "tammela": 276,
+        "eerikkilä": 133,
+        "viestintä": 64,
+        "sha": 53,
+        "salibandy": 47,
+        "mustiala": 37,
+        "vihreättassut": 37,
+        "mtvposse": 34,
+        "forssa": 33,
+        "tulevaisuudenkunta": 31
+      }
+    },
+    "Petäjävesi": {
+      "tweets": 4007,
+      "users": 160,
+      "hashtags": {
+        "piesasjärvi": 141,
+        "petäjävesi": 139,
+        "metsä": 119,
+        "luontokuva": 87,
+        "biotalous": 78,
+        "suomi100": 71,
+        "metsänomistajat": 53,
+        "keskisuomi": 48,
+        "auringonlasku": 44,
+        "puukauppa": 35
+      }
+    },
+    "Karkkila": {
+      "tweets": 4005,
+      "users": 304,
+      "hashtags": {
+        "karkkila": 70,
+        "rallism": 40,
+        "omatpojat": 21,
+        "rallyfinland": 20,
+        "jwrc": 17,
+        "yle": 16,
+        "rekry": 14,
+        "m1db": 13,
+        "pirelliralli": 12,
+        "wrc3": 11
+      }
+    },
+    "Sodankylä": {
+      "tweets": 3988,
+      "users": 296,
+      "hashtags": {
+        "robination": 332,
+        "jotainaitoo": 142,
+        "yhdessä": 135,
+        "yhdessäsummertour": 90,
+        "ilves": 79,
+        "sodankylä": 71,
+        "superdeluxe": 69,
+        "lappi": 68,
+        "salamatie": 63,
+        "hiihto": 48
+      }
+    },
+    "Laitila": {
+      "tweets": 3850,
+      "users": 216,
+      "hashtags": {
+        "turunsanomat": 95,
+        "turku": 70,
+        "yrittäjät": 39,
+        "valokuitu": 31,
+        "vihreät": 31,
+        "laitila": 29,
+        "sote": 25,
+        "yle": 22,
+        "5g": 18,
+        "laajakaista": 18
+      }
+    },
+    "Muhos": {
+      "tweets": 3796,
+      "users": 88,
+      "hashtags": {
+        "muhos": 81,
+        "sarjakuva": 67,
+        "oulu": 52,
+        "luonto": 40,
+        "suomi100": 23,
+        "mmkisat": 22,
+        "rops": 21,
+        "kesä": 21,
+        "vapepa": 19,
+        "finland": 19
+      }
+    },
+    "Hankasalmi": {
+      "tweets": 3765,
+      "users": 200,
+      "hashtags": {
+        "ketterähr": 144,
+        "johtaminen": 70,
+        "worldcupfi": 55,
+        "mtvttk": 47,
+        "liigaplot": 45,
+        "liiga": 44,
+        "emfutis": 39,
+        "työelämä": 38,
+        "oscarit": 37,
+        "jypliiga": 36
+      }
+    },
+    "Saarijärvi": {
+      "tweets": 3752,
+      "users": 224,
+      "hashtags": {
+        "saarijärvi": 63,
+        "finland": 46,
+        "sää": 45,
+        "kolliko16": 43,
+        "usavaalit": 42,
+        "suomi100": 41,
+        "turpo": 36,
+        "luonto": 35,
+        "valokuvaus": 35,
+        "biotalous": 33
+      }
+    },
+    "Kauhava": {
+      "tweets": 3723,
+      "users": 195,
+      "hashtags": {
+        "ravit": 134,
+        "ammatillinenkoulutus": 73,
+        "yrittäjyys": 69,
+        "koulutus": 68,
+        "työ": 56,
+        "enlightenment": 56,
+        "työelämä": 47,
+        "opiskelu": 40,
+        "kauhava": 30,
+        "yrittäjät": 29
+      }
+    },
+    "Kristiinankaupunki": {
+      "tweets": 3718,
+      "users": 258,
+      "hashtags": {
+        "liiga": 83,
+        "mtvf1": 76,
+        "hifk": 65,
+        "mtvttk": 53,
+        "tähdettähdet": 53,
+        "cmoref1": 51,
+        "emfutis": 47,
+        "docventures": 41,
+        "evslive": 39,
+        "kristiinankaupunki": 38
+      }
+    },
+    "Parkano": {
+      "tweets": 3707,
+      "users": 283,
+      "hashtags": {
+        "ilves": 201,
+        "liiga": 192,
+        "casino": 189,
+        "sb2div": 107,
+        "tappara": 89,
+        "kasino": 77,
+        "rioyle": 71,
+        "slots": 66,
+        "riofi": 58,
+        "nettikasino": 57
+      }
+    },
+    "Aura": {
+      "tweets": 3702,
+      "users": 234,
+      "hashtags": {
+        "luomu": 279,
+        "fingerpori": 124,
+        "turku": 111,
+        "politiikka": 70,
+        "hctps": 56,
+        "turunsanomat": 49,
+        "luomupuuronme": 46,
+        "talous": 42,
+        "liiga": 33,
+        "yrittäjät": 23
+      }
+    },
+    "Vaala": {
+      "tweets": 3623,
+      "users": 67,
+      "hashtags": {
+        "nhlfi": 131,
+        "vaala": 82,
+        "sote": 72,
+        "mmkisat": 63,
+        "twaarna": 32,
+        "4hsuomi": 25,
+        "huomenta": 22,
+        "alkoholilaki": 18,
+        "nuoret": 16,
+        "oulujärvi": 16
+      }
+    },
+    "Teuva": {
+      "tweets": 3512,
+      "users": 38,
+      "hashtags": {
+        "teuva": 761,
+        "suupohja": 438,
+        "kauhajoki": 163,
+        "tilintarkastus": 89,
+        "periscope": 60,
+        "sote": 48,
+        "rekry": 44,
+        "teuvankirjasto": 42,
+        "karijoki": 36,
+        "suupohjanyritykset": 33
+      }
+    },
+    "Tohmajärvi": {
+      "tweets": 3491,
+      "users": 112,
+      "hashtags": {
+        "lahti2017": 132,
+        "tulli": 78,
+        "tohmajärvi": 54,
+        "u20fi": 51,
+        "viesti": 42,
+        "niirala": 35,
+        "pohjoiskarjala": 33,
+        "mummola": 28,
+        "nuoretleijonat": 19,
+        "itk2017": 19
+      }
+    },
+    "Outokumpu": {
+      "tweets": 3489,
+      "users": 141,
+      "hashtags": {
+        "outokumpu": 58,
+        "yle": 54,
+        "yleteema": 40,
+        "suomi100": 23,
+        "joensuu": 22,
+        "finland": 16,
+        "kuntavaalit": 15,
+        "phantom4": 14,
+        "pohjoiskarjala": 13,
+        "mtvposse": 13
+      }
+    },
+    "Pedersören kunta": {
+      "tweets": 3315,
+      "users": 282,
+      "hashtags": {
+        "liiga": 127,
+        "hifk": 90,
+        "nhlfi": 31,
+        "sote": 30,
+        "ravit": 29,
+        "ässät": 27,
+        "hpk": 27,
+        "leijonat": 21,
+        "pohjanmaa": 19,
+        "mmkisat": 19
+      }
+    },
+    "Juva": {
+      "tweets": 3305,
+      "users": 176,
+      "hashtags": {
+        "esedu": 114,
+        "mikkeli": 73,
+        "juva": 53,
+        "yle": 49,
+        "mallaspossu": 44,
+        "kinkku": 28,
+        "pieksämäki": 19,
+        "ammatillinenkoulutus": 17,
+        "joulu": 17,
+        "huikeeamis": 16
+      }
+    },
+    "Kuortane": {
+      "tweets": 3257,
+      "users": 98,
+      "hashtags": {
+        "eurovolleyw": 146,
+        "mtvf1": 80,
+        "eurovolleym": 69,
+        "tennisfi": 67,
+        "rioyle": 65,
+        "kuortane": 51,
+        "eurovolleyu19m": 50,
+        "yleisurheilu": 33,
+        "riofi": 32,
+        "maailmanliiga": 31
+      }
+    },
+    "Virrat": {
+      "tweets": 3243,
+      "users": 227,
+      "hashtags": {
+        "virrat": 125,
+        "marttinen": 106,
+        "työelämä": 77,
+        "nuorisokeskukset": 68,
+        "tampere": 65,
+        "johtaminen": 31,
+        "hyvinvointi": 29,
+        "sote": 27,
+        "työ": 20,
+        "viestintä": 19
+      }
+    },
+    "Simo": {
+      "tweets": 3135,
+      "users": 135,
+      "hashtags": {
+        "lappi": 22,
+        "simo": 20,
+        "hjk": 16,
+        "käpa": 14,
+        "sapa": 9,
+        "jee": 9,
+        "finjee": 8,
+        "a2ilta": 7,
+        "rovaniemi": 6,
+        "ppj": 6
+      }
+    },
+    "Mäntyharju": {
+      "tweets": 3109,
+      "users": 189,
+      "hashtags": {
+        "mäntyharju": 94,
+        "yle": 55,
+        "vierumäki": 34,
+        "kokoomus": 31,
+        "mökkitalkkari": 24,
+        "kulttuurimäntyharju": 21,
+        "mikkeli": 18,
+        "uutisvahti": 16,
+        "kuntavaalit": 15,
+        "sote": 15
+      }
+    },
+    "Suonenjoki": {
+      "tweets": 3091,
+      "users": 165,
+      "hashtags": {
+        "maaseutu2020": 87,
+        "suonenjoki": 58,
+        "periscope": 48,
+        "kalpa": 48,
+        "pohjoissavo": 48,
+        "yle": 46,
+        "kuopio": 43,
+        "liiga": 39,
+        "leaderfi": 36,
+        "maaseutu": 29
+      }
+    },
+    "Kärkölä": {
+      "tweets": 3088,
+      "users": 93,
+      "hashtags": {
+        "kokoomus": 54,
+        "emfutis": 32,
+        "ay": 27,
+        "metsä": 26,
+        "vihreät": 24,
+        "kärkölä": 22,
+        "politiikka": 22,
+        "suomiareena": 21,
+        "hallitus": 21,
+        "työ": 20
+      }
+    },
+    "Nakkila": {
+      "tweets": 3086,
+      "users": 163,
+      "hashtags": {
+        "ässät": 306,
+        "yhdessä": 214,
+        "liiga": 87,
+        "yle": 48,
+        "nakkila": 46,
+        "kuntavaalit": 30,
+        "laligafi": 29,
+        "riofi": 24,
+        "rioyle": 23,
+        "pori": 21
+      }
+    },
+    "Pöytyä": {
+      "tweets": 3073,
+      "users": 249,
+      "hashtags": {
+        "turunsanomat": 116,
+        "turku": 107,
+        "pöytyä": 66,
+        "tulevaisuusmatka": 51,
+        "nhlfi": 40,
+        "yrittäjät": 38,
+        "finola": 29,
+        "huomenta": 27,
+        "yle": 25,
+        "cbd": 23
+      }
+    },
+    "Alajärvi": {
+      "tweets": 3021,
+      "users": 108,
+      "hashtags": {
+        "pesis": 87,
+        "sijoittaminen": 35,
+        "alajärvi": 31,
+        "ankkurit": 26,
+        "lahti2017": 23,
+        "talvistudio": 17,
+        "pankkielämää": 13,
+        "leijonat": 13,
+        "ilves": 13,
+        "yle": 12
+      }
+    },
+    "Pudasjärvi": {
+      "tweets": 3013,
+      "users": 152,
+      "hashtags": {
+        "pudasjärvi": 66,
+        "kollaja": 34,
+        "koskiensuojelulaki": 29,
+        "kalastus": 27,
+        "vesivoima": 21,
+        "oulu": 20,
+        "vaelluskalat": 18,
+        "shakespeare": 18,
+        "sipilä": 18,
+        "iijoki": 16
+      }
+    },
+    "Savitaipale": {
+      "tweets": 2917,
+      "users": 110,
+      "hashtags": {
+        "savitaipale": 105,
+        "matkailu": 73,
+        "4hsuomi": 42,
+        "retkeily": 38,
+        "rekry": 29,
+        "lappeenranta": 27,
+        "luonto": 26,
+        "työ": 21,
+        "4hyritys": 20,
+        "suomi100": 20
+      }
+    },
+    "Kitee": {
+      "tweets": 2900,
+      "users": 194,
+      "hashtags": {
+        "pesis": 298,
+        "kipa90": 226,
+        "kipalive": 222,
+        "eurovision": 29,
+        "yle": 25,
+        "eвровидение": 23,
+        "finland": 22,
+        "kitee": 21,
+        "salibandy": 20,
+        "rantakenttä": 19
+      }
+    },
+    "Närpiö": {
+      "tweets": 2840,
+      "users": 250,
+      "hashtags": {
+        "liiga": 98,
+        "hifk": 79,
+        "ravit": 28,
+        "hpk": 26,
+        "nhlfi": 25,
+        "sote": 25,
+        "suomi100": 22,
+        "leijonat": 17,
+        "pohjanmaa": 16,
+        "mmkisat": 16
+      }
+    },
+    "Joutsa": {
+      "tweets": 2833,
+      "users": 237,
+      "hashtags": {
+        "salibandy": 227,
+        "joutsa": 222,
+        "säästöpankki": 71,
+        "flanelsm": 69,
+        "flanelsn": 60,
+        "m4d": 49,
+        "esportsfi": 46,
+        "n2d": 35,
+        "finanssiala": 34,
+        "killeri": 32
+      }
+    },
+    "Rautalampi": {
+      "tweets": 2828,
+      "users": 90,
+      "hashtags": {
+        "rautalampi": 61,
+        "finlandisproudoflouis": 55,
+        "ravit": 47,
+        "ratsastus": 31,
+        "yle": 17,
+        "linnanjuhlat": 16,
+        "blogi": 16,
+        "liiga": 16,
+        "salli": 16,
+        "salibandy": 13
+      }
+    },
+    "Oulainen": {
+      "tweets": 2727,
+      "users": 93,
+      "hashtags": {
+        "oulainen": 75,
+        "yhdessä": 61,
+        "yhdessäsummertour": 53,
+        "nelivarvas": 42,
+        "superdeluxe": 39,
+        "salamatie": 39,
+        "hässitagi": 39,
+        "robination": 38,
+        "oulu": 38,
+        "nhlfi": 34
+      }
+    },
+    "Harjavalta": {
+      "tweets": 2704,
+      "users": 169,
+      "hashtags": {
+        "nhlfi": 126,
+        "yle": 71,
+        "liiga": 46,
+        "betsit": 39,
+        "rekry": 29,
+        "khlfi": 28,
+        "sote": 25,
+        "huomenta": 23,
+        "2divari": 23,
+        "emfutis": 23
+      }
+    },
+    "Hirvensalmi": {
+      "tweets": 2602,
+      "users": 85,
+      "hashtags": {
+        "pesis": 51,
+        "myynti": 47,
+        "isyys": 44,
+        "liiga": 44,
+        "lahti": 41,
+        "kärpät": 31,
+        "vanhemmuus": 24,
+        "energiatehokkuus": 23,
+        "pelicansfi": 21,
+        "myyntityö": 21
+      }
+    },
+    "Rääkkylä": {
+      "tweets": 2547,
+      "users": 67,
+      "hashtags": {
+        "muru": 36,
+        "rääkkylä": 21,
+        "saimaa": 19,
+        "avaruus": 16,
+        "tampere": 13,
+        "lean": 9,
+        "joensuu": 8,
+        "varpasalo": 8,
+        "ravit": 8,
+        "savonselkä": 7
+      }
+    },
+    "Sauvo": {
+      "tweets": 2532,
+      "users": 152,
+      "hashtags": {
+        "täh": 107,
+        "turunsanomat": 31,
+        "turku": 26,
+        "peiutd": 25,
+        "periscope": 24,
+        "kolmonenturku": 24,
+        "kakkonen": 23,
+        "sauvo": 22,
+        "sote": 21,
+        "kuntavaalit": 16
+      }
+    },
+    "Rusko": {
+      "tweets": 2531,
+      "users": 177,
+      "hashtags": {
+        "turunsanomat": 75,
+        "turku": 64,
+        "naantali": 28,
+        "sote": 23,
+        "emfutis": 20,
+        "nhlfi": 19,
+        "kiertotalous": 18,
+        "yrittäjät": 17,
+        "suomi100": 17,
+        "suunnistus": 16
+      }
+    },
+    "Toholampi": {
+      "tweets": 2511,
+      "users": 29,
+      "hashtags": {
+        "perhearki": 131,
+        "oulu": 107,
+        "turpo": 67,
+        "talous": 54,
+        "keskusta": 46,
+        "kenu16": 45,
+        "op_toholampi": 40,
+        "politiikka": 36,
+        "toholampi": 35,
+        "kuntavaalit2017": 28
+      }
+    },
+    "Kemijärvi": {
+      "tweets": 2481,
+      "users": 219,
+      "hashtags": {
+        "kemijärvi": 52,
+        "lappi": 49,
+        "finland": 29,
+        "lapland": 25,
+        "putous": 20,
+        "suomi100": 15,
+        "biotalous": 12,
+        "tähdettähdet": 12,
+        "rekry": 11,
+        "sote": 11
+      }
+    },
+    "Ähtäri": {
+      "tweets": 2453,
+      "users": 92,
+      "hashtags": {
+        "ähtäri": 46,
+        "keskusta": 31,
+        "seikkailuraiteilla": 28,
+        "suomiareena": 26,
+        "kenu16": 24,
+        "alastitaipaleella": 19,
+        "vaasa": 18,
+        "finland": 16,
+        "budjettiriihi": 13,
+        "ähtärizoo": 13
+      }
+    },
+    "Pälkäne": {
+      "tweets": 2427,
+      "users": 291,
+      "hashtags": {
+        "pälkäne": 46,
+        "liiga": 24,
+        "tappara": 23,
+        "tampere": 22,
+        "periscope": 17,
+        "sote": 14,
+        "opsatakunta": 14,
+        "yle": 13,
+        "kuntavaalit": 12,
+        "synodaalikokous": 12
+      }
+    },
+    "Uusikaarlepyy": {
+      "tweets": 2427,
+      "users": 244,
+      "hashtags": {
+        "liiga": 74,
+        "hifk": 67,
+        "ravit": 25,
+        "hpk": 23,
+        "nhlfi": 21,
+        "sote": 18,
+        "ässät": 14,
+        "kärpät": 14,
+        "suomi100": 14,
+        "mmkisat": 12
+      }
+    },
+    "Kruunupyy": {
+      "tweets": 2393,
+      "users": 247,
+      "hashtags": {
+        "liiga": 76,
+        "hifk": 49,
+        "nhlfi": 21,
+        "suomi100": 19,
+        "leijonat": 17,
+        "mmkisat": 16,
+        "hpk": 16,
+        "sote": 16,
+        "ässät": 15,
+        "yle": 15
+      }
+    },
+    "Mynämäki": {
+      "tweets": 2349,
+      "users": 216,
+      "hashtags": {
+        "turunsanomat": 111,
+        "turku": 85,
+        "mynämäki": 64,
+        "yrittäjät": 51,
+        "huuhkajat": 20,
+        "fcinterturku": 15,
+        "periscope": 13,
+        "kuntavaalit": 13,
+        "kuntavaalit2017": 12,
+        "sote": 11
+      }
+    },
+    "Kiuruvesi": {
+      "tweets": 2320,
+      "users": 118,
+      "hashtags": {
+        "sote": 34,
+        "kuntavaalit2017": 32,
+        "kuntavaalit": 31,
+        "kiuruvesi": 29,
+        "2016ihanok": 24,
+        "politiikka": 23,
+        "tissiviikko": 23,
+        "äänisuomelle": 20,
+        "ravit": 19,
+        "kd": 17
+      }
+    },
+    "Heinävesi": {
+      "tweets": 2313,
+      "users": 100,
+      "hashtags": {
+        "mtvf1": 510,
+        "cmoref1": 317,
+        "wrc": 60,
+        "lemansfi": 37,
+        "ralli": 33,
+        "f1fi": 32,
+        "liiga": 31,
+        "motorsport": 29,
+        "imsa": 27,
+        "jukurit": 26
+      }
+    },
+    "Ruokolahti": {
+      "tweets": 2278,
+      "users": 117,
+      "hashtags": {
+        "suunnistus": 52,
+        "turpo": 43,
+        "eukkorastit": 40,
+        "opeteläkarjala": 19,
+        "ruokolahti": 18,
+        "imatra": 17,
+        "suomi100": 13,
+        "kuntavaalit": 11,
+        "hiihtosuunnistus": 11,
+        "finland": 11
+      }
+    },
+    "Urjala": {
+      "tweets": 2182,
+      "users": 217,
+      "hashtags": {
+        "liiga": 68,
+        "urps": 59,
+        "valajärvenkartano": 49,
+        "nhlfi": 36,
+        "vkfishing": 31,
+        "urjala": 28,
+        "temedesigns": 26,
+        "maalaushommat": 25,
+        "tappara": 23,
+        "tampere": 19
+      }
+    },
+    "Isokyrö": {
+      "tweets": 2158,
+      "users": 262,
+      "hashtags": {
+        "liiga": 57,
+        "hifk": 38,
+        "isokyrö": 27,
+        "hpk": 16,
+        "yle": 14,
+        "ravit": 13,
+        "suomi100": 11,
+        "kyrödistillery": 10,
+        "ässät": 10,
+        "kärpät": 10
+      }
+    },
+    "Sysmä": {
+      "tweets": 2157,
+      "users": 144,
+      "hashtags": {
+        "sote": 60,
+        "espoo": 42,
+        "emfutis": 35,
+        "suomi100": 29,
+        "euroviisut": 26,
+        "sysmä": 26,
+        "yle": 24,
+        "onni": 23,
+        "sosiaalihuolto": 20,
+        "hsl": 19
+      }
+    },
+    "Nousiainen": {
+      "tweets": 2132,
+      "users": 171,
+      "hashtags": {
+        "turunsanomat": 71,
+        "turku": 59,
+        "liiga": 53,
+        "isacelliotalittlemore": 51,
+        "hctps": 36,
+        "lukko": 32,
+        "yrittäjät": 25,
+        "nhlfi": 15,
+        "mmkisat": 15,
+        "leijonat": 15
+      }
+    },
+    "Utsjoki": {
+      "tweets": 2103,
+      "users": 91,
+      "hashtags": {
+        "yle": 51,
+        "matkachat": 46,
+        "sdp": 38,
+        "teno": 35,
+        "politiikka": 29,
+        "sote": 24,
+        "utsjoki": 21,
+        "kuntavaalit": 21,
+        "saamelaiset": 21,
+        "periscope": 19
+      }
+    },
+    "Leppävirta": {
+      "tweets": 2091,
+      "users": 209,
+      "hashtags": {
+        "maaseutuparlamentti": 41,
+        "leppävirta": 40,
+        "kuopio": 21,
+        "kalpa": 16,
+        "maapuhuu": 15,
+        "leppävirrankirjasto": 14,
+        "suomi100": 12,
+        "metsä": 12,
+        "liiga": 11,
+        "ssy80": 10
+      }
+    },
+    "Ilmajoki": {
+      "tweets": 2088,
+      "users": 121,
+      "hashtags": {
+        "ilmajoki": 27,
+        "smviesti2016": 19,
+        "yle": 18,
+        "pizzagate": 16,
+        "salkkarit": 15,
+        "pesis": 14,
+        "seinäjoki": 11,
+        "finland": 11,
+        "lukusuositus": 11,
+        "lapemuutos": 11
+      }
+    },
+    "Miehikkälä": {
+      "tweets": 2044,
+      "users": 44,
+      "hashtags": {
+        "opechat": 75,
+        "opehommat": 47,
+        "ratkaisu100": 45,
+        "jaajotain": 44,
+        "arviointi": 41,
+        "itk2017": 33,
+        "educa2017": 30,
+        "koulutuskeskiviikko": 19,
+        "koulu": 13,
+        "pelipoikki": 12
+      }
+    },
+    "Vöyri": {
+      "tweets": 2012,
+      "users": 239,
+      "hashtags": {
+        "liiga": 61,
+        "hifk": 52,
+        "hpk": 19,
+        "ässät": 16,
+        "mmkisat": 16,
+        "ravit": 16,
+        "suomi100": 15,
+        "oulu": 13,
+        "nhlfi": 13,
+        "kärpät": 12
+      }
+    },
+    "Rautavaara": {
+      "tweets": 2007,
+      "users": 52,
+      "hashtags": {
+        "kalpa": 203,
+        "liiga": 159,
+        "leijonat": 99,
+        "putous": 76,
+        "rautavaara": 71,
+        "mmkisat": 71,
+        "tappara": 46,
+        "puolestasavonmaan": 38,
+        "lahti2017": 36,
+        "huuhkajat": 35
+      }
+    },
+    "Punkalaidun": {
+      "tweets": 2002,
+      "users": 149,
+      "hashtags": {
+        "sote": 51,
+        "sastamala": 49,
+        "lapset": 44,
+        "periscope": 42,
+        "mieli": 42,
+        "lapsenoikeudet": 32,
+        "mll": 31,
+        "nuoret": 29,
+        "4hsuomi": 26,
+        "äänilapselle": 24
+      }
+    },
+    "Puumala": {
+      "tweets": 1987,
+      "users": 99,
+      "hashtags": {
+        "puumala": 58,
+        "yle": 28,
+        "saimaa": 18,
+        "mikkeli": 13,
+        "opsuursavo": 13,
+        "finland": 11,
+        "joulu": 11,
+        "mtvttk": 10,
+        "putous": 9,
+        "kuntavaalit": 9
+      }
+    },
+    "Pyhtää": {
+      "tweets": 1984,
+      "users": 128,
+      "hashtags": {
+        "mtvf1": 239,
+        "cmoref1": 102,
+        "pyhtää": 17,
+        "taitoa": 16,
+        "sote": 15,
+        "kotka": 14,
+        "johtaminen": 13,
+        "wrc": 9,
+        "digitalisaatio": 9,
+        "uutisvahti": 9
+      }
+    },
+    "Pihtipudas": {
+      "tweets": 1959,
+      "users": 179,
+      "hashtags": {
+        "lohja": 65,
+        "lojolojo": 37,
+        "leijonat": 34,
+        "pihtipudas": 34,
+        "ampumahiihto": 32,
+        "docventures": 32,
+        "tähdettähdet": 29,
+        "liiga": 26,
+        "suomi100": 20,
+        "nhlfi": 18
+      }
+    },
+    "Ypäjä": {
+      "tweets": 1784,
+      "users": 98,
+      "hashtags": {
+        "ravit": 208,
+        "fjt7": 68,
+        "pilvenmäki": 52,
+        "golffi": 48,
+        "ypäjä": 39,
+        "ratsastus": 32,
+        "forssa": 15,
+        "nationscup2016": 15,
+        "hevoset": 14,
+        "watrectour": 13
+      }
+    },
+    "Parikkala": {
+      "tweets": 1775,
+      "users": 142,
+      "hashtags": {
+        "kotimaankatsaus": 74,
+        "parikkala": 65,
+        "saipa": 24,
+        "pesis": 19,
+        "sote": 17,
+        "yrittäjät": 15,
+        "lappeenranta": 13,
+        "lahti2017": 12,
+        "hasiaudio": 11,
+        "yleisurheilu": 11
+      }
+    },
+    "Maalahti": {
+      "tweets": 1722,
+      "users": 204,
+      "hashtags": {
+        "liiga": 69,
+        "hifk": 44,
+        "hpk": 18,
+        "nhlfi": 17,
+        "mmkisat": 16,
+        "suomi100": 16,
+        "maakuntauudistus": 15,
+        "leijonat": 15,
+        "sote": 14,
+        "ravit": 13
+      }
+    },
+    "Tyrnävä": {
+      "tweets": 1717,
+      "users": 74,
+      "hashtags": {
+        "tyrnävä": 192,
+        "kunnat": 103,
+        "yleftw": 66,
+        "elinvoima": 60,
+        "tyrnävällätietty": 45,
+        "kirkko": 33,
+        "lähiruoka": 29,
+        "oulu": 27,
+        "johtaminen": 24,
+        "salesvation": 24
+      }
+    },
+    "Luoto": {
+      "tweets": 1693,
+      "users": 205,
+      "hashtags": {
+        "liiga": 60,
+        "hifk": 51,
+        "periscope": 30,
+        "hpk": 17,
+        "nhlfi": 15,
+        "ässät": 14,
+        "sote": 14,
+        "mmkisat": 13,
+        "leijonat": 13,
+        "ravit": 13
+      }
+    },
+    "Kolari": {
+      "tweets": 1665,
+      "users": 275,
+      "hashtags": {
+        "ylläs": 197,
+        "yllas": 105,
+        "lapland": 47,
+        "lappi": 39,
+        "lappeanloma": 34,
+        "lappeansuvanto": 30,
+        "lapinnelonen": 30,
+        "tornionjoki": 30,
+        "vt21": 26,
+        "kolari": 24
+      }
+    },
+    "Juupajoki": {
+      "tweets": 1652,
+      "users": 113,
+      "hashtags": {
+        "juupajoki": 216,
+        "sote": 62,
+        "tampere": 46,
+        "kunnat": 25,
+        "pirkanmaa": 22,
+        "pirkanmaa2019": 19,
+        "tappara": 16,
+        "suomi100": 15,
+        "wowfin": 13,
+        "lunettecup": 12
+      }
+    },
+    "Pornainen": {
+      "tweets": 1633,
+      "users": 172,
+      "hashtags": {
+        "esportsfi": 28,
+        "pornainen": 16,
+        "isacelliotalittlemore": 16,
+        "kokoomus": 15,
+        "acim": 14,
+        "acourseinmiracles": 14,
+        "ucdm": 14,
+        "uncursodemilagros": 14,
+        "davidhoffmeister": 14,
+        "sote": 14
+      }
+    },
+    "Haapavesi": {
+      "tweets": 1605,
+      "users": 58,
+      "hashtags": {
+        "weathercloud": 234,
+        "leijonat": 31,
+        "haapavesi": 26,
+        "nhlfi": 19,
+        "oulainen": 16,
+        "pokemongofinland": 15,
+        "jokihelmenopisto": 14,
+        "mmkisat": 13,
+        "sote": 13,
+        "putous": 11
+      }
+    },
+    "Marttila": {
+      "tweets": 1597,
+      "users": 92,
+      "hashtags": {
+        "turunsanomat": 30,
+        "turku": 19,
+        "lapemuutos": 13,
+        "marttila": 11,
+        "yrittäjät": 8,
+        "sote": 8,
+        "periscope": 5,
+        "onur": 4,
+        "yle": 4,
+        "kiertotalous": 4
+      }
+    },
+    "Valtimo": {
+      "tweets": 1574,
+      "users": 69,
+      "hashtags": {
+        "finlandisproudoflouis": 42,
+        "sivakka": 35,
+        "valtimo": 21,
+        "maaseutu": 13,
+        "pohjoiskarjala": 8,
+        "perisivakka": 8,
+        "emfutis": 7,
+        "lapsiperhe": 6,
+        "munat": 6,
+        "ylapihantila": 6
+      }
+    },
+    "Muonio": {
+      "tweets": 1566,
+      "users": 144,
+      "hashtags": {
+        "lappi": 79,
+        "esportsfi": 63,
+        "nhlfi": 59,
+        "valioliiga": 43,
+        "muonio": 39,
+        "noordinaryseminar": 36,
+        "haiku": 32,
+        "poetry": 29,
+        "matkailu": 28,
+        "huuhkajat": 26
+      }
+    },
+    "Askola": {
+      "tweets": 1535,
+      "users": 198,
+      "hashtags": {
+        "askola": 43,
+        "huolenpitoa": 20,
+        "alasarjafutis": 18,
+        "sote": 16,
+        "kuntavaalit": 13,
+        "mielenterveys": 11,
+        "hyvinvointi": 10,
+        "kukatahansameistä": 10,
+        "nelonen": 9,
+        "yhteistyö": 9
+      }
+    },
+    "Sievi": {
+      "tweets": 1508,
+      "users": 39,
+      "hashtags": {
+        "puujalka": 115,
+        "puujalkaperjantai": 110,
+        "takki": 75,
+        "sievi": 29,
+        "sievinsisu": 25,
+        "hiihto": 19,
+        "opehommat": 17,
+        "huuhkajat": 13,
+        "kevätseuranta": 13,
+        "keskipohjanmaa": 11
+      }
+    },
+    "Posio": {
+      "tweets": 1471,
+      "users": 116,
+      "hashtags": {
+        "järjestöt": 61,
+        "järjestöviestii": 52,
+        "viestintä": 48,
+        "vaikuttavuus": 47,
+        "mssoste": 30,
+        "arvoyritys": 23,
+        "lappi": 22,
+        "mtvf1": 16,
+        "posio": 16,
+        "hyvänmitta": 14
+      }
+    },
+    "Luumäki": {
+      "tweets": 1466,
+      "users": 166,
+      "hashtags": {
+        "saipa": 128,
+        "luumäki": 29,
+        "jutteletuntemattomalle": 17,
+        "liiga": 13,
+        "pkmo": 8,
+        "martat": 8,
+        "eksote": 7,
+        "leijonat": 7,
+        "nuoret": 7,
+        "kouvola": 7
+      }
+    },
+    "Alavus": {
+      "tweets": 1463,
+      "users": 117,
+      "hashtags": {
+        "rallism": 70,
+        "euroviisut": 44,
+        "tunturiralli": 30,
+        "putous": 25,
+        "alavus": 20,
+        "yle": 17,
+        "vaakunaralli": 15,
+        "bisneskulttuuri": 15,
+        "tahkoralli": 14,
+        "periscope": 13
+      }
+    },
+    "Säkylä": {
+      "tweets": 1423,
+      "users": 172,
+      "hashtags": {
+        "yle": 65,
+        "säkylänseudunlukio": 27,
+        "uutisvahti": 23,
+        "ammatillinenkoulutus": 19,
+        "sote": 15,
+        "liiga": 14,
+        "samk": 11,
+        "sataedu": 11,
+        "pori": 11,
+        "satakunta": 10
+      }
+    },
+    "Ylitornio": {
+      "tweets": 1419,
+      "users": 162,
+      "hashtags": {
+        "adechat": 94,
+        "suomikasvaaruoasta": 28,
+        "lappi": 26,
+        "suunnistus": 23,
+        "ylitornio": 20,
+        "suomi100": 9,
+        "rovaniemi": 8,
+        "lapland": 8,
+        "agronomiliitto": 7,
+        "vihreät": 7
+      }
+    },
+    "Kemiönsaari": {
+      "tweets": 1410,
+      "users": 158,
+      "hashtags": {
+        "turunsanomat": 89,
+        "turku": 74,
+        "sote": 35,
+        "yrittäjät": 32,
+        "kemiönsaari": 21,
+        "periscope": 10,
+        "kimpassa2019": 10,
+        "yle": 10,
+        "lale": 10,
+        "saaristo": 9
+      }
+    },
+    "Sulkava": {
+      "tweets": 1401,
+      "users": 83,
+      "hashtags": {
+        "sulkava": 55,
+        "suursoudut": 48,
+        "sote": 27,
+        "yle": 23,
+        "vasu2017": 16,
+        "varhaiskasvatus": 15,
+        "kunnat": 14,
+        "saimaa": 13,
+        "kestäväkoulutus": 9,
+        "doplpr": 9
+      }
+    },
+    "Lemi": {
+      "tweets": 1384,
+      "users": 97,
+      "hashtags": {
+        "lemi": 72,
+        "saipa": 26,
+        "lemitoivo": 15,
+        "sote": 12,
+        "yleastudio": 10,
+        "yrittäjät": 9,
+        "hctps": 9,
+        "matkachat": 6,
+        "euroviisut": 6,
+        "junapummit": 6
+      }
+    },
+    "Karstula": {
+      "tweets": 1372,
+      "users": 143,
+      "hashtags": {
+        "luonto": 15,
+        "nature": 12,
+        "finland": 11,
+        "valokuvaus": 11,
+        "karstula": 10,
+        "hifk": 10,
+        "jyväskylä": 9,
+        "liiga": 9,
+        "canontalvi": 9,
+        "luontokuva": 8
+      }
+    },
+    "Juuka": {
+      "tweets": 1340,
+      "users": 113,
+      "hashtags": {
+        "ravit": 71,
+        "juuka": 35,
+        "wheelieawake": 33,
+        "viljo": 26,
+        "joensuu": 15,
+        "sote": 15,
+        "muutosmuotoilu": 13,
+        "suomi100": 13,
+        "finland": 12,
+        "yle": 10
+      }
+    },
+    "Kannus": {
+      "tweets": 1336,
+      "users": 64,
+      "hashtags": {
+        "gtd": 75,
+        "ateema": 28,
+        "sananvapaus": 19,
+        "oulu": 16,
+        "vihapuhe": 16,
+        "kannus": 15,
+        "yleastudio": 14,
+        "kuntavaalit": 12,
+        "ylevero": 11,
+        "keskusta": 11
+      }
+    },
+    "Virolahti": {
+      "tweets": 1329,
+      "users": 85,
+      "hashtags": {
+        "robination": 363,
+        "yhdessä": 172,
+        "jotainaitoo": 148,
+        "yhdessäsummertour": 103,
+        "superdeluxe": 85,
+        "salamatie": 72,
+        "hulahula": 48,
+        "tulli": 45,
+        "vainelämää": 40,
+        "kaupungithaltuuntour2017": 36
+      }
+    },
+    "Toivakka": {
+      "tweets": 1328,
+      "users": 124,
+      "hashtags": {
+        "tvksrk": 42,
+        "twaarna": 22,
+        "kirkko": 22,
+        "sdp": 20,
+        "kirkonherra": 15,
+        "saarna": 14,
+        "suomi100": 14,
+        "toivakka": 14,
+        "jypliiga": 13,
+        "stopdeportations": 12
+      }
+    },
+    "Ilomantsi": {
+      "tweets": 1285,
+      "users": 114,
+      "hashtags": {
+        "ilomantsi": 21,
+        "loma": 12,
+        "kokoomus": 12,
+        "joensuu": 11,
+        "finland": 11,
+        "pohjoiskarjala": 10,
+        "ravit": 10,
+        "valtuusto": 7,
+        "karelia": 6,
+        "pohjoiskarjalaprojekti": 5
+      }
+    },
+    "Jokioinen": {
+      "tweets": 1282,
+      "users": 104,
+      "hashtags": {
+        "futurecrops": 21,
+        "scenoprot": 11,
+        "suomi100": 11,
+        "circulareconomy": 10,
+        "kulkukauppias": 7,
+        "ehkäisevätyö": 7,
+        "uutisvahti": 6,
+        "ravitsemussitoumus": 6,
+        "proruis": 5,
+        "biotalous": 5
+      }
+    },
+    "Uurainen": {
+      "tweets": 1240,
+      "users": 147,
+      "hashtags": {
+        "myfitnesspal": 27,
+        "greece": 22,
+        "finland": 22,
+        "parga": 16,
+        "kreikka": 16,
+        "luonto": 15,
+        "crowdfunding": 14,
+        "kuntavaalit": 14,
+        "jyväskylä": 11,
+        "nature": 11
+      }
+    },
+    "Rautjärvi": {
+      "tweets": 1173,
+      "users": 99,
+      "hashtags": {
+        "saipa": 22,
+        "yrittäjät": 18,
+        "imatra": 16,
+        "yrittäjyys": 11,
+        "sote": 11,
+        "meidänpojat": 10,
+        "liiga": 9,
+        "saipanation": 8,
+        "lappeenranta": 6,
+        "slush16": 6
+      }
+    },
+    "Kaustinen": {
+      "tweets": 1164,
+      "users": 66,
+      "hashtags": {
+        "kaustinen": 78,
+        "kaustinenfmf": 78,
+        "ravit": 71,
+        "mtvttk": 44,
+        "putous": 24,
+        "suomenhevonen": 17,
+        "kesänonnellisimmatpäivät": 15,
+        "kansanmusiikki": 14,
+        "kirjasto": 12,
+        "kpedukaustinen": 11
+      }
+    },
+    "Padasjoki": {
+      "tweets": 1137,
+      "users": 108,
+      "hashtags": {
+        "4hsuomi": 49,
+        "landelive": 42,
+        "suru": 30,
+        "padasjoki": 22,
+        "synttärit": 19,
+        "muistivinkki": 13,
+        "surukonferenssi": 12,
+        "4h": 10,
+        "joulukalenteri": 9,
+        "yrittäjyys": 9
+      }
+    },
+    "Humppila": {
+      "tweets": 1119,
+      "users": 93,
+      "hashtags": {
+        "pesislive": 23,
+        "huvepesis": 18,
+        "pesis": 18,
+        "humppila": 14,
+        "yle": 5,
+        "kuntavaalit": 3,
+        "maaseutu2020": 3,
+        "vihreät": 3,
+        "halata": 3,
+        "runous": 2
+      }
+    },
+    "Lapinjärvi": {
+      "tweets": 1083,
+      "users": 144,
+      "hashtags": {
+        "espoounited": 25,
+        "tähdettähdet": 23,
+        "pelipoikki": 23,
+        "svl": 14,
+        "trollitutka": 10,
+        "turpo": 10,
+        "nanowrimo": 10,
+        "usavaalit": 9,
+        "mestislive": 8,
+        "lapinjärvi": 7
+      }
+    },
+    "Hailuoto": {
+      "tweets": 1052,
+      "users": 40,
+      "hashtags": {
+        "hailuoto": 109,
+        "blondipohtii": 25,
+        "op": 15,
+        "oulu": 14,
+        "ophailuoto": 11,
+        "suomi100": 10,
+        "arvotkohilleen": 8,
+        "finland": 8,
+        "asenneratkaisee": 6,
+        "työpaikat": 6
+      }
+    },
+    "Puolanka": {
+      "tweets": 1035,
+      "users": 91,
+      "hashtags": {
+        "puolanka": 31,
+        "kainuu": 27,
+        "biotalous": 13,
+        "yrittäjyys": 13,
+        "jooga": 13,
+        "sote": 13,
+        "paljakka": 10,
+        "hieronta": 10,
+        "krv2016": 6,
+        "kaipr": 6
+      }
+    },
+    "Perho": {
+      "tweets": 1031,
+      "users": 27,
+      "hashtags": {
+        "ammatillinenkoulutus": 103,
+        "johtaminen": 38,
+        "taitaja2017": 35,
+        "koulutus": 30,
+        "reformi": 24,
+        "perholainen": 24,
+        "perhokalastus": 23,
+        "minäpystyvyys": 23,
+        "työelämä": 22,
+        "ohjaus": 19
+      }
+    },
+    "Polvijärvi": {
+      "tweets": 1004,
+      "users": 87,
+      "hashtags": {
+        "yle": 15,
+        "livebetsit": 12,
+        "joensuu": 10,
+        "johtaminen": 9,
+        "finland": 8,
+        "tubecon16": 8,
+        "pohjoiskarjala": 7,
+        "karelia": 7,
+        "tubecon": 6,
+        "lieksa": 6
+      }
+    },
+    "Lappajärvi": {
+      "tweets": 986,
+      "users": 42,
+      "hashtags": {
+        "uutisvahti": 28,
+        "yle": 28,
+        "paini": 21,
+        "pesis": 16,
+        "kirjastoauto": 12,
+        "lappajärvi": 10,
+        "uutisvuoto": 10,
+        "lydia": 9,
+        "vimpelinveto": 9,
+        "lamminikkunat": 6
+      }
+    },
+    "Pello": {
+      "tweets": 926,
+      "users": 119,
+      "hashtags": {
+        "pello": 107,
+        "lappi": 42,
+        "luonto": 31,
+        "tornionjoki": 29,
+        "luontokuva": 28,
+        "lapland": 25,
+        "photography": 24,
+        "finland": 23,
+        "nature": 22,
+        "napapiiri": 20
+      }
+    },
+    "Alavieska": {
+      "tweets": 894,
+      "users": 13,
+      "hashtags": {
+        "osavahanke": 83,
+        "nuorisotyö": 72,
+        "nuori2017": 66,
+        "koulu": 44,
+        "uutisvahti": 32,
+        "nuorisotyökoulussaseminaari": 29,
+        "tehy": 26,
+        "seminaari": 24,
+        "hyvätkäytänteet": 22,
+        "sote": 19
+      }
+    },
+    "Hartola": {
+      "tweets": 857,
+      "users": 133,
+      "hashtags": {
+        "hartola": 16,
+        "esportsfi": 10,
+        "sote": 7,
+        "auta": 6,
+        "pyörälläkaikenikää": 6,
+        "periscope": 5,
+        "digikunta": 5,
+        "linnahotelli": 5,
+        "liiga": 4,
+        "kansanradio": 3
+      }
+    },
+    "Koski Tl": {
+      "tweets": 826,
+      "users": 95,
+      "hashtags": {
+        "opohommia": 27,
+        "turunsanomat": 25,
+        "koulutus": 18,
+        "turku": 18,
+        "koski": 9,
+        "työ": 8,
+        "yle": 8,
+        "yrittäjät": 7,
+        "ohjaus": 7,
+        "desucon": 7
+      }
+    },
+    "Sonkajärvi": {
+      "tweets": 801,
+      "users": 93,
+      "hashtags": {
+        "kepuvaltuusto": 23,
+        "sonkajärvi": 20,
+        "keskusta": 17,
+        "wifecarrying": 15,
+        "eukonkanto": 15,
+        "huolenpitoa": 14,
+        "kalpa": 10,
+        "liiga": 8,
+        "sukeva": 8,
+        "suomi100": 7
+      }
+    },
+    "Honkajoki": {
+      "tweets": 789,
+      "users": 75,
+      "hashtags": {
+        "yle": 8,
+        "pesämäki": 4,
+        "samk": 3,
+        "sataedu": 3,
+        "ammatillinenkoulutus": 3,
+        "putous": 3,
+        "vihreät": 3,
+        "sote": 3,
+        "winnova": 3,
+        "suomiareena": 2
+      }
+    },
+    "Siikajoki": {
+      "tweets": 765,
+      "users": 65,
+      "hashtags": {
+        "rioyle": 28,
+        "naisleijonat": 26,
+        "salibandy": 16,
+        "mmkisat": 14,
+        "leijonat": 14,
+        "siikajoki": 13,
+        "lahti2017": 11,
+        "nhlfi": 11,
+        "uclfi": 9,
+        "riofi": 8
+      }
+    },
+    "Kärsämäki": {
+      "tweets": 759,
+      "users": 117,
+      "hashtags": {
+        "oulu": 13,
+        "euroviisut": 9,
+        "finland": 8,
+        "anzionmukaan": 5,
+        "kärsämäki": 5,
+        "suomi": 5,
+        "tisuomi": 4,
+        "esportsfi": 4,
+        "love": 4,
+        "yleastudio": 4
+      }
+    },
+    "Tuusniemi": {
+      "tweets": 729,
+      "users": 56,
+      "hashtags": {
+        "itäsuomi": 21,
+        "tuusniemi": 11,
+        "sarjakuva": 10,
+        "meidänmaamme": 8,
+        "yle": 8,
+        "turkki": 7,
+        "kalpa": 6,
+        "suomi100": 6,
+        "tasaarvo": 5,
+        "jyväskylä": 4
+      }
+    },
+    "Kaskinen": {
+      "tweets": 727,
+      "users": 107,
+      "hashtags": {
+        "liiga": 12,
+        "mmkisat": 10,
+        "huuhkajat": 9,
+        "tisuomi": 8,
+        "nowplaying": 8,
+        "hifk": 7,
+        "kuntavaalit": 6,
+        "yle": 6,
+        "leijonat": 5,
+        "hallitus": 4
+      }
+    },
+    "Vieremä": {
+      "tweets": 716,
+      "users": 91,
+      "hashtags": {
+        "ravit": 90,
+        "maatalous": 21,
+        "kesäravit": 15,
+        "vieremä": 12,
+        "oulu": 11,
+        "iceracing": 9,
+        "lahti2017": 8,
+        "kmaatalous": 8,
+        "digitalisaatio": 7,
+        "ponsse": 7
+      }
+    },
+    "Tervola": {
+      "tweets": 709,
+      "users": 122,
+      "hashtags": {
+        "tervola": 16,
+        "lappi": 12,
+        "suomi100": 8,
+        "biotalous": 5,
+        "rovaniemi": 5,
+        "iloajanaurua": 5,
+        "vihreät": 4,
+        "4h": 4,
+        "lapemuutos": 4,
+        "sote": 4
+      }
+    },
+    "Ranua": {
+      "tweets": 705,
+      "users": 99,
+      "hashtags": {
+        "lappi": 16,
+        "usavaalit": 4,
+        "rekry": 4,
+        "ranua": 4,
+        "video": 4,
+        "lapemuutos": 4,
+        "biotalous": 3,
+        "rovaniemi": 3,
+        "luonto": 3,
+        "digimpilappi": 3
+      }
+    },
+    "Pyhäjoki": {
+      "tweets": 695,
+      "users": 40,
+      "hashtags": {
+        "fennovoima": 40,
+        "stopfennovoima": 35,
+        "finland": 14,
+        "jobs": 14,
+        "maikkia": 11,
+        "yle": 8,
+        "talentsuomi": 6,
+        "pyhäjoki": 5,
+        "apteekki": 5,
+        "musician": 4
+      }
+    },
+    "Korsnäs": {
+      "tweets": 691,
+      "users": 145,
+      "hashtags": {
+        "hifk": 25,
+        "liiga": 24,
+        "nhlfi": 8,
+        "mmkisat": 7,
+        "bulilla": 7,
+        "hpk": 6,
+        "ässät": 5,
+        "sijoittaminen": 5,
+        "sote": 5,
+        "haapajärvi": 5
+      }
+    },
+    "Konnevesi": {
+      "tweets": 684,
+      "users": 115,
+      "hashtags": {
+        "juonola": 38,
+        "konnevesi": 26,
+        "docventures": 15,
+        "luonto": 13,
+        "valokuvaus": 13,
+        "hifk": 13,
+        "mtvf1": 11,
+        "lehmänelämää": 10,
+        "nature": 10,
+        "mtvposse": 9
+      }
+    },
+    "Pomarkku": {
+      "tweets": 682,
+      "users": 92,
+      "hashtags": {
+        "yle": 27,
+        "pomarkku": 7,
+        "satasote": 7,
+        "satakunta": 5,
+        "pori": 5,
+        "sataedu": 4,
+        "maanantai": 4,
+        "rauma": 4,
+        "winnova": 4,
+        "suomiareena": 3
+      }
+    },
+    "Hyrynsalmi": {
+      "tweets": 682,
+      "users": 78,
+      "hashtags": {
+        "kainuu": 23,
+        "luonnonpäivät": 17,
+        "a_kiltatoiminta": 17,
+        "fc_a_kilta": 16,
+        "suomi100": 10,
+        "sote": 10,
+        "kaipr": 9,
+        "umpihankifutismm": 9,
+        "hyrynsalmi": 9,
+        "hiihto": 8
+      }
+    },
+    "Kustavi": {
+      "tweets": 674,
+      "users": 89,
+      "hashtags": {
+        "kustavi": 42,
+        "sea": 37,
+        "finland": 30,
+        "nature": 28,
+        "winter": 26,
+        "finnishmoments": 19,
+        "archipelago": 19,
+        "finnisharchipelago": 16,
+        "kites2016": 16,
+        "sun": 15
+      }
+    },
+    "Pyhäjärvi": {
+      "tweets": 669,
+      "users": 72,
+      "hashtags": {
+        "pyhäjärvi": 31,
+        "liiga": 22,
+        "tuttihanke": 18,
+        "ässät": 17,
+        "uutisvahti": 16,
+        "swipe": 15,
+        "bioswipe": 15,
+        "hajajätevesi": 14,
+        "homcare": 14,
+        "ilmastonmuutos": 12
+      }
+    },
+    "Jämijärvi": {
+      "tweets": 654,
+      "users": 85,
+      "hashtags": {
+        "oikeamedia": 64,
+        "jämijärvi": 53,
+        "jämi": 41,
+        "jämiflyin": 17,
+        "yle": 14,
+        "hiihto": 10,
+        "airshow": 10,
+        "ammatillinenkoulutus": 8,
+        "lentonäytös": 7,
+        "johtaminen": 6
+      }
+    },
+    "Myrskylä": {
+      "tweets": 612,
+      "users": 104,
+      "hashtags": {
+        "sitrus": 12,
+        "readthinkcreate": 9,
+        "sijoittaminen": 7,
+        "myrskylä": 7,
+        "leijonat": 5,
+        "mm2017": 4,
+        "nbforum2016": 4,
+        "suomi100": 4,
+        "wearemymy": 4,
+        "esc2017": 4
+      }
+    },
+    "Pyhäranta": {
+      "tweets": 558,
+      "users": 97,
+      "hashtags": {
+        "turunsanomat": 33,
+        "turku": 24,
+        "salibandy": 13,
+        "sopien": 12,
+        "lukko": 11,
+        "sote": 11,
+        "hallituskriisi": 10,
+        "palloiirot": 9,
+        "yrittäjät": 8,
+        "blogi": 8
+      }
+    },
+    "Kaavi": {
+      "tweets": 540,
+      "users": 62,
+      "hashtags": {
+        "putous": 9,
+        "ravit": 7,
+        "tsiigaaliigaa": 6,
+        "kalpa": 5,
+        "kuopio": 4,
+        "pilvenmäki": 4,
+        "digitalisaatio": 3,
+        "liiga": 3,
+        "leijonat": 3,
+        "umk17": 3
+      }
+    },
+    "Utajärvi": {
+      "tweets": 511,
+      "users": 44,
+      "hashtags": {
+        "oulu": 26,
+        "businessoulu": 17,
+        "qstock": 15,
+        "qstock2016": 11,
+        "aaltoo": 10,
+        "jurek": 7,
+        "huuhkajat": 7,
+        "rokua": 7,
+        "utajärvi": 6,
+        "btsbbmas": 4
+      }
+    },
+    "Veteli": {
+      "tweets": 497,
+      "users": 36,
+      "hashtags": {
+        "turpo": 48,
+        "perhonjokilaakso": 12,
+        "venäjä": 9,
+        "keskipohjanmaa": 7,
+        "veteli": 7,
+        "plplus": 5,
+        "putous": 5,
+        "mtvputous": 4,
+        "toimittaja": 4,
+        "mtvposse": 4
+      }
+    },
+    "Vehmaa": {
+      "tweets": 492,
+      "users": 87,
+      "hashtags": {
+        "turunsanomat": 32,
+        "turku": 24,
+        "periscope": 19,
+        "yrittäjät": 10,
+        "soundcloud": 8,
+        "finnishgirl": 7,
+        "vehmaa": 7,
+        "kaislikossasuhisi": 6,
+        "himoistenperä": 6,
+        "sote": 6
+      }
+    },
+    "Reisjärvi": {
+      "tweets": 481,
+      "users": 32,
+      "hashtags": {
+        "yrittäjyyskasvatus": 21,
+        "nhlfi": 19,
+        "yrittäjyys": 15,
+        "reisjärvi": 14,
+        "uskallayrittää": 13,
+        "ratkaisu100": 12,
+        "mtvsport": 8,
+        "kerttusaalasti": 7,
+        "yrittäjät": 6,
+        "mtvtahdettahdet": 6
+      }
+    },
+    "Pelkosenniemi": {
+      "tweets": 472,
+      "users": 109,
+      "hashtags": {
+        "pyhätunturi": 23,
+        "pyhä": 21,
+        "retkeily": 14,
+        "kalastus": 14,
+        "lappi": 13,
+        "lapland": 11,
+        "inari": 10,
+        "kuntoon": 10,
+        "finland": 9,
+        "melonta": 8
+      }
+    },
+    "Pertunmaa": {
+      "tweets": 462,
+      "users": 105,
+      "hashtags": {
+        "yle": 10,
+        "pertunmaa": 7,
+        "sisu": 3,
+        "farmari2017": 3,
+        "lomakirja": 3,
+        "yleisurheilu": 3,
+        "biotalous": 2,
+        "periscope": 2,
+        "luomu": 2,
+        "mtk100": 2
+      }
+    },
+    "Keitele": {
+      "tweets": 455,
+      "users": 57,
+      "hashtags": {
+        "keitele": 34,
+        "kirjasto": 10,
+        "kuopio": 10,
+        "kirjastot": 9,
+        "kirja": 8,
+        "yrittäjät": 6,
+        "lukeminen": 6,
+        "yle": 6,
+        "kunnat": 4,
+        "tulevaisuudenkunta": 4
+      }
+    },
+    "Kivijärvi": {
+      "tweets": 446,
+      "users": 62,
+      "hashtags": {
+        "jopstream": 17,
+        "yleftw": 17,
+        "videotalo": 14,
+        "jyväskylä": 7,
+        "valokuvaus": 6,
+        "luonto": 5,
+        "photo": 3,
+        "finland": 3,
+        "finland100": 3,
+        "hifk": 3
+      }
+    },
+    "Taivassalo": {
+      "tweets": 432,
+      "users": 87,
+      "hashtags": {
+        "turunsanomat": 31,
+        "turku": 22,
+        "taivassalo": 17,
+        "yrittäjät": 7,
+        "yle": 4,
+        "periscope": 3,
+        "poliisi": 3,
+        "yrittäjä": 3,
+        "tosviäres": 3,
+        "veneily": 3
+      }
+    },
+    "Karvia": {
+      "tweets": 413,
+      "users": 71,
+      "hashtags": {
+        "yle": 27,
+        "sote": 8,
+        "nuori2017": 6,
+        "satasote": 6,
+        "sataedu": 5,
+        "liiga": 5,
+        "samk": 4,
+        "sote2019": 4,
+        "kuntavaalit": 4,
+        "ulvila": 4
+      }
+    },
+    "Vesanto": {
+      "tweets": 403,
+      "users": 58,
+      "hashtags": {
+        "luonto": 8,
+        "kuntavaalit": 8,
+        "sote": 7,
+        "savo": 6,
+        "putous": 5,
+        "kevät": 5,
+        "mökki": 5,
+        "kalpa": 4,
+        "linnut": 4,
+        "ehdollaollaan": 4
+      }
+    },
+    "Kihniö": {
+      "tweets": 394,
+      "users": 112,
+      "hashtags": {
+        "kihniö": 6,
+        "tampere": 5,
+        "ilves": 4,
+        "turku": 4,
+        "bts": 3,
+        "johtaminen": 3,
+        "trump": 2,
+        "sää": 2,
+        "pirkanmaa2019": 2,
+        "huuhkajat": 2
+      }
+    },
+    "Oripää": {
+      "tweets": 385,
+      "users": 96,
+      "hashtags": {
+        "lännen": 26,
+        "okra2016": 18,
+        "okra": 15,
+        "turunsanomat": 15,
+        "op_ryhmä": 14,
+        "turku": 12,
+        "pankkielämää": 10,
+        "lundberg": 10,
+        "op": 7,
+        "yrittäjät": 5
+      }
+    },
+    "Taivalkoski": {
+      "tweets": 384,
+      "users": 45,
+      "hashtags": {
+        "finnishnature": 25,
+        "luonto": 24,
+        "taivalkoski": 15,
+        "talvi": 10,
+        "winter": 8,
+        "periscope": 7,
+        "hiihto": 7,
+        "umpihanki": 5,
+        "metsä": 5,
+        "suomenluonto": 4
+      }
+    },
+    "Multia": {
+      "tweets": 333,
+      "users": 78,
+      "hashtags": {
+        "valokuvaus": 10,
+        "multia": 8,
+        "suomensurkeinkuski": 7,
+        "putous": 5,
+        "revontulet": 5,
+        "luonto": 4,
+        "finland": 4,
+        "canonsyksy": 4,
+        "piesasjärvi": 3,
+        "winter": 3
+      }
+    },
+    "Ristijärvi": {
+      "tweets": 330,
+      "users": 59,
+      "hashtags": {
+        "kainuu": 19,
+        "ristijärvi": 8,
+        "sote": 8,
+        "hossa": 6,
+        "kajaani": 5,
+        "biotalous": 3,
+        "ekokymppi": 2,
+        "yhteinenjuttu": 2,
+        "wrc": 2,
+        "hyte": 2
+      }
+    },
+    "Maarianhamina": {
+      "tweets": 321,
+      "users": 73,
+      "hashtags": {
+        "turpo": 31,
+        "yleastudio": 8,
+        "ateema": 6,
+        "veikkausliiga": 5,
+        "berliini": 4,
+        "mariehamn": 4,
+        "pakkoruotsi": 3,
+        "maahanmuutto": 3,
+        "vikingline": 3,
+        "suomi100": 3
+      }
+    },
+    "Kyyjärvi": {
+      "tweets": 321,
+      "users": 71,
+      "hashtags": {
+        "luonto": 7,
+        "valokuvaus": 5,
+        "minunmaisemani": 4,
+        "kyyjärvi": 4,
+        "canonsyksy": 4,
+        "sää": 3,
+        "photo": 3,
+        "kasvunmaakunta": 3,
+        "landscape": 3,
+        "finland": 3
+      }
+    },
+    "Siikalatva": {
+      "tweets": 320,
+      "users": 81,
+      "hashtags": {
+        "siikalatva": 27,
+        "haapavesi": 11,
+        "oulu": 5,
+        "lounas": 4,
+        "vapepa": 3,
+        "putous": 3,
+        "kärsämäki": 3,
+        "uutisvahti": 3,
+        "tyrnävä": 3,
+        "vdkma": 2
+      }
+    },
+    "Savukoski": {
+      "tweets": 303,
+      "users": 54,
+      "hashtags": {
+        "lappi": 6,
+        "talvi": 4,
+        "biotalous": 3,
+        "sää": 2,
+        "auroraborealis": 2,
+        "huuhkajat": 2,
+        "luonto": 2,
+        "matkailu": 2,
+        "kuntavaalit": 2,
+        "kaamos": 2
+      }
+    },
+    "Tervo": {
+      "tweets": 302,
+      "users": 47,
+      "hashtags": {
+        "emaaseutu": 11,
+        "mtvttk": 8,
+        "tervo": 6,
+        "digitalisaatio": 5,
+        "kuopio": 4,
+        "lvf2017": 4,
+        "smartcountryside": 3,
+        "kevathumaus": 3,
+        "sote": 3,
+        "hiihto": 2
+      }
+    },
+    "Kinnula": {
+      "tweets": 296,
+      "users": 82,
+      "hashtags": {
+        "valokuvaus": 8,
+        "luonto": 7,
+        "rauli": 6,
+        "myrsky": 6,
+        "raulimyrsky": 5,
+        "liiga": 5,
+        "lappi": 4,
+        "minunmaisemani": 4,
+        "suomi100": 4,
+        "helsinki": 3
+      }
+    },
+    "Siikainen": {
+      "tweets": 262,
+      "users": 61,
+      "hashtags": {
+        "yle": 20,
+        "mtvttk": 10,
+        "ässät": 8,
+        "liiga": 5,
+        "ammatillinenkoulutus": 3,
+        "työelämä": 3,
+        "pori": 3,
+        "juhannus": 2,
+        "suomiareena": 2,
+        "samk": 2
+      }
+    },
+    "Soini": {
+      "tweets": 256,
+      "users": 21,
+      "hashtags": {
+        "suomiareena": 10,
+        "cop22": 10,
+        "wewillmoveahead": 7,
+        "biotalous": 5,
+        "f1": 5,
+        "soinillinen": 3,
+        "go100re": 3,
+        "climateaction": 2,
+        "koppikuntoutuksesta2016": 2,
+        "kotikatu": 2
+      }
+    },
+    "Luhanka": {
+      "tweets": 249,
+      "users": 65,
+      "hashtags": {
+        "luhanka": 38,
+        "rallyfinland": 10,
+        "jyväskylä": 8,
+        "matkailu": 8,
+        "gerontologia": 8,
+        "opluhanka": 8,
+        "visitjyvaskyla": 5,
+        "luonto": 4,
+        "optoivakka": 4,
+        "nature": 4
+      }
+    },
+    "Halsua": {
+      "tweets": 241,
+      "users": 17,
+      "hashtags": {
+        "ravit": 83,
+        "ravirakkaus": 22,
+        "mysteerio": 12,
+        "millinvartoojattalli": 9,
+        "kuntavaalit": 8,
+        "halsua": 8,
+        "kesäravit": 6,
+        "miljoonaravit": 5,
+        "yleastudio": 5,
+        "mtvravit": 4
+      }
+    },
+    "Enonkoski": {
+      "tweets": 221,
+      "users": 36,
+      "hashtags": {
+        "bellsforaleppo": 17,
+        "yle": 11,
+        "alepponkellot": 7,
+        "togetherinhope": 3,
+        "jukurit": 2,
+        "lund2016": 2,
+        "lwf": 2,
+        "kurtinvuori": 2,
+        "juhannus": 1,
+        "saimaa": 1
+      }
+    },
+    "Sund": {
+      "tweets": 195,
+      "users": 24,
+      "hashtags": {
+        "smakbyn": 3,
+        "sid2017": 2,
+        "pakkoruotsi": 1,
+        "oikeamedia": 1,
+        "igetdepressedwhen": 1,
+        "sea": 1,
+        "muutmyös": 1,
+        "maahanmuutto": 1,
+        "loma": 1,
+        "summer": 1
+      }
+    },
+    "Kannonkoski": {
+      "tweets": 175,
+      "users": 56,
+      "hashtags": {
+        "valokuvaus": 8,
+        "helsinki": 6,
+        "visitfinland": 5,
+        "canontalvi": 4,
+        "piesasjärvi": 3,
+        "photo": 3,
+        "minunmaisemani": 3,
+        "finland": 3,
+        "auringonlasku": 3,
+        "luontokuva": 3
+      }
+    },
+    "Lestijärvi": {
+      "tweets": 127,
+      "users": 13,
+      "hashtags": {
+        "finland": 11,
+        "lestijärvi": 7,
+        "matkachat": 5,
+        "visitfinland": 4,
+        "nature": 4,
+        "matka2017": 3,
+        "retkeily": 3,
+        "sisu": 2,
+        "winter": 2,
+        "luonto": 2
+      }
+    },
+    "Pyhäntä": {
+      "tweets": 108,
+      "users": 24,
+      "hashtags": {
+        "pyhäntä": 6,
+        "putous": 3,
+        "landscape": 2,
+        "sunset": 2,
+        "jouluruoka": 1,
+        "bandy": 1,
+        "lahti2017": 1,
+        "festival": 1,
+        "edm": 1,
+        "ateema": 1
+      }
+    },
+    "Lemland": {
+      "tweets": 102,
+      "users": 24,
+      "hashtags": {
+        "veikkausliiga": 15,
+        "yle": 6,
+        "hjk": 4,
+        "nhlfi": 4,
+        "sea": 3,
+        "summer": 2,
+        "sun": 2,
+        "cgyvsedm": 2,
+        "sailing": 2,
+        "swevsfin": 2
+      }
+    },
+    "Föglö": {
+      "tweets": 92,
+      "users": 22,
+      "hashtags": {
+        "linnut": 3,
+        "nadjaism": 3,
+        "helsinki": 3,
+        "yle": 3,
+        "itämeri": 2,
+        "porvoo": 2,
+        "100lintulajia": 2,
+        "täsämääolen": 2,
+        "alkoholilaki": 1,
+        "onlythesoundremains": 1
+      }
+    },
+    "Jomala": {
+      "tweets": 91,
+      "users": 51,
+      "hashtags": {
+        "kolmonenturku": 7,
+        "midsummereve": 4,
+        "yleastudio": 4,
+        "alandislands": 4,
+        "åbotrean": 4,
+        "festival": 3,
+        "työpaikat": 3,
+        "rekry": 3,
+        "culture": 3,
+        "celebration": 3
+      }
+    },
+    "Evijärvi": {
+      "tweets": 89,
+      "users": 23,
+      "hashtags": {
+        "evijärvi": 8,
+        "juhannus": 1,
+        "juhannuksenmenoliikenne": 1,
+        "lakeside": 1,
+        "eurojärvi": 1,
+        "stars": 1,
+        "camping": 1,
+        "kotiseutu": 1,
+        "armi": 1,
+        "ähtävänjoki": 1
+      }
+    },
+    "Isojoki": {
+      "tweets": 84,
+      "users": 16,
+      "hashtags": {
+        "isojoki": 5,
+        "vanhakylä": 2,
+        "susijengi": 1,
+        "laihanvuorenkansallispuisto": 1,
+        "perhokalastus": 1,
+        "pirkka": 1,
+        "taigaexcursions": 1,
+        "trilla": 1,
+        "kaivolammi": 1,
+        "trumppeli": 1
+      }
+    },
+    "Karijoki": {
+      "tweets": 49,
+      "users": 8,
+      "hashtags": {
+        "karijoki": 13,
+        "rrrreffit2016": 3,
+        "isojoki": 3,
+        "musicvideo": 2,
+        "pruukatahanollafölijys": 2,
+        "nenäpäivä": 2,
+        "mökki": 2,
+        "suupohja": 2,
+        "4hkerho": 1,
+        "kuumaa": 1
+      }
+    },
+    "Eckerö": {
+      "tweets": 26,
+      "users": 14,
+      "hashtags": {
+        "åland": 4,
+        "sea": 3,
+        "summer": 2,
+        "sailing": 2,
+        "käringsund": 2,
+        "eckeröcup": 2,
+        "storbåt": 2,
+        "käringsundtriathlon": 2,
+        "ahvenanmaa": 2,
+        "fashion": 1
+      }
+    },
+    "Finström": {
+      "tweets": 26,
+      "users": 14,
+      "hashtags": {
+        "åland": 3,
+        "yleastudio": 2,
+        "juhannus": 1,
+        "lahti2017": 1,
+        "ansa": 1,
+        "fm17": 1,
+        "fotboll": 1,
+        "stolthet": 1,
+        "berliini": 1,
+        "hinnoittelu": 1
+      }
+    },
+    "Sottunga": {
+      "tweets": 23,
+      "users": 16,
+      "hashtags": {
+        "sea": 2,
+        "summer": 2,
+        "vikinggrace": 2,
+        "soitellensoteen": 1,
+        "nofilter": 1,
+        "berliini": 1,
+        "tsr2017": 1,
+        "sailinglife": 1,
+        "jacuzzi": 1,
+        "ässät": 1
+      }
+    },
+    "Merijärvi": {
+      "tweets": 23,
+      "users": 9,
+      "hashtags": {
+        "juhannus": 1,
+        "popsteri": 1,
+        "unelma": 1,
+        "naapurit": 1,
+        "saaristo": 1,
+        "finnkampen": 1,
+        "merijärvi": 1,
+        "naisleijonat": 1,
+        "meke": 1,
+        "markkinaviesti": 1
+      }
+    },
+    "Kumlinge": {
+      "tweets": 22,
+      "users": 9,
+      "hashtags": {
+        "åland": 3,
+        "finnishsummer": 2,
+        "kumlinge": 1,
+        "summer": 1,
+        "soini": 1,
+        "kielipitkänä": 1,
+        "misshelsinki": 1,
+        "sunset": 1,
+        "perussuomalaiset": 1,
+        "morning": 1
+      }
+    },
+    "Geta": {
+      "tweets": 19,
+      "users": 14,
+      "hashtags": {
+        "finnishislands": 3,
+        "åland": 3,
+        "sea": 2,
+        "summer": 2,
+        "sailing": 2,
+        "havsvidden": 2,
+        "finland": 2,
+        "älskaåland": 2,
+        "sunset": 2,
+        "älskanatur": 2
+      }
+    },
+    "Kökar": {
+      "tweets": 19,
+      "users": 7,
+      "hashtags": {
+        "kökar": 3,
+        "sea": 2,
+        "sailing": 2,
+        "finland": 2,
+        "åland": 2,
+        "archipelago": 2,
+        "naturelovers": 1,
+        "nofilter": 1,
+        "sailinglife": 1,
+        "summer": 1
+      }
+    },
+    "Lumparland": {
+      "tweets": 17,
+      "users": 10,
+      "hashtags": {
+        "midsummereve": 5,
+        "celebration": 5,
+        "alandislands": 5,
+        "festival": 4,
+        "culture": 4,
+        "tukholma": 1,
+        "hevisaurus": 1,
+        "tasaarvo": 1,
+        "rokrok": 1,
+        "viestintäliiga": 1
+      }
+    },
+    "Saltvik": {
+      "tweets": 14,
+      "users": 11,
+      "hashtags": {
+        "koirat": 2,
+        "koira": 2,
+        "winter": 2,
+        "dogs": 2,
+        "dog": 2,
+        "hundar": 2,
+        "talvi": 2,
+        "hund": 2,
+        "januari": 1,
+        "juhannus": 1
+      }
+    },
+    "Vårdö": {
+      "tweets": 11,
+      "users": 7,
+      "hashtags": {
+        "vihapuhe": 2,
+        "ateema": 1,
+        "sea": 1,
+        "summer": 1,
+        "balticsea": 1,
+        "landscape": 1,
+        "veneily": 1,
+        "eimussaainakaan": 1,
+        "piikkiö": 1,
+        "myrskyluoto": 1
+      }
+    },
+    "Hammarland": {
+      "tweets": 10,
+      "users": 6,
+      "hashtags": {
+        "suomi100": 2,
+        "pakkoruotsi": 1,
+        "ateema": 1,
+        "hjk": 1,
+        "maahanmuutto": 1,
+        "flamejazz": 1,
+        "suomencup": 1,
+        "veikkausliiga": 1,
+        "vikinggrace": 1,
+        "varmanpäälle": 1
+      }
+    }
+  }
+}

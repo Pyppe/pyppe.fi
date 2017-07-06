@@ -1,20 +1,21 @@
-const babel     = require("gulp-babel");
-const compass   = require("gulp-compass");
-const concat    = require("gulp-concat");
-const gulpif    = require('gulp-if');
-const gulp      = require("gulp");
-const minifyCss = require("gulp-minify-css");
-const uglify    = require('gulp-uglify');
-const util      = require('gulp-util');
+const babel             = require("gulp-babel");
+const compass           = require("gulp-compass");
+const concat            = require("gulp-concat");
+const gulpif            = require('gulp-if');
+const gulp              = require("gulp");
+const minifyCss         = require("gulp-minify-css");
+const uglify            = require('gulp-uglify');
+const util              = require('gulp-util');
+const stripJsonComments = require('gulp-strip-json-comments');
 
-const _         = require('lodash');
-const exec      = require('child_process').exec;
-const execSync  = require('child_process').execSync;
-const fs        = require('fs');
-const glob      = require("glob");
-const path      = require('path');
-const md5File   = require('md5-file');
-const mkdirp    = require('mkdirp');
+const _                 = require('lodash');
+const exec              = require('child_process').exec;
+const execSync          = require('child_process').execSync;
+const fs                = require('fs');
+const glob              = require("glob");
+const path              = require('path');
+const md5File           = require('md5-file');
+const mkdirp            = require('mkdirp');
 
 const distJs = 'dist/js';
 const distCss = 'dist/css';
@@ -191,6 +192,7 @@ gulp.task('siteJs', () => {
 gulp.task('resources', () => (
   gulp.
     src(paths.resources).
+    pipe(stripJsonComments({whitespace: false})).
     pipe(gulp.dest('dist/resources'))
 ));
 

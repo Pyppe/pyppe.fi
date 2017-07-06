@@ -6,7 +6,8 @@ $(function() {
     title: { text: null },
     xAxis: {
       categories: _.map(_.range(24), hour => `${_.padStart(hour, 2, '0')}`),
-      title: { text: null }
+      title: { text: null },
+      crosshair: true
     },
     yAxis: {
       min: 0,

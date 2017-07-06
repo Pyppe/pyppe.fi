@@ -132,6 +132,10 @@
     }, 100, {maxWait: 100}));
   }
 
+  const integerFormat = n => numberFormat(n, 0, ',', nonBreakingSpace);
+  const decimalFormat = n => numberFormat(n, 1, ',', nonBreakingSpace);
+
+
   pyppe.util = {
     isElementInViewport,
     sortTable,
@@ -140,8 +144,24 @@
     numberFormat,
     parseQueryParams,
     onWindowWidthResized,
-    integerFormat: n => numberFormat(n, 0, ',', nonBreakingSpace),
-    decimalFormat: n => numberFormat(n, 1, ',', nonBreakingSpace),
+    integerFormat,
+    decimalFormat,
+    abbreviatedNumberFormat: n => {
+      if (_.isFinite(n)) {
+        const million = 1000000;
+        if (n < 1000) {
+          return n;
+        } else if (n < 99500) {
+          return decimalFormat((n / 1000)) + 'k';
+        } else if (n < million) {
+          return Math.round(n / 1000) + 'k';
+        } else {
+          return decimalFormat((n / million)) + 'M';
+        }
+      } else {
+        return null;
+      }
+    },
     pageLanguage: () => $('html').hasClass('fi') ? 'fi' : 'en',
     parseMoment: text => moment(text, 'YYYY-MM-DD[T]HH:mm:ssZ'),
     replaceUrlSearch: (params, settings) => {
@@ -174,7 +194,7 @@
           html: _.isString($el.attr('tip-is-html')),
           template: `<div class="tooltip ${tooltipClass}" role="tooltip">` + '<div class="tooltip-arrow"></div>' + '<div class="tooltip-inner"></div></div>'
         });
-      })
+      });
     }
   };
 

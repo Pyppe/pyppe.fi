@@ -1,6 +1,6 @@
 $(() => {
 
-  const {decimalFormat, integerFormat} = pyppe.util;
+  const {abbreviatedNumberFormat, decimalFormat, integerFormat} = pyppe.util;
 
   const COLOR_OPTIONS = _.reverse(['#111', '#234d20', '#36802d', '#77ab59', '#c9df8a']);
 
@@ -29,23 +29,6 @@ $(() => {
   const asyncGeoJson = $.get('/dist/resources/world.geo.json', {h: pyppe.resourceHash});
 
   //drawMap($('#trademarknow-blog-post'));
-
-  function formatShortNumber(n) {
-    if (_.isFinite(n)) {
-      const million = 1000000;
-      if (n < 1000) {
-        return n;
-      } else if (n < 99500) {
-        return (n / 1000).toFixed(1) + 'k';
-      } else if (n < million) {
-        return Math.round(n / 1000) + 'k';
-      } else {
-        return (n / million).toFixed(1) + 'M';
-      }
-    } else {
-      return null;
-    }
-  }
 
   $.get(`/dist/resources/trademark-blog-post.json`, {h: pyppe.resourceHash}).then(countries => {
     const $container = $('#trademarknow-blog-post');
@@ -358,7 +341,7 @@ $(() => {
           dataLabels: {
             enabled: true,
             formatter() {
-              return formatShortNumber(this.y);
+              return abbreviatedNumberFormat(this.y);
             }
           }
         }
