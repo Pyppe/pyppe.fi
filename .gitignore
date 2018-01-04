@@ -7,3 +7,4 @@ _site
 /node_modules/
 /.jekyll-metadata
 /pyppe.fi.sublime-workspace
+/package-lock.json

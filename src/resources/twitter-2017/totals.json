@@ -1,0 +1,1904 @@
+{
+  "info" : {
+    "bucketIntervalLabel" : "päivä",
+    "shortTimePeriodLabel" : "Vuosi 2017",
+    "fullTimePeriodLabel" : "su 1.1.2017 klo 04:00 – ma 1.1.2018 klo 04:00",
+    "took" : 26365,
+    "generated" : "2018-01-04T11:51:43.570+02:00"
+  },
+  "totals" : {
+    "tweetCount" : 28925101,
+    "retweetCount" : 8841274,
+    "retweetPercentage" : 30.56609551683156,
+    "uniqueUserCount" : 728773,
+    "tweetsPerUser" : 39.69013808140532,
+    "averageTweetCountPerMinute" : 55.03253614916286,
+    "averageTweetCountPerTimeUnit" : 79246,
+    "summaryTextOptions" : [ "28.9M twiittiä, 729k käyttäjää, huippu pe 18.8. (#turku 12%)", "28.9M twiittiä, 729k käyttäjää, huippu pe 18.8.", "28.9M twiittiä, 729k käyttäjää" ],
+    "peak" : {
+      "key" : 1503014400000,
+      "name" : "pe 18.8.2017",
+      "tweetCount" : 121625,
+      "retweetCount" : 50287,
+      "peak" : {
+        "key" : "turku",
+        "count" : 14091,
+        "percentage" : 12
+      }
+    }
+  },
+  "buckets" : [ {
+    "key" : 1483228800000,
+    "name" : "su 1.1.2017",
+    "tweetCount" : 55669,
+    "retweetCount" : 15591
+  }, {
+    "key" : 1483315200000,
+    "name" : "ma 2.1.2017",
+    "tweetCount" : 68406,
+    "retweetCount" : 17719
+  }, {
+    "key" : 1483401600000,
+    "name" : "ti 3.1.2017",
+    "tweetCount" : 75176,
+    "retweetCount" : 19373
+  }, {
+    "key" : 1483488000000,
+    "name" : "ke 4.1.2017",
+    "tweetCount" : 76487,
+    "retweetCount" : 20232
+  }, {
+    "key" : 1483574400000,
+    "name" : "to 5.1.2017",
+    "tweetCount" : 82751,
+    "retweetCount" : 23031
+  }, {
+    "key" : 1483660800000,
+    "name" : "pe 6.1.2017",
+    "tweetCount" : 66927,
+    "retweetCount" : 18178
+  }, {
+    "key" : 1483747200000,
+    "name" : "la 7.1.2017",
+    "tweetCount" : 66331,
+    "retweetCount" : 16062
+  }, {
+    "key" : 1483833600000,
+    "name" : "su 8.1.2017",
+    "tweetCount" : 62837,
+    "retweetCount" : 15454
+  }, {
+    "key" : 1483920000000,
+    "name" : "ma 9.1.2017",
+    "tweetCount" : 76522,
+    "retweetCount" : 20565
+  }, {
+    "key" : 1484006400000,
+    "name" : "ti 10.1.2017",
+    "tweetCount" : 80988,
+    "retweetCount" : 23270
+  }, {
+    "key" : 1484092800000,
+    "name" : "ke 11.1.2017",
+    "tweetCount" : 86437,
+    "retweetCount" : 25333
+  }, {
+    "key" : 1484179200000,
+    "name" : "to 12.1.2017",
+    "tweetCount" : 84250,
+    "retweetCount" : 24672
+  }, {
+    "key" : 1484265600000,
+    "name" : "pe 13.1.2017",
+    "tweetCount" : 87770,
+    "retweetCount" : 24582
+  }, {
+    "key" : 1484352000000,
+    "name" : "la 14.1.2017",
+    "tweetCount" : 71531,
+    "retweetCount" : 18313
+  }, {
+    "key" : 1484438400000,
+    "name" : "su 15.1.2017",
+    "tweetCount" : 61492,
+    "retweetCount" : 14529
+  }, {
+    "key" : 1484524800000,
+    "name" : "ma 16.1.2017",
+    "tweetCount" : 83205,
+    "retweetCount" : 23316
+  }, {
+    "key" : 1484611200000,
+    "name" : "ti 17.1.2017",
+    "tweetCount" : 91695,
+    "retweetCount" : 27121
+  }, {
+    "key" : 1484697600000,
+    "name" : "ke 18.1.2017",
+    "tweetCount" : 85307,
+    "retweetCount" : 24073
+  }, {
+    "key" : 1484784000000,
+    "name" : "to 19.1.2017",
+    "tweetCount" : 93903,
+    "retweetCount" : 28681
+  }, {
+    "key" : 1484870400000,
+    "name" : "pe 20.1.2017",
+    "tweetCount" : 88606,
+    "retweetCount" : 26044
+  }, {
+    "key" : 1484956800000,
+    "name" : "la 21.1.2017",
+    "tweetCount" : 76763,
+    "retweetCount" : 19690
+  }, {
+    "key" : 1485043200000,
+    "name" : "su 22.1.2017",
+    "tweetCount" : 63945,
+    "retweetCount" : 17321
+  }, {
+    "key" : 1485129600000,
+    "name" : "ma 23.1.2017",
+    "tweetCount" : 83958,
+    "retweetCount" : 26299
+  }, {
+    "key" : 1485216000000,
+    "name" : "ti 24.1.2017",
+    "tweetCount" : 86832,
+    "retweetCount" : 27431
+  }, {
+    "key" : 1485302400000,
+    "name" : "ke 25.1.2017",
+    "tweetCount" : 86625,
+    "retweetCount" : 26269
+  }, {
+    "key" : 1485388800000,
+    "name" : "to 26.1.2017",
+    "tweetCount" : 89977,
+    "retweetCount" : 27720
+  }, {
+    "key" : 1485475200000,
+    "name" : "pe 27.1.2017",
+    "tweetCount" : 85983,
+    "retweetCount" : 25149
+  }, {
+    "key" : 1485561600000,
+    "name" : "la 28.1.2017",
+    "tweetCount" : 89049,
+    "retweetCount" : 23143
+  }, {
+    "key" : 1485648000000,
+    "name" : "su 29.1.2017",
+    "tweetCount" : 67817,
+    "retweetCount" : 19384
+  }, {
+    "key" : 1485734400000,
+    "name" : "ma 30.1.2017",
+    "tweetCount" : 80821,
+    "retweetCount" : 23925
+  }, {
+    "key" : 1485820800000,
+    "name" : "ti 31.1.2017",
+    "tweetCount" : 88980,
+    "retweetCount" : 27351
+  }, {
+    "key" : 1485907200000,
+    "name" : "ke 1.2.2017",
+    "tweetCount" : 89334,
+    "retweetCount" : 27584
+  }, {
+    "key" : 1485993600000,
+    "name" : "to 2.2.2017",
+    "tweetCount" : 95413,
+    "retweetCount" : 30320
+  }, {
+    "key" : 1486080000000,
+    "name" : "pe 3.2.2017",
+    "tweetCount" : 86463,
+    "retweetCount" : 25469
+  }, {
+    "key" : 1486166400000,
+    "name" : "la 4.2.2017",
+    "tweetCount" : 79717,
+    "retweetCount" : 19594
+  }, {
+    "key" : 1486252800000,
+    "name" : "su 5.2.2017",
+    "tweetCount" : 69260,
+    "retweetCount" : 18089
+  }, {
+    "key" : 1486339200000,
+    "name" : "ma 6.2.2017",
+    "tweetCount" : 81074,
+    "retweetCount" : 23822
+  }, {
+    "key" : 1486425600000,
+    "name" : "ti 7.2.2017",
+    "tweetCount" : 82487,
+    "retweetCount" : 24791
+  }, {
+    "key" : 1486512000000,
+    "name" : "ke 8.2.2017",
+    "tweetCount" : 86574,
+    "retweetCount" : 26541
+  }, {
+    "key" : 1486598400000,
+    "name" : "to 9.2.2017",
+    "tweetCount" : 92502,
+    "retweetCount" : 30075
+  }, {
+    "key" : 1486684800000,
+    "name" : "pe 10.2.2017",
+    "tweetCount" : 92543,
+    "retweetCount" : 29595
+  }, {
+    "key" : 1486771200000,
+    "name" : "la 11.2.2017",
+    "tweetCount" : 74395,
+    "retweetCount" : 20796
+  }, {
+    "key" : 1486857600000,
+    "name" : "su 12.2.2017",
+    "tweetCount" : 66414,
+    "retweetCount" : 19318
+  }, {
+    "key" : 1486944000000,
+    "name" : "ma 13.2.2017",
+    "tweetCount" : 78337,
+    "retweetCount" : 24012
+  }, {
+    "key" : 1487030400000,
+    "name" : "ti 14.2.2017",
+    "tweetCount" : 90242,
+    "retweetCount" : 27191
+  }, {
+    "key" : 1487116800000,
+    "name" : "ke 15.2.2017",
+    "tweetCount" : 93010,
+    "retweetCount" : 28958
+  }, {
+    "key" : 1487203200000,
+    "name" : "to 16.2.2017",
+    "tweetCount" : 92263,
+    "retweetCount" : 29639
+  }, {
+    "key" : 1487289600000,
+    "name" : "pe 17.2.2017",
+    "tweetCount" : 88190,
+    "retweetCount" : 27692
+  }, {
+    "key" : 1487376000000,
+    "name" : "la 18.2.2017",
+    "tweetCount" : 77421,
+    "retweetCount" : 20387
+  }, {
+    "key" : 1487462400000,
+    "name" : "su 19.2.2017",
+    "tweetCount" : 66045,
+    "retweetCount" : 18463
+  }, {
+    "key" : 1487548800000,
+    "name" : "ma 20.2.2017",
+    "tweetCount" : 74316,
+    "retweetCount" : 20880
+  }, {
+    "key" : 1487635200000,
+    "name" : "ti 21.2.2017",
+    "tweetCount" : 84353,
+    "retweetCount" : 24191
+  }, {
+    "key" : 1487721600000,
+    "name" : "ke 22.2.2017",
+    "tweetCount" : 88002,
+    "retweetCount" : 26561
+  }, {
+    "key" : 1487808000000,
+    "name" : "to 23.2.2017",
+    "tweetCount" : 90781,
+    "retweetCount" : 27475
+  }, {
+    "key" : 1487894400000,
+    "name" : "pe 24.2.2017",
+    "tweetCount" : 82160,
+    "retweetCount" : 23938
+  }, {
+    "key" : 1487980800000,
+    "name" : "la 25.2.2017",
+    "tweetCount" : 73955,
+    "retweetCount" : 18627
+  }, {
+    "key" : 1488067200000,
+    "name" : "su 26.2.2017",
+    "tweetCount" : 74143,
+    "retweetCount" : 20056
+  }, {
+    "key" : 1488153600000,
+    "name" : "ma 27.2.2017",
+    "tweetCount" : 85220,
+    "retweetCount" : 24248
+  }, {
+    "key" : 1488240000000,
+    "name" : "ti 28.2.2017",
+    "tweetCount" : 92448,
+    "retweetCount" : 28800
+  }, {
+    "key" : 1488326400000,
+    "name" : "ke 1.3.2017",
+    "tweetCount" : 98102,
+    "retweetCount" : 33070,
+    "peak" : {
+      "key" : "lahti2017",
+      "count" : 5276
+    }
+  }, {
+    "key" : 1488412800000,
+    "name" : "to 2.3.2017",
+    "tweetCount" : 93215,
+    "retweetCount" : 28956
+  }, {
+    "key" : 1488499200000,
+    "name" : "pe 3.3.2017",
+    "tweetCount" : 85042,
+    "retweetCount" : 24515
+  }, {
+    "key" : 1488585600000,
+    "name" : "la 4.3.2017",
+    "tweetCount" : 75158,
+    "retweetCount" : 18868
+  }, {
+    "key" : 1488672000000,
+    "name" : "su 5.3.2017",
+    "tweetCount" : 67568,
+    "retweetCount" : 18087
+  }, {
+    "key" : 1488758400000,
+    "name" : "ma 6.3.2017",
+    "tweetCount" : 72852,
+    "retweetCount" : 21263
+  }, {
+    "key" : 1488844800000,
+    "name" : "ti 7.3.2017",
+    "tweetCount" : 95970,
+    "retweetCount" : 30043
+  }, {
+    "key" : 1488931200000,
+    "name" : "ke 8.3.2017",
+    "tweetCount" : 99504,
+    "retweetCount" : 31621,
+    "peak" : {
+      "key" : "naistenpäivä",
+      "count" : 6236
+    }
+  }, {
+    "key" : 1489017600000,
+    "name" : "to 9.3.2017",
+    "tweetCount" : 90948,
+    "retweetCount" : 27345
+  }, {
+    "key" : 1489104000000,
+    "name" : "pe 10.3.2017",
+    "tweetCount" : 86127,
+    "retweetCount" : 24990
+  }, {
+    "key" : 1489190400000,
+    "name" : "la 11.3.2017",
+    "tweetCount" : 77036,
+    "retweetCount" : 20136
+  }, {
+    "key" : 1489276800000,
+    "name" : "su 12.3.2017",
+    "tweetCount" : 66754,
+    "retweetCount" : 18448
+  }, {
+    "key" : 1489363200000,
+    "name" : "ma 13.3.2017",
+    "tweetCount" : 85531,
+    "retweetCount" : 25513
+  }, {
+    "key" : 1489449600000,
+    "name" : "ti 14.3.2017",
+    "tweetCount" : 90343,
+    "retweetCount" : 28853
+  }, {
+    "key" : 1489536000000,
+    "name" : "ke 15.3.2017",
+    "tweetCount" : 93094,
+    "retweetCount" : 29089
+  }, {
+    "key" : 1489622400000,
+    "name" : "to 16.3.2017",
+    "tweetCount" : 90151,
+    "retweetCount" : 28146
+  }, {
+    "key" : 1489708800000,
+    "name" : "pe 17.3.2017",
+    "tweetCount" : 86338,
+    "retweetCount" : 26094
+  }, {
+    "key" : 1489795200000,
+    "name" : "la 18.3.2017",
+    "tweetCount" : 75262,
+    "retweetCount" : 19601
+  }, {
+    "key" : 1489881600000,
+    "name" : "su 19.3.2017",
+    "tweetCount" : 66613,
+    "retweetCount" : 19037
+  }, {
+    "key" : 1489968000000,
+    "name" : "ma 20.3.2017",
+    "tweetCount" : 85580,
+    "retweetCount" : 28018
+  }, {
+    "key" : 1490054400000,
+    "name" : "ti 21.3.2017",
+    "tweetCount" : 95106,
+    "retweetCount" : 32335
+  }, {
+    "key" : 1490140800000,
+    "name" : "ke 22.3.2017",
+    "tweetCount" : 96678,
+    "retweetCount" : 31679
+  }, {
+    "key" : 1490227200000,
+    "name" : "to 23.3.2017",
+    "tweetCount" : 96359,
+    "retweetCount" : 31899
+  }, {
+    "key" : 1490313600000,
+    "name" : "pe 24.3.2017",
+    "tweetCount" : 94234,
+    "retweetCount" : 28273
+  }, {
+    "key" : 1490400000000,
+    "name" : "la 25.3.2017",
+    "tweetCount" : 76083,
+    "retweetCount" : 21962
+  }, {
+    "key" : 1490486400000,
+    "name" : "su 26.3.2017",
+    "tweetCount" : 62468,
+    "retweetCount" : 17660
+  }, {
+    "key" : 1490572800000,
+    "name" : "ma 27.3.2017",
+    "tweetCount" : 83850,
+    "retweetCount" : 25971
+  }, {
+    "key" : 1490659200000,
+    "name" : "ti 28.3.2017",
+    "tweetCount" : 92521,
+    "retweetCount" : 32184
+  }, {
+    "key" : 1490745600000,
+    "name" : "ke 29.3.2017",
+    "tweetCount" : 96274,
+    "retweetCount" : 30971
+  }, {
+    "key" : 1490832000000,
+    "name" : "to 30.3.2017",
+    "tweetCount" : 92095,
+    "retweetCount" : 31884
+  }, {
+    "key" : 1490918400000,
+    "name" : "pe 31.3.2017",
+    "tweetCount" : 99189,
+    "retweetCount" : 32053
+  }, {
+    "key" : 1491004800000,
+    "name" : "la 1.4.2017",
+    "tweetCount" : 81240,
+    "retweetCount" : 26689
+  }, {
+    "key" : 1491091200000,
+    "name" : "su 2.4.2017",
+    "tweetCount" : 66106,
+    "retweetCount" : 20554
+  }, {
+    "key" : 1491177600000,
+    "name" : "ma 3.4.2017",
+    "tweetCount" : 85298,
+    "retweetCount" : 29036
+  }, {
+    "key" : 1491264000000,
+    "name" : "ti 4.4.2017",
+    "tweetCount" : 103982,
+    "retweetCount" : 34260
+  }, {
+    "key" : 1491350400000,
+    "name" : "ke 5.4.2017",
+    "tweetCount" : 94351,
+    "retweetCount" : 30003
+  }, {
+    "key" : 1491436800000,
+    "name" : "to 6.4.2017",
+    "tweetCount" : 102694,
+    "retweetCount" : 33304
+  }, {
+    "key" : 1491523200000,
+    "name" : "pe 7.4.2017",
+    "tweetCount" : 98112,
+    "retweetCount" : 32669
+  }, {
+    "key" : 1491609600000,
+    "name" : "la 8.4.2017",
+    "tweetCount" : 71958,
+    "retweetCount" : 20960
+  }, {
+    "key" : 1491696000000,
+    "name" : "su 9.4.2017",
+    "tweetCount" : 93497,
+    "retweetCount" : 27840
+  }, {
+    "key" : 1491782400000,
+    "name" : "ma 10.4.2017",
+    "tweetCount" : 84673,
+    "retweetCount" : 29768
+  }, {
+    "key" : 1491868800000,
+    "name" : "ti 11.4.2017",
+    "tweetCount" : 82921,
+    "retweetCount" : 27534
+  }, {
+    "key" : 1491955200000,
+    "name" : "ke 12.4.2017",
+    "tweetCount" : 84718,
+    "retweetCount" : 25853
+  }, {
+    "key" : 1492041600000,
+    "name" : "to 13.4.2017",
+    "tweetCount" : 82338,
+    "retweetCount" : 22727
+  }, {
+    "key" : 1492128000000,
+    "name" : "pe 14.4.2017",
+    "tweetCount" : 65395,
+    "retweetCount" : 18777
+  }, {
+    "key" : 1492214400000,
+    "name" : "la 15.4.2017",
+    "tweetCount" : 62541,
+    "retweetCount" : 16340
+  }, {
+    "key" : 1492300800000,
+    "name" : "su 16.4.2017",
+    "tweetCount" : 56295,
+    "retweetCount" : 13829
+  }, {
+    "key" : 1492387200000,
+    "name" : "ma 17.4.2017",
+    "tweetCount" : 56541,
+    "retweetCount" : 14425
+  }, {
+    "key" : 1492473600000,
+    "name" : "ti 18.4.2017",
+    "tweetCount" : 81955,
+    "retweetCount" : 22347
+  }, {
+    "key" : 1492560000000,
+    "name" : "ke 19.4.2017",
+    "tweetCount" : 79894,
+    "retweetCount" : 23765
+  }, {
+    "key" : 1492646400000,
+    "name" : "to 20.4.2017",
+    "tweetCount" : 88290,
+    "retweetCount" : 26778
+  }, {
+    "key" : 1492732800000,
+    "name" : "pe 21.4.2017",
+    "tweetCount" : 84609,
+    "retweetCount" : 23820
+  }, {
+    "key" : 1492819200000,
+    "name" : "la 22.4.2017",
+    "tweetCount" : 73862,
+    "retweetCount" : 19733
+  }, {
+    "key" : 1492905600000,
+    "name" : "su 23.4.2017",
+    "tweetCount" : 72290,
+    "retweetCount" : 19940
+  }, {
+    "key" : 1492992000000,
+    "name" : "ma 24.4.2017",
+    "tweetCount" : 78398,
+    "retweetCount" : 24028
+  }, {
+    "key" : 1493078400000,
+    "name" : "ti 25.4.2017",
+    "tweetCount" : 96663,
+    "retweetCount" : 31943
+  }, {
+    "key" : 1493164800000,
+    "name" : "ke 26.4.2017",
+    "tweetCount" : 89080,
+    "retweetCount" : 28320
+  }, {
+    "key" : 1493251200000,
+    "name" : "to 27.4.2017",
+    "tweetCount" : 100978,
+    "retweetCount" : 32290
+  }, {
+    "key" : 1493337600000,
+    "name" : "pe 28.4.2017",
+    "tweetCount" : 82997,
+    "retweetCount" : 24803
+  }, {
+    "key" : 1493424000000,
+    "name" : "la 29.4.2017",
+    "tweetCount" : 68914,
+    "retweetCount" : 17637
+  }, {
+    "key" : 1493510400000,
+    "name" : "su 30.4.2017",
+    "tweetCount" : 63080,
+    "retweetCount" : 18094
+  }, {
+    "key" : 1493596800000,
+    "name" : "ma 1.5.2017",
+    "tweetCount" : 52596,
+    "retweetCount" : 14382
+  }, {
+    "key" : 1493683200000,
+    "name" : "ti 2.5.2017",
+    "tweetCount" : 69377,
+    "retweetCount" : 19560
+  }, {
+    "key" : 1493769600000,
+    "name" : "ke 3.5.2017",
+    "tweetCount" : 79911,
+    "retweetCount" : 25531
+  }, {
+    "key" : 1493856000000,
+    "name" : "to 4.5.2017",
+    "tweetCount" : 89358,
+    "retweetCount" : 28694
+  }, {
+    "key" : 1493942400000,
+    "name" : "pe 5.5.2017",
+    "tweetCount" : 84309,
+    "retweetCount" : 24424
+  }, {
+    "key" : 1494028800000,
+    "name" : "la 6.5.2017",
+    "tweetCount" : 73419,
+    "retweetCount" : 18318
+  }, {
+    "key" : 1494115200000,
+    "name" : "su 7.5.2017",
+    "tweetCount" : 79794,
+    "retweetCount" : 22572
+  }, {
+    "key" : 1494201600000,
+    "name" : "ma 8.5.2017",
+    "tweetCount" : 88129,
+    "retweetCount" : 26781
+  }, {
+    "key" : 1494288000000,
+    "name" : "ti 9.5.2017",
+    "tweetCount" : 105328,
+    "retweetCount" : 32582,
+    "peak" : {
+      "key" : "euroviisut",
+      "count" : 9510
+    }
+  }, {
+    "key" : 1494374400000,
+    "name" : "ke 10.5.2017",
+    "tweetCount" : 99824,
+    "retweetCount" : 31377
+  }, {
+    "key" : 1494460800000,
+    "name" : "to 11.5.2017",
+    "tweetCount" : 99154,
+    "retweetCount" : 30790
+  }, {
+    "key" : 1494547200000,
+    "name" : "pe 12.5.2017",
+    "tweetCount" : 86404,
+    "retweetCount" : 27692
+  }, {
+    "key" : 1494633600000,
+    "name" : "la 13.5.2017",
+    "tweetCount" : 101292,
+    "retweetCount" : 28122
+  }, {
+    "key" : 1494720000000,
+    "name" : "su 14.5.2017",
+    "tweetCount" : 65562,
+    "retweetCount" : 17199
+  }, {
+    "key" : 1494806400000,
+    "name" : "ma 15.5.2017",
+    "tweetCount" : 70534,
+    "retweetCount" : 21106
+  }, {
+    "key" : 1494892800000,
+    "name" : "ti 16.5.2017",
+    "tweetCount" : 88960,
+    "retweetCount" : 27718
+  }, {
+    "key" : 1494979200000,
+    "name" : "ke 17.5.2017",
+    "tweetCount" : 93161,
+    "retweetCount" : 31824
+  }, {
+    "key" : 1495065600000,
+    "name" : "to 18.5.2017",
+    "tweetCount" : 98501,
+    "retweetCount" : 30166,
+    "peak" : {
+      "key" : "mmkisat",
+      "count" : 7303
+    }
+  }, {
+    "key" : 1495152000000,
+    "name" : "pe 19.5.2017",
+    "tweetCount" : 73452,
+    "retweetCount" : 21612
+  }, {
+    "key" : 1495238400000,
+    "name" : "la 20.5.2017",
+    "tweetCount" : 68676,
+    "retweetCount" : 18464
+  }, {
+    "key" : 1495324800000,
+    "name" : "su 21.5.2017",
+    "tweetCount" : 62790,
+    "retweetCount" : 15728
+  }, {
+    "key" : 1495411200000,
+    "name" : "ma 22.5.2017",
+    "tweetCount" : 70390,
+    "retweetCount" : 21998
+  }, {
+    "key" : 1495497600000,
+    "name" : "ti 23.5.2017",
+    "tweetCount" : 90136,
+    "retweetCount" : 36133
+  }, {
+    "key" : 1495584000000,
+    "name" : "ke 24.5.2017",
+    "tweetCount" : 78823,
+    "retweetCount" : 24758
+  }, {
+    "key" : 1495670400000,
+    "name" : "to 25.5.2017",
+    "tweetCount" : 57696,
+    "retweetCount" : 16907
+  }, {
+    "key" : 1495756800000,
+    "name" : "pe 26.5.2017",
+    "tweetCount" : 63010,
+    "retweetCount" : 18372
+  }, {
+    "key" : 1495843200000,
+    "name" : "la 27.5.2017",
+    "tweetCount" : 57408,
+    "retweetCount" : 15202
+  }, {
+    "key" : 1495929600000,
+    "name" : "su 28.5.2017",
+    "tweetCount" : 61076,
+    "retweetCount" : 15848
+  }, {
+    "key" : 1496016000000,
+    "name" : "ma 29.5.2017",
+    "tweetCount" : 74940,
+    "retweetCount" : 23755
+  }, {
+    "key" : 1496102400000,
+    "name" : "ti 30.5.2017",
+    "tweetCount" : 76998,
+    "retweetCount" : 23942
+  }, {
+    "key" : 1496188800000,
+    "name" : "ke 31.5.2017",
+    "tweetCount" : 89150,
+    "retweetCount" : 30493
+  }, {
+    "key" : 1496275200000,
+    "name" : "to 1.6.2017",
+    "tweetCount" : 90678,
+    "retweetCount" : 29806
+  }, {
+    "key" : 1496361600000,
+    "name" : "pe 2.6.2017",
+    "tweetCount" : 76407,
+    "retweetCount" : 23394
+  }, {
+    "key" : 1496448000000,
+    "name" : "la 3.6.2017",
+    "tweetCount" : 64881,
+    "retweetCount" : 16560
+  }, {
+    "key" : 1496534400000,
+    "name" : "su 4.6.2017",
+    "tweetCount" : 57491,
+    "retweetCount" : 16451
+  }, {
+    "key" : 1496620800000,
+    "name" : "ma 5.6.2017",
+    "tweetCount" : 73521,
+    "retweetCount" : 22756
+  }, {
+    "key" : 1496707200000,
+    "name" : "ti 6.6.2017",
+    "tweetCount" : 81469,
+    "retweetCount" : 26333
+  }, {
+    "key" : 1496793600000,
+    "name" : "ke 7.6.2017",
+    "tweetCount" : 78190,
+    "retweetCount" : 24239
+  }, {
+    "key" : 1496880000000,
+    "name" : "to 8.6.2017",
+    "tweetCount" : 77672,
+    "retweetCount" : 23771
+  }, {
+    "key" : 1496966400000,
+    "name" : "pe 9.6.2017",
+    "tweetCount" : 77043,
+    "retweetCount" : 23032
+  }, {
+    "key" : 1497052800000,
+    "name" : "la 10.6.2017",
+    "tweetCount" : 74327,
+    "retweetCount" : 22117
+  }, {
+    "key" : 1497139200000,
+    "name" : "su 11.6.2017",
+    "tweetCount" : 67628,
+    "retweetCount" : 19420
+  }, {
+    "key" : 1497225600000,
+    "name" : "ma 12.6.2017",
+    "tweetCount" : 102939,
+    "retweetCount" : 35123
+  }, {
+    "key" : 1497312000000,
+    "name" : "ti 13.6.2017",
+    "tweetCount" : 111455,
+    "retweetCount" : 39408,
+    "peak" : {
+      "key" : "hallituskriisi",
+      "count" : 8599
+    }
+  }, {
+    "key" : 1497398400000,
+    "name" : "ke 14.6.2017",
+    "tweetCount" : 81801,
+    "retweetCount" : 26916
+  }, {
+    "key" : 1497484800000,
+    "name" : "to 15.6.2017",
+    "tweetCount" : 82038,
+    "retweetCount" : 25527
+  }, {
+    "key" : 1497571200000,
+    "name" : "pe 16.6.2017",
+    "tweetCount" : 76399,
+    "retweetCount" : 22045
+  }, {
+    "key" : 1497657600000,
+    "name" : "la 17.6.2017",
+    "tweetCount" : 74083,
+    "retweetCount" : 19732
+  }, {
+    "key" : 1497744000000,
+    "name" : "su 18.6.2017",
+    "tweetCount" : 62032,
+    "retweetCount" : 16583
+  }, {
+    "key" : 1497830400000,
+    "name" : "ma 19.6.2017",
+    "tweetCount" : 76452,
+    "retweetCount" : 22788
+  }, {
+    "key" : 1497916800000,
+    "name" : "ti 20.6.2017",
+    "tweetCount" : 82837,
+    "retweetCount" : 25160
+  }, {
+    "key" : 1498003200000,
+    "name" : "ke 21.6.2017",
+    "tweetCount" : 82411,
+    "retweetCount" : 23277
+  }, {
+    "key" : 1498089600000,
+    "name" : "to 22.6.2017",
+    "tweetCount" : 77761,
+    "retweetCount" : 21080
+  }, {
+    "key" : 1498176000000,
+    "name" : "pe 23.6.2017",
+    "tweetCount" : 57470,
+    "retweetCount" : 14138
+  }, {
+    "key" : 1498262400000,
+    "name" : "la 24.6.2017",
+    "tweetCount" : 45088,
+    "retweetCount" : 11676
+  }, {
+    "key" : 1498348800000,
+    "name" : "su 25.6.2017",
+    "tweetCount" : 49293,
+    "retweetCount" : 12352
+  }, {
+    "key" : 1498435200000,
+    "name" : "ma 26.6.2017",
+    "tweetCount" : 70295,
+    "retweetCount" : 20924
+  }, {
+    "key" : 1498521600000,
+    "name" : "ti 27.6.2017",
+    "tweetCount" : 77366,
+    "retweetCount" : 24982
+  }, {
+    "key" : 1498608000000,
+    "name" : "ke 28.6.2017",
+    "tweetCount" : 77344,
+    "retweetCount" : 24628
+  }, {
+    "key" : 1498694400000,
+    "name" : "to 29.6.2017",
+    "tweetCount" : 81794,
+    "retweetCount" : 28483
+  }, {
+    "key" : 1498780800000,
+    "name" : "pe 30.6.2017",
+    "tweetCount" : 79395,
+    "retweetCount" : 24602
+  }, {
+    "key" : 1498867200000,
+    "name" : "la 1.7.2017",
+    "tweetCount" : 60939,
+    "retweetCount" : 17051
+  }, {
+    "key" : 1498953600000,
+    "name" : "su 2.7.2017",
+    "tweetCount" : 55921,
+    "retweetCount" : 15185
+  }, {
+    "key" : 1499040000000,
+    "name" : "ma 3.7.2017",
+    "tweetCount" : 65553,
+    "retweetCount" : 18341
+  }, {
+    "key" : 1499126400000,
+    "name" : "ti 4.7.2017",
+    "tweetCount" : 67128,
+    "retweetCount" : 19603
+  }, {
+    "key" : 1499212800000,
+    "name" : "ke 5.7.2017",
+    "tweetCount" : 72496,
+    "retweetCount" : 20631
+  }, {
+    "key" : 1499299200000,
+    "name" : "to 6.7.2017",
+    "tweetCount" : 72789,
+    "retweetCount" : 20312
+  }, {
+    "key" : 1499385600000,
+    "name" : "pe 7.7.2017",
+    "tweetCount" : 68835,
+    "retweetCount" : 18543
+  }, {
+    "key" : 1499472000000,
+    "name" : "la 8.7.2017",
+    "tweetCount" : 55283,
+    "retweetCount" : 14515
+  }, {
+    "key" : 1499558400000,
+    "name" : "su 9.7.2017",
+    "tweetCount" : 56097,
+    "retweetCount" : 15251
+  }, {
+    "key" : 1499644800000,
+    "name" : "ma 10.7.2017",
+    "tweetCount" : 67575,
+    "retweetCount" : 19348
+  }, {
+    "key" : 1499731200000,
+    "name" : "ti 11.7.2017",
+    "tweetCount" : 76983,
+    "retweetCount" : 23929,
+    "peak" : {
+      "key" : "suomiareena",
+      "count" : 5756
+    }
+  }, {
+    "key" : 1499817600000,
+    "name" : "ke 12.7.2017",
+    "tweetCount" : 81954,
+    "retweetCount" : 28298
+  }, {
+    "key" : 1499904000000,
+    "name" : "to 13.7.2017",
+    "tweetCount" : 83840,
+    "retweetCount" : 30272,
+    "peak" : {
+      "key" : "suomiareena",
+      "count" : 5967
+    }
+  }, {
+    "key" : 1499990400000,
+    "name" : "pe 14.7.2017",
+    "tweetCount" : 69417,
+    "retweetCount" : 19728
+  }, {
+    "key" : 1500076800000,
+    "name" : "la 15.7.2017",
+    "tweetCount" : 55724,
+    "retweetCount" : 15855
+  }, {
+    "key" : 1500163200000,
+    "name" : "su 16.7.2017",
+    "tweetCount" : 53495,
+    "retweetCount" : 14259
+  }, {
+    "key" : 1500249600000,
+    "name" : "ma 17.7.2017",
+    "tweetCount" : 60927,
+    "retweetCount" : 16758
+  }, {
+    "key" : 1500336000000,
+    "name" : "ti 18.7.2017",
+    "tweetCount" : 64181,
+    "retweetCount" : 16362
+  }, {
+    "key" : 1500422400000,
+    "name" : "ke 19.7.2017",
+    "tweetCount" : 63906,
+    "retweetCount" : 16750
+  }, {
+    "key" : 1500508800000,
+    "name" : "to 20.7.2017",
+    "tweetCount" : 68873,
+    "retweetCount" : 20636
+  }, {
+    "key" : 1500595200000,
+    "name" : "pe 21.7.2017",
+    "tweetCount" : 60982,
+    "retweetCount" : 15071
+  }, {
+    "key" : 1500681600000,
+    "name" : "la 22.7.2017",
+    "tweetCount" : 53456,
+    "retweetCount" : 13962
+  }, {
+    "key" : 1500768000000,
+    "name" : "su 23.7.2017",
+    "tweetCount" : 50623,
+    "retweetCount" : 11706
+  }, {
+    "key" : 1500854400000,
+    "name" : "ma 24.7.2017",
+    "tweetCount" : 61142,
+    "retweetCount" : 16240
+  }, {
+    "key" : 1500940800000,
+    "name" : "ti 25.7.2017",
+    "tweetCount" : 64251,
+    "retweetCount" : 16724
+  }, {
+    "key" : 1501027200000,
+    "name" : "ke 26.7.2017",
+    "tweetCount" : 63367,
+    "retweetCount" : 15991
+  }, {
+    "key" : 1501113600000,
+    "name" : "to 27.7.2017",
+    "tweetCount" : 66406,
+    "retweetCount" : 18356
+  }, {
+    "key" : 1501200000000,
+    "name" : "pe 28.7.2017",
+    "tweetCount" : 68473,
+    "retweetCount" : 18944
+  }, {
+    "key" : 1501286400000,
+    "name" : "la 29.7.2017",
+    "tweetCount" : 57299,
+    "retweetCount" : 15185
+  }, {
+    "key" : 1501372800000,
+    "name" : "su 30.7.2017",
+    "tweetCount" : 56534,
+    "retweetCount" : 16056
+  }, {
+    "key" : 1501459200000,
+    "name" : "ma 31.7.2017",
+    "tweetCount" : 62328,
+    "retweetCount" : 15635
+  }, {
+    "key" : 1501545600000,
+    "name" : "ti 1.8.2017",
+    "tweetCount" : 66060,
+    "retweetCount" : 16851
+  }, {
+    "key" : 1501632000000,
+    "name" : "ke 2.8.2017",
+    "tweetCount" : 70143,
+    "retweetCount" : 19634
+  }, {
+    "key" : 1501718400000,
+    "name" : "to 3.8.2017",
+    "tweetCount" : 72146,
+    "retweetCount" : 20796
+  }, {
+    "key" : 1501804800000,
+    "name" : "pe 4.8.2017",
+    "tweetCount" : 77491,
+    "retweetCount" : 20438
+  }, {
+    "key" : 1501891200000,
+    "name" : "la 5.8.2017",
+    "tweetCount" : 77883,
+    "retweetCount" : 30804
+  }, {
+    "key" : 1501977600000,
+    "name" : "su 6.8.2017",
+    "tweetCount" : 64401,
+    "retweetCount" : 20284
+  }, {
+    "key" : 1502064000000,
+    "name" : "ma 7.8.2017",
+    "tweetCount" : 67596,
+    "retweetCount" : 17937
+  }, {
+    "key" : 1502150400000,
+    "name" : "ti 8.8.2017",
+    "tweetCount" : 72374,
+    "retweetCount" : 20387
+  }, {
+    "key" : 1502236800000,
+    "name" : "ke 9.8.2017",
+    "tweetCount" : 78658,
+    "retweetCount" : 23889
+  }, {
+    "key" : 1502323200000,
+    "name" : "to 10.8.2017",
+    "tweetCount" : 81169,
+    "retweetCount" : 23451
+  }, {
+    "key" : 1502409600000,
+    "name" : "pe 11.8.2017",
+    "tweetCount" : 80271,
+    "retweetCount" : 22926
+  }, {
+    "key" : 1502496000000,
+    "name" : "la 12.8.2017",
+    "tweetCount" : 77999,
+    "retweetCount" : 20949
+  }, {
+    "key" : 1502582400000,
+    "name" : "su 13.8.2017",
+    "tweetCount" : 64876,
+    "retweetCount" : 16313
+  }, {
+    "key" : 1502668800000,
+    "name" : "ma 14.8.2017",
+    "tweetCount" : 70806,
+    "retweetCount" : 19494
+  }, {
+    "key" : 1502755200000,
+    "name" : "ti 15.8.2017",
+    "tweetCount" : 70806,
+    "retweetCount" : 20694
+  }, {
+    "key" : 1502841600000,
+    "name" : "ke 16.8.2017",
+    "tweetCount" : 75990,
+    "retweetCount" : 22483
+  }, {
+    "key" : 1502928000000,
+    "name" : "to 17.8.2017",
+    "tweetCount" : 82050,
+    "retweetCount" : 25271
+  }, {
+    "key" : 1503014400000,
+    "name" : "pe 18.8.2017",
+    "tweetCount" : 121625,
+    "retweetCount" : 50287,
+    "peak" : {
+      "key" : "turku",
+      "count" : 14091
+    }
+  }, {
+    "key" : 1503100800000,
+    "name" : "la 19.8.2017",
+    "tweetCount" : 92346,
+    "retweetCount" : 33830
+  }, {
+    "key" : 1503187200000,
+    "name" : "su 20.8.2017",
+    "tweetCount" : 71576,
+    "retweetCount" : 21707
+  }, {
+    "key" : 1503273600000,
+    "name" : "ma 21.8.2017",
+    "tweetCount" : 83050,
+    "retweetCount" : 26902
+  }, {
+    "key" : 1503360000000,
+    "name" : "ti 22.8.2017",
+    "tweetCount" : 86433,
+    "retweetCount" : 28617
+  }, {
+    "key" : 1503446400000,
+    "name" : "ke 23.8.2017",
+    "tweetCount" : 96017,
+    "retweetCount" : 32361
+  }, {
+    "key" : 1503532800000,
+    "name" : "to 24.8.2017",
+    "tweetCount" : 89236,
+    "retweetCount" : 29221
+  }, {
+    "key" : 1503619200000,
+    "name" : "pe 25.8.2017",
+    "tweetCount" : 89739,
+    "retweetCount" : 28247
+  }, {
+    "key" : 1503705600000,
+    "name" : "la 26.8.2017",
+    "tweetCount" : 75942,
+    "retweetCount" : 22787
+  }, {
+    "key" : 1503792000000,
+    "name" : "su 27.8.2017",
+    "tweetCount" : 67138,
+    "retweetCount" : 19803
+  }, {
+    "key" : 1503878400000,
+    "name" : "ma 28.8.2017",
+    "tweetCount" : 80535,
+    "retweetCount" : 25299
+  }, {
+    "key" : 1503964800000,
+    "name" : "ti 29.8.2017",
+    "tweetCount" : 83894,
+    "retweetCount" : 27501
+  }, {
+    "key" : 1504051200000,
+    "name" : "ke 30.8.2017",
+    "tweetCount" : 85062,
+    "retweetCount" : 27618
+  }, {
+    "key" : 1504137600000,
+    "name" : "to 31.8.2017",
+    "tweetCount" : 100314,
+    "retweetCount" : 32918
+  }, {
+    "key" : 1504224000000,
+    "name" : "pe 1.9.2017",
+    "tweetCount" : 89580,
+    "retweetCount" : 28608
+  }, {
+    "key" : 1504310400000,
+    "name" : "la 2.9.2017",
+    "tweetCount" : 76906,
+    "retweetCount" : 22387
+  }, {
+    "key" : 1504396800000,
+    "name" : "su 3.9.2017",
+    "tweetCount" : 72052,
+    "retweetCount" : 21754
+  }, {
+    "key" : 1504483200000,
+    "name" : "ma 4.9.2017",
+    "tweetCount" : 78914,
+    "retweetCount" : 24754
+  }, {
+    "key" : 1504569600000,
+    "name" : "ti 5.9.2017",
+    "tweetCount" : 100009,
+    "retweetCount" : 33781
+  }, {
+    "key" : 1504656000000,
+    "name" : "ke 6.9.2017",
+    "tweetCount" : 94454,
+    "retweetCount" : 32244
+  }, {
+    "key" : 1504742400000,
+    "name" : "to 7.9.2017",
+    "tweetCount" : 89232,
+    "retweetCount" : 29406
+  }, {
+    "key" : 1504828800000,
+    "name" : "pe 8.9.2017",
+    "tweetCount" : 92298,
+    "retweetCount" : 28774
+  }, {
+    "key" : 1504915200000,
+    "name" : "la 9.9.2017",
+    "tweetCount" : 81936,
+    "retweetCount" : 22151
+  }, {
+    "key" : 1505001600000,
+    "name" : "su 10.9.2017",
+    "tweetCount" : 72706,
+    "retweetCount" : 24481
+  }, {
+    "key" : 1505088000000,
+    "name" : "ma 11.9.2017",
+    "tweetCount" : 78404,
+    "retweetCount" : 23847
+  }, {
+    "key" : 1505174400000,
+    "name" : "ti 12.9.2017",
+    "tweetCount" : 89749,
+    "retweetCount" : 26605
+  }, {
+    "key" : 1505260800000,
+    "name" : "ke 13.9.2017",
+    "tweetCount" : 99488,
+    "retweetCount" : 30700
+  }, {
+    "key" : 1505347200000,
+    "name" : "to 14.9.2017",
+    "tweetCount" : 91347,
+    "retweetCount" : 29223
+  }, {
+    "key" : 1505433600000,
+    "name" : "pe 15.9.2017",
+    "tweetCount" : 92561,
+    "retweetCount" : 28122
+  }, {
+    "key" : 1505520000000,
+    "name" : "la 16.9.2017",
+    "tweetCount" : 73743,
+    "retweetCount" : 20205
+  }, {
+    "key" : 1505606400000,
+    "name" : "su 17.9.2017",
+    "tweetCount" : 66674,
+    "retweetCount" : 18099
+  }, {
+    "key" : 1505692800000,
+    "name" : "ma 18.9.2017",
+    "tweetCount" : 82287,
+    "retweetCount" : 26629
+  }, {
+    "key" : 1505779200000,
+    "name" : "ti 19.9.2017",
+    "tweetCount" : 92100,
+    "retweetCount" : 29296
+  }, {
+    "key" : 1505865600000,
+    "name" : "ke 20.9.2017",
+    "tweetCount" : 89742,
+    "retweetCount" : 27924
+  }, {
+    "key" : 1505952000000,
+    "name" : "to 21.9.2017",
+    "tweetCount" : 91888,
+    "retweetCount" : 28558
+  }, {
+    "key" : 1506038400000,
+    "name" : "pe 22.9.2017",
+    "tweetCount" : 85740,
+    "retweetCount" : 25982
+  }, {
+    "key" : 1506124800000,
+    "name" : "la 23.9.2017",
+    "tweetCount" : 69198,
+    "retweetCount" : 17981
+  }, {
+    "key" : 1506211200000,
+    "name" : "su 24.9.2017",
+    "tweetCount" : 61811,
+    "retweetCount" : 16834
+  }, {
+    "key" : 1506297600000,
+    "name" : "ma 25.9.2017",
+    "tweetCount" : 76628,
+    "retweetCount" : 22681
+  }, {
+    "key" : 1506384000000,
+    "name" : "ti 26.9.2017",
+    "tweetCount" : 89692,
+    "retweetCount" : 29548
+  }, {
+    "key" : 1506470400000,
+    "name" : "ke 27.9.2017",
+    "tweetCount" : 95907,
+    "retweetCount" : 29720
+  }, {
+    "key" : 1506556800000,
+    "name" : "to 28.9.2017",
+    "tweetCount" : 88900,
+    "retweetCount" : 28615
+  }, {
+    "key" : 1506643200000,
+    "name" : "pe 29.9.2017",
+    "tweetCount" : 97378,
+    "retweetCount" : 35704,
+    "peak" : {
+      "key" : "catalonianreferendum",
+      "count" : 6201
+    }
+  }, {
+    "key" : 1506729600000,
+    "name" : "la 30.9.2017",
+    "tweetCount" : 73303,
+    "retweetCount" : 22651
+  }, {
+    "key" : 1506816000000,
+    "name" : "su 1.10.2017",
+    "tweetCount" : 73223,
+    "retweetCount" : 25183
+  }, {
+    "key" : 1506902400000,
+    "name" : "ma 2.10.2017",
+    "tweetCount" : 81263,
+    "retweetCount" : 26932
+  }, {
+    "key" : 1506988800000,
+    "name" : "ti 3.10.2017",
+    "tweetCount" : 87191,
+    "retweetCount" : 28865
+  }, {
+    "key" : 1507075200000,
+    "name" : "ke 4.10.2017",
+    "tweetCount" : 84651,
+    "retweetCount" : 26337
+  }, {
+    "key" : 1507161600000,
+    "name" : "to 5.10.2017",
+    "tweetCount" : 91106,
+    "retweetCount" : 30028
+  }, {
+    "key" : 1507248000000,
+    "name" : "pe 6.10.2017",
+    "tweetCount" : 89046,
+    "retweetCount" : 27007
+  }, {
+    "key" : 1507334400000,
+    "name" : "la 7.10.2017",
+    "tweetCount" : 70772,
+    "retweetCount" : 19798
+  }, {
+    "key" : 1507420800000,
+    "name" : "su 8.10.2017",
+    "tweetCount" : 64162,
+    "retweetCount" : 17478
+  }, {
+    "key" : 1507507200000,
+    "name" : "ma 9.10.2017",
+    "tweetCount" : 83656,
+    "retweetCount" : 26183
+  }, {
+    "key" : 1507593600000,
+    "name" : "ti 10.10.2017",
+    "tweetCount" : 92326,
+    "retweetCount" : 29979
+  }, {
+    "key" : 1507680000000,
+    "name" : "ke 11.10.2017",
+    "tweetCount" : 94421,
+    "retweetCount" : 33780
+  }, {
+    "key" : 1507766400000,
+    "name" : "to 12.10.2017",
+    "tweetCount" : 91221,
+    "retweetCount" : 30187
+  }, {
+    "key" : 1507852800000,
+    "name" : "pe 13.10.2017",
+    "tweetCount" : 86102,
+    "retweetCount" : 27041
+  }, {
+    "key" : 1507939200000,
+    "name" : "la 14.10.2017",
+    "tweetCount" : 67078,
+    "retweetCount" : 17343
+  }, {
+    "key" : 1508025600000,
+    "name" : "su 15.10.2017",
+    "tweetCount" : 57659,
+    "retweetCount" : 15088
+  }, {
+    "key" : 1508112000000,
+    "name" : "ma 16.10.2017",
+    "tweetCount" : 72947,
+    "retweetCount" : 22165
+  }, {
+    "key" : 1508198400000,
+    "name" : "ti 17.10.2017",
+    "tweetCount" : 81875,
+    "retweetCount" : 26126
+  }, {
+    "key" : 1508284800000,
+    "name" : "ke 18.10.2017",
+    "tweetCount" : 82093,
+    "retweetCount" : 25049
+  }, {
+    "key" : 1508371200000,
+    "name" : "to 19.10.2017",
+    "tweetCount" : 76141,
+    "retweetCount" : 22632
+  }, {
+    "key" : 1508457600000,
+    "name" : "pe 20.10.2017",
+    "tweetCount" : 76055,
+    "retweetCount" : 20761
+  }, {
+    "key" : 1508544000000,
+    "name" : "la 21.10.2017",
+    "tweetCount" : 72677,
+    "retweetCount" : 20583
+  }, {
+    "key" : 1508630400000,
+    "name" : "su 22.10.2017",
+    "tweetCount" : 62946,
+    "retweetCount" : 16273
+  }, {
+    "key" : 1508716800000,
+    "name" : "ma 23.10.2017",
+    "tweetCount" : 77642,
+    "retweetCount" : 24462
+  }, {
+    "key" : 1508803200000,
+    "name" : "ti 24.10.2017",
+    "tweetCount" : 84803,
+    "retweetCount" : 27698
+  }, {
+    "key" : 1508889600000,
+    "name" : "ke 25.10.2017",
+    "tweetCount" : 87898,
+    "retweetCount" : 27841
+  }, {
+    "key" : 1508976000000,
+    "name" : "to 26.10.2017",
+    "tweetCount" : 94059,
+    "retweetCount" : 32677,
+    "peak" : {
+      "key" : "catalonia",
+      "count" : 5443
+    }
+  }, {
+    "key" : 1509062400000,
+    "name" : "pe 27.10.2017",
+    "tweetCount" : 93547,
+    "retweetCount" : 32273
+  }, {
+    "key" : 1509148800000,
+    "name" : "la 28.10.2017",
+    "tweetCount" : 77652,
+    "retweetCount" : 23701
+  }, {
+    "key" : 1509235200000,
+    "name" : "su 29.10.2017",
+    "tweetCount" : 68325,
+    "retweetCount" : 20347
+  }, {
+    "key" : 1509321600000,
+    "name" : "ma 30.10.2017",
+    "tweetCount" : 79381,
+    "retweetCount" : 25497
+  }, {
+    "key" : 1509408000000,
+    "name" : "ti 31.10.2017",
+    "tweetCount" : 86581,
+    "retweetCount" : 28157
+  }, {
+    "key" : 1509494400000,
+    "name" : "ke 1.11.2017",
+    "tweetCount" : 89339,
+    "retweetCount" : 29739
+  }, {
+    "key" : 1509580800000,
+    "name" : "to 2.11.2017",
+    "tweetCount" : 88829,
+    "retweetCount" : 29785
+  }, {
+    "key" : 1509667200000,
+    "name" : "pe 3.11.2017",
+    "tweetCount" : 88709,
+    "retweetCount" : 31032
+  }, {
+    "key" : 1509753600000,
+    "name" : "la 4.11.2017",
+    "tweetCount" : 72257,
+    "retweetCount" : 22598
+  }, {
+    "key" : 1509840000000,
+    "name" : "su 5.11.2017",
+    "tweetCount" : 66195,
+    "retweetCount" : 19049
+  }, {
+    "key" : 1509926400000,
+    "name" : "ma 6.11.2017",
+    "tweetCount" : 78660,
+    "retweetCount" : 24654
+  }, {
+    "key" : 1510012800000,
+    "name" : "ti 7.11.2017",
+    "tweetCount" : 86744,
+    "retweetCount" : 28610
+  }, {
+    "key" : 1510099200000,
+    "name" : "ke 8.11.2017",
+    "tweetCount" : 87412,
+    "retweetCount" : 27974
+  }, {
+    "key" : 1510185600000,
+    "name" : "to 9.11.2017",
+    "tweetCount" : 90233,
+    "retweetCount" : 30227
+  }, {
+    "key" : 1510272000000,
+    "name" : "pe 10.11.2017",
+    "tweetCount" : 87365,
+    "retweetCount" : 28608
+  }, {
+    "key" : 1510358400000,
+    "name" : "la 11.11.2017",
+    "tweetCount" : 69668,
+    "retweetCount" : 20652
+  }, {
+    "key" : 1510444800000,
+    "name" : "su 12.11.2017",
+    "tweetCount" : 68285,
+    "retweetCount" : 22526
+  }, {
+    "key" : 1510531200000,
+    "name" : "ma 13.11.2017",
+    "tweetCount" : 89104,
+    "retweetCount" : 34520
+  }, {
+    "key" : 1510617600000,
+    "name" : "ti 14.11.2017",
+    "tweetCount" : 91409,
+    "retweetCount" : 31911
+  }, {
+    "key" : 1510704000000,
+    "name" : "ke 15.11.2017",
+    "tweetCount" : 90163,
+    "retweetCount" : 31506
+  }, {
+    "key" : 1510790400000,
+    "name" : "to 16.11.2017",
+    "tweetCount" : 91229,
+    "retweetCount" : 32201
+  }, {
+    "key" : 1510876800000,
+    "name" : "pe 17.11.2017",
+    "tweetCount" : 86012,
+    "retweetCount" : 27117
+  }, {
+    "key" : 1510963200000,
+    "name" : "la 18.11.2017",
+    "tweetCount" : 74306,
+    "retweetCount" : 21488
+  }, {
+    "key" : 1511049600000,
+    "name" : "su 19.11.2017",
+    "tweetCount" : 64304,
+    "retweetCount" : 21183
+  }, {
+    "key" : 1511136000000,
+    "name" : "ma 20.11.2017",
+    "tweetCount" : 84983,
+    "retweetCount" : 31423
+  }, {
+    "key" : 1511222400000,
+    "name" : "ti 21.11.2017",
+    "tweetCount" : 87258,
+    "retweetCount" : 27397
+  }, {
+    "key" : 1511308800000,
+    "name" : "ke 22.11.2017",
+    "tweetCount" : 86727,
+    "retweetCount" : 28879
+  }, {
+    "key" : 1511395200000,
+    "name" : "to 23.11.2017",
+    "tweetCount" : 88726,
+    "retweetCount" : 29914
+  }, {
+    "key" : 1511481600000,
+    "name" : "pe 24.11.2017",
+    "tweetCount" : 86185,
+    "retweetCount" : 28022
+  }, {
+    "key" : 1511568000000,
+    "name" : "la 25.11.2017",
+    "tweetCount" : 69137,
+    "retweetCount" : 20571
+  }, {
+    "key" : 1511654400000,
+    "name" : "su 26.11.2017",
+    "tweetCount" : 61290,
+    "retweetCount" : 17397
+  }, {
+    "key" : 1511740800000,
+    "name" : "ma 27.11.2017",
+    "tweetCount" : 74695,
+    "retweetCount" : 24744
+  }, {
+    "key" : 1511827200000,
+    "name" : "ti 28.11.2017",
+    "tweetCount" : 89672,
+    "retweetCount" : 30506
+  }, {
+    "key" : 1511913600000,
+    "name" : "ke 29.11.2017",
+    "tweetCount" : 97318,
+    "retweetCount" : 35540
+  }, {
+    "key" : 1512000000000,
+    "name" : "to 30.11.2017",
+    "tweetCount" : 108969,
+    "retweetCount" : 43040,
+    "peak" : {
+      "key" : "slush17",
+      "count" : 7030
+    }
+  }, {
+    "key" : 1512086400000,
+    "name" : "pe 1.12.2017",
+    "tweetCount" : 95211,
+    "retweetCount" : 33607
+  }, {
+    "key" : 1512172800000,
+    "name" : "la 2.12.2017",
+    "tweetCount" : 71565,
+    "retweetCount" : 23256
+  }, {
+    "key" : 1512259200000,
+    "name" : "su 3.12.2017",
+    "tweetCount" : 62976,
+    "retweetCount" : 20195
+  }, {
+    "key" : 1512345600000,
+    "name" : "ma 4.12.2017",
+    "tweetCount" : 82772,
+    "retweetCount" : 29420
+  }, {
+    "key" : 1512432000000,
+    "name" : "ti 5.12.2017",
+    "tweetCount" : 102897,
+    "retweetCount" : 38166
+  }, {
+    "key" : 1512518400000,
+    "name" : "ke 6.12.2017",
+    "tweetCount" : 121245,
+    "retweetCount" : 51092,
+    "peak" : {
+      "key" : "suomi100",
+      "count" : 23228
+    }
+  }, {
+    "key" : 1512604800000,
+    "name" : "to 7.12.2017",
+    "tweetCount" : 76768,
+    "retweetCount" : 28960
+  }, {
+    "key" : 1512691200000,
+    "name" : "pe 8.12.2017",
+    "tweetCount" : 80156,
+    "retweetCount" : 25315
+  }, {
+    "key" : 1512777600000,
+    "name" : "la 9.12.2017",
+    "tweetCount" : 66818,
+    "retweetCount" : 19066
+  }, {
+    "key" : 1512864000000,
+    "name" : "su 10.12.2017",
+    "tweetCount" : 63370,
+    "retweetCount" : 17940
+  }, {
+    "key" : 1512950400000,
+    "name" : "ma 11.12.2017",
+    "tweetCount" : 79747,
+    "retweetCount" : 23980
+  }, {
+    "key" : 1513036800000,
+    "name" : "ti 12.12.2017",
+    "tweetCount" : 89528,
+    "retweetCount" : 30325
+  }, {
+    "key" : 1513123200000,
+    "name" : "ke 13.12.2017",
+    "tweetCount" : 89576,
+    "retweetCount" : 28842
+  }, {
+    "key" : 1513209600000,
+    "name" : "to 14.12.2017",
+    "tweetCount" : 84218,
+    "retweetCount" : 27425
+  }, {
+    "key" : 1513296000000,
+    "name" : "pe 15.12.2017",
+    "tweetCount" : 88721,
+    "retweetCount" : 27487
+  }, {
+    "key" : 1513382400000,
+    "name" : "la 16.12.2017",
+    "tweetCount" : 69973,
+    "retweetCount" : 20896
+  }, {
+    "key" : 1513468800000,
+    "name" : "su 17.12.2017",
+    "tweetCount" : 63564,
+    "retweetCount" : 18464
+  }, {
+    "key" : 1513555200000,
+    "name" : "ma 18.12.2017",
+    "tweetCount" : 83026,
+    "retweetCount" : 26665
+  }, {
+    "key" : 1513641600000,
+    "name" : "ti 19.12.2017",
+    "tweetCount" : 83864,
+    "retweetCount" : 28229
+  }, {
+    "key" : 1513728000000,
+    "name" : "ke 20.12.2017",
+    "tweetCount" : 79894,
+    "retweetCount" : 26214
+  }, {
+    "key" : 1513814400000,
+    "name" : "to 21.12.2017",
+    "tweetCount" : 77852,
+    "retweetCount" : 25439
+  }, {
+    "key" : 1513900800000,
+    "name" : "pe 22.12.2017",
+    "tweetCount" : 74574,
+    "retweetCount" : 23889
+  }, {
+    "key" : 1513987200000,
+    "name" : "la 23.12.2017",
+    "tweetCount" : 64048,
+    "retweetCount" : 19173
+  }, {
+    "key" : 1514073600000,
+    "name" : "su 24.12.2017",
+    "tweetCount" : 51308,
+    "retweetCount" : 14741
+  }, {
+    "key" : 1514160000000,
+    "name" : "ma 25.12.2017",
+    "tweetCount" : 42686,
+    "retweetCount" : 11186
+  }, {
+    "key" : 1514246400000,
+    "name" : "ti 26.12.2017",
+    "tweetCount" : 55101,
+    "retweetCount" : 12039
+  }, {
+    "key" : 1514332800000,
+    "name" : "ke 27.12.2017",
+    "tweetCount" : 60617,
+    "retweetCount" : 17497
+  }, {
+    "key" : 1514419200000,
+    "name" : "to 28.12.2017",
+    "tweetCount" : 71789,
+    "retweetCount" : 20845
+  }, {
+    "key" : 1514505600000,
+    "name" : "pe 29.12.2017",
+    "tweetCount" : 74836,
+    "retweetCount" : 21498
+  }, {
+    "key" : 1514592000000,
+    "name" : "la 30.12.2017",
+    "tweetCount" : 74281,
+    "retweetCount" : 22996
+  }, {
+    "key" : 1514678400000,
+    "name" : "su 31.12.2017",
+    "tweetCount" : 69541,
+    "retweetCount" : 20101
+  } ]
+}

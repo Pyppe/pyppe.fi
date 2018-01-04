@@ -1,0 +1,1206 @@
+{
+  "hashtagTweetCount" : 4421973,
+  "totalTweetCount" : 28925439,
+  "hashtagRatio" : 0.15287487944435346,
+  "hashtags" : [ {
+    "key" : "suomi100",
+    "tweetCount" : 170151,
+    "userCardinality" : 43643,
+    "originalTweetCount" : 77436,
+    "topTweetId" : "938376135553048576"
+  }, {
+    "key" : "liiga",
+    "tweetCount" : 218807,
+    "userCardinality" : 14152,
+    "originalTweetCount" : 141889,
+    "topTweetId" : "905744307356925952"
+  }, {
+    "key" : "helsinki",
+    "tweetCount" : 150981,
+    "userCardinality" : 24034,
+    "originalTweetCount" : 90850,
+    "topTweetId" : "938050516134883328"
+  }, {
+    "key" : "finland",
+    "tweetCount" : 124561,
+    "userCardinality" : 42070,
+    "originalTweetCount" : 40769,
+    "topTweetId" : "923257136204959745"
+  }, {
+    "key" : "yle",
+    "tweetCount" : 137518,
+    "userCardinality" : 22814,
+    "originalTweetCount" : 63391,
+    "topTweetId" : "922155531124527104"
+  }, {
+    "key" : "rekry",
+    "tweetCount" : 109152,
+    "userCardinality" : 12474,
+    "originalTweetCount" : 86643,
+    "topTweetId" : "894513712085839872"
+  }, {
+    "key" : "sote",
+    "tweetCount" : 125551,
+    "userCardinality" : 14502,
+    "originalTweetCount" : 55866,
+    "topTweetId" : "837356897531486208"
+  }, {
+    "key" : "turku",
+    "tweetCount" : 86056,
+    "userCardinality" : 20597,
+    "originalTweetCount" : 44330,
+    "topTweetId" : "898598010409582593"
+  }, {
+    "key" : "nhlfi",
+    "tweetCount" : 92779,
+    "userCardinality" : 7326,
+    "originalTweetCount" : 76987,
+    "topTweetId" : "843063383033372673"
+  }, {
+    "key" : "mmkisat",
+    "tweetCount" : 73980,
+    "userCardinality" : 12098,
+    "originalTweetCount" : 54484,
+    "topTweetId" : "861254329558335488"
+  }, {
+    "key" : "tampere",
+    "tweetCount" : 82115,
+    "userCardinality" : 12963,
+    "originalTweetCount" : 45635,
+    "topTweetId" : "848216907891302401"
+  }, {
+    "key" : "kuntavaalit",
+    "tweetCount" : 68876,
+    "userCardinality" : 15316,
+    "originalTweetCount" : 37844,
+    "topTweetId" : "850408381374509060"
+  }, {
+    "key" : "leijonat",
+    "tweetCount" : 67661,
+    "userCardinality" : 12075,
+    "originalTweetCount" : 46992,
+    "topTweetId" : "861254329558335488"
+  }, {
+    "key" : "työpaikat",
+    "tweetCount" : 79120,
+    "userCardinality" : 4595,
+    "originalTweetCount" : 72826,
+    "topTweetId" : "818380711078010881"
+  }, {
+    "key" : "uutisvahti",
+    "tweetCount" : 54001,
+    "userCardinality" : 8673,
+    "originalTweetCount" : 42585,
+    "topTweetId" : "882676340197134338"
+  }, {
+    "key" : "suomi",
+    "tweetCount" : 43426,
+    "userCardinality" : 12963,
+    "originalTweetCount" : 29239,
+    "topTweetId" : "898596982926696450"
+  }, {
+    "key" : "työelämä",
+    "tweetCount" : 52818,
+    "userCardinality" : 11205,
+    "originalTweetCount" : 26261,
+    "topTweetId" : "907583752565673985"
+  }, {
+    "key" : "lahti2017",
+    "tweetCount" : 43755,
+    "userCardinality" : 12470,
+    "originalTweetCount" : 27505,
+    "topTweetId" : "834364636614975492"
+  }, {
+    "key" : "oulu",
+    "tweetCount" : 49556,
+    "userCardinality" : 7335,
+    "originalTweetCount" : 36567,
+    "topTweetId" : "938905856632074240"
+  }, {
+    "key" : "hifk",
+    "tweetCount" : 58926,
+    "userCardinality" : 5377,
+    "originalTweetCount" : 39413,
+    "topTweetId" : "847145583299248131"
+  }, {
+    "key" : "tappara",
+    "tweetCount" : 58267,
+    "userCardinality" : 5958,
+    "originalTweetCount" : 35029,
+    "topTweetId" : "844263821078401024"
+  }, {
+    "key" : "climatechange",
+    "tweetCount" : 41632,
+    "userCardinality" : 10096,
+    "originalTweetCount" : 23994,
+    "topTweetId" : "892318734244884480"
+  }, {
+    "key" : "veikkausliiga",
+    "tweetCount" : 52946,
+    "userCardinality" : 5586,
+    "originalTweetCount" : 34069,
+    "topTweetId" : "849583465012101120"
+  }, {
+    "key" : "euroviisut",
+    "tweetCount" : 43201,
+    "userCardinality" : 6843,
+    "originalTweetCount" : 33296,
+    "topTweetId" : "863486302393651200"
+  }, {
+    "key" : "ilves",
+    "tweetCount" : 55043,
+    "userCardinality" : 5041,
+    "originalTweetCount" : 35285,
+    "topTweetId" : "848216907891302401"
+  }, {
+    "key" : "cmoref1",
+    "tweetCount" : 52779,
+    "userCardinality" : 4152,
+    "originalTweetCount" : 44153,
+    "topTweetId" : "858680822865567748"
+  }, {
+    "key" : "salibandy",
+    "tweetCount" : 54368,
+    "userCardinality" : 3763,
+    "originalTweetCount" : 41649,
+    "topTweetId" : "824322926971383808"
+  }, {
+    "key" : "politiikka",
+    "tweetCount" : 39439,
+    "userCardinality" : 8612,
+    "originalTweetCount" : 24571,
+    "topTweetId" : "869519892583784454"
+  }, {
+    "key" : "susijengi",
+    "tweetCount" : 35341,
+    "userCardinality" : 9164,
+    "originalTweetCount" : 22260,
+    "topTweetId" : "904434824370368512"
+  }, {
+    "key" : "viestintä",
+    "tweetCount" : 40192,
+    "userCardinality" : 8763,
+    "originalTweetCount" : 19791,
+    "topTweetId" : "847024682452815873"
+  }, {
+    "key" : "eu",
+    "tweetCount" : 38371,
+    "userCardinality" : 16183,
+    "originalTweetCount" : 10738,
+    "topTweetId" : "938728589159170048"
+  }, {
+    "key" : "valioliiga",
+    "tweetCount" : 45468,
+    "userCardinality" : 3457,
+    "originalTweetCount" : 41351,
+    "topTweetId" : "913098678667288594"
+  }, {
+    "key" : "johtaminen",
+    "tweetCount" : 39485,
+    "userCardinality" : 8425,
+    "originalTweetCount" : 18617,
+    "topTweetId" : "850274787062501376"
+  }, {
+    "key" : "yleastudio",
+    "tweetCount" : 34092,
+    "userCardinality" : 7834,
+    "originalTweetCount" : 22956,
+    "topTweetId" : "874332526738890752"
+  }, {
+    "key" : "digitalisaatio",
+    "tweetCount" : 33900,
+    "userCardinality" : 10412,
+    "originalTweetCount" : 16666,
+    "topTweetId" : "819182847734988800"
+  }, {
+    "key" : "uclfi",
+    "tweetCount" : 34700,
+    "userCardinality" : 5236,
+    "originalTweetCount" : 29411,
+    "topTweetId" : "839608683055153152"
+  }, {
+    "key" : "putous",
+    "tweetCount" : 25637,
+    "userCardinality" : 9276,
+    "originalTweetCount" : 20234,
+    "topTweetId" : "830473678605393920"
+  }, {
+    "key" : "digitalist",
+    "tweetCount" : 39535,
+    "userCardinality" : 6759,
+    "originalTweetCount" : 17940,
+    "topTweetId" : "831717757049769985"
+  }, {
+    "key" : "turpo",
+    "tweetCount" : 47312,
+    "userCardinality" : 5839,
+    "originalTweetCount" : 17134,
+    "topTweetId" : "840792666212319232"
+  }, {
+    "key" : "finland100",
+    "tweetCount" : 35219,
+    "userCardinality" : 16147,
+    "originalTweetCount" : 7985,
+    "topTweetId" : "938066934855356416"
+  }, {
+    "key" : "catalonia",
+    "tweetCount" : 107289,
+    "userCardinality" : 32569,
+    "originalTweetCount" : 1295,
+    "topTweetId" : "923257136204959745"
+  }, {
+    "key" : "love",
+    "tweetCount" : 68016,
+    "userCardinality" : 16958,
+    "originalTweetCount" : 3656,
+    "topTweetId" : "830357190074650626"
+  }, {
+    "key" : "työ",
+    "tweetCount" : 29392,
+    "userCardinality" : 8020,
+    "originalTweetCount" : 17762,
+    "topTweetId" : "900332731435012097"
+  }, {
+    "key" : "koulutus",
+    "tweetCount" : 28461,
+    "userCardinality" : 8482,
+    "originalTweetCount" : 14967,
+    "topTweetId" : "873556030671773696"
+  }, {
+    "key" : "vihreät",
+    "tweetCount" : 33281,
+    "userCardinality" : 5974,
+    "originalTweetCount" : 18110,
+    "topTweetId" : "841998991424421889"
+  }, {
+    "key" : "suomiareena",
+    "tweetCount" : 32334,
+    "userCardinality" : 7195,
+    "originalTweetCount" : 15360,
+    "topTweetId" : "885831255199232000"
+  }, {
+    "key" : "jokerit",
+    "tweetCount" : 37115,
+    "userCardinality" : 4060,
+    "originalTweetCount" : 23581,
+    "topTweetId" : "823894384257077248"
+  }, {
+    "key" : "trump",
+    "tweetCount" : 25998,
+    "userCardinality" : 8585,
+    "originalTweetCount" : 15568,
+    "topTweetId" : "829768863940300801"
+  }, {
+    "key" : "markkinointi",
+    "tweetCount" : 27098,
+    "userCardinality" : 7313,
+    "originalTweetCount" : 16672,
+    "topTweetId" : "922552138768805893"
+  }, {
+    "key" : "hallitus",
+    "tweetCount" : 28121,
+    "userCardinality" : 5994,
+    "originalTweetCount" : 19307,
+    "topTweetId" : "877597921105072129"
+  }, {
+    "key" : "espoo",
+    "tweetCount" : 25727,
+    "userCardinality" : 6952,
+    "originalTweetCount" : 16579,
+    "topTweetId" : "896415593901043716"
+  }, {
+    "key" : "huuhkajat",
+    "tweetCount" : 25921,
+    "userCardinality" : 5922,
+    "originalTweetCount" : 18106,
+    "topTweetId" : "904011633558781954"
+  }, {
+    "key" : "luonto",
+    "tweetCount" : 29388,
+    "userCardinality" : 6846,
+    "originalTweetCount" : 12322,
+    "topTweetId" : "894258692769673216"
+  }, {
+    "key" : "ravit",
+    "tweetCount" : 39243,
+    "userCardinality" : 1971,
+    "originalTweetCount" : 31958,
+    "topTweetId" : "926017435047727111"
+  }, {
+    "key" : "khlfi",
+    "tweetCount" : 32366,
+    "userCardinality" : 3408,
+    "originalTweetCount" : 22369,
+    "topTweetId" : "945202613565476864"
+  }, {
+    "key" : "kuntavaalit2017",
+    "tweetCount" : 21404,
+    "userCardinality" : 7929,
+    "originalTweetCount" : 13415,
+    "topTweetId" : "850408381374509060"
+  }, {
+    "key" : "pesis",
+    "tweetCount" : 32524,
+    "userCardinality" : 2666,
+    "originalTweetCount" : 25692,
+    "topTweetId" : "894234746326327296"
+  }, {
+    "key" : "jyväskylä",
+    "tweetCount" : 25891,
+    "userCardinality" : 5188,
+    "originalTweetCount" : 16052,
+    "topTweetId" : "823828192540692480"
+  }, {
+    "key" : "tasaarvo",
+    "tweetCount" : 26165,
+    "userCardinality" : 6866,
+    "originalTweetCount" : 11118,
+    "topTweetId" : "900995851769831425"
+  }, {
+    "key" : "yrittäjät",
+    "tweetCount" : 29239,
+    "userCardinality" : 4172,
+    "originalTweetCount" : 16306,
+    "topTweetId" : "904924552551071744"
+  }, {
+    "key" : "uutiset",
+    "tweetCount" : 35861,
+    "userCardinality" : 1541,
+    "originalTweetCount" : 34544,
+    "topTweetId" : "844572210140532737"
+  }, {
+    "key" : "somefi",
+    "tweetCount" : 24544,
+    "userCardinality" : 5479,
+    "originalTweetCount" : 13609,
+    "topTweetId" : "945578633237876736"
+  }, {
+    "key" : "hctps",
+    "tweetCount" : 30362,
+    "userCardinality" : 3109,
+    "originalTweetCount" : 19105,
+    "topTweetId" : "913689585804349440"
+  }, {
+    "key" : "poliisi",
+    "tweetCount" : 24342,
+    "userCardinality" : 6362,
+    "originalTweetCount" : 11325,
+    "topTweetId" : "929574742914486272"
+  }, {
+    "key" : "talous",
+    "tweetCount" : 22485,
+    "userCardinality" : 6088,
+    "originalTweetCount" : 12662,
+    "topTweetId" : "839438240566374401"
+  }, {
+    "key" : "kesä",
+    "tweetCount" : 18273,
+    "userCardinality" : 7734,
+    "originalTweetCount" : 12056,
+    "topTweetId" : "856851391226281984"
+  }, {
+    "key" : "terveys",
+    "tweetCount" : 22517,
+    "userCardinality" : 6229,
+    "originalTweetCount" : 12123,
+    "topTweetId" : "887613989898690560"
+  }, {
+    "key" : "f1",
+    "tweetCount" : 23430,
+    "userCardinality" : 7821,
+    "originalTweetCount" : 8956,
+    "topTweetId" : "858719783151423489"
+  }, {
+    "key" : "docventures",
+    "tweetCount" : 19923,
+    "userCardinality" : 5588,
+    "originalTweetCount" : 14554,
+    "topTweetId" : "912738633391755264"
+  }, {
+    "key" : "sijoittaminen",
+    "tweetCount" : 24680,
+    "userCardinality" : 3864,
+    "originalTweetCount" : 16053,
+    "topTweetId" : "936941671799033856"
+  }, {
+    "key" : "kärpät",
+    "tweetCount" : 28210,
+    "userCardinality" : 2720,
+    "originalTweetCount" : 19447,
+    "topTweetId" : "890187696857022464"
+  }, {
+    "key" : "kalpa",
+    "tweetCount" : 25246,
+    "userCardinality" : 3221,
+    "originalTweetCount" : 17866,
+    "topTweetId" : "853286080585625600"
+  }, {
+    "key" : "kokoomus",
+    "tweetCount" : 22887,
+    "userCardinality" : 5076,
+    "originalTweetCount" : 12470,
+    "topTweetId" : "850408381374509060"
+  }, {
+    "key" : "joulu",
+    "tweetCount" : 16597,
+    "userCardinality" : 8554,
+    "originalTweetCount" : 10167,
+    "topTweetId" : "946011911690309632"
+  }, {
+    "key" : "loma",
+    "tweetCount" : 19242,
+    "userCardinality" : 4339,
+    "originalTweetCount" : 17031,
+    "topTweetId" : "886263495922266116"
+  }, {
+    "key" : "hyvinvointi",
+    "tweetCount" : 20037,
+    "userCardinality" : 6483,
+    "originalTweetCount" : 10881,
+    "topTweetId" : "893039611701846016"
+  }, {
+    "key" : "slush17",
+    "tweetCount" : 21657,
+    "userCardinality" : 8703,
+    "originalTweetCount" : 7270,
+    "topTweetId" : "930557410703441922"
+  }, {
+    "key" : "yrittäjyys",
+    "tweetCount" : 21116,
+    "userCardinality" : 5293,
+    "originalTweetCount" : 11977,
+    "topTweetId" : "913364071814172672"
+  }, {
+    "key" : "sää",
+    "tweetCount" : 22169,
+    "userCardinality" : 4988,
+    "originalTweetCount" : 11851,
+    "topTweetId" : "858360789379551232"
+  }, {
+    "key" : "tisuomi",
+    "tweetCount" : 21737,
+    "userCardinality" : 3279,
+    "originalTweetCount" : 18331,
+    "topTweetId" : "855171610302713858"
+  }, {
+    "key" : "matkailu",
+    "tweetCount" : 20678,
+    "userCardinality" : 4908,
+    "originalTweetCount" : 12519,
+    "topTweetId" : "932086096346918913"
+  }, {
+    "key" : "hallituskriisi",
+    "tweetCount" : 18101,
+    "userCardinality" : 6680,
+    "originalTweetCount" : 9713,
+    "topTweetId" : "874277585135575041"
+  }, {
+    "key" : "yhdessä",
+    "tweetCount" : 19873,
+    "userCardinality" : 6480,
+    "originalTweetCount" : 9105,
+    "topTweetId" : "938286632645533696"
+  }, {
+    "key" : "muuten",
+    "tweetCount" : 17253,
+    "userCardinality" : 5132,
+    "originalTweetCount" : 12735,
+    "topTweetId" : "853658858585292801"
+  }, {
+    "key" : "vantaa",
+    "tweetCount" : 19400,
+    "userCardinality" : 3615,
+    "originalTweetCount" : 14805,
+    "topTweetId" : "815613840373252098"
+  }, {
+    "key" : "nuoret",
+    "tweetCount" : 19586,
+    "userCardinality" : 5764,
+    "originalTweetCount" : 9134,
+    "topTweetId" : "943788976695136256"
+  }, {
+    "key" : "tekoäly",
+    "tweetCount" : 19298,
+    "userCardinality" : 5965,
+    "originalTweetCount" : 8931,
+    "topTweetId" : "922345861857898496"
+  }, {
+    "key" : "kesätyö",
+    "tweetCount" : 20446,
+    "userCardinality" : 2852,
+    "originalTweetCount" : 16693,
+    "topTweetId" : "828616644045991936"
+  }, {
+    "key" : "hiihto",
+    "tweetCount" : 18706,
+    "userCardinality" : 3591,
+    "originalTweetCount" : 14194,
+    "topTweetId" : "835441183014944768"
+  }, {
+    "key" : "jypliiga",
+    "tweetCount" : 25130,
+    "userCardinality" : 2132,
+    "originalTweetCount" : 17177,
+    "topTweetId" : "913445249275584512"
+  }, {
+    "key" : "lapset",
+    "tweetCount" : 18233,
+    "userCardinality" : 5714,
+    "originalTweetCount" : 8483,
+    "topTweetId" : "854606765597569024"
+  }, {
+    "key" : "mtvuutiset",
+    "tweetCount" : 22712,
+    "userCardinality" : 3265,
+    "originalTweetCount" : 11910,
+    "topTweetId" : "825347202218332161"
+  }, {
+    "key" : "valinnanvapaus",
+    "tweetCount" : 21319,
+    "userCardinality" : 4555,
+    "originalTweetCount" : 8848,
+    "topTweetId" : "826448797488254977"
+  }, {
+    "key" : "some",
+    "tweetCount" : 15200,
+    "userCardinality" : 6592,
+    "originalTweetCount" : 8550,
+    "topTweetId" : "853952992323796994"
+  }, {
+    "key" : "asiakaskokemus",
+    "tweetCount" : 16561,
+    "userCardinality" : 5316,
+    "originalTweetCount" : 9445,
+    "topTweetId" : "894806896548478977"
+  }, {
+    "key" : "työhyvinvointi",
+    "tweetCount" : 17759,
+    "userCardinality" : 5436,
+    "originalTweetCount" : 8536,
+    "topTweetId" : "838420519124881408"
+  }, {
+    "key" : "russia",
+    "tweetCount" : 29378,
+    "userCardinality" : 8890,
+    "originalTweetCount" : 3127,
+    "topTweetId" : "902505909066313728"
+  }, {
+    "key" : "tutkimus",
+    "tweetCount" : 17817,
+    "userCardinality" : 6088,
+    "originalTweetCount" : 7434,
+    "topTweetId" : "873556030671773696"
+  }, {
+    "key" : "liikenne",
+    "tweetCount" : 17073,
+    "userCardinality" : 5026,
+    "originalTweetCount" : 9391,
+    "topTweetId" : "946340589754355712"
+  }, {
+    "key" : "asuminen",
+    "tweetCount" : 19357,
+    "userCardinality" : 4258,
+    "originalTweetCount" : 9668,
+    "topTweetId" : "929064871903289344"
+  }, {
+    "key" : "lahti",
+    "tweetCount" : 16848,
+    "userCardinality" : 4189,
+    "originalTweetCount" : 11156,
+    "topTweetId" : "877023144254603264"
+  }, {
+    "key" : "climateaction",
+    "tweetCount" : 22173,
+    "userCardinality" : 2199,
+    "originalTweetCount" : 15783,
+    "topTweetId" : "917809605933223937"
+  }, {
+    "key" : "länsimetro",
+    "tweetCount" : 14645,
+    "userCardinality" : 6449,
+    "originalTweetCount" : 8145,
+    "topTweetId" : "931744613613887488"
+  }, {
+    "key" : "alkoholilaki",
+    "tweetCount" : 17378,
+    "userCardinality" : 4893,
+    "originalTweetCount" : 8988,
+    "topTweetId" : "869519892583784454"
+  }, {
+    "key" : "ässät",
+    "tweetCount" : 22660,
+    "userCardinality" : 2197,
+    "originalTweetCount" : 15002,
+    "topTweetId" : "842449632856834048"
+  }, {
+    "key" : "ilmastonmuutos",
+    "tweetCount" : 16220,
+    "userCardinality" : 5458,
+    "originalTweetCount" : 7923,
+    "topTweetId" : "830328228745248768"
+  }, {
+    "key" : "kuopio",
+    "tweetCount" : 15987,
+    "userCardinality" : 4344,
+    "originalTweetCount" : 10077,
+    "topTweetId" : "938372290126995456"
+  }, {
+    "key" : "mmlontoo",
+    "tweetCount" : 15896,
+    "userCardinality" : 3493,
+    "originalTweetCount" : 12562,
+    "topTweetId" : "893903039219871744"
+  }, {
+    "key" : "hjk",
+    "tweetCount" : 20578,
+    "userCardinality" : 3072,
+    "originalTweetCount" : 10464,
+    "topTweetId" : "831296895590989825"
+  }, {
+    "key" : "vainelämää",
+    "tweetCount" : 14168,
+    "userCardinality" : 4213,
+    "originalTweetCount" : 10784,
+    "topTweetId" : "875423507731144705"
+  }, {
+    "key" : "yleisurheilu",
+    "tweetCount" : 18902,
+    "userCardinality" : 2544,
+    "originalTweetCount" : 13332,
+    "topTweetId" : "895747099878359041"
+  }, {
+    "key" : "kevät",
+    "tweetCount" : 13172,
+    "userCardinality" : 5904,
+    "originalTweetCount" : 8146,
+    "topTweetId" : "857459297050963971"
+  }, {
+    "key" : "juhannus",
+    "tweetCount" : 11927,
+    "userCardinality" : 7085,
+    "originalTweetCount" : 7333,
+    "topTweetId" : "878338382291582976"
+  }, {
+    "key" : "mestis",
+    "tweetCount" : 18600,
+    "userCardinality" : 2574,
+    "originalTweetCount" : 12655,
+    "topTweetId" : "926524027652530176"
+  }, {
+    "key" : "venäjä",
+    "tweetCount" : 19192,
+    "userCardinality" : 3391,
+    "originalTweetCount" : 9274,
+    "topTweetId" : "852117163506896898"
+  }, {
+    "key" : "betsit",
+    "tweetCount" : 21717,
+    "userCardinality" : 1336,
+    "originalTweetCount" : 20066,
+    "topTweetId" : "889416925226389504"
+  }, {
+    "key" : "myynti",
+    "tweetCount" : 15725,
+    "userCardinality" : 3289,
+    "originalTweetCount" : 11234,
+    "topTweetId" : "919142637235523584"
+  }, {
+    "key" : "perussuomalaiset",
+    "tweetCount" : 15237,
+    "userCardinality" : 3314,
+    "originalTweetCount" : 11417,
+    "topTweetId" : "942835076227829761"
+  }, {
+    "key" : "ai",
+    "tweetCount" : 15702,
+    "userCardinality" : 5027,
+    "originalTweetCount" : 7019,
+    "topTweetId" : "873063383641096192"
+  }, {
+    "key" : "huomenta",
+    "tweetCount" : 15547,
+    "userCardinality" : 2938,
+    "originalTweetCount" : 12082,
+    "topTweetId" : "910728361017790464"
+  }, {
+    "key" : "ruoka",
+    "tweetCount" : 14531,
+    "userCardinality" : 4570,
+    "originalTweetCount" : 8282,
+    "topTweetId" : "852237987270275073"
+  }, {
+    "key" : "pelicansfi",
+    "tweetCount" : 20689,
+    "userCardinality" : 1941,
+    "originalTweetCount" : 13646,
+    "topTweetId" : "820295235892674564"
+  }, {
+    "key" : "nature",
+    "tweetCount" : 20733,
+    "userCardinality" : 6397,
+    "originalTweetCount" : 3942,
+    "topTweetId" : "833978680204525568"
+  }, {
+    "key" : "vr",
+    "tweetCount" : 12169,
+    "userCardinality" : 6174,
+    "originalTweetCount" : 6792,
+    "topTweetId" : "896980441147875329"
+  }, {
+    "key" : "photography",
+    "tweetCount" : 18410,
+    "userCardinality" : 5687,
+    "originalTweetCount" : 4774,
+    "topTweetId" : "944271847427801088"
+  }, {
+    "key" : "media",
+    "tweetCount" : 13130,
+    "userCardinality" : 5086,
+    "originalTweetCount" : 7370,
+    "topTweetId" : "892414170854981632"
+  }, {
+    "key" : "spain",
+    "tweetCount" : 44613,
+    "userCardinality" : 18237,
+    "originalTweetCount" : 597,
+    "topTweetId" : "926499682473398272"
+  }, {
+    "key" : "rovaniemi",
+    "tweetCount" : 14155,
+    "userCardinality" : 3662,
+    "originalTweetCount" : 8550,
+    "topTweetId" : "938436167766302721"
+  }, {
+    "key" : "nflfi",
+    "tweetCount" : 17093,
+    "userCardinality" : 1589,
+    "originalTweetCount" : 15982,
+    "topTweetId" : "826830293956976640"
+  }, {
+    "key" : "kiertotalous",
+    "tweetCount" : 15787,
+    "userCardinality" : 4074,
+    "originalTweetCount" : 6733,
+    "topTweetId" : "844502784569335808"
+  }, {
+    "key" : "u20fi",
+    "tweetCount" : 12326,
+    "userCardinality" : 3780,
+    "originalTweetCount" : 9145,
+    "topTweetId" : "945767064672841728"
+  }, {
+    "key" : "korisliiga",
+    "tweetCount" : 18034,
+    "userCardinality" : 1796,
+    "originalTweetCount" : 12507,
+    "topTweetId" : "872427534633377792"
+  }, {
+    "key" : "journalismi",
+    "tweetCount" : 13470,
+    "userCardinality" : 4230,
+    "originalTweetCount" : 7098,
+    "topTweetId" : "854420601766850560"
+  }, {
+    "key" : "vappu",
+    "tweetCount" : 10657,
+    "userCardinality" : 6231,
+    "originalTweetCount" : 6047,
+    "topTweetId" : "858677412950888449"
+  }, {
+    "key" : "keskusta",
+    "tweetCount" : 13636,
+    "userCardinality" : 3596,
+    "originalTweetCount" : 8076,
+    "topTweetId" : "852916174044110848"
+  }, {
+    "key" : "heart",
+    "tweetCount" : 34220,
+    "userCardinality" : 10076,
+    "originalTweetCount" : 1143,
+    "topTweetId" : "786979366869803008"
+  }, {
+    "key" : "metsä",
+    "tweetCount" : 14872,
+    "userCardinality" : 4080,
+    "originalTweetCount" : 6284,
+    "topTweetId" : "826468480476127232"
+  }, {
+    "key" : "kasvu",
+    "tweetCount" : 13903,
+    "userCardinality" : 4664,
+    "originalTweetCount" : 5823,
+    "topTweetId" : "853314296645812224"
+  }, {
+    "key" : "saipa",
+    "tweetCount" : 17990,
+    "userCardinality" : 1794,
+    "originalTweetCount" : 11618,
+    "topTweetId" : "840581406883487744"
+  }, {
+    "key" : "laligafi",
+    "tweetCount" : 16498,
+    "userCardinality" : 1479,
+    "originalTweetCount" : 15320,
+    "topTweetId" : "825684723112538112"
+  }, {
+    "key" : "koulu",
+    "tweetCount" : 12428,
+    "userCardinality" : 4767,
+    "originalTweetCount" : 6232,
+    "topTweetId" : "894789824309190658"
+  }, {
+    "key" : "mtvttk",
+    "tweetCount" : 12389,
+    "userCardinality" : 2910,
+    "originalTweetCount" : 10127,
+    "topTweetId" : "848574952441872384"
+  }, {
+    "key" : "turvallisuus",
+    "tweetCount" : 12598,
+    "userCardinality" : 4636,
+    "originalTweetCount" : 6224,
+    "topTweetId" : "841149494091743233"
+  }, {
+    "key" : "tulevaisuus",
+    "tweetCount" : 11059,
+    "userCardinality" : 5455,
+    "originalTweetCount" : 5879,
+    "topTweetId" : "851847781220315138"
+  }, {
+    "key" : "ateema",
+    "tweetCount" : 12189,
+    "userCardinality" : 3807,
+    "originalTweetCount" : 7555,
+    "topTweetId" : "864929953552510976"
+  }, {
+    "key" : "lappi",
+    "tweetCount" : 14162,
+    "userCardinality" : 2973,
+    "originalTweetCount" : 8246,
+    "topTweetId" : "937988884603994112"
+  }, {
+    "key" : "eduskunta",
+    "tweetCount" : 12085,
+    "userCardinality" : 4100,
+    "originalTweetCount" : 6907,
+    "topTweetId" : "832253653247467521"
+  }, {
+    "key" : "iot",
+    "tweetCount" : 13656,
+    "userCardinality" : 4603,
+    "originalTweetCount" : 5259,
+    "topTweetId" : "873063383641096192"
+  }, {
+    "key" : "emkoris",
+    "tweetCount" : 11522,
+    "userCardinality" : 3255,
+    "originalTweetCount" : 8584,
+    "topTweetId" : "904426370134155265"
+  }, {
+    "key" : "kirja",
+    "tweetCount" : 13306,
+    "userCardinality" : 3130,
+    "originalTweetCount" : 7567,
+    "topTweetId" : "868199754580328449"
+  }, {
+    "key" : "urheilu",
+    "tweetCount" : 11318,
+    "userCardinality" : 2946,
+    "originalTweetCount" : 9155,
+    "topTweetId" : "880130667987832838"
+  }, {
+    "key" : "nbafi",
+    "tweetCount" : 13134,
+    "userCardinality" : 2107,
+    "originalTweetCount" : 10893,
+    "topTweetId" : "932527251786227712"
+  }, {
+    "key" : "persut",
+    "tweetCount" : 11458,
+    "userCardinality" : 3594,
+    "originalTweetCount" : 7311,
+    "topTweetId" : "874235814183657473"
+  }, {
+    "key" : "liikunta",
+    "tweetCount" : 11725,
+    "userCardinality" : 4106,
+    "originalTweetCount" : 6234,
+    "topTweetId" : "825347202218332161"
+  }, {
+    "key" : "lukko",
+    "tweetCount" : 14032,
+    "userCardinality" : 2270,
+    "originalTweetCount" : 9266,
+    "topTweetId" : "905744307356925952"
+  }, {
+    "key" : "lapland",
+    "tweetCount" : 13352,
+    "userCardinality" : 4776,
+    "originalTweetCount" : 4624,
+    "topTweetId" : "936913726082449408"
+  }, {
+    "key" : "linnanjuhlat",
+    "tweetCount" : 10667,
+    "userCardinality" : 4587,
+    "originalTweetCount" : 5942,
+    "topTweetId" : "938471486351925250"
+  }, {
+    "key" : "vaalit",
+    "tweetCount" : 10720,
+    "userCardinality" : 3301,
+    "originalTweetCount" : 7905,
+    "topTweetId" : "874201076932767744"
+  }, {
+    "key" : "biotalous",
+    "tweetCount" : 15746,
+    "userCardinality" : 3107,
+    "originalTweetCount" : 5709,
+    "topTweetId" : "845244946353455104"
+  }, {
+    "key" : "vihapuhe",
+    "tweetCount" : 11792,
+    "userCardinality" : 3964,
+    "originalTweetCount" : 5937,
+    "topTweetId" : "869928326923788288"
+  }, {
+    "key" : "pyöräily",
+    "tweetCount" : 11671,
+    "userCardinality" : 3371,
+    "originalTweetCount" : 7011,
+    "topTweetId" : "865427790400638976"
+  }, {
+    "key" : "metoo",
+    "tweetCount" : 11057,
+    "userCardinality" : 5129,
+    "originalTweetCount" : 4821,
+    "topTweetId" : "920381792376385536"
+  }, {
+    "key" : "kiitos",
+    "tweetCount" : 9098,
+    "userCardinality" : 5018,
+    "originalTweetCount" : 5880,
+    "topTweetId" : "915848601712119808"
+  }, {
+    "key" : "startup",
+    "tweetCount" : 11453,
+    "userCardinality" : 4512,
+    "originalTweetCount" : 5108,
+    "topTweetId" : "913367129856053249"
+  }, {
+    "key" : "valokuvaus",
+    "tweetCount" : 14147,
+    "userCardinality" : 3540,
+    "originalTweetCount" : 5019,
+    "topTweetId" : "938050516134883328"
+  }, {
+    "key" : "sdp",
+    "tweetCount" : 11165,
+    "userCardinality" : 3087,
+    "originalTweetCount" : 6786,
+    "topTweetId" : "841998991424421889"
+  }, {
+    "key" : "helsinki2017",
+    "tweetCount" : 19258,
+    "userCardinality" : 7546,
+    "originalTweetCount" : 1578,
+    "topTweetId" : "848135210327842816"
+  }, {
+    "key" : "kela",
+    "tweetCount" : 11978,
+    "userCardinality" : 3684,
+    "originalTweetCount" : 4899,
+    "topTweetId" : "874973079579090944"
+  }, {
+    "key" : "pori",
+    "tweetCount" : 9851,
+    "userCardinality" : 3538,
+    "originalTweetCount" : 6066,
+    "topTweetId" : "885831255199232000"
+  }, {
+    "key" : "wrc",
+    "tweetCount" : 13151,
+    "userCardinality" : 3504,
+    "originalTweetCount" : 4565,
+    "topTweetId" : "830751974043811841"
+  }, {
+    "key" : "varhaiskasvatus",
+    "tweetCount" : 12666,
+    "userCardinality" : 3239,
+    "originalTweetCount" : 5113,
+    "topTweetId" : "835066619667832833"
+  }, {
+    "key" : "evslive",
+    "tweetCount" : 10173,
+    "userCardinality" : 2974,
+    "originalTweetCount" : 6933,
+    "topTweetId" : "852422848819982342"
+  }, {
+    "key" : "yhteistyö",
+    "tweetCount" : 9118,
+    "userCardinality" : 4736,
+    "originalTweetCount" : 4806,
+    "topTweetId" : "836613899042623488"
+  }, {
+    "key" : "mtvsport",
+    "tweetCount" : 13538,
+    "userCardinality" : 1697,
+    "originalTweetCount" : 8874,
+    "topTweetId" : "865258699044073472"
+  }, {
+    "key" : "mitävittua",
+    "tweetCount" : 21149,
+    "userCardinality" : 504,
+    "originalTweetCount" : 18059,
+    "topTweetId" : "699549605403361280"
+  }, {
+    "key" : "tähdettähdet",
+    "tweetCount" : 10212,
+    "userCardinality" : 2157,
+    "originalTweetCount" : 8628,
+    "topTweetId" : "937380717172068352"
+  }, {
+    "key" : "travel",
+    "tweetCount" : 13744,
+    "userCardinality" : 4344,
+    "originalTweetCount" : 3174,
+    "topTweetId" : "929252807202525184"
+  }, {
+    "key" : "yrittäjä",
+    "tweetCount" : 10380,
+    "userCardinality" : 3209,
+    "originalTweetCount" : 5517,
+    "topTweetId" : "868724200319705088"
+  }, {
+    "key" : "maakuntauudistus",
+    "tweetCount" : 11684,
+    "userCardinality" : 3072,
+    "originalTweetCount" : 5067,
+    "topTweetId" : "903152627143364608"
+  }, {
+    "key" : "rekrytointi",
+    "tweetCount" : 9291,
+    "userCardinality" : 3765,
+    "originalTweetCount" : 5155,
+    "topTweetId" : "846947992687005705"
+  }, {
+    "key" : "mielenterveys",
+    "tweetCount" : 11619,
+    "userCardinality" : 2993,
+    "originalTweetCount" : 5153,
+    "topTweetId" : "859120886942752768"
+  }, {
+    "key" : "nbforum2017",
+    "tweetCount" : 9706,
+    "userCardinality" : 3563,
+    "originalTweetCount" : 5082,
+    "topTweetId" : "864426402904498177"
+  }, {
+    "key" : "ruutu",
+    "tweetCount" : 9631,
+    "userCardinality" : 2770,
+    "originalTweetCount" : 6568,
+    "topTweetId" : "844263821078401024"
+  }, {
+    "key" : "rakentaminen",
+    "tweetCount" : 10414,
+    "userCardinality" : 2881,
+    "originalTweetCount" : 5780,
+    "topTweetId" : "815613840373252098"
+  }, {
+    "key" : "auto",
+    "tweetCount" : 9522,
+    "userCardinality" : 2814,
+    "originalTweetCount" : 6359,
+    "topTweetId" : "943746666313773056"
+  }, {
+    "key" : "eurobasket2017",
+    "tweetCount" : 9376,
+    "userCardinality" : 3982,
+    "originalTweetCount" : 4543,
+    "topTweetId" : "904434824370368512"
+  }, {
+    "key" : "tietoturva",
+    "tweetCount" : 9936,
+    "userCardinality" : 3379,
+    "originalTweetCount" : 4997,
+    "topTweetId" : "913657880397611009"
+  }, {
+    "key" : "kulttuuri",
+    "tweetCount" : 8497,
+    "userCardinality" : 3472,
+    "originalTweetCount" : 5644,
+    "topTweetId" : "839823874623688705"
+  }, {
+    "key" : "talvi",
+    "tweetCount" : 8482,
+    "userCardinality" : 4041,
+    "originalTweetCount" : 4857,
+    "topTweetId" : "816945798126698497"
+  }, {
+    "key" : "tvof",
+    "tweetCount" : 9261,
+    "userCardinality" : 2322,
+    "originalTweetCount" : 7681,
+    "topTweetId" : "852957325111545856"
+  }, {
+    "key" : "urheilugaala",
+    "tweetCount" : 8350,
+    "userCardinality" : 3779,
+    "originalTweetCount" : 5233,
+    "topTweetId" : "821288342314688512"
+  }, {
+    "key" : "umk17",
+    "tweetCount" : 8832,
+    "userCardinality" : 2828,
+    "originalTweetCount" : 6500,
+    "topTweetId" : "825431247338008577"
+  }, {
+    "key" : "blogi",
+    "tweetCount" : 8798,
+    "userCardinality" : 3450,
+    "originalTweetCount" : 5193,
+    "topTweetId" : "927439189184040960"
+  }, {
+    "key" : "terrorismi",
+    "tweetCount" : 10476,
+    "userCardinality" : 3064,
+    "originalTweetCount" : 4905,
+    "topTweetId" : "834805283260076032"
+  }, {
+    "key" : "sipilä",
+    "tweetCount" : 9164,
+    "userCardinality" : 2913,
+    "originalTweetCount" : 5735,
+    "topTweetId" : "818750246410915840"
+  }, {
+    "key" : "vastuullisuus",
+    "tweetCount" : 9411,
+    "userCardinality" : 3667,
+    "originalTweetCount" : 4354,
+    "topTweetId" : "856394817445781504"
+  }, {
+    "key" : "life",
+    "tweetCount" : 18125,
+    "userCardinality" : 8102,
+    "originalTweetCount" : 1001,
+    "topTweetId" : "830357190074650626"
+  }, {
+    "key" : "tiede",
+    "tweetCount" : 8996,
+    "userCardinality" : 3730,
+    "originalTweetCount" : 4314,
+    "topTweetId" : "891558253099982849"
+  }, {
+    "key" : "oppiminen",
+    "tweetCount" : 8932,
+    "userCardinality" : 3693,
+    "originalTweetCount" : 4301,
+    "topTweetId" : "915848601712119808"
+  }, {
+    "key" : "sohvaperunat",
+    "tweetCount" : 9110,
+    "userCardinality" : 2114,
+    "originalTweetCount" : 7344,
+    "topTweetId" : "941251677390344192"
+  } ]
+}

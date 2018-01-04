@@ -9,6 +9,15 @@ pyppe.fi
 - Maybe utilize https://github.com/pixelcog/parallax.js
 
 ### Get twitter profile image
+```javascript
+_.flatMap(window.users, u => {
+  const {screenName} = u.user;
+  return [
+    `rm ${screenName}.jpg`,
+    `curl -L 'https://twitter.com/${screenName}/profile_image?size=bigger'| convert - ${screenName}.jpg`
+  ];
+}).join('\n');
+```
 ```bash
 curl -L 'https://twitter.com/PinnallaFI/profile_image?size=bigger'| convert - PinnallaFI.jpg
 ```

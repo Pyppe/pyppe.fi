@@ -7,7 +7,7 @@
 .frame {
   position: relative;
   overflow: hidden;
-  @include box-shadow(2px 2px 5px rgba(black, 0.1));
+  @include box-shadow(0 0 5px rgba(black, 0.1));
   &:hover {
     > .bg {
       @include transition(background-color 0.5s ease);

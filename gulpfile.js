@@ -64,8 +64,8 @@ const paths = (() => {
 
   return {
     siteJs,
-    resources: 'src/resources/*',
-    customJs: 'src/js/custom/*',
+    resources: 'src/resources/**/*',
+    customJs: 'src/js/custom/**/*',
     vendorJs: vendorScripts,
     vendorCss : vendorCss,
     siteSass: 'src/sass/**/*.scss'
@@ -192,7 +192,12 @@ gulp.task('siteJs', () => {
 gulp.task('resources', () => (
   gulp.
     src(paths.resources).
-    pipe(stripJsonComments({whitespace: false})).
+    pipe(
+      gulpif(
+        f => path.extname(f.path) === '.json',
+        stripJsonComments({whitespace: false})
+      )
+    ).
     pipe(gulp.dest('dist/resources'))
 ));
 

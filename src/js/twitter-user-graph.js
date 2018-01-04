@@ -229,7 +229,14 @@
     const scaledPopularity = d3.scalePow().domain([minPopularity, maxPopularity]).range([10, 30]);
     //const scaledPopularity = d3.scalePow().domain([minPopularity, maxPopularity]).range([15, 20]);
     const dScaledPopularity = d => scaledPopularity(popularityById[d.id]);
-    const dTopicColor = d => Topics[d.topic].color;
+    const dTopicColor = d => {
+      if (_.has(Topics, d.topic)) {
+        return Topics[d.topic].color;
+      } else {
+        console.log('Unknown topic: ' + d.topic);
+        return 'black';
+      }
+    }
 
     nodes = _.map(data, obj => _.pick(obj, 'id', 'screenName', 'name', 'reactionCountByOthers', 'topic'));
 
