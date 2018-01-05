@@ -265,7 +265,9 @@ if (!window.console) {
 
     // Life-story page
     $("#showMoreNostalgia").prop('disabled', false).click(function () {
-      $(this).off("click").prop('disabled', true);
+      $(this).off("click").prop('disabled', true).animate({opacity: 0}, () => {
+        $(this).css('visibility', 'hidden');
+      });
       $("#moreNostalgia").slideDown();
       $('html, body').animate({ scrollTop: $('#moreNostalgia').offset().top }, 400);
     });
