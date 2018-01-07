@@ -1,4 +1,4 @@
 ---
-permalink: /blog/rss/
+permalink: /blog/rss.xml
 ---
 {% include rss.xml title="Pyppe.fi Blog (RSS)" description="random ramblings of Pyppe" %}

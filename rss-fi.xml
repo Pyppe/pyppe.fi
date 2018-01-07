@@ -1,4 +1,4 @@
 ---
-permalink: /blogi/rss/
+permalink: /blogi/rss.xml
 ---
 {% include rss.xml title="Pyppe.fi Blogi (RSS)" description="Pypen satunnaiset jorinat" lang="fi" %}
