@@ -7,6 +7,7 @@
   max-width: 1920px;
   margin-left: auto;
   margin-right: auto;
+  overflow: hidden;
   .container {
     position: relative;
     color: white;
@@ -18,11 +19,12 @@
       padding-right: 100px;
     }
   }
-  img {
+  > img {
+    @include filter(drop-shadow(-2px 2px 4px black));
     z-index: 1;
     position: absolute;
-    bottom: 0px;
     right: 10px;
     height: 200px;
+    bottom: -220px;
   }
 }

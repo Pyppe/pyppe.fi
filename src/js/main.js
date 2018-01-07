@@ -253,6 +253,26 @@ if (!window.console) {
     });
   }
 
+  function animateIndexJumbotronImage() {
+    setTimeout(() => {
+      const $img = $('body > .jumbotron > img');
+      $img.animate({bottom: '0px'}, 1000, () => {
+        $img.mouseover(() => {
+          $img.stop().animate({bottom: '-220px'}, 400);
+        }).mouseleave(() => {
+          const $parent = $img.parent();
+          if ($parent.is(':hover')) {
+            $parent.mouseleave(() => {
+              $img.stop().animate({bottom: '0px'}, 1000);
+            });
+          } else {
+            $img.stop().animate({bottom: '0px'}, 400);
+          }
+        });
+      });
+    }, 1000);
+  }
+
   $(function () {
     localization();
     formatTimes();
@@ -261,6 +281,7 @@ if (!window.console) {
     createFancyboxImages();
     handleRelatedPosts();
     handleNotFound();
+    animateIndexJumbotronImage();
     pyppe.util.bindTooltips($('body'));
 
     // Life-story page
