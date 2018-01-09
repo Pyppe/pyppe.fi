@@ -183,7 +183,7 @@
           `${encodeURIComponent(key)}=${encodeURIComponent(value)}`
         ).join('&');
 
-        history.replaceState({}, document.title, location.pathname + qs);
+        history.replaceState({}, document.title, location.pathname + qs + location.hash);
       }
     },
     bindTooltips: $parent => {
