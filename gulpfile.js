@@ -87,11 +87,11 @@ gulp.task('processContent', () => {
   const containsWhitespace = str => /.*\s.*/.test(str);
   const startTime = Date.now();
   const sizeConversions = [
-    ['thumb',   `convert -resize "200x200^" -gravity Center -crop 200x200+0+0 +repage`],
-    ['crop',    `convert -resize "300x180^" -gravity Center -crop 300x180+0+0 +repage`],
-    ['aside',   `convert -resize "700x500>"`],
-    ['listing', `convert -resize "800x600>" -modulate 120,80`],
-    ['large',   `convert -resize "1400x1000>"`]
+    ['thumb',   `convert -strip -resize "200x200^" -gravity Center -crop 200x200+0+0 +repage`],
+    ['crop',    `convert -strip -resize "300x180^" -gravity Center -crop 300x180+0+0 +repage`],
+    ['aside',   `convert -strip -resize "700x500>"`],
+    ['listing', `convert -strip -resize "800x600>" -modulate 120,80`],
+    ['large',   `convert -strip -resize "1400x1000>"`]
   ];
   return glob("./content/**/*", {nodir: true}, (error, files) => {
     const images = _.filter(files, isImage);
@@ -106,7 +106,11 @@ gulp.task('processContent', () => {
         const targetFile = `${targetDir}/${basename}.${size}${ext}`;
         return {
           targetFile,
-          resizeCommand: `${convert} ${img} ${targetFile}`
+          resizeCommand: `${convert} ${img} ${targetFile}`,
+          optimizeCommand:
+            ext === '.jpg' ? `jpegoptim ${targetFile}` :
+            ext === '.png' ? `optipng -quiet ${targetFile}` :
+            null
         };
       });
 
@@ -131,7 +135,11 @@ gulp.task('processContent', () => {
         // Do nothing
       } else {
         mkdirp.sync(targetDir);
-        const commands = [`cp ${img} ${target}`].concat(_.map(resizeTargets, 'resizeCommand'));
+        const commands = [
+          `cp ${img} ${target}`,
+          ..._.map(resizeTargets, 'resizeCommand'),
+          ..._.compact(_.map(resizeTargets, 'optimizeCommand')),
+        ];
         _.forEach(commands, cmd => {
           execSync(cmd, function (err, stdout, stderr) {
             console.log(err);
