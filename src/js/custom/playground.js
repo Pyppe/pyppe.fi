@@ -1,4 +1,118 @@
 (() => {
+
+  moment.locale('fi');
+
+  function drawBotChart() {
+    const elastic = {"took":78,"timed_out":false,"_shards":{"total":1,"successful":1,"failed":0},"hits":{"total":68778,"max_score":0.0,"hits":[]},"aggregations":{"user_cardinality":{"value":19885},"tweet_time":{"buckets":[{"key_as_string":"2018-01-17T00:00:00.000Z","key":1516147200000,"doc_count":4871},{"key_as_string":"2018-01-18T00:00:00.000Z","key":1516233600000,"doc_count":3466},{"key_as_string":"2018-01-19T00:00:00.000Z","key":1516320000000,"doc_count":2360},{"key_as_string":"2018-01-20T00:00:00.000Z","key":1516406400000,"doc_count":3530},{"key_as_string":"2018-01-21T00:00:00.000Z","key":1516492800000,"doc_count":5200},{"key_as_string":"2018-01-22T00:00:00.000Z","key":1516579200000,"doc_count":4286},{"key_as_string":"2018-01-23T00:00:00.000Z","key":1516665600000,"doc_count":3678},{"key_as_string":"2018-01-24T00:00:00.000Z","key":1516752000000,"doc_count":2124},{"key_as_string":"2018-01-25T00:00:00.000Z","key":1516838400000,"doc_count":6697},{"key_as_string":"2018-01-26T00:00:00.000Z","key":1516924800000,"doc_count":3725},{"key_as_string":"2018-01-27T00:00:00.000Z","key":1517011200000,"doc_count":4029},{"key_as_string":"2018-01-28T00:00:00.000Z","key":1517097600000,"doc_count":17179},{"key_as_string":"2018-01-29T00:00:00.000Z","key":1517184000000,"doc_count":5314},{"key_as_string":"2018-01-30T00:00:00.000Z","key":1517270400000,"doc_count":2319}]}}};
+    const {buckets} = elastic.aggregations.tweet_time;
+
+    const data = _.map(buckets, ({key_as_string, doc_count}) => {
+      const [year, month, day] = _.map(key_as_string.substr(0, 10).split('-'), str => parseInt(str, 10));
+      return [Date.UTC(year, month-1, day), doc_count];
+    });
+
+    $('<div/>').appendTo($('#playground-dna')).highcharts({
+       chart: {
+            zoomType: 'x'
+        },
+        title: {
+            //text: 'USD to EUR exchange rate over time'
+            text: null
+        },
+        subtitle: {
+            text: null
+        },
+      xAxis: {
+        type: 'datetime',
+        labels: {
+          formatter: function() {
+            const m = moment(this.value);
+            console.log(m.date());
+            if (m.date() === 1) {
+              return m.format('MMMM');
+            } else {
+              return m.format('dd D.M.');
+            }
+          }
+        }
+      },
+        yAxis: {
+            title: {
+                text: 'Twiittejä'
+            }
+        },
+        legend: {
+            enabled: false
+        },
+        colors: ['#008833','#0054bc','#d84449','#ffce12','#0e365a','#17a794','#7d57c2','#605956'],
+        credits: false,
+        plotOptions: {
+            area: {
+                fillColor: {
+                    linearGradient: {
+                        x1: 0,
+                        y1: 0,
+                        x2: 0,
+                        y2: 1
+                    },
+                    stops: [
+                        [0, '#008833'],
+                        [1, Highcharts.Color('#008833').setOpacity(0.3).get('rgba')]
+                    ]
+                },
+                marker: {
+                    radius: 0
+                },
+                lineWidth: 1,
+                states: {
+                    hover: {
+                        lineWidth: 1
+                    }
+                },
+            }
+        },
+      tooltip: {
+        shared: true,
+        crosshairs: true,
+
+        // These are essential where useHTML and custom tooltip
+        // Issue was: http://stackoverflow.com/questions/13740200/highcharts-html-tooltip-datalabels-render-issue
+        //borderWidth: 0,
+        //borderRadius: 0,
+        shadow: false,
+        //backgroundColor: "rgba(255,255,255,0)",
+        useHTML: true,
+
+        positioner: function(boxWidth, boxHeight, point) {
+            return {
+                x: point.plotX - 90,
+                y: point.plotY
+            };
+        },
+
+        formatter: function() {
+          const day = moment(this.x).format('LL');
+          return (`
+            <div class="pyppe-highcharts-tooltip" style="padding: 0px;">
+              <h6>${day}</h6>
+              <div>Twiittejä: <b>${this.y}</b></div>
+            </div>
+          `);
+        }
+      },
+        series: [{
+            type: 'areaspline',
+            name: 'Twiittejä',
+            data: data
+        }]
+    });
+  }
+
+  drawBotChart();
+
+  return;
+
+
   $.get(`/dist/resources/4gstatus.json`, {h: pyppe.resourceHash}).then(res => {
     /*
     console.log('abort 4g status');
