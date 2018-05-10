@@ -3,7 +3,7 @@ const compass           = require("gulp-compass");
 const concat            = require("gulp-concat");
 const gulpif            = require('gulp-if');
 const gulp              = require("gulp");
-const minifyCss         = require("gulp-minify-css");
+const cleanCss          = require("gulp-clean-css");
 const uglify            = require('gulp-uglify');
 const util              = require('gulp-util');
 const stripJsonComments = require('gulp-strip-json-comments');
@@ -28,10 +28,10 @@ mkdirp.sync(`${distCss}/fancybox`);
 
 const paths = (() => {
   const vendorScripts = [
-    'jquery',
+    //'jquery',
     'lodash',
-    'tether',
-    'bootstrap',
+    //'tether',
+    //'bootstrap',
     'moment',
     'moment-fi',
     'fancybox/jquery.fancybox',
@@ -50,7 +50,7 @@ const paths = (() => {
   console.log('Using vendor scripts: ' + vendorScripts.join(' '));
 
   const vendorCss = [
-    'bootstrap',
+    //'bootstrap',
     'select2'
   ].map(name => `src/css/vendor/${name}.css`);
 
@@ -176,7 +176,7 @@ gulp.task('compass', () => {
 
 gulp.task('vendorCss', () => (
   gulp.src(paths.vendorCss).
-    pipe(minifyCss({compatibility: ''})).
+    pipe(cleanCss({compatibility: ''})).
     pipe(concat('vendor.css')).
     pipe(gulp.dest(distCss))
 ));
