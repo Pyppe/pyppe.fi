@@ -44,7 +44,7 @@ excerpt: |
 
 <h2>2. The Setup</h2>
 
-<p>I wanted to build a <acronym title="Home Theater PC">HTPC</acronym> setup utilizing WLAN
+<p>I wanted to build a <abbr title="Home Theater PC">HTPC</abbr> setup utilizing WLAN
   (wasn't<sup>2</sup> too keen on having a network cable running across the living room for about 20 meters), using a
   HDTV as an output for audio/video (connected with HDMI) and having XBMC as the media center software.</p>
 
@@ -109,10 +109,10 @@ HAS_NATIVE_WPA_SUPPLICANT_SUPPORT=y{% endhighlight %}
 	</li>
 	<li>Modify <code>$SRC_DIR/common/cmm_wpa.c</code> by finding the only occurrence of string <code>MIX_CIPHER_NOTUSE</code> and replacing it with string <code>WPA_TKIPAES_WPA2_TKIPAES</code></li>
 	<li>Compile and install by executing:
-    {% highlight bash %}
+{% highlight bash %}
 sudo make
 sudo make install
-    {% endhighlight %}
+{% endhighlight %}
 
 	</li>
 	<li>Replace the driver

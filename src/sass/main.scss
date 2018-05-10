@@ -187,7 +187,7 @@ table.sortable {
         display: block;
       }
     }
-    .label {
+    .badge {
       font-weight: 400;
     }
   }
@@ -199,4 +199,15 @@ table.sortable {
   &:not(.bare):not(th) {
     border-bottom: 1px dotted #818a91;
   }
+}
+
+code {
+  background-color: #f7f7f9;
+  border-radius: .25rem;
+  padding: .2rem .4rem;
+}
+
+pre code {
+  background-color: transparent;
+  padding: inherit;
 }

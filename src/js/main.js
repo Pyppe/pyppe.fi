@@ -180,7 +180,7 @@ if (!window.console) {
       /*
       const $tagContainer = $('<div class="tags"></div>').appendTo($item);
       _.forEach(post.tags, tag => {
-        $(`<span class="label label-default"><i class="fa fa-tag"></i> ${tag}</span>`).appendTo($tagContainer);
+        $(`<span class="badge badge-secondary"><i class="fa fa-tag"></i> ${tag}</span>`).appendTo($tagContainer);
       });
       */
     });

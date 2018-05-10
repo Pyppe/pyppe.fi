@@ -1,13 +1,9 @@
 /* Flatten das bootstrap */
-/*
-.well, .navbar-inner, .popover, .btn, .tooltip, input, select, textarea, pre, .progress,
-  .modal-content, .add-on, .alert, .table-bordered, .nav>.active>a, .dropdown-menu,
-  .tooltip-inner, .label, .img-polaroid, .form-control, .nav-pills > li > a,
-  .input-group-addon {
-    */
-.btn {
-  //@include box-shadow(none !important);
+.btn, .custom-select  {
   @include border-radius(0px !important);
-  //border-collapse: collapse !important;
-  //background-image: none !important;
+}
+
+.blockquote {
+  padding: 0.5rem 1rem;
+  border-left: 0.25rem solid #eceeef;
 }

@@ -8,42 +8,14 @@
 }
 
 #topbar {
-  /*
-  background-color: #f1f1f1;
-  border: none;
-  margin-bottom: 0;
-  */
-  /*
-  .navbar-nav {
-    > li {
-      &.active {
-        a, a:focus, a:hover {
-          //font-size: 120%;
-          font-weight: 700;
-          background-color: white;
-        }
-        background-color: white;
-        //background-color: white;
-      }
-      &:hover a {
-        background-color: #eee;
-      }
+  .nav-item {
+    .nav-link {
+      border-bottom: 0.25rem solid transparent;
+      padding-bottom: 0.25rem;
     }
-  }
-  .navbar-brand {
-    @include title-font();
-  }
-  .hamburger {
-    font-size: 150%;
-  }
-  */
-
-  .navbar-nav {
-    > li {
-      &.active {
-        a, a:focus, a:hover {
-          border-bottom: 4px solid $blue;
-        }
+    &.active {
+      .nav-link {
+        border-bottom-color: $blue;
       }
     }
   }
@@ -52,6 +24,13 @@
     //@include title-font();
     font-weight: 700;
     @include transform(rotate(-3deg));
+  }
+  .navbar-toggler {
+    @include border-radius(0);
+    background-color: black;
+    > i {
+      color: white;
+    }
   }
 }
 

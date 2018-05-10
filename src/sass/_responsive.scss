@@ -18,10 +18,10 @@ $landscape: "#{$screen} and (orientation: landscape)" !default;
 $portrait: "#{$screen} and (orientation: portrait)" !default;
 
 // ----------- BOOTSTRAP
-$xs-range: (0px,    767px) !default;
-$sm-range: (768px,  991px) !default;
-$md-range: (992px, 1199px) !default;
-$lg-range: (1200px) !default;
+$xs-range: (0px,    575.98px) !default;
+$sm-range: (576px,  767.98px) !default;
+$md-range: (768px,  991.98px) !default;
+$lg-range: (992px,  1199.98px) !default;
 
 
 $xs-up: $screen !default;

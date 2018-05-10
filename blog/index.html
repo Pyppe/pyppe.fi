@@ -24,7 +24,7 @@ titleCover: /img/blog_bg.jpg
         <div class="cover{% if post.titleClass %} {{post.titleClass}}{%endif%}" style="background-image: url('{{ post.id | content_path }}/{{ post.titleCover | img_size:'listing' }}');"></div>
       {% endif %}
       {% if post.img_aside %}
-        <img src="{{ post.id | content_path }}/{{ post.img_aside | img_size:'listing' }}" class="aside hidden-md-down" />
+        <img src="{{ post.id | content_path }}/{{ post.img_aside | img_size:'listing' }}" class="aside d-none d-md-inline" />
       {% endif %}
       <div class="caption">{{ post.excerpt }}</div>
       <div style="clear:both"></div>
@@ -35,19 +35,17 @@ titleCover: /img/blog_bg.jpg
   </div>
 
   <div class="col-lg-4">
-    <div class="side-info well">
-      <div class="card">
-        <div class="card-block">
-          <h3 class="card-title">Pyry-Samuli Lahti</h3>
-          <p class="card-text lang-fi">
-            Raudanluja herra vanhempi asiantuntija, jolla ei mene sormi suuhun kiperässäkään tilanteessa.
-          </p>
-          <p class="card-text lang-en">
-            A seasoned professional who won't be alarmed when the going gets tough.
-          </p>
-        </div>
-        <img class="card-img-top" src="/img/nyrkki-suussa.png" alt="Professional" />
+    <div class="card card-body bg-light" style="padding-bottom: 0;">
+      <div class="card-block">
+        <h3 class="card-title">Pyry-Samuli Lahti</h3>
+        <p class="card-text lang-fi">
+          Raudanluja herra vanhempi asiantuntija, jolla ei mene sormi suuhun kiperässäkään tilanteessa.
+        </p>
+        <p class="card-text lang-en">
+          A seasoned professional who won't be alarmed when the going gets tough.
+        </p>
       </div>
+      <img class="card-img-top" src="/img/nyrkki-suussa.png" alt="Professional" />
     </div>
   </div>
 

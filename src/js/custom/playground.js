@@ -1,6 +1,6 @@
 (() => {
 
-  moment.locale('fi');
+  //moment.locale('fi');
 
   function formatDuration(ms) {
     const secs = ms / 1000;

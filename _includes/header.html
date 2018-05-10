@@ -1,25 +1,24 @@
-<nav id="topbar" class="navbar navbar-light navbar-static-top">
+<nav id="topbar" class="navbar navbar-expand-sm navbar-light">
   <div class="container">
-    <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
+    <!--brand-->
+    <img id="site-logo" src="/img/pyppe_selfie.jpg" alt="" />
+    <a class="navbar-brand lang-fi" href="/">Pyppe.fi</a>
+    <a class="navbar-brand lang-en" href="/frontpage/">Pyppe.fi</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <i class="fa fa-bars hamburger"></i>
     </button>
-    <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar">
-      <!--brand-->
-      <img id="site-logo" src="/img/pyppe_selfie.jpg" alt="" />
-      <a class="navbar-brand lang-fi" href="/">Pyppe.fi</a>
-      <a class="navbar-brand lang-en" href="/frontpage/">Pyppe.fi</a>
 
-      <!--left side-->
-      <ul class="nav navbar-nav">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- left side -->
+      <ul class="navbar-nav mr-auto">
         <li class="lang-fi lifeStory nav-item"><a class="nav-link" href="/elamantarina/">Elämäntarina</a></li>
         <li class="lang-en lifeStory nav-item"><a class="nav-link" href="/life-story/">Life story</a></li>
 
         <li class="lang-fi blog nav-item"><a class="nav-link" href="/blogi/">Blogi</a></li>
         <li class="lang-en blog nav-item"><a class="nav-link" href="/blog/">Blog</a></li>
       </ul>
-
-      <!--right side-->
-      <ul class="nav navbar-nav" style="float: right">
+      <!-- right side -->
+      <ul class="navbar-nav mr-right">
         <li class="nav-item" id="rssLink">
           <a href="/blogi/rss.xml" class="lang-fi nav-link">
             <i class="fa fa-rss-square"></i> RSS
@@ -38,7 +37,7 @@
             <img src="/img/flag/us.png" /> In English
           </a>
         </li>
-      </ul>
+        </ul>
     </div>
   </div>
 </nav>

@@ -415,7 +415,7 @@ $(() => {
                           const q = `#${hashtag} since:2016-07-01 until:2017-07-01`;
                           return (`
                             <a href="https://twitter.com/search?q=${encodeURIComponent(q)}" target="_blank">
-                              <span class="label label-default">#${hashtag} <em>(${abbreviatedNumberFormat(count)})</em></span>
+                              <span class="badge badge-secondary">#${hashtag} <em>(${abbreviatedNumberFormat(count)})</em></span>
                             </a>
                           `);
                         }).join(' ')}

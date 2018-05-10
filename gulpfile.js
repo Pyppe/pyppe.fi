@@ -30,7 +30,7 @@ const paths = (() => {
   const vendorScripts = [
     'jquery',
     'lodash',
-    'tether',
+    'popper',
     'bootstrap',
     'moment',
     'moment-fi',

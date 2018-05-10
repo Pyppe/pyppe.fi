@@ -135,7 +135,7 @@ $(function() {
         <div class="row">
           <div class="col-sm-6">
             <b>Näytä:</b>
-            <select class="c-select" style="width: 100%;">
+            <select class="custom-select" style="width: 100%;">
               <option value="10">TOP 10</option>
               <option value="20">TOP 20</option>
               <option value="30">TOP 30</option>
@@ -146,7 +146,7 @@ $(function() {
           </div>
           <div class="col-sm-6">
             <b>Laskenta:</b>
-            <select class="c-select" style="width: 100%;">
+            <select class="custom-select" style="width: 100%;">
               <option value="finnish" selected>Skaalaa luvut arvioidun suomalaisen yleisön määrällä</option>
               <option value="all">Ota kaikki twiitit huomioon</option>
             </select>
@@ -259,7 +259,7 @@ $(function() {
             return [
               `<h5>
                 <img class="avatar" src="/img/twitter/profile_images/${x.user.screenName}.jpg" alt="" />
-                <small><span class="label label-primary">${x.rank}.</span></small>
+                <small><span class="badge badge-primary">${x.rank}.</span></small>
                 <small>@</small>${x.user.screenName} <small class="text-muted">${x.user.name}</small>
               </h5>`,
               '<table class="table table-striped"><tbody>',
@@ -332,7 +332,7 @@ $(function() {
           render: row => {
             const {user, topHashtags, topTweet} = row;
             const topTweetHtml = topTweet ? (`
-              <span class="label label-info has-tooltip bare show-top-tweet" title="Näytä käyttäjän ykköstwiitti" data-tweet-id="${topTweet.id}">
+              <span class="badge badge-info has-tooltip bare show-top-tweet" title="Näytä käyttäjän ykköstwiitti" data-tweet-id="${topTweet.id}">
                 <i class="fa fa-trophy"></i>&nbsp;${moment(topTweet.time).format("dd D.M.YYYY")}
               </span>
             `) : '';
@@ -342,7 +342,7 @@ $(function() {
                 const truncatedHashtag = _.size(hashtag) > 30 ? _.take(hashtag, 27).join('') + '…' : hashtag;
                 return (`
                   <a href="https://twitter.com/search?q=${encodeURIComponent(q)}" target="_blank">
-                    <span class="label label-default hashtag">#${_.escape(truncatedHashtag)}</span>
+                    <span class="badge badge-secondary hashtag">#${_.escape(truncatedHashtag)}</span>
                   </a>
                 `);
               }).join('')
@@ -666,7 +666,7 @@ $(function() {
                 if (ratio > 0.15) {
                   fontSize = "16px";
                 }
-                return `<span class="label label-default peak-data-label" style="font-size: ${fontSize}">#${peak.key}</span>`;
+                return `<span class="badge badge-secondary peak-data-label" style="font-size: ${fontSize}">#${peak.key}</span>`;
               }
               return null;
             }
@@ -742,7 +742,7 @@ $(function() {
       <form class="form-inline">
         <div class="form-group">
           <label><b>Ryhmittele:</b></label>
-          <select class="c-select">
+          <select class="custom-select">
             <option value="hashtags" selected>Hashtagit erikseen</option>
             <option value="days">Hashtagit per päivä</option>
           </select>
@@ -888,7 +888,7 @@ $(function() {
       <div class="row">
         <div class="col-sm-6">
           <b>Näytä:</b>
-          <select class="c-select" style="width: 100%;">
+          <select class="custom-select" style="width: 100%;">
             <option value="5">TOP 5</option>
             <option value="10">TOP 10</option>
             <option value="30">TOP 30</option>
@@ -898,7 +898,7 @@ $(function() {
         </div>
         <div class="col-sm-6">
           <b>Asteikko:</b>
-          <select class="c-select" style="width: 100%;">
+          <select class="custom-select" style="width: 100%;">
             <option value="logarithmic" selected>Logaritminen asteikko</option>
             <option value="linear">Lineaarinen asteikko</option>
           </select>
@@ -958,7 +958,7 @@ $(function() {
             const row = (label, number) => `<tr><th>${label}:</th><td>${integerFormat(number)}</td>`;
             return (`
               <h5>
-                <span class="label label-primary">${t.rank}.</span>
+                <span class="badge badge-primary">${t.rank}.</span>
                 #${t.caseSensitiveKey}
                 <small class="text-muted">${moment(t.day).format('dd D.M.YYYY')}</small>
               </h5>

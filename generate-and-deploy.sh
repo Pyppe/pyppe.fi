@@ -2,6 +2,7 @@
 
 readonly PROGNAME=$(basename $0)
 readonly PROGDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+readonly GULP="$PROGDIR/node_modules/gulp/bin/gulp.js"
 readonly ARGS="$@"
 readonly TARGET="$PROGDIR/_site"
 readonly JEKYLL=`which jekyll`
@@ -26,12 +27,12 @@ rm -rf $TARGET
 if [[ "$*" == *--no-process-content* ]]; then
   echo "WARNING: Not processing content dir"
 else
-  gulp --env production processContent
+  $GULP --env production processContent
 fi
 if [[ "$*" == *--no-gulp* ]]; then
   echo "WARNING: No gulp pipeline"
 else
-  gulp --env production
+  $GULP --env production
 fi
 $JEKYLL build
 rm -rf $TARGET/content

@@ -187,12 +187,12 @@
       }
     },
     bindTooltips: $parent => {
-      $parent.find('.has-tooltip[title]').each(function() {
+      $parent.find('.has-tooltip[title], abbr[title]').each(function() {
         const $el = $(this);
         const tooltipClass = $el.attr('tooltip-class') || '';
         $el.tooltip({
           html: _.isString($el.attr('tip-is-html')),
-          template: `<div class="tooltip ${tooltipClass}" role="tooltip">` + '<div class="tooltip-arrow"></div>' + '<div class="tooltip-inner"></div></div>'
+          template: `<div class="tooltip ${tooltipClass}" role="tooltip"><div class="arrow"></div><div class="tooltip-inner"></div></div>`
         });
       });
     }

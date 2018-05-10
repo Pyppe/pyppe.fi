@@ -102,7 +102,7 @@
         ${_.map(_.chain(Topics).map((t, key) => ({...t, key})).sortBy('shortLabel').value(), (t) => {
           return (`
             <span
-              class="label topic has-tooltip"
+              class="badge topic has-tooltip bare"
               data-topic="${t.key}"
               tip-is-html
               tooltip-class="twitter-user-graph-tooltip"
@@ -117,7 +117,7 @@
     `).appendTo($container);
     _.forEach(_.sortBy(_.values(Topics), 'shortLabel'), t => {
       $(`
-        <li><span class="label label-default" style="background-color: ${t.color}; width: 70px;">${t.shortLabel}</span> ${t.label}</li>
+        <li><span class="badge badge-secondary" style="background-color: ${t.color}; width: 70px;">${t.shortLabel}</span> ${t.label}</li>
       `).appendTo($('#twitter-user-graph-topics'));
     });
     pyppe.util.bindTooltips($legend);

@@ -257,7 +257,7 @@ $(function() {
             `<h5>
               <img class="avatar" src="${x.user.avatar}" alt="" />
               <small>@</small>${x.user.screenName} <small class="text-muted">${x.user.name}</small>
-              <small><span class="label label-primary">${x.rank}.</span></small>
+              <small><span class="badge badge-primary">${x.rank}.</span></small>
             </h5>`,
             '<table><tbody>',
             tr('Tavoittavuus keskimäärin',          `${i(factor * x.reach.monthlyReachAvg)} / kk`),
