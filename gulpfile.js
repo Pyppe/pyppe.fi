@@ -3,7 +3,7 @@ const compass           = require("gulp-compass");
 const concat            = require("gulp-concat");
 const gulpif            = require('gulp-if');
 const gulp              = require("gulp");
-const minifyCss         = require("gulp-minify-css");
+const cleanCss          = require("gulp-clean-css");
 const uglify            = require('gulp-uglify');
 const util              = require('gulp-util');
 const stripJsonComments = require('gulp-strip-json-comments');
@@ -176,7 +176,7 @@ gulp.task('compass', () => {
 
 gulp.task('vendorCss', () => (
   gulp.src(paths.vendorCss).
-    pipe(minifyCss({compatibility: ''})).
+    pipe(cleanCss({compatibility: ''})).
     pipe(concat('vendor.css')).
     pipe(gulp.dest(distCss))
 ));
