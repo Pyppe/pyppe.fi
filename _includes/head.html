@@ -28,7 +28,11 @@
     <meta property="og:image" content="{{site.url}}/img/nyrkki-suussa.png" />
     {% endif %}
   {% else %}
-    <meta property="og:image" content="{{site.url}}/img/nyrkki-suussa.png" />
+    {% if page.meta_image_raw %}
+      <meta property="og:image" content="{{site.url}}{{page.meta_image_raw}}" />
+    {% else %}
+      <meta property="og:image" content="{{site.url}}/img/nyrkki-suussa.png" />
+    {% endif %}
   {% endif %}
 
   {% if page.post_language == "fi" %}

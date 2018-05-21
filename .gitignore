@@ -8,3 +8,7 @@ _site
 /.jekyll-metadata
 /pyppe.fi.sublime-workspace
 /package-lock.json
+
+# Specific
+/resources/forecross-kisat/*.mp4
+/resources/forecross-kisat/*.zip
