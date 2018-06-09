@@ -19,7 +19,7 @@
     }
     > img {
       @include transition(transform 0.5s ease);
-      @include transform(scale(1.3));
+      @include transform(scale(1.06));
     }
   }
   > .bg {

@@ -1,8 +1,12 @@
-<div class="col-xs-6 col-md-4">
+<div class="{% if include.class %}{{include.class}}{% else %}col-xs-6 col-md-4{% endif %}">
   <a href="{{ page.id | content_path }}/{{ include.src | img_size:'large' }}" rel="grid_image">
     <div class="frame filler">
       <div class="bg"></div>
-      <img src="{{ page.id | content_path }}/{{ include.src | img_size:'crop' }}" />
+      {% if include.img_size %}
+        <img src="{{ page.id | content_path }}/{{ include.src | img_size:include.img_size }}" />
+      {% else %}
+        <img src="{{ page.id | content_path }}/{{ include.src | img_size:'crop' }}" />
+      {% endif %}
       {% if include.title %}
       <div class="title hide-for-small">
         {{ include.title }}

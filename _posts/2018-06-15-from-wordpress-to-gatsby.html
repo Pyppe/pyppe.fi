@@ -1,0 +1,166 @@
+---
+layout: post
+title: "From WordPress to Gatsby"
+date: 2018-06-15T19:36:00+0300
+post_language: en
+tags: [dev]
+meta_image: "gatsby_meta.jpg"
+titleCover: "gatsby_cover.jpg"
+titleStyle: "min-height: 250px;"
+titleClass: "cover-offset-0"
+---
+
+<h2>Background story</h2>
+
+<p>
+  I’m a software developer. Through some circumstances — involving a number of patched jeans, mother-in-law,
+  and a beatiful old estate transformed into a Bed and Breakfast place —
+  I’ve ended up creating and maintaining a WordPress site. The initial idea
+  behind using a <abbr title="Content Management System">CMS</abbr>, such as WordPress, was to enable non-developers
+  to easily update the pages by themselves. It’s a fallacy, you will end up doing that yourself.
+  <b>#TrueStory</b>
+</p>
+
+<!--more-->
+
+<p>
+  The WordPress site had been localized to five different languages,
+  so whenever making any changes — at minimum — I would have navigate in the menus,
+  find the correct pages, and finally make the changes. In addition, you have to keep patching
+  the WordPress installation and all the plugins to try to keep up with all the security issues.
+  So, I thought I’d migrate the site into a statically generated one.
+</p>
+
+<div class="row image-collage">
+  {% include gridImage.html src="sinkkala_old_site.png" class="col-md-4" title="Five different languages. That’s nice!" %}
+  {% include gridImage.html src="sinkkala_wordpress.png" class="col-md-4" title="WordPress admin panel. Good times!" %}
+  {% include gridImage.html src="green_light_for_gatsby.png" class="col-md-4" title="Green light for Gatsby<br/><small>(and the beautiful language of Finnish 🇫🇮)</small>" %}
+</div>
+
+<h2>Static site generators</h2>
+<p>
+  I’ve been a fan of static site generators for a while. In my own blog — the one you are reading right now —
+  I’ve used <a href="https://jekyllrb.com/">Jekyll</a> since 2014.
+  I’ve also successfully <del>tricked</del> convinced my 65 year-old dad to move his
+  <a href="http://www.infocrea.fi/">company site</a>
+  from <a href="https://www.drupal.org/">Drupal</a> <em>(similar CMS as WordPress)</em>
+  to Jekyll.
+  Now he creates his posts in <a href="http://www.sublimetext.com/">Sublime Text</a>, and
+  <a href="https://github.com/Pyppe/infocrea.fi/commit/9103965f7a3ed01199d15ee0e2aea932953b8a8d">pushes the changes to Github</a>
+  before executing <code>./generate-and-deploy.sh</code>
+  from the terminal.
+</p>
+<p>
+  The benefits of static site generators include:
+</p>
+<ul>
+  <li><b>Security:</b> you have minimized the number of attack vectors. Just a bunch of static files</li>
+  <li><b>Reliability:</b> just a bunch of static files. What could go wrong?</li>
+  <li><b>Deployability:</b> you can host & deploy pretty much anywhere (Apache httpd, Nginx, S3, etc.)</li>
+  <li>
+    <b>Developer experience:</b> all the code & logic & content is at your fingertips, just one
+    <code>git grep</code> away!
+    <br/>
+    <em>(Assuming you’re using git. And you should)</em>
+  </li>
+  <li><b>Performance:</b> your site will be fast⚡️. All the files are already generated.</li>
+</ul>
+<p>
+  The main problem of static site generators is that — while being developer friendly — they
+  most definitely are not user-friendly to the majority of people. However, as my dad is doing git commits and
+  updating his site from the terminal via <code>rsync</code>, I will ignore this as a trivial obstacle.
+  If you still need more CMS-kind-of editing capabilities, you might want to check out
+  <a href="https://www.netlify.com/">Netlify</a>.
+</p>
+
+<h2>Taking Gatsby for a spin</h2>
+<p>
+  The new kid on the block is <a href="https://www.gatsbyjs.org/">Gatsby</a>.
+  I had’t used it before, but knowing <a href="https://reactjs.org/">React</a>
+  made it really fast to get started.
+  In a few days I had pretty much re-implemented the old WordPress site in Gatsby
+  — although we agreed to have only Finnish and English localizations in the new site.
+</p>
+<p>
+  Compared to Jekyll, what really stood out for me, were:
+</p>
+<ul>
+  <li>
+    <b>Modern web <em>(JavaScript)</em> technologies:</b>
+    React, <a href="https://webpack.js.org/">Webpack</a>,
+    <a href="https://graphql.org/">GraphQL</a>
+    and modern JavaScript packed in a ready-made package.
+    Just run <code>gatsby develop</code> and you’ll have a server running with hot-reloading.
+    Need some libraries? Just <code class="text-nowrap">npm install</code> and off you go.
+  </li>
+  <li>
+    <b>Build pipe-line:</b>
+    asset cache-fingerprinting, progressive & responsive images. Out of the box!
+    In my own Blog, with Jekyll, I’ve had to use custom gulp files, and scripts utilizing ImageMagick
+    to achieve something similar.
+  </li>
+  <li>
+    <b><abbr title="Progressive Web App">PWA</abbr> capabilities:</b>
+    code and data splitting out-of-the-box, and once loaded Gatsby prefetches resources for other pages
+    so clicking around the site feels incredibly fast. Compared to the standard WordPress installation
+    (without caching), the speed difference in very noticeable.
+  </li>
+</ul>
+
+<h2>Lighthouse Audit</h2>
+
+<p>
+  Performing a <a href="https://developers.google.com/web/tools/lighthouse/">Lighthouse audit</a>
+  to both the Gatsby and the WordPress site, supports the empirical findings of Gatsby being clearly faster.
+  The WordPress site seems to have very fluctuating performance (between 25-75) whereas Gatsby
+  keeps giving a solid 90.
+</p>
+
+<div class="row image-collage">
+  {% include gridImage.html src="audit_gatsby.png" img_size="aside" class="col-md-6" title="Audit of Gatsby" %}
+  {% include gridImage.html src="audit_wordpress.png" img_size="aside" class="col-md-6" title="Audit of WordPress" %}
+</div>
+
+<p>
+  Reasons for not getting perfect scores were:
+</p>
+<ul>
+  <li>Using relatively large <code>background-image</code> in the header.</li>
+  <li>Not using HTTPS</li>
+  <li>Not using HTTP/2</li>
+</ul>
+
+<h2>Is it perfect then?</h2>
+
+<p>
+  Nope, not yet at least. The core team has gotten
+  <a href="https://thenewstack.io/gatsbyjs-the-open-source-react-based-ssg-creates-company-to-evolve-cloud-native-website-builds/">commercial backing</a>,
+  and is currently working to finish a <a href="https://github.com/gatsbyjs/gatsby/projects/2">new major version of Gatsby</a>.
+  The biggest issues I encountered with the current version (which most likely are being solved with the next version) are:
+</p>
+
+<ul>
+  <li>
+    The concept of layouts is "wrong". You have no control over layout from the page itself (like you do in Jekyll).
+    However, they are removing layouts altogether from next version. Instead it will be React components and GraphQL everywhere.
+  </li>
+  <li>
+    Only part of the files are cacheable (read about this in <a href="https://www.gatsbyjs.org/docs/caching/#javascript">Caching Static Sites</a>).
+    This will also be fixed in the next version.
+  </li>
+  <li>
+    When modifying GraphQL queries, I sometimes had to manually remove <code>.cache</code> directory to see the changes.
+  </li>
+</ul>
+
+<p>
+  Also, the current version isn’t really scalable to sites with thousands of pages.
+  But thankfully this will also be adressed in the next version.
+</p>
+
+<h2>Show me the money!</h2>
+
+<p>
+  I have migrated the site from WordPress to a Gatsby-backed static site. It is available at
+  <a href="http://www.sinkkala.fi" style="font-size: 140%; font-weight: 700;">www.sinkkala.fi</a>.
+</p>

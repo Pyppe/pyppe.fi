@@ -284,6 +284,8 @@ if (!window.console) {
     animateIndexJumbotronImage();
     pyppe.util.bindTooltips($('body'));
 
+    $('a[target=_blank]').attr('rel', 'noopener');
+
     // Life-story page
     $("#showMoreNostalgia").prop('disabled', false).click(function () {
       $(this).off("click").prop('disabled', true).animate({opacity: 0}, () => {

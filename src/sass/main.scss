@@ -42,12 +42,7 @@ a {
     margin-bottom: 20px;
     overflow: hidden;
     min-height: 200px;
-
-    @for $i from 0 through 100 {
-      .cover-offset-#{$i} {
-        background-position: center round(percentage($i / 100)); // round(percentage(..)) is idiotic...
-      }
-    }
+    @include cover-offsets();
 
     h1, h3 {
       //position: absolute;
@@ -199,6 +194,10 @@ table.sortable {
   &:not(.bare):not(th) {
     border-bottom: 1px dotted #818a91;
   }
+}
+abbr[data-original-title], abbr[title] {
+  text-decoration: none;
+  border-bottom: 1px dotted #818a91;
 }
 
 code {

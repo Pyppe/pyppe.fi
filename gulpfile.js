@@ -88,10 +88,10 @@ gulp.task('processContent', () => {
   const startTime = Date.now();
   const sizeConversions = [
     ['thumb',   `convert -strip -resize "200x200^" -gravity Center -crop 200x200+0+0 +repage`],
-    ['crop',    `convert -strip -resize "300x180^" -gravity Center -crop 300x180+0+0 +repage`],
+    ['crop',    `convert -strip -resize "420x250^" -gravity Center -crop 420x250+0+0 +repage`],
     ['aside',   `convert -strip -resize "700x500>"`],
     ['listing', `convert -strip -resize "800x600>" -modulate 120,80`],
-    ['large',   `convert -strip -resize "1400x1000>"`]
+    ['large',   `convert -strip -resize "1920x1000>"`]
   ];
   return glob("./content/**/*", {nodir: true}, (error, files) => {
     const images = _.filter(files, isImage);
