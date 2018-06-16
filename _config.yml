@@ -3,7 +3,7 @@ title: Pyppe.fi
 email: pyppe@iki.fi
 description: "Pyppe.fi (Pyry-Samuli Lahti)"
 baseurl: ""
-url: "http://www.pyppe.fi"
+url: "https://www.pyppe.fi"
 sitemap_pages:
   - /
   - /frontpage/

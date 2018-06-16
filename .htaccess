@@ -1,2 +1,2 @@
-Redirect "/blogi/rss/" "http://www.pyppe.fi/blogi/rss.xml"
-Redirect "/blog/rss/" "http://www.pyppe.fi/blog/rss.xml"
+Redirect "/blogi/rss/" "https://www.pyppe.fi/blogi/rss.xml"
+Redirect "/blog/rss/" "https://www.pyppe.fi/blog/rss.xml"
