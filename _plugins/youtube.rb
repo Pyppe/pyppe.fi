@@ -23,7 +23,7 @@ module Jekyll
 
     def render(context)
       "<div class=\"embed-responsive embed-responsive-16by9\">" +
-        "<iframe class=\"embed-responsive-item\" frameborder=\"0\"  allowfullscreen=\"\" src=\"http://www.youtube.com/embed/#{@id}\"></iframe>" +
+        "<iframe class=\"embed-responsive-item\" frameborder=\"0\"  allowfullscreen=\"\" src=\"https://www.youtube.com/embed/#{@id}\"></iframe>" +
       "</div>"
     end
   end
