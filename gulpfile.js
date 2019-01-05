@@ -36,6 +36,7 @@ const paths = (() => {
     'moment-fi',
     'fancybox/jquery.fancybox',
     'select2.full',
+    'invert-color',
 
     // TODO: Separate place for highcharts & d3
     'd3',

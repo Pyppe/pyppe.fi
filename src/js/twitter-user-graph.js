@@ -3,6 +3,14 @@
   const profileUrl = d => `https://twitter.com/intent/user?user_id=${d.id}`;
   const nodeImageUrl = d => `/img/twitter/profile_images/${d.screenName}.jpg`;
 
+  const labelColor = c => {
+    try {
+      return window.invert(c, true);
+    } catch (error) {
+      return 'black'
+    }
+  }
+
   /*
   window.prepareForScreenshot = () => {
     $('.canvas').css('background', 'black');
@@ -234,7 +242,7 @@
         return Topics[d.topic].color;
       } else {
         console.log('Unknown topic: ' + d.topic);
-        return 'black';
+        return 'transparent';
       }
     }
 
@@ -325,7 +333,10 @@
             <i class="fa fa-mail-forward"></i> omat interaktiot <b>${userOwnReactionCount}</b> /
             <i class="fa fa-mail-reply"></i> muiden interaktiot <b>${user.reactionCountByOthers}</b>
           </div>
-          <span class="label topic" style="background-color: ${dTopicColor(user)}">${Topics[user.topic].shortLabel}</span>
+          <span
+            class="badge topic"
+            style="background-color: ${dTopicColor(user)}; color: ${labelColor(dTopicColor(user))}"
+          >${_.get(Topics[user.topic], 'shortLabel', '')}</span>
         </div>
       `).appendTo($userInfo);
 
