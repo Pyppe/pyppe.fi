@@ -1,12 +1,21 @@
 pyppe.fi
 ========
 
+https://jekyllrb.com/docs/installation/macos/
+
+```shell
+gem install --user-install bundler compass jekyll jekyll-paginate
+```
+
 - `jekyll serve -w`
 - `jekyll serve --host=0.0.0.0 --watch`
 - `date -u +"%Y-%m-%dT%H:%M:%SZ"`
 
 ### TODO
 - Maybe utilize https://github.com/pixelcog/parallax.js
+
+### package.json
+- graceful-fs https://github.com/nodejs/node/issues/20285#issuecomment-385299321
 
 ### Get twitter profile image
 ```javascript

@@ -1,0 +1,1985 @@
+{
+  "info" : {
+    "bucketIntervalLabel" : "päivä",
+    "shortTimePeriodLabel" : "Vuosi 2019",
+    "fullTimePeriodLabel" : "ti 1.1.2019 klo 04:00 – ke 1.1.2020 klo 04:00",
+    "took" : 39307,
+    "generated" : "2020-04-14T07:25:07.995+03:00"
+  },
+  "totals" : {
+    "tweetCount" : 28893844,
+    "retweetCount" : 9279490,
+    "retweetPercentage" : 32.1158029371239,
+    "uniqueUserCount" : 628415,
+    "tweetsPerUser" : 45.97892157252771,
+    "averageTweetCountPerMinute" : 54.97306697108067,
+    "averageTweetCountPerTimeUnit" : 79161,
+    "summaryTextOptions" : [ "28.9M twiittiä, 628k käyttäjää, huippu ti 9.4. (#nrjfi 20%)", "28.9M twiittiä, 628k käyttäjää, huippu ti 9.4.", "28.9M twiittiä, 628k käyttäjää" ],
+    "peak" : {
+      "key" : 1554768000000,
+      "name" : "ti 9.4.2019",
+      "tweetCount" : 128849,
+      "retweetCount" : 60732,
+      "peak" : {
+        "key" : "nrjfi",
+        "count" : 25341,
+        "percentage" : 20
+      }
+    }
+  },
+  "buckets" : [ {
+    "key" : 1546300800000,
+    "name" : "ti 1.1.2019",
+    "tweetCount" : 55029,
+    "retweetCount" : 14895
+  }, {
+    "key" : 1546387200000,
+    "name" : "ke 2.1.2019",
+    "tweetCount" : 69003,
+    "retweetCount" : 19673
+  }, {
+    "key" : 1546473600000,
+    "name" : "to 3.1.2019",
+    "tweetCount" : 72840,
+    "retweetCount" : 20602
+  }, {
+    "key" : 1546560000000,
+    "name" : "pe 4.1.2019",
+    "tweetCount" : 73939,
+    "retweetCount" : 20901
+  }, {
+    "key" : 1546646400000,
+    "name" : "la 5.1.2019",
+    "tweetCount" : 66212,
+    "retweetCount" : 16771
+  }, {
+    "key" : 1546732800000,
+    "name" : "su 6.1.2019",
+    "tweetCount" : 74388,
+    "retweetCount" : 21548
+  }, {
+    "key" : 1546819200000,
+    "name" : "ma 7.1.2019",
+    "tweetCount" : 70741,
+    "retweetCount" : 20793
+  }, {
+    "key" : 1546905600000,
+    "name" : "ti 8.1.2019",
+    "tweetCount" : 81497,
+    "retweetCount" : 26602
+  }, {
+    "key" : 1546992000000,
+    "name" : "ke 9.1.2019",
+    "tweetCount" : 82054,
+    "retweetCount" : 25836
+  }, {
+    "key" : 1547078400000,
+    "name" : "to 10.1.2019",
+    "tweetCount" : 83029,
+    "retweetCount" : 26265
+  }, {
+    "key" : 1547164800000,
+    "name" : "pe 11.1.2019",
+    "tweetCount" : 91553,
+    "retweetCount" : 28865
+  }, {
+    "key" : 1547251200000,
+    "name" : "la 12.1.2019",
+    "tweetCount" : 77302,
+    "retweetCount" : 22468
+  }, {
+    "key" : 1547337600000,
+    "name" : "su 13.1.2019",
+    "tweetCount" : 75100,
+    "retweetCount" : 24905
+  }, {
+    "key" : 1547424000000,
+    "name" : "ma 14.1.2019",
+    "tweetCount" : 82572,
+    "retweetCount" : 27716
+  }, {
+    "key" : 1547510400000,
+    "name" : "ti 15.1.2019",
+    "tweetCount" : 86357,
+    "retweetCount" : 27521
+  }, {
+    "key" : 1547596800000,
+    "name" : "ke 16.1.2019",
+    "tweetCount" : 87076,
+    "retweetCount" : 27971
+  }, {
+    "key" : 1547683200000,
+    "name" : "to 17.1.2019",
+    "tweetCount" : 89307,
+    "retweetCount" : 28183
+  }, {
+    "key" : 1547769600000,
+    "name" : "pe 18.1.2019",
+    "tweetCount" : 82694,
+    "retweetCount" : 25758
+  }, {
+    "key" : 1547856000000,
+    "name" : "la 19.1.2019",
+    "tweetCount" : 69440,
+    "retweetCount" : 19695
+  }, {
+    "key" : 1547942400000,
+    "name" : "su 20.1.2019",
+    "tweetCount" : 67015,
+    "retweetCount" : 20891
+  }, {
+    "key" : 1548028800000,
+    "name" : "ma 21.1.2019",
+    "tweetCount" : 82063,
+    "retweetCount" : 24721
+  }, {
+    "key" : 1548115200000,
+    "name" : "ti 22.1.2019",
+    "tweetCount" : 84952,
+    "retweetCount" : 26113
+  }, {
+    "key" : 1548201600000,
+    "name" : "ke 23.1.2019",
+    "tweetCount" : 89325,
+    "retweetCount" : 28769
+  }, {
+    "key" : 1548288000000,
+    "name" : "to 24.1.2019",
+    "tweetCount" : 84845,
+    "retweetCount" : 27663
+  }, {
+    "key" : 1548374400000,
+    "name" : "pe 25.1.2019",
+    "tweetCount" : 84556,
+    "retweetCount" : 25761
+  }, {
+    "key" : 1548460800000,
+    "name" : "la 26.1.2019",
+    "tweetCount" : 76117,
+    "retweetCount" : 22360
+  }, {
+    "key" : 1548547200000,
+    "name" : "su 27.1.2019",
+    "tweetCount" : 68051,
+    "retweetCount" : 20426
+  }, {
+    "key" : 1548633600000,
+    "name" : "ma 28.1.2019",
+    "tweetCount" : 84255,
+    "retweetCount" : 27319
+  }, {
+    "key" : 1548720000000,
+    "name" : "ti 29.1.2019",
+    "tweetCount" : 96674,
+    "retweetCount" : 32343,
+    "peak" : {
+      "key" : "espericare",
+      "count" : 1656
+    }
+  }, {
+    "key" : 1548806400000,
+    "name" : "ke 30.1.2019",
+    "tweetCount" : 93817,
+    "retweetCount" : 31040
+  }, {
+    "key" : 1548892800000,
+    "name" : "to 31.1.2019",
+    "tweetCount" : 95648,
+    "retweetCount" : 31791
+  }, {
+    "key" : 1548979200000,
+    "name" : "pe 1.2.2019",
+    "tweetCount" : 89882,
+    "retweetCount" : 27858
+  }, {
+    "key" : 1549065600000,
+    "name" : "la 2.2.2019",
+    "tweetCount" : 76552,
+    "retweetCount" : 21598
+  }, {
+    "key" : 1549152000000,
+    "name" : "su 3.2.2019",
+    "tweetCount" : 70436,
+    "retweetCount" : 20856
+  }, {
+    "key" : 1549238400000,
+    "name" : "ma 4.2.2019",
+    "tweetCount" : 87237,
+    "retweetCount" : 29807
+  }, {
+    "key" : 1549324800000,
+    "name" : "ti 5.2.2019",
+    "tweetCount" : 89143,
+    "retweetCount" : 30185
+  }, {
+    "key" : 1549411200000,
+    "name" : "ke 6.2.2019",
+    "tweetCount" : 92303,
+    "retweetCount" : 31486
+  }, {
+    "key" : 1549497600000,
+    "name" : "to 7.2.2019",
+    "tweetCount" : 93180,
+    "retweetCount" : 31733
+  }, {
+    "key" : 1549584000000,
+    "name" : "pe 8.2.2019",
+    "tweetCount" : 93263,
+    "retweetCount" : 31019
+  }, {
+    "key" : 1549670400000,
+    "name" : "la 9.2.2019",
+    "tweetCount" : 74099,
+    "retweetCount" : 22433
+  }, {
+    "key" : 1549756800000,
+    "name" : "su 10.2.2019",
+    "tweetCount" : 71784,
+    "retweetCount" : 21570
+  }, {
+    "key" : 1549843200000,
+    "name" : "ma 11.2.2019",
+    "tweetCount" : 84924,
+    "retweetCount" : 29767
+  }, {
+    "key" : 1549929600000,
+    "name" : "ti 12.2.2019",
+    "tweetCount" : 90622,
+    "retweetCount" : 31919
+  }, {
+    "key" : 1550016000000,
+    "name" : "ke 13.2.2019",
+    "tweetCount" : 92039,
+    "retweetCount" : 31808
+  }, {
+    "key" : 1550102400000,
+    "name" : "to 14.2.2019",
+    "tweetCount" : 95402,
+    "retweetCount" : 31981,
+    "peak" : {
+      "key" : "ystävänpäivä",
+      "count" : 2442
+    }
+  }, {
+    "key" : 1550188800000,
+    "name" : "pe 15.2.2019",
+    "tweetCount" : 91996,
+    "retweetCount" : 31732
+  }, {
+    "key" : 1550275200000,
+    "name" : "la 16.2.2019",
+    "tweetCount" : 82684,
+    "retweetCount" : 28153
+  }, {
+    "key" : 1550361600000,
+    "name" : "su 17.2.2019",
+    "tweetCount" : 71561,
+    "retweetCount" : 22570
+  }, {
+    "key" : 1550448000000,
+    "name" : "ma 18.2.2019",
+    "tweetCount" : 80078,
+    "retweetCount" : 25743
+  }, {
+    "key" : 1550534400000,
+    "name" : "ti 19.2.2019",
+    "tweetCount" : 83094,
+    "retweetCount" : 26368
+  }, {
+    "key" : 1550620800000,
+    "name" : "ke 20.2.2019",
+    "tweetCount" : 84503,
+    "retweetCount" : 25613
+  }, {
+    "key" : 1550707200000,
+    "name" : "to 21.2.2019",
+    "tweetCount" : 85641,
+    "retweetCount" : 26832
+  }, {
+    "key" : 1550793600000,
+    "name" : "pe 22.2.2019",
+    "tweetCount" : 85275,
+    "retweetCount" : 25203
+  }, {
+    "key" : 1550880000000,
+    "name" : "la 23.2.2019",
+    "tweetCount" : 72955,
+    "retweetCount" : 18533
+  }, {
+    "key" : 1550966400000,
+    "name" : "su 24.2.2019",
+    "tweetCount" : 72343,
+    "retweetCount" : 18595
+  }, {
+    "key" : 1551052800000,
+    "name" : "ma 25.2.2019",
+    "tweetCount" : 82128,
+    "retweetCount" : 24346
+  }, {
+    "key" : 1551139200000,
+    "name" : "ti 26.2.2019",
+    "tweetCount" : 84512,
+    "retweetCount" : 26938
+  }, {
+    "key" : 1551225600000,
+    "name" : "ke 27.2.2019",
+    "tweetCount" : 92360,
+    "retweetCount" : 30237
+  }, {
+    "key" : 1551312000000,
+    "name" : "to 28.2.2019",
+    "tweetCount" : 93375,
+    "retweetCount" : 31227,
+    "peak" : {
+      "key" : "ez4ence",
+      "count" : 1244
+    }
+  }, {
+    "key" : 1551398400000,
+    "name" : "pe 1.3.2019",
+    "tweetCount" : 91823,
+    "retweetCount" : 27724
+  }, {
+    "key" : 1551484800000,
+    "name" : "la 2.3.2019",
+    "tweetCount" : 92406,
+    "retweetCount" : 29965
+  }, {
+    "key" : 1551571200000,
+    "name" : "su 3.3.2019",
+    "tweetCount" : 82692,
+    "retweetCount" : 27154
+  }, {
+    "key" : 1551657600000,
+    "name" : "ma 4.3.2019",
+    "tweetCount" : 83279,
+    "retweetCount" : 26537
+  }, {
+    "key" : 1551744000000,
+    "name" : "ti 5.3.2019",
+    "tweetCount" : 89649,
+    "retweetCount" : 28126
+  }, {
+    "key" : 1551830400000,
+    "name" : "ke 6.3.2019",
+    "tweetCount" : 91539,
+    "retweetCount" : 28247
+  }, {
+    "key" : 1551916800000,
+    "name" : "to 7.3.2019",
+    "tweetCount" : 92182,
+    "retweetCount" : 28632
+  }, {
+    "key" : 1552003200000,
+    "name" : "pe 8.3.2019",
+    "tweetCount" : 120872,
+    "retweetCount" : 42045,
+    "peak" : {
+      "key" : "sote",
+      "count" : 5034
+    }
+  }, {
+    "key" : 1552089600000,
+    "name" : "la 9.3.2019",
+    "tweetCount" : 80772,
+    "retweetCount" : 22624
+  }, {
+    "key" : 1552176000000,
+    "name" : "su 10.3.2019",
+    "tweetCount" : 72841,
+    "retweetCount" : 21170
+  }, {
+    "key" : 1552262400000,
+    "name" : "ma 11.3.2019",
+    "tweetCount" : 85868,
+    "retweetCount" : 28179
+  }, {
+    "key" : 1552348800000,
+    "name" : "ti 12.3.2019",
+    "tweetCount" : 94993,
+    "retweetCount" : 30793
+  }, {
+    "key" : 1552435200000,
+    "name" : "ke 13.3.2019",
+    "tweetCount" : 98610,
+    "retweetCount" : 32088
+  }, {
+    "key" : 1552521600000,
+    "name" : "to 14.3.2019",
+    "tweetCount" : 110771,
+    "retweetCount" : 37192,
+    "peak" : {
+      "key" : "vaalit2019",
+      "count" : 4410
+    }
+  }, {
+    "key" : 1552608000000,
+    "name" : "pe 15.3.2019",
+    "tweetCount" : 107425,
+    "retweetCount" : 38402
+  }, {
+    "key" : 1552694400000,
+    "name" : "la 16.3.2019",
+    "tweetCount" : 88403,
+    "retweetCount" : 29056
+  }, {
+    "key" : 1552780800000,
+    "name" : "su 17.3.2019",
+    "tweetCount" : 82001,
+    "retweetCount" : 26461
+  }, {
+    "key" : 1552867200000,
+    "name" : "ma 18.3.2019",
+    "tweetCount" : 88298,
+    "retweetCount" : 29272
+  }, {
+    "key" : 1552953600000,
+    "name" : "ti 19.3.2019",
+    "tweetCount" : 93122,
+    "retweetCount" : 31543
+  }, {
+    "key" : 1553040000000,
+    "name" : "ke 20.3.2019",
+    "tweetCount" : 99076,
+    "retweetCount" : 33286
+  }, {
+    "key" : 1553126400000,
+    "name" : "to 21.3.2019",
+    "tweetCount" : 102303,
+    "retweetCount" : 34730
+  }, {
+    "key" : 1553212800000,
+    "name" : "pe 22.3.2019",
+    "tweetCount" : 92806,
+    "retweetCount" : 29342
+  }, {
+    "key" : 1553299200000,
+    "name" : "la 23.3.2019",
+    "tweetCount" : 82340,
+    "retweetCount" : 24030
+  }, {
+    "key" : 1553385600000,
+    "name" : "su 24.3.2019",
+    "tweetCount" : 71696,
+    "retweetCount" : 21096
+  }, {
+    "key" : 1553472000000,
+    "name" : "ma 25.3.2019",
+    "tweetCount" : 95401,
+    "retweetCount" : 31428
+  }, {
+    "key" : 1553558400000,
+    "name" : "ti 26.3.2019",
+    "tweetCount" : 104740,
+    "retweetCount" : 37259,
+    "peak" : {
+      "key" : "vaalit2019",
+      "count" : 2699
+    }
+  }, {
+    "key" : 1553644800000,
+    "name" : "ke 27.3.2019",
+    "tweetCount" : 99610,
+    "retweetCount" : 33853
+  }, {
+    "key" : 1553731200000,
+    "name" : "to 28.3.2019",
+    "tweetCount" : 102155,
+    "retweetCount" : 36142
+  }, {
+    "key" : 1553817600000,
+    "name" : "pe 29.3.2019",
+    "tweetCount" : 95076,
+    "retweetCount" : 29620
+  }, {
+    "key" : 1553904000000,
+    "name" : "la 30.3.2019",
+    "tweetCount" : 78416,
+    "retweetCount" : 22425
+  }, {
+    "key" : 1553990400000,
+    "name" : "su 31.3.2019",
+    "tweetCount" : 74386,
+    "retweetCount" : 22328
+  }, {
+    "key" : 1554076800000,
+    "name" : "ma 1.4.2019",
+    "tweetCount" : 84167,
+    "retweetCount" : 28213
+  }, {
+    "key" : 1554163200000,
+    "name" : "ti 2.4.2019",
+    "tweetCount" : 96106,
+    "retweetCount" : 30610
+  }, {
+    "key" : 1554249600000,
+    "name" : "ke 3.4.2019",
+    "tweetCount" : 96412,
+    "retweetCount" : 32263
+  }, {
+    "key" : 1554336000000,
+    "name" : "to 4.4.2019",
+    "tweetCount" : 98942,
+    "retweetCount" : 33727,
+    "peak" : {
+      "key" : "vaalit2019",
+      "count" : 2868
+    }
+  }, {
+    "key" : 1554422400000,
+    "name" : "pe 5.4.2019",
+    "tweetCount" : 95279,
+    "retweetCount" : 30888
+  }, {
+    "key" : 1554508800000,
+    "name" : "la 6.4.2019",
+    "tweetCount" : 79125,
+    "retweetCount" : 24631
+  }, {
+    "key" : 1554595200000,
+    "name" : "su 7.4.2019",
+    "tweetCount" : 74209,
+    "retweetCount" : 24325
+  }, {
+    "key" : 1554681600000,
+    "name" : "ma 8.4.2019",
+    "tweetCount" : 92079,
+    "retweetCount" : 31221
+  }, {
+    "key" : 1554768000000,
+    "name" : "ti 9.4.2019",
+    "tweetCount" : 128849,
+    "retweetCount" : 60732,
+    "peak" : {
+      "key" : "nrjfi",
+      "count" : 25341
+    }
+  }, {
+    "key" : 1554854400000,
+    "name" : "ke 10.4.2019",
+    "tweetCount" : 105497,
+    "retweetCount" : 37368
+  }, {
+    "key" : 1554940800000,
+    "name" : "to 11.4.2019",
+    "tweetCount" : 115017,
+    "retweetCount" : 40779
+  }, {
+    "key" : 1555027200000,
+    "name" : "pe 12.4.2019",
+    "tweetCount" : 111123,
+    "retweetCount" : 39727
+  }, {
+    "key" : 1555113600000,
+    "name" : "la 13.4.2019",
+    "tweetCount" : 91409,
+    "retweetCount" : 31155
+  }, {
+    "key" : 1555200000000,
+    "name" : "su 14.4.2019",
+    "tweetCount" : 118110,
+    "retweetCount" : 36481
+  }, {
+    "key" : 1555286400000,
+    "name" : "ma 15.4.2019",
+    "tweetCount" : 93765,
+    "retweetCount" : 30654,
+    "peak" : {
+      "key" : "vaalit2019",
+      "count" : 3269
+    }
+  }, {
+    "key" : 1555372800000,
+    "name" : "ti 16.4.2019",
+    "tweetCount" : 90343,
+    "retweetCount" : 28285
+  }, {
+    "key" : 1555459200000,
+    "name" : "ke 17.4.2019",
+    "tweetCount" : 88261,
+    "retweetCount" : 27583
+  }, {
+    "key" : 1555545600000,
+    "name" : "to 18.4.2019",
+    "tweetCount" : 90178,
+    "retweetCount" : 27452
+  }, {
+    "key" : 1555632000000,
+    "name" : "pe 19.4.2019",
+    "tweetCount" : 71053,
+    "retweetCount" : 20862
+  }, {
+    "key" : 1555718400000,
+    "name" : "la 20.4.2019",
+    "tweetCount" : 64653,
+    "retweetCount" : 16547
+  }, {
+    "key" : 1555804800000,
+    "name" : "su 21.4.2019",
+    "tweetCount" : 62496,
+    "retweetCount" : 18080
+  }, {
+    "key" : 1555891200000,
+    "name" : "ma 22.4.2019",
+    "tweetCount" : 67439,
+    "retweetCount" : 20197
+  }, {
+    "key" : 1555977600000,
+    "name" : "ti 23.4.2019",
+    "tweetCount" : 76746,
+    "retweetCount" : 21872
+  }, {
+    "key" : 1556064000000,
+    "name" : "ke 24.4.2019",
+    "tweetCount" : 86003,
+    "retweetCount" : 26496
+  }, {
+    "key" : 1556150400000,
+    "name" : "to 25.4.2019",
+    "tweetCount" : 92106,
+    "retweetCount" : 29759,
+    "peak" : {
+      "key" : "bbmastopsocial",
+      "count" : 1172
+    }
+  }, {
+    "key" : 1556236800000,
+    "name" : "pe 26.4.2019",
+    "tweetCount" : 90554,
+    "retweetCount" : 27090
+  }, {
+    "key" : 1556323200000,
+    "name" : "la 27.4.2019",
+    "tweetCount" : 78880,
+    "retweetCount" : 23153
+  }, {
+    "key" : 1556409600000,
+    "name" : "su 28.4.2019",
+    "tweetCount" : 71039,
+    "retweetCount" : 22064
+  }, {
+    "key" : 1556496000000,
+    "name" : "ma 29.4.2019",
+    "tweetCount" : 84997,
+    "retweetCount" : 28246
+  }, {
+    "key" : 1556582400000,
+    "name" : "ti 30.4.2019",
+    "tweetCount" : 84759,
+    "retweetCount" : 28014
+  }, {
+    "key" : 1556668800000,
+    "name" : "ke 1.5.2019",
+    "tweetCount" : 64264,
+    "retweetCount" : 19701
+  }, {
+    "key" : 1556755200000,
+    "name" : "to 2.5.2019",
+    "tweetCount" : 77545,
+    "retweetCount" : 23491
+  }, {
+    "key" : 1556841600000,
+    "name" : "pe 3.5.2019",
+    "tweetCount" : 85319,
+    "retweetCount" : 25888
+  }, {
+    "key" : 1556928000000,
+    "name" : "la 4.5.2019",
+    "tweetCount" : 78145,
+    "retweetCount" : 20559
+  }, {
+    "key" : 1557014400000,
+    "name" : "su 5.5.2019",
+    "tweetCount" : 67264,
+    "retweetCount" : 19272
+  }, {
+    "key" : 1557100800000,
+    "name" : "ma 6.5.2019",
+    "tweetCount" : 76966,
+    "retweetCount" : 24177
+  }, {
+    "key" : 1557187200000,
+    "name" : "ti 7.5.2019",
+    "tweetCount" : 90164,
+    "retweetCount" : 28450
+  }, {
+    "key" : 1557273600000,
+    "name" : "ke 8.5.2019",
+    "tweetCount" : 101476,
+    "retweetCount" : 32281,
+    "peak" : {
+      "key" : "hallitusneuvottelut",
+      "count" : 2532
+    }
+  }, {
+    "key" : 1557360000000,
+    "name" : "to 9.5.2019",
+    "tweetCount" : 97148,
+    "retweetCount" : 32830,
+    "peak" : {
+      "key" : "eurooppapäivä",
+      "count" : 1528
+    }
+  }, {
+    "key" : 1557446400000,
+    "name" : "pe 10.5.2019",
+    "tweetCount" : 96761,
+    "retweetCount" : 30101
+  }, {
+    "key" : 1557532800000,
+    "name" : "la 11.5.2019",
+    "tweetCount" : 84318,
+    "retweetCount" : 24975
+  }, {
+    "key" : 1557619200000,
+    "name" : "su 12.5.2019",
+    "tweetCount" : 67974,
+    "retweetCount" : 19272
+  }, {
+    "key" : 1557705600000,
+    "name" : "ma 13.5.2019",
+    "tweetCount" : 78115,
+    "retweetCount" : 22362
+  }, {
+    "key" : 1557792000000,
+    "name" : "ti 14.5.2019",
+    "tweetCount" : 92978,
+    "retweetCount" : 27807
+  }, {
+    "key" : 1557878400000,
+    "name" : "ke 15.5.2019",
+    "tweetCount" : 90512,
+    "retweetCount" : 29947
+  }, {
+    "key" : 1557964800000,
+    "name" : "to 16.5.2019",
+    "tweetCount" : 96542,
+    "retweetCount" : 30505
+  }, {
+    "key" : 1558051200000,
+    "name" : "pe 17.5.2019",
+    "tweetCount" : 90047,
+    "retweetCount" : 28372
+  }, {
+    "key" : 1558137600000,
+    "name" : "la 18.5.2019",
+    "tweetCount" : 80458,
+    "retweetCount" : 21032
+  }, {
+    "key" : 1558224000000,
+    "name" : "su 19.5.2019",
+    "tweetCount" : 63534,
+    "retweetCount" : 18327
+  }, {
+    "key" : 1558310400000,
+    "name" : "ma 20.5.2019",
+    "tweetCount" : 80182,
+    "retweetCount" : 25348
+  }, {
+    "key" : 1558396800000,
+    "name" : "ti 21.5.2019",
+    "tweetCount" : 86025,
+    "retweetCount" : 27743
+  }, {
+    "key" : 1558483200000,
+    "name" : "ke 22.5.2019",
+    "tweetCount" : 81297,
+    "retweetCount" : 27336
+  }, {
+    "key" : 1558569600000,
+    "name" : "to 23.5.2019",
+    "tweetCount" : 90608,
+    "retweetCount" : 29656,
+    "peak" : {
+      "key" : "mmkisat",
+      "count" : 4812
+    }
+  }, {
+    "key" : 1558656000000,
+    "name" : "pe 24.5.2019",
+    "tweetCount" : 75556,
+    "retweetCount" : 26406
+  }, {
+    "key" : 1558742400000,
+    "name" : "la 25.5.2019",
+    "tweetCount" : 77949,
+    "retweetCount" : 27042
+  }, {
+    "key" : 1558828800000,
+    "name" : "su 26.5.2019",
+    "tweetCount" : 110804,
+    "retweetCount" : 44314,
+    "peak" : {
+      "key" : "leijonat",
+      "count" : 15926
+    }
+  }, {
+    "key" : 1558915200000,
+    "name" : "ma 27.5.2019",
+    "tweetCount" : 88577,
+    "retweetCount" : 37453
+  }, {
+    "key" : 1559001600000,
+    "name" : "ti 28.5.2019",
+    "tweetCount" : 77577,
+    "retweetCount" : 27576
+  }, {
+    "key" : 1559088000000,
+    "name" : "ke 29.5.2019",
+    "tweetCount" : 76486,
+    "retweetCount" : 26574
+  }, {
+    "key" : 1559174400000,
+    "name" : "to 30.5.2019",
+    "tweetCount" : 59955,
+    "retweetCount" : 17539
+  }, {
+    "key" : 1559260800000,
+    "name" : "pe 31.5.2019",
+    "tweetCount" : 67667,
+    "retweetCount" : 19256
+  }, {
+    "key" : 1559347200000,
+    "name" : "la 1.6.2019",
+    "tweetCount" : 57743,
+    "retweetCount" : 15102
+  }, {
+    "key" : 1559433600000,
+    "name" : "su 2.6.2019",
+    "tweetCount" : 57767,
+    "retweetCount" : 16131
+  }, {
+    "key" : 1559520000000,
+    "name" : "ma 3.6.2019",
+    "tweetCount" : 82330,
+    "retweetCount" : 27968,
+    "peak" : {
+      "key" : "hallitusohjelma",
+      "count" : 5372
+    }
+  }, {
+    "key" : 1559606400000,
+    "name" : "ti 4.6.2019",
+    "tweetCount" : 79583,
+    "retweetCount" : 27622
+  }, {
+    "key" : 1559692800000,
+    "name" : "ke 5.6.2019",
+    "tweetCount" : 81757,
+    "retweetCount" : 28933
+  }, {
+    "key" : 1559779200000,
+    "name" : "to 6.6.2019",
+    "tweetCount" : 78905,
+    "retweetCount" : 27566
+  }, {
+    "key" : 1559865600000,
+    "name" : "pe 7.6.2019",
+    "tweetCount" : 71182,
+    "retweetCount" : 22420
+  }, {
+    "key" : 1559952000000,
+    "name" : "la 8.6.2019",
+    "tweetCount" : 63625,
+    "retweetCount" : 20687
+  }, {
+    "key" : 1560038400000,
+    "name" : "su 9.6.2019",
+    "tweetCount" : 57361,
+    "retweetCount" : 18397
+  }, {
+    "key" : 1560124800000,
+    "name" : "ma 10.6.2019",
+    "tweetCount" : 66547,
+    "retweetCount" : 21635
+  }, {
+    "key" : 1560211200000,
+    "name" : "ti 11.6.2019",
+    "tweetCount" : 72715,
+    "retweetCount" : 23660
+  }, {
+    "key" : 1560297600000,
+    "name" : "ke 12.6.2019",
+    "tweetCount" : 72393,
+    "retweetCount" : 22997
+  }, {
+    "key" : 1560384000000,
+    "name" : "to 13.6.2019",
+    "tweetCount" : 75801,
+    "retweetCount" : 25108
+  }, {
+    "key" : 1560470400000,
+    "name" : "pe 14.6.2019",
+    "tweetCount" : 69942,
+    "retweetCount" : 21640
+  }, {
+    "key" : 1560556800000,
+    "name" : "la 15.6.2019",
+    "tweetCount" : 62939,
+    "retweetCount" : 18751
+  }, {
+    "key" : 1560643200000,
+    "name" : "su 16.6.2019",
+    "tweetCount" : 58868,
+    "retweetCount" : 17355
+  }, {
+    "key" : 1560729600000,
+    "name" : "ma 17.6.2019",
+    "tweetCount" : 72752,
+    "retweetCount" : 21855
+  }, {
+    "key" : 1560816000000,
+    "name" : "ti 18.6.2019",
+    "tweetCount" : 72831,
+    "retweetCount" : 22050
+  }, {
+    "key" : 1560902400000,
+    "name" : "ke 19.6.2019",
+    "tweetCount" : 76650,
+    "retweetCount" : 23401
+  }, {
+    "key" : 1560988800000,
+    "name" : "to 20.6.2019",
+    "tweetCount" : 73737,
+    "retweetCount" : 23072
+  }, {
+    "key" : 1561075200000,
+    "name" : "pe 21.6.2019",
+    "tweetCount" : 53395,
+    "retweetCount" : 14388
+  }, {
+    "key" : 1561161600000,
+    "name" : "la 22.6.2019",
+    "tweetCount" : 46371,
+    "retweetCount" : 12757
+  }, {
+    "key" : 1561248000000,
+    "name" : "su 23.6.2019",
+    "tweetCount" : 46991,
+    "retweetCount" : 13364
+  }, {
+    "key" : 1561334400000,
+    "name" : "ma 24.6.2019",
+    "tweetCount" : 58151,
+    "retweetCount" : 17755
+  }, {
+    "key" : 1561420800000,
+    "name" : "ti 25.6.2019",
+    "tweetCount" : 65498,
+    "retweetCount" : 19163
+  }, {
+    "key" : 1561507200000,
+    "name" : "ke 26.6.2019",
+    "tweetCount" : 68441,
+    "retweetCount" : 20308
+  }, {
+    "key" : 1561593600000,
+    "name" : "to 27.6.2019",
+    "tweetCount" : 70099,
+    "retweetCount" : 20201,
+    "peak" : {
+      "key" : "pride",
+      "count" : 774
+    }
+  }, {
+    "key" : 1561680000000,
+    "name" : "pe 28.6.2019",
+    "tweetCount" : 66747,
+    "retweetCount" : 18712
+  }, {
+    "key" : 1561766400000,
+    "name" : "la 29.6.2019",
+    "tweetCount" : 55909,
+    "retweetCount" : 15351
+  }, {
+    "key" : 1561852800000,
+    "name" : "su 30.6.2019",
+    "tweetCount" : 51238,
+    "retweetCount" : 13379
+  }, {
+    "key" : 1561939200000,
+    "name" : "ma 1.7.2019",
+    "tweetCount" : 63918,
+    "retweetCount" : 19052
+  }, {
+    "key" : 1562025600000,
+    "name" : "ti 2.7.2019",
+    "tweetCount" : 69968,
+    "retweetCount" : 22104
+  }, {
+    "key" : 1562112000000,
+    "name" : "ke 3.7.2019",
+    "tweetCount" : 69205,
+    "retweetCount" : 21457
+  }, {
+    "key" : 1562198400000,
+    "name" : "to 4.7.2019",
+    "tweetCount" : 68152,
+    "retweetCount" : 20371
+  }, {
+    "key" : 1562284800000,
+    "name" : "pe 5.7.2019",
+    "tweetCount" : 65660,
+    "retweetCount" : 18968
+  }, {
+    "key" : 1562371200000,
+    "name" : "la 6.7.2019",
+    "tweetCount" : 59071,
+    "retweetCount" : 17929
+  }, {
+    "key" : 1562457600000,
+    "name" : "su 7.7.2019",
+    "tweetCount" : 59421,
+    "retweetCount" : 18734
+  }, {
+    "key" : 1562544000000,
+    "name" : "ma 8.7.2019",
+    "tweetCount" : 67391,
+    "retweetCount" : 20248
+  }, {
+    "key" : 1562630400000,
+    "name" : "ti 9.7.2019",
+    "tweetCount" : 66730,
+    "retweetCount" : 18735
+  }, {
+    "key" : 1562716800000,
+    "name" : "ke 10.7.2019",
+    "tweetCount" : 64201,
+    "retweetCount" : 18537
+  }, {
+    "key" : 1562803200000,
+    "name" : "to 11.7.2019",
+    "tweetCount" : 58873,
+    "retweetCount" : 17193
+  }, {
+    "key" : 1562889600000,
+    "name" : "pe 12.7.2019",
+    "tweetCount" : 48973,
+    "retweetCount" : 12886
+  }, {
+    "key" : 1562976000000,
+    "name" : "la 13.7.2019",
+    "tweetCount" : 51381,
+    "retweetCount" : 13475
+  }, {
+    "key" : 1563062400000,
+    "name" : "su 14.7.2019",
+    "tweetCount" : 51622,
+    "retweetCount" : 14693
+  }, {
+    "key" : 1563148800000,
+    "name" : "ma 15.7.2019",
+    "tweetCount" : 63522,
+    "retweetCount" : 18378
+  }, {
+    "key" : 1563235200000,
+    "name" : "ti 16.7.2019",
+    "tweetCount" : 69496,
+    "retweetCount" : 21034
+  }, {
+    "key" : 1563321600000,
+    "name" : "ke 17.7.2019",
+    "tweetCount" : 69995,
+    "retweetCount" : 21292,
+    "peak" : {
+      "key" : "suomiareena",
+      "count" : 2477
+    }
+  }, {
+    "key" : 1563408000000,
+    "name" : "to 18.7.2019",
+    "tweetCount" : 68531,
+    "retweetCount" : 20497
+  }, {
+    "key" : 1563494400000,
+    "name" : "pe 19.7.2019",
+    "tweetCount" : 63344,
+    "retweetCount" : 17897
+  }, {
+    "key" : 1563580800000,
+    "name" : "la 20.7.2019",
+    "tweetCount" : 52748,
+    "retweetCount" : 13519
+  }, {
+    "key" : 1563667200000,
+    "name" : "su 21.7.2019",
+    "tweetCount" : 50851,
+    "retweetCount" : 12773
+  }, {
+    "key" : 1563753600000,
+    "name" : "ma 22.7.2019",
+    "tweetCount" : 60089,
+    "retweetCount" : 15806
+  }, {
+    "key" : 1563840000000,
+    "name" : "ti 23.7.2019",
+    "tweetCount" : 62372,
+    "retweetCount" : 16880
+  }, {
+    "key" : 1563926400000,
+    "name" : "ke 24.7.2019",
+    "tweetCount" : 60321,
+    "retweetCount" : 16695
+  }, {
+    "key" : 1564012800000,
+    "name" : "to 25.7.2019",
+    "tweetCount" : 64650,
+    "retweetCount" : 17812
+  }, {
+    "key" : 1564099200000,
+    "name" : "pe 26.7.2019",
+    "tweetCount" : 63806,
+    "retweetCount" : 17553
+  }, {
+    "key" : 1564185600000,
+    "name" : "la 27.7.2019",
+    "tweetCount" : 54028,
+    "retweetCount" : 13765
+  }, {
+    "key" : 1564272000000,
+    "name" : "su 28.7.2019",
+    "tweetCount" : 53703,
+    "retweetCount" : 14334
+  }, {
+    "key" : 1564358400000,
+    "name" : "ma 29.7.2019",
+    "tweetCount" : 60839,
+    "retweetCount" : 17484
+  }, {
+    "key" : 1564444800000,
+    "name" : "ti 30.7.2019",
+    "tweetCount" : 64717,
+    "retweetCount" : 18089
+  }, {
+    "key" : 1564531200000,
+    "name" : "ke 31.7.2019",
+    "tweetCount" : 64538,
+    "retweetCount" : 17592
+  }, {
+    "key" : 1564617600000,
+    "name" : "to 1.8.2019",
+    "tweetCount" : 68150,
+    "retweetCount" : 18640
+  }, {
+    "key" : 1564704000000,
+    "name" : "pe 2.8.2019",
+    "tweetCount" : 66274,
+    "retweetCount" : 17882
+  }, {
+    "key" : 1564790400000,
+    "name" : "la 3.8.2019",
+    "tweetCount" : 58138,
+    "retweetCount" : 15614
+  }, {
+    "key" : 1564876800000,
+    "name" : "su 4.8.2019",
+    "tweetCount" : 57345,
+    "retweetCount" : 16892
+  }, {
+    "key" : 1564963200000,
+    "name" : "ma 5.8.2019",
+    "tweetCount" : 65255,
+    "retweetCount" : 17991
+  }, {
+    "key" : 1565049600000,
+    "name" : "ti 6.8.2019",
+    "tweetCount" : 68724,
+    "retweetCount" : 20052
+  }, {
+    "key" : 1565136000000,
+    "name" : "ke 7.8.2019",
+    "tweetCount" : 71668,
+    "retweetCount" : 21710
+  }, {
+    "key" : 1565222400000,
+    "name" : "to 8.8.2019",
+    "tweetCount" : 76426,
+    "retweetCount" : 25120
+  }, {
+    "key" : 1565308800000,
+    "name" : "pe 9.8.2019",
+    "tweetCount" : 77289,
+    "retweetCount" : 23640,
+    "peak" : {
+      "key" : "valioliiga",
+      "count" : 1037
+    }
+  }, {
+    "key" : 1565395200000,
+    "name" : "la 10.8.2019",
+    "tweetCount" : 57051,
+    "retweetCount" : 15688
+  }, {
+    "key" : 1565481600000,
+    "name" : "su 11.8.2019",
+    "tweetCount" : 57828,
+    "retweetCount" : 16618
+  }, {
+    "key" : 1565568000000,
+    "name" : "ma 12.8.2019",
+    "tweetCount" : 65522,
+    "retweetCount" : 19673
+  }, {
+    "key" : 1565654400000,
+    "name" : "ti 13.8.2019",
+    "tweetCount" : 71602,
+    "retweetCount" : 21505
+  }, {
+    "key" : 1565740800000,
+    "name" : "ke 14.8.2019",
+    "tweetCount" : 77953,
+    "retweetCount" : 24797
+  }, {
+    "key" : 1565827200000,
+    "name" : "to 15.8.2019",
+    "tweetCount" : 76493,
+    "retweetCount" : 25151
+  }, {
+    "key" : 1565913600000,
+    "name" : "pe 16.8.2019",
+    "tweetCount" : 77522,
+    "retweetCount" : 24020
+  }, {
+    "key" : 1566000000000,
+    "name" : "la 17.8.2019",
+    "tweetCount" : 61544,
+    "retweetCount" : 18282
+  }, {
+    "key" : 1566086400000,
+    "name" : "su 18.8.2019",
+    "tweetCount" : 60702,
+    "retweetCount" : 18819
+  }, {
+    "key" : 1566172800000,
+    "name" : "ma 19.8.2019",
+    "tweetCount" : 75410,
+    "retweetCount" : 24438
+  }, {
+    "key" : 1566259200000,
+    "name" : "ti 20.8.2019",
+    "tweetCount" : 73410,
+    "retweetCount" : 23998
+  }, {
+    "key" : 1566345600000,
+    "name" : "ke 21.8.2019",
+    "tweetCount" : 74910,
+    "retweetCount" : 24899
+  }, {
+    "key" : 1566432000000,
+    "name" : "to 22.8.2019",
+    "tweetCount" : 73436,
+    "retweetCount" : 23780
+  }, {
+    "key" : 1566518400000,
+    "name" : "pe 23.8.2019",
+    "tweetCount" : 82491,
+    "retweetCount" : 26371
+  }, {
+    "key" : 1566604800000,
+    "name" : "la 24.8.2019",
+    "tweetCount" : 63041,
+    "retweetCount" : 19361
+  }, {
+    "key" : 1566691200000,
+    "name" : "su 25.8.2019",
+    "tweetCount" : 63762,
+    "retweetCount" : 21222
+  }, {
+    "key" : 1566777600000,
+    "name" : "ma 26.8.2019",
+    "tweetCount" : 71430,
+    "retweetCount" : 22683
+  }, {
+    "key" : 1566864000000,
+    "name" : "ti 27.8.2019",
+    "tweetCount" : 76615,
+    "retweetCount" : 24173
+  }, {
+    "key" : 1566950400000,
+    "name" : "ke 28.8.2019",
+    "tweetCount" : 75935,
+    "retweetCount" : 23926
+  }, {
+    "key" : 1567036800000,
+    "name" : "to 29.8.2019",
+    "tweetCount" : 78597,
+    "retweetCount" : 25417
+  }, {
+    "key" : 1567123200000,
+    "name" : "pe 30.8.2019",
+    "tweetCount" : 82018,
+    "retweetCount" : 26771
+  }, {
+    "key" : 1567209600000,
+    "name" : "la 31.8.2019",
+    "tweetCount" : 64706,
+    "retweetCount" : 19024
+  }, {
+    "key" : 1567296000000,
+    "name" : "su 1.9.2019",
+    "tweetCount" : 64344,
+    "retweetCount" : 18514
+  }, {
+    "key" : 1567382400000,
+    "name" : "ma 2.9.2019",
+    "tweetCount" : 72946,
+    "retweetCount" : 23471
+  }, {
+    "key" : 1567468800000,
+    "name" : "ti 3.9.2019",
+    "tweetCount" : 75667,
+    "retweetCount" : 24291
+  }, {
+    "key" : 1567555200000,
+    "name" : "ke 4.9.2019",
+    "tweetCount" : 77005,
+    "retweetCount" : 25251
+  }, {
+    "key" : 1567641600000,
+    "name" : "to 5.9.2019",
+    "tweetCount" : 84797,
+    "retweetCount" : 27059,
+    "peak" : {
+      "key" : "huuhkajat",
+      "count" : 2302
+    }
+  }, {
+    "key" : 1567728000000,
+    "name" : "pe 6.9.2019",
+    "tweetCount" : 78880,
+    "retweetCount" : 25557
+  }, {
+    "key" : 1567814400000,
+    "name" : "la 7.9.2019",
+    "tweetCount" : 65156,
+    "retweetCount" : 18970
+  }, {
+    "key" : 1567900800000,
+    "name" : "su 8.9.2019",
+    "tweetCount" : 67091,
+    "retweetCount" : 20452
+  }, {
+    "key" : 1567987200000,
+    "name" : "ma 9.9.2019",
+    "tweetCount" : 69647,
+    "retweetCount" : 21877
+  }, {
+    "key" : 1568073600000,
+    "name" : "ti 10.9.2019",
+    "tweetCount" : 74473,
+    "retweetCount" : 24246
+  }, {
+    "key" : 1568160000000,
+    "name" : "ke 11.9.2019",
+    "tweetCount" : 85371,
+    "retweetCount" : 30016,
+    "peak" : {
+      "key" : "helsinkiclimate",
+      "count" : 1093
+    }
+  }, {
+    "key" : 1568246400000,
+    "name" : "to 12.9.2019",
+    "tweetCount" : 82537,
+    "retweetCount" : 27029
+  }, {
+    "key" : 1568332800000,
+    "name" : "pe 13.9.2019",
+    "tweetCount" : 84651,
+    "retweetCount" : 26700
+  }, {
+    "key" : 1568419200000,
+    "name" : "la 14.9.2019",
+    "tweetCount" : 68379,
+    "retweetCount" : 20193
+  }, {
+    "key" : 1568505600000,
+    "name" : "su 15.9.2019",
+    "tweetCount" : 61705,
+    "retweetCount" : 18262
+  }, {
+    "key" : 1568592000000,
+    "name" : "ma 16.9.2019",
+    "tweetCount" : 72198,
+    "retweetCount" : 23844
+  }, {
+    "key" : 1568678400000,
+    "name" : "ti 17.9.2019",
+    "tweetCount" : 82096,
+    "retweetCount" : 28461
+  }, {
+    "key" : 1568764800000,
+    "name" : "ke 18.9.2019",
+    "tweetCount" : 84513,
+    "retweetCount" : 28174,
+    "peak" : {
+      "key" : "releaseyourinnerpower",
+      "count" : 1130
+    }
+  }, {
+    "key" : 1568851200000,
+    "name" : "to 19.9.2019",
+    "tweetCount" : 81901,
+    "retweetCount" : 27198
+  }, {
+    "key" : 1568937600000,
+    "name" : "pe 20.9.2019",
+    "tweetCount" : 81592,
+    "retweetCount" : 26288
+  }, {
+    "key" : 1569024000000,
+    "name" : "la 21.9.2019",
+    "tweetCount" : 68135,
+    "retweetCount" : 21013
+  }, {
+    "key" : 1569110400000,
+    "name" : "su 22.9.2019",
+    "tweetCount" : 59442,
+    "retweetCount" : 18247
+  }, {
+    "key" : 1569196800000,
+    "name" : "ma 23.9.2019",
+    "tweetCount" : 76330,
+    "retweetCount" : 25910
+  }, {
+    "key" : 1569283200000,
+    "name" : "ti 24.9.2019",
+    "tweetCount" : 84053,
+    "retweetCount" : 29477
+  }, {
+    "key" : 1569369600000,
+    "name" : "ke 25.9.2019",
+    "tweetCount" : 86405,
+    "retweetCount" : 30187
+  }, {
+    "key" : 1569456000000,
+    "name" : "to 26.9.2019",
+    "tweetCount" : 85443,
+    "retweetCount" : 29342
+  }, {
+    "key" : 1569542400000,
+    "name" : "pe 27.9.2019",
+    "tweetCount" : 94775,
+    "retweetCount" : 32878,
+    "peak" : {
+      "key" : "ilmastolakko",
+      "count" : 4983
+    }
+  }, {
+    "key" : 1569628800000,
+    "name" : "la 28.9.2019",
+    "tweetCount" : 71484,
+    "retweetCount" : 21220
+  }, {
+    "key" : 1569715200000,
+    "name" : "su 29.9.2019",
+    "tweetCount" : 63842,
+    "retweetCount" : 19358
+  }, {
+    "key" : 1569801600000,
+    "name" : "ma 30.9.2019",
+    "tweetCount" : 77008,
+    "retweetCount" : 25342
+  }, {
+    "key" : 1569888000000,
+    "name" : "ti 1.10.2019",
+    "tweetCount" : 86626,
+    "retweetCount" : 31139,
+    "peak" : {
+      "key" : "kuopio",
+      "count" : 1929
+    }
+  }, {
+    "key" : 1569974400000,
+    "name" : "ke 2.10.2019",
+    "tweetCount" : 76196,
+    "retweetCount" : 25314
+  }, {
+    "key" : 1570060800000,
+    "name" : "to 3.10.2019",
+    "tweetCount" : 83134,
+    "retweetCount" : 28282
+  }, {
+    "key" : 1570147200000,
+    "name" : "pe 4.10.2019",
+    "tweetCount" : 82372,
+    "retweetCount" : 26116
+  }, {
+    "key" : 1570233600000,
+    "name" : "la 5.10.2019",
+    "tweetCount" : 67082,
+    "retweetCount" : 19471
+  }, {
+    "key" : 1570320000000,
+    "name" : "su 6.10.2019",
+    "tweetCount" : 61640,
+    "retweetCount" : 17716
+  }, {
+    "key" : 1570406400000,
+    "name" : "ma 7.10.2019",
+    "tweetCount" : 73319,
+    "retweetCount" : 24676
+  }, {
+    "key" : 1570492800000,
+    "name" : "ti 8.10.2019",
+    "tweetCount" : 80502,
+    "retweetCount" : 26859
+  }, {
+    "key" : 1570579200000,
+    "name" : "ke 9.10.2019",
+    "tweetCount" : 89520,
+    "retweetCount" : 32306
+  }, {
+    "key" : 1570665600000,
+    "name" : "to 10.10.2019",
+    "tweetCount" : 93273,
+    "retweetCount" : 33668,
+    "peak" : {
+      "key" : "nbforum2019",
+      "count" : 1680
+    }
+  }, {
+    "key" : 1570752000000,
+    "name" : "pe 11.10.2019",
+    "tweetCount" : 90407,
+    "retweetCount" : 30375
+  }, {
+    "key" : 1570838400000,
+    "name" : "la 12.10.2019",
+    "tweetCount" : 72290,
+    "retweetCount" : 22215
+  }, {
+    "key" : 1570924800000,
+    "name" : "su 13.10.2019",
+    "tweetCount" : 66304,
+    "retweetCount" : 22017
+  }, {
+    "key" : 1571011200000,
+    "name" : "ma 14.10.2019",
+    "tweetCount" : 82071,
+    "retweetCount" : 32489
+  }, {
+    "key" : 1571097600000,
+    "name" : "ti 15.10.2019",
+    "tweetCount" : 88346,
+    "retweetCount" : 29217
+  }, {
+    "key" : 1571184000000,
+    "name" : "ke 16.10.2019",
+    "tweetCount" : 83171,
+    "retweetCount" : 27399
+  }, {
+    "key" : 1571270400000,
+    "name" : "to 17.10.2019",
+    "tweetCount" : 82618,
+    "retweetCount" : 27711
+  }, {
+    "key" : 1571356800000,
+    "name" : "pe 18.10.2019",
+    "tweetCount" : 80387,
+    "retweetCount" : 26047
+  }, {
+    "key" : 1571443200000,
+    "name" : "la 19.10.2019",
+    "tweetCount" : 77944,
+    "retweetCount" : 27610
+  }, {
+    "key" : 1571529600000,
+    "name" : "su 20.10.2019",
+    "tweetCount" : 66452,
+    "retweetCount" : 22472
+  }, {
+    "key" : 1571616000000,
+    "name" : "ma 21.10.2019",
+    "tweetCount" : 77469,
+    "retweetCount" : 27206
+  }, {
+    "key" : 1571702400000,
+    "name" : "ti 22.10.2019",
+    "tweetCount" : 84361,
+    "retweetCount" : 28954
+  }, {
+    "key" : 1571788800000,
+    "name" : "ke 23.10.2019",
+    "tweetCount" : 86879,
+    "retweetCount" : 28949,
+    "peak" : {
+      "key" : "bbsuomi",
+      "count" : 1839
+    }
+  }, {
+    "key" : 1571875200000,
+    "name" : "to 24.10.2019",
+    "tweetCount" : 91563,
+    "retweetCount" : 30393
+  }, {
+    "key" : 1571961600000,
+    "name" : "pe 25.10.2019",
+    "tweetCount" : 85722,
+    "retweetCount" : 27002
+  }, {
+    "key" : 1572048000000,
+    "name" : "la 26.10.2019",
+    "tweetCount" : 71568,
+    "retweetCount" : 22811
+  }, {
+    "key" : 1572134400000,
+    "name" : "su 27.10.2019",
+    "tweetCount" : 74595,
+    "retweetCount" : 25286
+  }, {
+    "key" : 1572220800000,
+    "name" : "ma 28.10.2019",
+    "tweetCount" : 80051,
+    "retweetCount" : 28638
+  }, {
+    "key" : 1572307200000,
+    "name" : "ti 29.10.2019",
+    "tweetCount" : 86117,
+    "retweetCount" : 32361
+  }, {
+    "key" : 1572393600000,
+    "name" : "ke 30.10.2019",
+    "tweetCount" : 88505,
+    "retweetCount" : 30528
+  }, {
+    "key" : 1572480000000,
+    "name" : "to 31.10.2019",
+    "tweetCount" : 92062,
+    "retweetCount" : 33086,
+    "peak" : {
+      "key" : "lentovero",
+      "count" : 1802
+    }
+  }, {
+    "key" : 1572566400000,
+    "name" : "pe 1.11.2019",
+    "tweetCount" : 86300,
+    "retweetCount" : 27474
+  }, {
+    "key" : 1572652800000,
+    "name" : "la 2.11.2019",
+    "tweetCount" : 66254,
+    "retweetCount" : 19492
+  }, {
+    "key" : 1572739200000,
+    "name" : "su 3.11.2019",
+    "tweetCount" : 62733,
+    "retweetCount" : 19369
+  }, {
+    "key" : 1572825600000,
+    "name" : "ma 4.11.2019",
+    "tweetCount" : 81365,
+    "retweetCount" : 29544
+  }, {
+    "key" : 1572912000000,
+    "name" : "ti 5.11.2019",
+    "tweetCount" : 84204,
+    "retweetCount" : 30596
+  }, {
+    "key" : 1572998400000,
+    "name" : "ke 6.11.2019",
+    "tweetCount" : 86595,
+    "retweetCount" : 30581
+  }, {
+    "key" : 1573084800000,
+    "name" : "to 7.11.2019",
+    "tweetCount" : 89442,
+    "retweetCount" : 30964
+  }, {
+    "key" : 1573171200000,
+    "name" : "pe 8.11.2019",
+    "tweetCount" : 87205,
+    "retweetCount" : 29957
+  }, {
+    "key" : 1573257600000,
+    "name" : "la 9.11.2019",
+    "tweetCount" : 75192,
+    "retweetCount" : 23547
+  }, {
+    "key" : 1573344000000,
+    "name" : "su 10.11.2019",
+    "tweetCount" : 69781,
+    "retweetCount" : 21916
+  }, {
+    "key" : 1573430400000,
+    "name" : "ma 11.11.2019",
+    "tweetCount" : 85650,
+    "retweetCount" : 30263
+  }, {
+    "key" : 1573516800000,
+    "name" : "ti 12.11.2019",
+    "tweetCount" : 95441,
+    "retweetCount" : 37411
+  }, {
+    "key" : 1573603200000,
+    "name" : "ke 13.11.2019",
+    "tweetCount" : 92350,
+    "retweetCount" : 33233
+  }, {
+    "key" : 1573689600000,
+    "name" : "to 14.11.2019",
+    "tweetCount" : 95773,
+    "retweetCount" : 34360
+  }, {
+    "key" : 1573776000000,
+    "name" : "pe 15.11.2019",
+    "tweetCount" : 105666,
+    "retweetCount" : 38512,
+    "peak" : {
+      "key" : "huuhkajat",
+      "count" : 11292
+    }
+  }, {
+    "key" : 1573862400000,
+    "name" : "la 16.11.2019",
+    "tweetCount" : 75269,
+    "retweetCount" : 26689
+  }, {
+    "key" : 1573948800000,
+    "name" : "su 17.11.2019",
+    "tweetCount" : 66705,
+    "retweetCount" : 21089
+  }, {
+    "key" : 1574035200000,
+    "name" : "ma 18.11.2019",
+    "tweetCount" : 80150,
+    "retweetCount" : 26589
+  }, {
+    "key" : 1574121600000,
+    "name" : "ti 19.11.2019",
+    "tweetCount" : 90211,
+    "retweetCount" : 31252
+  }, {
+    "key" : 1574208000000,
+    "name" : "ke 20.11.2019",
+    "tweetCount" : 95073,
+    "retweetCount" : 33850
+  }, {
+    "key" : 1574294400000,
+    "name" : "to 21.11.2019",
+    "tweetCount" : 93780,
+    "retweetCount" : 32398
+  }, {
+    "key" : 1574380800000,
+    "name" : "pe 22.11.2019",
+    "tweetCount" : 92146,
+    "retweetCount" : 31113
+  }, {
+    "key" : 1574467200000,
+    "name" : "la 23.11.2019",
+    "tweetCount" : 72814,
+    "retweetCount" : 22740
+  }, {
+    "key" : 1574553600000,
+    "name" : "su 24.11.2019",
+    "tweetCount" : 74535,
+    "retweetCount" : 26418
+  }, {
+    "key" : 1574640000000,
+    "name" : "ma 25.11.2019",
+    "tweetCount" : 86297,
+    "retweetCount" : 29977
+  }, {
+    "key" : 1574726400000,
+    "name" : "ti 26.11.2019",
+    "tweetCount" : 92885,
+    "retweetCount" : 33776
+  }, {
+    "key" : 1574812800000,
+    "name" : "ke 27.11.2019",
+    "tweetCount" : 94854,
+    "retweetCount" : 32305
+  }, {
+    "key" : 1574899200000,
+    "name" : "to 28.11.2019",
+    "tweetCount" : 89188,
+    "retweetCount" : 29576
+  }, {
+    "key" : 1574985600000,
+    "name" : "pe 29.11.2019",
+    "tweetCount" : 97098,
+    "retweetCount" : 31814,
+    "peak" : {
+      "key" : "blackfriday",
+      "count" : 1093
+    }
+  }, {
+    "key" : 1575072000000,
+    "name" : "la 30.11.2019",
+    "tweetCount" : 79231,
+    "retweetCount" : 26780
+  }, {
+    "key" : 1575158400000,
+    "name" : "su 1.12.2019",
+    "tweetCount" : 71528,
+    "retweetCount" : 22909
+  }, {
+    "key" : 1575244800000,
+    "name" : "ma 2.12.2019",
+    "tweetCount" : 95116,
+    "retweetCount" : 33685
+  }, {
+    "key" : 1575331200000,
+    "name" : "ti 3.12.2019",
+    "tweetCount" : 107530,
+    "retweetCount" : 36743,
+    "peak" : {
+      "key" : "hallituskriisi",
+      "count" : 3806
+    }
+  }, {
+    "key" : 1575417600000,
+    "name" : "ke 4.12.2019",
+    "tweetCount" : 97403,
+    "retweetCount" : 34918
+  }, {
+    "key" : 1575504000000,
+    "name" : "to 5.12.2019",
+    "tweetCount" : 96656,
+    "retweetCount" : 30978
+  }, {
+    "key" : 1575590400000,
+    "name" : "pe 6.12.2019",
+    "tweetCount" : 98483,
+    "retweetCount" : 35348
+  }, {
+    "key" : 1575676800000,
+    "name" : "la 7.12.2019",
+    "tweetCount" : 73301,
+    "retweetCount" : 23892
+  }, {
+    "key" : 1575763200000,
+    "name" : "su 8.12.2019",
+    "tweetCount" : 83304,
+    "retweetCount" : 30466
+  }, {
+    "key" : 1575849600000,
+    "name" : "ma 9.12.2019",
+    "tweetCount" : 98542,
+    "retweetCount" : 41810
+  }, {
+    "key" : 1575936000000,
+    "name" : "ti 10.12.2019",
+    "tweetCount" : 101607,
+    "retweetCount" : 38780
+  }, {
+    "key" : 1576022400000,
+    "name" : "ke 11.12.2019",
+    "tweetCount" : 111272,
+    "retweetCount" : 39914,
+    "peak" : {
+      "key" : "alhol",
+      "count" : 2640
+    }
+  }, {
+    "key" : 1576108800000,
+    "name" : "to 12.12.2019",
+    "tweetCount" : 104581,
+    "retweetCount" : 36264
+  }, {
+    "key" : 1576195200000,
+    "name" : "pe 13.12.2019",
+    "tweetCount" : 98669,
+    "retweetCount" : 32174
+  }, {
+    "key" : 1576281600000,
+    "name" : "la 14.12.2019",
+    "tweetCount" : 82998,
+    "retweetCount" : 27686
+  }, {
+    "key" : 1576368000000,
+    "name" : "su 15.12.2019",
+    "tweetCount" : 77285,
+    "retweetCount" : 26550
+  }, {
+    "key" : 1576454400000,
+    "name" : "ma 16.12.2019",
+    "tweetCount" : 95133,
+    "retweetCount" : 35090
+  }, {
+    "key" : 1576540800000,
+    "name" : "ti 17.12.2019",
+    "tweetCount" : 92363,
+    "retweetCount" : 32496
+  }, {
+    "key" : 1576627200000,
+    "name" : "ke 18.12.2019",
+    "tweetCount" : 90921,
+    "retweetCount" : 30767
+  }, {
+    "key" : 1576713600000,
+    "name" : "to 19.12.2019",
+    "tweetCount" : 88725,
+    "retweetCount" : 30394
+  }, {
+    "key" : 1576800000000,
+    "name" : "pe 20.12.2019",
+    "tweetCount" : 83576,
+    "retweetCount" : 26597
+  }, {
+    "key" : 1576886400000,
+    "name" : "la 21.12.2019",
+    "tweetCount" : 72280,
+    "retweetCount" : 22338
+  }, {
+    "key" : 1576972800000,
+    "name" : "su 22.12.2019",
+    "tweetCount" : 66783,
+    "retweetCount" : 20570
+  }, {
+    "key" : 1577059200000,
+    "name" : "ma 23.12.2019",
+    "tweetCount" : 70364,
+    "retweetCount" : 20952
+  }, {
+    "key" : 1577145600000,
+    "name" : "ti 24.12.2019",
+    "tweetCount" : 51085,
+    "retweetCount" : 14886
+  }, {
+    "key" : 1577232000000,
+    "name" : "ke 25.12.2019",
+    "tweetCount" : 46755,
+    "retweetCount" : 14472
+  }, {
+    "key" : 1577318400000,
+    "name" : "to 26.12.2019",
+    "tweetCount" : 54879,
+    "retweetCount" : 15387
+  }, {
+    "key" : 1577404800000,
+    "name" : "pe 27.12.2019",
+    "tweetCount" : 66047,
+    "retweetCount" : 18625
+  }, {
+    "key" : 1577491200000,
+    "name" : "la 28.12.2019",
+    "tweetCount" : 69126,
+    "retweetCount" : 18614
+  }, {
+    "key" : 1577577600000,
+    "name" : "su 29.12.2019",
+    "tweetCount" : 68586,
+    "retweetCount" : 19288
+  }, {
+    "key" : 1577664000000,
+    "name" : "ma 30.12.2019",
+    "tweetCount" : 80215,
+    "retweetCount" : 22606,
+    "peak" : {
+      "key" : "silakkaliike",
+      "count" : 1019
+    }
+  }, {
+    "key" : 1577750400000,
+    "name" : "ti 31.12.2019",
+    "tweetCount" : 77964,
+    "retweetCount" : 20023
+  }, {
+    "key" : 1577836800000,
+    "name" : "ke 1.1.2020",
+    "tweetCount" : 2355,
+    "retweetCount" : 786
+  } ]
+}

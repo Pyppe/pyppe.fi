@@ -6,6 +6,7 @@ _site
 /environment.sh
 /node_modules/
 /.jekyll-metadata
+/.jekyll-cache/
 /pyppe.fi.sublime-workspace
 
 # Specific

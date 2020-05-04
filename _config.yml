@@ -20,6 +20,6 @@ exclude:
 markdown: kramdown
 permalink: /blog/:year/:month/:title/
 excerpt_separator: <!--more-->
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 paginate: 10
 paginate_path: '/blog/:num/'

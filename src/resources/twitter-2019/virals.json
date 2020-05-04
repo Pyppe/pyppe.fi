@@ -1,0 +1,1966 @@
+{
+  "days" : [ {
+    "day" : "2019-01-06",
+    "hashtags" : [ "U20fi", "NuoretLeijonat", "wjc2019", "WorldJuniors", "Maailmanmestarit" ],
+    "totalTweetCount" : 72844,
+    "viralTweetCount" : 5841,
+    "viralUserCount" : 2972
+  }, {
+    "day" : "2019-01-17",
+    "hashtags" : [ "urheilugaala", "valkoinenkurittaja" ],
+    "totalTweetCount" : 89499,
+    "viralTweetCount" : 1751,
+    "viralUserCount" : 1245
+  }, {
+    "day" : "2019-01-20",
+    "hashtags" : [ "btsfanart", "namjoon" ],
+    "totalTweetCount" : 67000,
+    "viralTweetCount" : 1532,
+    "viralUserCount" : 1473
+  }, {
+    "day" : "2019-01-29",
+    "hashtags" : [ "EsperiCare" ],
+    "totalTweetCount" : 96647,
+    "viralTweetCount" : 1655,
+    "viralUserCount" : 1105
+  }, {
+    "day" : "2019-02-02",
+    "hashtags" : [ "emmagaala" ],
+    "totalTweetCount" : 76797,
+    "viralTweetCount" : 946,
+    "viralUserCount" : 512
+  }, {
+    "day" : "2019-02-04",
+    "hashtags" : [ "mattinykänen" ],
+    "totalTweetCount" : 86282,
+    "viralTweetCount" : 994,
+    "viralUserCount" : 830
+  }, {
+    "day" : "2019-02-10",
+    "hashtags" : [ "TearItUpBTS" ],
+    "totalTweetCount" : 71728,
+    "viralTweetCount" : 2058,
+    "viralUserCount" : 1210
+  }, {
+    "day" : "2019-02-11",
+    "hashtags" : [ "Grammys" ],
+    "totalTweetCount" : 84883,
+    "viralTweetCount" : 1051,
+    "viralUserCount" : 716
+  }, {
+    "day" : "2019-02-14",
+    "hashtags" : [ "ystävänpäivä", "ValentinesDay" ],
+    "totalTweetCount" : 95556,
+    "viralTweetCount" : 2698,
+    "viralUserCount" : 2291
+  }, {
+    "day" : "2019-02-16",
+    "hashtags" : [ "Puigdemont", "Duckprints" ],
+    "totalTweetCount" : 82858,
+    "viralTweetCount" : 3668,
+    "viralUserCount" : 3311
+  }, {
+    "day" : "2019-02-24",
+    "hashtags" : [ "Susijengi" ],
+    "totalTweetCount" : 72881,
+    "viralTweetCount" : 1134,
+    "viralUserCount" : 557
+  }, {
+    "day" : "2019-02-28",
+    "hashtags" : [ "kalevalanpäivä", "Kalevala" ],
+    "totalTweetCount" : 93386,
+    "viralTweetCount" : 1104,
+    "viralUserCount" : 912
+  }, {
+    "day" : "2019-03-02",
+    "hashtags" : [ "TwitterBestFandom", "TeamBTS", "EZ4ENCE", "SoompiAwards", "esportsfi", "IEM", "umk19", "BTSARMY" ],
+    "totalTweetCount" : 93089,
+    "viralTweetCount" : 10078,
+    "viralUserCount" : 6338
+  }, {
+    "day" : "2019-03-08",
+    "hashtags" : [ "naistenpäivä", "sote", "hallitus" ],
+    "totalTweetCount" : 121130,
+    "viralTweetCount" : 10264,
+    "viralUserCount" : 6006
+  }, {
+    "day" : "2019-03-13",
+    "hashtags" : [ "tisuomi" ],
+    "totalTweetCount" : 98670,
+    "viralTweetCount" : 2197,
+    "viralUserCount" : 784
+  }, {
+    "day" : "2019-03-15",
+    "hashtags" : [ "ilmastolakko" ],
+    "totalTweetCount" : 107762,
+    "viralTweetCount" : 5335,
+    "viralUserCount" : 3176
+  }, {
+    "day" : "2019-03-16",
+    "hashtags" : [ "Catalonia" ],
+    "totalTweetCount" : 88805,
+    "viralTweetCount" : 1318,
+    "viralUserCount" : 1218
+  }, {
+    "day" : "2019-03-17",
+    "hashtags" : [ "AusGP" ],
+    "totalTweetCount" : 81023,
+    "viralTweetCount" : 806,
+    "viralUserCount" : 508
+  }, {
+    "day" : "2019-03-19",
+    "hashtags" : [ "MinnaCanth", "tasaarvo" ],
+    "totalTweetCount" : 93192,
+    "viralTweetCount" : 2208,
+    "viralUserCount" : 1705
+  }, {
+    "day" : "2019-03-26",
+    "hashtags" : [ "Article13" ],
+    "totalTweetCount" : 104973,
+    "viralTweetCount" : 1643,
+    "viralUserCount" : 1522
+  }, {
+    "day" : "2019-04-01",
+    "hashtags" : [ "aprillipäivä" ],
+    "totalTweetCount" : 84192,
+    "viralTweetCount" : 693,
+    "viralUserCount" : 598
+  }, {
+    "day" : "2019-04-02",
+    "hashtags" : [ "pienpuoluetentti" ],
+    "totalTweetCount" : 96070,
+    "viralTweetCount" : 1728,
+    "viralUserCount" : 579
+  }, {
+    "day" : "2019-04-06",
+    "hashtags" : [ "ilmastomarssi" ],
+    "totalTweetCount" : 79183,
+    "viralTweetCount" : 2115,
+    "viralUserCount" : 1019
+  }, {
+    "day" : "2019-04-09",
+    "hashtags" : [ "nrjfi", "nrjiltapäivä", "BoyWithLuv", "BTS" ],
+    "totalTweetCount" : 129009,
+    "viralTweetCount" : 25505,
+    "viralUserCount" : 25116
+  }, {
+    "day" : "2019-04-11",
+    "hashtags" : [ "vaalitentti" ],
+    "totalTweetCount" : 115019,
+    "viralTweetCount" : 2047,
+    "viralUserCount" : 1002
+  }, {
+    "day" : "2019-04-14",
+    "hashtags" : [ "vaalit2019", "Naisleijonat", "eduskuntavaalit2019", "vaalit", "WomensWorlds", "eduskuntavaalit" ],
+    "totalTweetCount" : 118284,
+    "viralTweetCount" : 18673,
+    "viralUserCount" : 8107
+  }, {
+    "day" : "2019-04-28",
+    "hashtags" : [ "F1Baku" ],
+    "totalTweetCount" : 71058,
+    "viralTweetCount" : 782,
+    "viralUserCount" : 694
+  }, {
+    "day" : "2019-04-30",
+    "hashtags" : [ "vappu" ],
+    "totalTweetCount" : 84866,
+    "viralTweetCount" : 2749,
+    "viralUserCount" : 2134
+  }, {
+    "day" : "2019-05-01",
+    "hashtags" : [ "BBMAsTopSocial" ],
+    "totalTweetCount" : 64306,
+    "viralTweetCount" : 2181,
+    "viralUserCount" : 982
+  }, {
+    "day" : "2019-05-04",
+    "hashtags" : [ "Liiga", "HPK", "Kärpät" ],
+    "totalTweetCount" : 78235,
+    "viralTweetCount" : 3536,
+    "viralUserCount" : 1691
+  }, {
+    "day" : "2019-05-08",
+    "hashtags" : [ "UCLfi" ],
+    "totalTweetCount" : 101462,
+    "viralTweetCount" : 1412,
+    "viralUserCount" : 824
+  }, {
+    "day" : "2019-05-09",
+    "hashtags" : [ "Eurooppapäivä" ],
+    "totalTweetCount" : 97127,
+    "viralTweetCount" : 1529,
+    "viralUserCount" : 963
+  }, {
+    "day" : "2019-05-12",
+    "hashtags" : [ "äitienpäivä", "MothersDay" ],
+    "totalTweetCount" : 67749,
+    "viralTweetCount" : 2840,
+    "viralUserCount" : 2575
+  }, {
+    "day" : "2019-05-18",
+    "hashtags" : [ "euroviisut", "Eurovision" ],
+    "totalTweetCount" : 80630,
+    "viralTweetCount" : 8047,
+    "viralUserCount" : 1931
+  }, {
+    "day" : "2019-05-26",
+    "hashtags" : [ "Leijonat", "mmkisat", "IIHFWorlds", "EUvaalit2019", "MM2019", "mmkisat2019", "eurovaalit2019", "mmfinaali", "MMkiekko", "IIHF2019", "eurovaalit", "CANFIN" ],
+    "totalTweetCount" : 110350,
+    "viralTweetCount" : 27191,
+    "viralUserCount" : 12045
+  }, {
+    "day" : "2019-05-27",
+    "hashtags" : [ "mörkö", "MMkulta" ],
+    "totalTweetCount" : 88225,
+    "viralTweetCount" : 3678,
+    "viralUserCount" : 2744
+  }, {
+    "day" : "2019-06-03",
+    "hashtags" : [ "hallitusohjelma" ],
+    "totalTweetCount" : 82378,
+    "viralTweetCount" : 5376,
+    "viralUserCount" : 2833
+  }, {
+    "day" : "2019-06-04",
+    "hashtags" : [ "WCEF2019" ],
+    "totalTweetCount" : 79686,
+    "viralTweetCount" : 869,
+    "viralUserCount" : 448
+  }, {
+    "day" : "2019-06-08",
+    "hashtags" : [ "BTSatStadedeFrance", "BTSinPARIS", "BTSFrance", "BTSParis", "BTSinFRANCE", "BTSinSDF", "SpeakYourselfinParis" ],
+    "totalTweetCount" : 63708,
+    "viralTweetCount" : 2194,
+    "viralUserCount" : 1757
+  }, {
+    "day" : "2019-06-21",
+    "hashtags" : [ "juhannus" ],
+    "totalTweetCount" : 53615,
+    "viralTweetCount" : 2628,
+    "viralUserCount" : 2062
+  }, {
+    "day" : "2019-06-29",
+    "hashtags" : [ "pride", "helsinkipride" ],
+    "totalTweetCount" : 55927,
+    "viralTweetCount" : 1783,
+    "viralUserCount" : 1237
+  }, {
+    "day" : "2019-07-16",
+    "hashtags" : [ "SuomiAreena" ],
+    "totalTweetCount" : 69577,
+    "viralTweetCount" : 2485,
+    "viralUserCount" : 1207
+  }, {
+    "day" : "2019-08-08",
+    "hashtags" : [ "IPCC" ],
+    "totalTweetCount" : 76416,
+    "viralTweetCount" : 1088,
+    "viralUserCount" : 576
+  }, {
+    "day" : "2019-08-17",
+    "hashtags" : [ "Valioliiga", "pukkiparty" ],
+    "totalTweetCount" : 61671,
+    "viralTweetCount" : 1880,
+    "viralUserCount" : 1216
+  }, {
+    "day" : "2019-09-05",
+    "hashtags" : [ "yrittäjänpäivä" ],
+    "totalTweetCount" : 84920,
+    "viralTweetCount" : 1480,
+    "viralUserCount" : 1084
+  }, {
+    "day" : "2019-09-08",
+    "hashtags" : [ "readhour", "FINITA" ],
+    "totalTweetCount" : 67095,
+    "viralTweetCount" : 2081,
+    "viralUserCount" : 1414
+  }, {
+    "day" : "2019-09-17",
+    "hashtags" : [ "budjettiriihi" ],
+    "totalTweetCount" : 82222,
+    "viralTweetCount" : 1559,
+    "viralUserCount" : 892
+  }, {
+    "day" : "2019-09-24",
+    "hashtags" : [ "seurapaitapäivä" ],
+    "totalTweetCount" : 83996,
+    "viralTweetCount" : 787,
+    "viralUserCount" : 692
+  }, {
+    "day" : "2019-09-27",
+    "hashtags" : [ "ClimateStrike", "FridaysForFuture", "nytonpakko" ],
+    "totalTweetCount" : 94925,
+    "viralTweetCount" : 3427,
+    "viralUserCount" : 2079
+  }, {
+    "day" : "2019-10-01",
+    "hashtags" : [ "Kuopio" ],
+    "totalTweetCount" : 86742,
+    "viralTweetCount" : 1934,
+    "viralUserCount" : 1258
+  }, {
+    "day" : "2019-10-10",
+    "hashtags" : [ "NBForum2019" ],
+    "totalTweetCount" : 93128,
+    "viralTweetCount" : 1680,
+    "viralUserCount" : 623
+  }, {
+    "day" : "2019-10-11",
+    "hashtags" : [ "tyttöjenpäivä", "BTSinSaudiArabia" ],
+    "totalTweetCount" : 90687,
+    "viralTweetCount" : 2082,
+    "viralUserCount" : 1546
+  }, {
+    "day" : "2019-10-14",
+    "hashtags" : [ "Spain", "EU" ],
+    "totalTweetCount" : 81924,
+    "viralTweetCount" : 1171,
+    "viralUserCount" : 1067
+  }, {
+    "day" : "2019-10-19",
+    "hashtags" : [ "Greece" ],
+    "totalTweetCount" : 78005,
+    "viralTweetCount" : 731,
+    "viralUserCount" : 729
+  }, {
+    "day" : "2019-10-26",
+    "hashtags" : [ "SpeakYourselfTourFinal" ],
+    "totalTweetCount" : 72213,
+    "viralTweetCount" : 1713,
+    "viralUserCount" : 1123
+  }, {
+    "day" : "2019-10-27",
+    "hashtags" : [ "MexicanGP" ],
+    "totalTweetCount" : 74553,
+    "viralTweetCount" : 883,
+    "viralUserCount" : 805
+  }, {
+    "day" : "2019-10-28",
+    "hashtags" : [ "Katalonia" ],
+    "totalTweetCount" : 79956,
+    "viralTweetCount" : 1204,
+    "viralUserCount" : 1024
+  }, {
+    "day" : "2019-10-29",
+    "hashtags" : [ "ThankYouBTS" ],
+    "totalTweetCount" : 86165,
+    "viralTweetCount" : 967,
+    "viralUserCount" : 784
+  }, {
+    "day" : "2019-10-31",
+    "hashtags" : [ "lentovero", "F1", "Inktober", "FireEmblemThreeHouses", "fireemblem" ],
+    "totalTweetCount" : 91946,
+    "viralTweetCount" : 4014,
+    "viralUserCount" : 2984
+  }, {
+    "day" : "2019-11-04",
+    "hashtags" : [ "VB77" ],
+    "totalTweetCount" : 81070,
+    "viralTweetCount" : 1255,
+    "viralUserCount" : 1125
+  }, {
+    "day" : "2019-11-06",
+    "hashtags" : [ "svenskadagen" ],
+    "totalTweetCount" : 86596,
+    "viralTweetCount" : 1161,
+    "viralUserCount" : 928
+  }, {
+    "day" : "2019-11-10",
+    "hashtags" : [ "isänpäivä", "bbsuomi" ],
+    "totalTweetCount" : 69761,
+    "viralTweetCount" : 3564,
+    "viralUserCount" : 1975
+  }, {
+    "day" : "2019-11-12",
+    "hashtags" : [ "WELCOMEtoFinlandBTS" ],
+    "totalTweetCount" : 95381,
+    "viralTweetCount" : 3289,
+    "viralUserCount" : 1385
+  }, {
+    "day" : "2019-11-15",
+    "hashtags" : [ "Huuhkajat", "EURO2020", "FINLIE" ],
+    "totalTweetCount" : 106129,
+    "viralTweetCount" : 12029,
+    "viralUserCount" : 6303
+  }, {
+    "day" : "2019-11-19",
+    "hashtags" : [ "miestenpäivä" ],
+    "totalTweetCount" : 90349,
+    "viralTweetCount" : 956,
+    "viralUserCount" : 739
+  }, {
+    "day" : "2019-11-21",
+    "hashtags" : [ "Slush19" ],
+    "totalTweetCount" : 94027,
+    "viralTweetCount" : 2174,
+    "viralUserCount" : 1158
+  }, {
+    "day" : "2019-11-22",
+    "hashtags" : [ "lapsimukaantöihinpäivä" ],
+    "totalTweetCount" : 92450,
+    "viralTweetCount" : 828,
+    "viralUserCount" : 646
+  }, {
+    "day" : "2019-11-24",
+    "hashtags" : [ "Qanon", "WWG1WGA" ],
+    "totalTweetCount" : 73525,
+    "viralTweetCount" : 1488,
+    "viralUserCount" : 1425
+  }, {
+    "day" : "2019-11-29",
+    "hashtags" : [ "BlackFriday" ],
+    "totalTweetCount" : 97488,
+    "viralTweetCount" : 1100,
+    "viralUserCount" : 912
+  }, {
+    "day" : "2019-12-03",
+    "hashtags" : [ "hallituskriisi" ],
+    "totalTweetCount" : 107827,
+    "viralTweetCount" : 3793,
+    "viralUserCount" : 2091
+  }, {
+    "day" : "2019-12-05",
+    "hashtags" : [ "SpotifyWrapped" ],
+    "totalTweetCount" : 96939,
+    "viralTweetCount" : 997,
+    "viralUserCount" : 848
+  }, {
+    "day" : "2019-12-06",
+    "hashtags" : [ "itsenäisyyspäivä", "linnanjuhlat", "Finland", "Suomi", "IndependenceDay", "suomi102" ],
+    "totalTweetCount" : 98677,
+    "viralTweetCount" : 9594,
+    "viralUserCount" : 5866
+  }, {
+    "day" : "2019-12-09",
+    "hashtags" : [ "newgeneration" ],
+    "totalTweetCount" : 97524,
+    "viralTweetCount" : 7224,
+    "viralUserCount" : 7217
+  }, {
+    "day" : "2019-12-15",
+    "hashtags" : [ "ペンミ", "阪", "大", "MAGICSHOPinOsaka", "MagicShopJapan" ],
+    "totalTweetCount" : 76893,
+    "viralTweetCount" : 1963,
+    "viralUserCount" : 1707
+  }, {
+    "day" : "2019-12-17",
+    "hashtags" : [ "alhol" ],
+    "totalTweetCount" : 92375,
+    "viralTweetCount" : 1571,
+    "viralUserCount" : 816
+  }, {
+    "day" : "2019-12-24",
+    "hashtags" : [ "joulu" ],
+    "totalTweetCount" : 50854,
+    "viralTweetCount" : 1946,
+    "viralUserCount" : 1421
+  }, {
+    "day" : "2019-12-31",
+    "hashtags" : [ "uusivuosi" ],
+    "totalTweetCount" : 78843,
+    "viralTweetCount" : 1565,
+    "viralUserCount" : 1240
+  } ],
+  "buckets" : [ {
+    "key" : "nrjfi",
+    "caseSensitiveKey" : "nrjfi",
+    "day" : "2019-04-09",
+    "dayCount" : 25407,
+    "backgroundCount" : 25832,
+    "userCardinality" : 25103,
+    "topTweetUrl" : "https://twitter.com/NRJfi/status/1115573137280778240",
+    "reach" : 27598890,
+    "rank" : 1
+  }, {
+    "key" : "nrjiltapäivä",
+    "caseSensitiveKey" : "nrjiltapäivä",
+    "day" : "2019-04-09",
+    "dayCount" : 25367,
+    "backgroundCount" : 25849,
+    "userCardinality" : 25099,
+    "topTweetUrl" : "https://twitter.com/NRJfi/status/1115573137280778240",
+    "reach" : 27595461,
+    "rank" : 2
+  }, {
+    "key" : "boywithluv",
+    "caseSensitiveKey" : "BoyWithLuv",
+    "day" : "2019-04-09",
+    "dayCount" : 24118,
+    "backgroundCount" : 26402,
+    "userCardinality" : 24069,
+    "topTweetUrl" : "https://twitter.com/NRJfi/status/1115573137280778240",
+    "reach" : 26968049,
+    "rank" : 3
+  }, {
+    "key" : "bts",
+    "caseSensitiveKey" : "BTS",
+    "day" : "2019-04-09",
+    "dayCount" : 24069,
+    "backgroundCount" : 25703,
+    "userCardinality" : 24051,
+    "topTweetUrl" : "https://twitter.com/NRJfi/status/1115573137280778240",
+    "reach" : 26958623,
+    "rank" : 4
+  }, {
+    "key" : "leijonat",
+    "caseSensitiveKey" : "Leijonat",
+    "day" : "2019-05-26",
+    "dayCount" : 16002,
+    "backgroundCount" : 25870,
+    "userCardinality" : 7884,
+    "topTweetUrl" : "https://twitter.com/leijonat/status/1132745560283320320",
+    "reach" : 11116601,
+    "rank" : 5
+  }, {
+    "key" : "huuhkajat",
+    "caseSensitiveKey" : "Huuhkajat",
+    "day" : "2019-11-15",
+    "dayCount" : 11408,
+    "backgroundCount" : 18064,
+    "userCardinality" : 6006,
+    "topTweetUrl" : "https://twitter.com/Huuhkajat/status/1195426899968831491",
+    "reach" : 11986733,
+    "rank" : 6
+  }, {
+    "key" : "newgeneration",
+    "caseSensitiveKey" : "newgeneration",
+    "day" : "2019-12-09",
+    "dayCount" : 7224,
+    "backgroundCount" : 8828,
+    "userCardinality" : 7217,
+    "topTweetUrl" : "https://twitter.com/TNiskakangas/status/1203729511658995713",
+    "reach" : 18360485,
+    "rank" : 7
+  }, {
+    "key" : "vaalit2019",
+    "caseSensitiveKey" : "vaalit2019",
+    "day" : "2019-04-14",
+    "dayCount" : 10721,
+    "backgroundCount" : 16507,
+    "userCardinality" : 5026,
+    "topTweetUrl" : "https://twitter.com/JariTervo1/status/1117180636295565314",
+    "reach" : 9983815,
+    "rank" : 8
+  }, {
+    "key" : "mmkisat",
+    "caseSensitiveKey" : "mmkisat",
+    "day" : "2019-05-26",
+    "dayCount" : 12229,
+    "backgroundCount" : 17611,
+    "userCardinality" : 5845,
+    "topTweetUrl" : "https://twitter.com/leijonat/status/1132745560283320320",
+    "reach" : 8398064,
+    "rank" : 9
+  }, {
+    "key" : "ilmastolakko",
+    "caseSensitiveKey" : "ilmastolakko",
+    "day" : "2019-03-15",
+    "dayCount" : 5335,
+    "backgroundCount" : 8246,
+    "userCardinality" : 3176,
+    "topTweetUrl" : "https://twitter.com/OPPaasivirta/status/1106473065007976448",
+    "reach" : 11955520,
+    "rank" : 10
+  }, {
+    "key" : "hallitusohjelma",
+    "caseSensitiveKey" : "hallitusohjelma",
+    "day" : "2019-06-03",
+    "dayCount" : 5376,
+    "backgroundCount" : 10648,
+    "userCardinality" : 2833,
+    "topTweetUrl" : "https://twitter.com/sipilamtv3/status/1135511989147590656",
+    "reach" : 7024586,
+    "rank" : 11
+  }, {
+    "key" : "naistenpäivä",
+    "caseSensitiveKey" : "naistenpäivä",
+    "day" : "2019-03-08",
+    "dayCount" : 4367,
+    "backgroundCount" : 4648,
+    "userCardinality" : 3283,
+    "topTweetUrl" : "https://twitter.com/JariTaponen/status/1103880780327972865",
+    "reach" : 7868165,
+    "rank" : 12
+  }, {
+    "key" : "sote",
+    "caseSensitiveKey" : "sote",
+    "day" : "2019-03-08",
+    "dayCount" : 5051,
+    "backgroundCount" : 12217,
+    "userCardinality" : 2902,
+    "topTweetUrl" : "https://twitter.com/MarinSanna/status/1103923908946714625",
+    "reach" : 6671463,
+    "rank" : 13
+  }, {
+    "key" : "itsenäisyyspäivä",
+    "caseSensitiveKey" : "itsenäisyyspäivä",
+    "day" : "2019-12-06",
+    "dayCount" : 3712,
+    "backgroundCount" : 4218,
+    "userCardinality" : 2674,
+    "topTweetUrl" : "https://twitter.com/sotaveteraanit/status/1202845837895843840",
+    "reach" : 5897522,
+    "rank" : 14
+  }, {
+    "key" : "naisleijonat",
+    "caseSensitiveKey" : "Naisleijonat",
+    "day" : "2019-04-14",
+    "dayCount" : 5110,
+    "backgroundCount" : 6130,
+    "userCardinality" : 2642,
+    "topTweetUrl" : "https://twitter.com/leijonat/status/1117524688845049856",
+    "reach" : 4670628,
+    "rank" : 15
+  }, {
+    "key" : "äitienpäivä",
+    "caseSensitiveKey" : "äitienpäivä",
+    "day" : "2019-05-12",
+    "dayCount" : 2766,
+    "backgroundCount" : 2971,
+    "userCardinality" : 2515,
+    "topTweetUrl" : "https://twitter.com/MarkoRaassina/status/1127473894686904320",
+    "reach" : 7868387,
+    "rank" : 16
+  }, {
+    "key" : "mörkö",
+    "caseSensitiveKey" : "mörkö",
+    "day" : "2019-05-27",
+    "dayCount" : 2769,
+    "backgroundCount" : 3800,
+    "userCardinality" : 2192,
+    "topTweetUrl" : "https://twitter.com/Kotus_tiedotus/status/1132893791323607041",
+    "reach" : 4755594,
+    "rank" : 17
+  }, {
+    "key" : "iihfworlds",
+    "caseSensitiveKey" : "IIHFWorlds",
+    "day" : "2019-05-26",
+    "dayCount" : 4767,
+    "backgroundCount" : 6824,
+    "userCardinality" : 3148,
+    "topTweetUrl" : "https://twitter.com/leijonat/status/1132745560283320320",
+    "reach" : 3805409,
+    "rank" : 18
+  }, {
+    "key" : "hallituskriisi",
+    "caseSensitiveKey" : "hallituskriisi",
+    "day" : "2019-12-03",
+    "dayCount" : 3793,
+    "backgroundCount" : 6541,
+    "userCardinality" : 2091,
+    "topTweetUrl" : "https://twitter.com/anssita/status/1201586311829839872",
+    "reach" : 4382833,
+    "rank" : 19
+  }, {
+    "key" : "vappu",
+    "caseSensitiveKey" : "vappu",
+    "day" : "2019-04-30",
+    "dayCount" : 2749,
+    "backgroundCount" : 4679,
+    "userCardinality" : 2134,
+    "topTweetUrl" : "https://twitter.com/HelsinkiKymp/status/1123106881076068353",
+    "reach" : 4487984,
+    "rank" : 20
+  }, {
+    "key" : "euvaalit2019",
+    "caseSensitiveKey" : "EUvaalit2019",
+    "day" : "2019-05-26",
+    "dayCount" : 3134,
+    "backgroundCount" : 4377,
+    "userCardinality" : 1791,
+    "topTweetUrl" : "https://twitter.com/AxVainio/status/1132702803992940544",
+    "reach" : 4640705,
+    "rank" : 21
+  }, {
+    "key" : "ystävänpäivä",
+    "caseSensitiveKey" : "ystävänpäivä",
+    "day" : "2019-02-14",
+    "dayCount" : 2447,
+    "backgroundCount" : 2561,
+    "userCardinality" : 2069,
+    "topTweetUrl" : "https://twitter.com/thisisFINLAND/status/1095964627819737088",
+    "reach" : 4866997,
+    "rank" : 22
+  }, {
+    "key" : "u20fi",
+    "caseSensitiveKey" : "U20fi",
+    "day" : "2019-01-06",
+    "dayCount" : 4279,
+    "backgroundCount" : 4544,
+    "userCardinality" : 2107,
+    "topTweetUrl" : "https://twitter.com/leijonat/status/1081754625982824449",
+    "reach" : 3659005,
+    "rank" : 23
+  }, {
+    "key" : "juhannus",
+    "caseSensitiveKey" : "juhannus",
+    "day" : "2019-06-21",
+    "dayCount" : 2628,
+    "backgroundCount" : 4393,
+    "userCardinality" : 2062,
+    "topTweetUrl" : "https://twitter.com/JariViljemaa/status/1142073469686951937",
+    "reach" : 4041892,
+    "rank" : 24
+  }, {
+    "key" : "linnanjuhlat",
+    "caseSensitiveKey" : "linnanjuhlat",
+    "day" : "2019-12-06",
+    "dayCount" : 3747,
+    "backgroundCount" : 4326,
+    "userCardinality" : 1890,
+    "topTweetUrl" : "https://twitter.com/mariapetterss0n/status/1203010687087366146",
+    "reach" : 3820352,
+    "rank" : 25
+  }, {
+    "key" : "twitterbestfandom",
+    "caseSensitiveKey" : "TwitterBestFandom",
+    "day" : "2019-03-02",
+    "dayCount" : 5149,
+    "backgroundCount" : 10692,
+    "userCardinality" : 3420,
+    "topTweetUrl" : "https://twitter.com/BTS_army_Fin/status/1101801836938436608",
+    "reach" : 2273218,
+    "rank" : 26
+  }, {
+    "key" : "teambts",
+    "caseSensitiveKey" : "TeamBTS",
+    "day" : "2019-03-02",
+    "dayCount" : 5113,
+    "backgroundCount" : 10747,
+    "userCardinality" : 3417,
+    "topTweetUrl" : "https://twitter.com/BTS_army_Fin/status/1101801836938436608",
+    "reach" : 2268739,
+    "rank" : 27
+  }, {
+    "key" : "ez4ence",
+    "caseSensitiveKey" : "EZ4ENCE",
+    "day" : "2019-03-02",
+    "dayCount" : 2873,
+    "backgroundCount" : 5924,
+    "userCardinality" : 2017,
+    "topTweetUrl" : "https://twitter.com/ence/status/1101912397114163203",
+    "reach" : 3166201,
+    "rank" : 28
+  }, {
+    "key" : "soompiawards",
+    "caseSensitiveKey" : "SoompiAwards",
+    "day" : "2019-03-02",
+    "dayCount" : 4757,
+    "backgroundCount" : 9548,
+    "userCardinality" : 3244,
+    "topTweetUrl" : "https://twitter.com/BTS_army_Fin/status/1101801836938436608",
+    "reach" : 2192480,
+    "rank" : 29
+  }, {
+    "key" : "climatestrike",
+    "caseSensitiveKey" : "ClimateStrike",
+    "day" : "2019-09-27",
+    "dayCount" : 2015,
+    "backgroundCount" : 2269,
+    "userCardinality" : 1360,
+    "topTweetUrl" : "https://twitter.com/A_Ahokas/status/1177491186757406720",
+    "reach" : 9216593,
+    "rank" : 30
+  }, {
+    "key" : "mm2019",
+    "caseSensitiveKey" : "MM2019",
+    "day" : "2019-05-26",
+    "dayCount" : 2427,
+    "backgroundCount" : 3617,
+    "userCardinality" : 1922,
+    "topTweetUrl" : "https://twitter.com/kirkko_evl/status/1132747611209961473",
+    "reach" : 3442899,
+    "rank" : 31
+  }, {
+    "key" : "finland",
+    "caseSensitiveKey" : "Finland",
+    "day" : "2019-12-06",
+    "dayCount" : 1991,
+    "backgroundCount" : 5123,
+    "userCardinality" : 1658,
+    "topTweetUrl" : "https://twitter.com/thisisFINLAND/status/1202833823437926402",
+    "reach" : 4442194,
+    "rank" : 32
+  }, {
+    "key" : "puigdemont",
+    "caseSensitiveKey" : "Puigdemont",
+    "day" : "2019-02-16",
+    "dayCount" : 2402,
+    "backgroundCount" : 3064,
+    "userCardinality" : 2357,
+    "topTweetUrl" : "https://twitter.com/TeivoTeivainen/status/1096458170791272448",
+    "reach" : 2858418,
+    "rank" : 33
+  }, {
+    "key" : "eduskuntavaalit2019",
+    "caseSensitiveKey" : "eduskuntavaalit2019",
+    "day" : "2019-04-14",
+    "dayCount" : 2515,
+    "backgroundCount" : 3400,
+    "userCardinality" : 1479,
+    "topTweetUrl" : "https://twitter.com/Hikipediainfo/status/1117161405650735106",
+    "reach" : 3678783,
+    "rank" : 34
+  }, {
+    "key" : "slush19",
+    "caseSensitiveKey" : "Slush19",
+    "day" : "2019-11-21",
+    "dayCount" : 2174,
+    "backgroundCount" : 4310,
+    "userCardinality" : 1158,
+    "topTweetUrl" : "https://twitter.com/PLeipl/status/1197399859411767297",
+    "reach" : 5569106,
+    "rank" : 35
+  }, {
+    "key" : "mmkisat2019",
+    "caseSensitiveKey" : "mmkisat2019",
+    "day" : "2019-05-26",
+    "dayCount" : 2519,
+    "backgroundCount" : 3901,
+    "userCardinality" : 1750,
+    "topTweetUrl" : "https://twitter.com/RistoUusikoski/status/1132379938068344840",
+    "reach" : 2364646,
+    "rank" : 36
+  }, {
+    "key" : "vaalit",
+    "caseSensitiveKey" : "vaalit",
+    "day" : "2019-04-14",
+    "dayCount" : 2428,
+    "backgroundCount" : 3786,
+    "userCardinality" : 1388,
+    "topTweetUrl" : "https://twitter.com/kotkavirta/status/1117480705238478848",
+    "reach" : 3497870,
+    "rank" : 37
+  }, {
+    "key" : "euroviisut",
+    "caseSensitiveKey" : "euroviisut",
+    "day" : "2019-05-18",
+    "dayCount" : 7378,
+    "backgroundCount" : 8033,
+    "userCardinality" : 1582,
+    "topTweetUrl" : "https://twitter.com/nastynapalm/status/1129832470264860674",
+    "reach" : 1920816,
+    "rank" : 38
+  }, {
+    "key" : "suomiareena",
+    "caseSensitiveKey" : "SuomiAreena",
+    "day" : "2019-07-16",
+    "dayCount" : 2485,
+    "backgroundCount" : 8244,
+    "userCardinality" : 1207,
+    "topTweetUrl" : "https://twitter.com/TereSammallahti/status/1151183024186384384",
+    "reach" : 4028934,
+    "rank" : 39
+  }, {
+    "key" : "hallitus",
+    "caseSensitiveKey" : "hallitus",
+    "day" : "2019-03-08",
+    "dayCount" : 2148,
+    "backgroundCount" : 3020,
+    "userCardinality" : 1502,
+    "topTweetUrl" : "https://twitter.com/aarikanlotta/status/1103935055687110656",
+    "reach" : 2871424,
+    "rank" : 40
+  }, {
+    "key" : "euro2020",
+    "caseSensitiveKey" : "EURO2020",
+    "day" : "2019-11-15",
+    "dayCount" : 1725,
+    "backgroundCount" : 2869,
+    "userCardinality" : 1237,
+    "topTweetUrl" : "https://twitter.com/AteneumMuseum/status/1195314684490113024",
+    "reach" : 6174666,
+    "rank" : 41
+  }, {
+    "key" : "bbmastopsocial",
+    "caseSensitiveKey" : "BBMAsTopSocial",
+    "day" : "2019-05-01",
+    "dayCount" : 2181,
+    "backgroundCount" : 2193,
+    "userCardinality" : 982,
+    "topTweetUrl" : "https://twitter.com/BTS_army_Fin/status/1123396394335731712",
+    "reach" : 4957991,
+    "rank" : 42
+  }, {
+    "key" : "isänpäivä",
+    "caseSensitiveKey" : "isänpäivä",
+    "day" : "2019-11-10",
+    "dayCount" : 1755,
+    "backgroundCount" : 1847,
+    "userCardinality" : 1467,
+    "topTweetUrl" : "https://twitter.com/sotaveteraanit/status/1193444661261733888",
+    "reach" : 4013839,
+    "rank" : 43
+  }, {
+    "key" : "fridaysforfuture",
+    "caseSensitiveKey" : "FridaysForFuture",
+    "day" : "2019-09-27",
+    "dayCount" : 1643,
+    "backgroundCount" : 1912,
+    "userCardinality" : 1208,
+    "topTweetUrl" : "https://twitter.com/A_Ahokas/status/1177491186757406720",
+    "reach" : 8811845,
+    "rank" : 44
+  }, {
+    "key" : "tearitupbts",
+    "caseSensitiveKey" : "TearItUpBTS",
+    "day" : "2019-02-10",
+    "dayCount" : 2058,
+    "backgroundCount" : 4068,
+    "userCardinality" : 1210,
+    "topTweetUrl" : "https://twitter.com/BTS_army_Fin/status/1094627539929182208",
+    "reach" : 3687051,
+    "rank" : 45
+  }, {
+    "key" : "liiga",
+    "caseSensitiveKey" : "Liiga",
+    "day" : "2019-05-04",
+    "dayCount" : 2662,
+    "backgroundCount" : 4243,
+    "userCardinality" : 1297,
+    "topTweetUrl" : "https://twitter.com/smliiga/status/1124723894907232256",
+    "reach" : 2573062,
+    "rank" : 46
+  }, {
+    "key" : "qanon",
+    "caseSensitiveKey" : "Qanon",
+    "day" : "2019-11-24",
+    "dayCount" : 1447,
+    "backgroundCount" : 1887,
+    "userCardinality" : 1390,
+    "topTweetUrl" : "https://twitter.com/JipeFIN/status/1198297777677176832",
+    "reach" : 5294364,
+    "rank" : 47
+  }, {
+    "key" : "joulu",
+    "caseSensitiveKey" : "joulu",
+    "day" : "2019-12-24",
+    "dayCount" : 1946,
+    "backgroundCount" : 3598,
+    "userCardinality" : 1421,
+    "topTweetUrl" : "https://twitter.com/VarisVerkosto/status/1209150848460308487",
+    "reach" : 2893507,
+    "rank" : 48
+  }, {
+    "key" : "kuopio",
+    "caseSensitiveKey" : "Kuopio",
+    "day" : "2019-10-01",
+    "dayCount" : 1934,
+    "backgroundCount" : 3413,
+    "userCardinality" : 1258,
+    "topTweetUrl" : "https://twitter.com/PoliisiIS/status/1179003929008443394",
+    "reach" : 3291652,
+    "rank" : 49
+  }, {
+    "key" : "wwg1wga",
+    "caseSensitiveKey" : "WWG1WGA",
+    "day" : "2019-11-24",
+    "dayCount" : 1378,
+    "backgroundCount" : 1740,
+    "userCardinality" : 1347,
+    "topTweetUrl" : "https://twitter.com/JipeFIN/status/1198297777677176832",
+    "reach" : 4924241,
+    "rank" : 50
+  }, {
+    "key" : "minnacanth",
+    "caseSensitiveKey" : "MinnaCanth",
+    "day" : "2019-03-19",
+    "dayCount" : 1657,
+    "backgroundCount" : 1781,
+    "userCardinality" : 1360,
+    "topTweetUrl" : "https://twitter.com/TPKanslia/status/1107695017123086336",
+    "reach" : 3460733,
+    "rank" : 51
+  }, {
+    "key" : "suomi",
+    "caseSensitiveKey" : "Suomi",
+    "day" : "2019-12-06",
+    "dayCount" : 1596,
+    "backgroundCount" : 2942,
+    "userCardinality" : 1369,
+    "topTweetUrl" : "https://twitter.com/ValtteriBottas/status/1202987685708779520",
+    "reach" : 3304408,
+    "rank" : 52
+  }, {
+    "key" : "ilmastomarssi",
+    "caseSensitiveKey" : "ilmastomarssi",
+    "day" : "2019-04-06",
+    "dayCount" : 2115,
+    "backgroundCount" : 2656,
+    "userCardinality" : 1019,
+    "topTweetUrl" : "https://twitter.com/luonnonsuojelu/status/1114533882827812865",
+    "reach" : 3032405,
+    "rank" : 53
+  }, {
+    "key" : "mothersday",
+    "caseSensitiveKey" : "MothersDay",
+    "day" : "2019-05-12",
+    "dayCount" : 1292,
+    "backgroundCount" : 1412,
+    "userCardinality" : 1264,
+    "topTweetUrl" : "https://twitter.com/MarkoRaassina/status/1127473894686904320",
+    "reach" : 4474047,
+    "rank" : 54
+  }, {
+    "key" : "uusivuosi",
+    "caseSensitiveKey" : "uusivuosi",
+    "day" : "2019-12-31",
+    "dayCount" : 1565,
+    "backgroundCount" : 2646,
+    "userCardinality" : 1240,
+    "topTweetUrl" : "https://twitter.com/Ravantti_Esa/status/1212051420846972929",
+    "reach" : 3202244,
+    "rank" : 55
+  }, {
+    "key" : "hpk",
+    "caseSensitiveKey" : "HPK",
+    "day" : "2019-05-04",
+    "dayCount" : 1925,
+    "backgroundCount" : 2479,
+    "userCardinality" : 1116,
+    "topTweetUrl" : "https://twitter.com/smliiga/status/1124723894907232256",
+    "reach" : 2453508,
+    "rank" : 56
+  }, {
+    "key" : "nytonpakko",
+    "caseSensitiveKey" : "nytonpakko",
+    "day" : "2019-09-27",
+    "dayCount" : 1506,
+    "backgroundCount" : 2030,
+    "userCardinality" : 1002,
+    "topTweetUrl" : "https://twitter.com/AksuLehikoinen/status/1177494618541178881",
+    "reach" : 4063085,
+    "rank" : 57
+  }, {
+    "key" : "vb77",
+    "caseSensitiveKey" : "VB77",
+    "day" : "2019-11-04",
+    "dayCount" : 1255,
+    "backgroundCount" : 1364,
+    "userCardinality" : 1125,
+    "topTweetUrl" : "https://twitter.com/ValtteriBottas/status/1191338751643049984",
+    "reach" : 4444417,
+    "rank" : 58
+  }, {
+    "key" : "ペンミ",
+    "caseSensitiveKey" : "ペンミ",
+    "day" : "2019-12-15",
+    "dayCount" : 1953,
+    "backgroundCount" : 2258,
+    "userCardinality" : 1699,
+    "topTweetUrl" : "https://twitter.com/seokjinhime/status/1206122989449646080",
+    "reach" : 1155989,
+    "rank" : 59
+  }, {
+    "key" : "阪",
+    "caseSensitiveKey" : "阪",
+    "day" : "2019-12-15",
+    "dayCount" : 1952,
+    "backgroundCount" : 2257,
+    "userCardinality" : 1699,
+    "topTweetUrl" : "https://twitter.com/seokjinhime/status/1206122989449646080",
+    "reach" : 1155989,
+    "rank" : 60
+  }, {
+    "key" : "大",
+    "caseSensitiveKey" : "大",
+    "day" : "2019-12-15",
+    "dayCount" : 1952,
+    "backgroundCount" : 2258,
+    "userCardinality" : 1699,
+    "topTweetUrl" : "https://twitter.com/seokjinhime/status/1206122989449646080",
+    "reach" : 1155989,
+    "rank" : 61
+  }, {
+    "key" : "finlie",
+    "caseSensitiveKey" : "FINLIE",
+    "day" : "2019-11-15",
+    "dayCount" : 1637,
+    "backgroundCount" : 1806,
+    "userCardinality" : 1075,
+    "topTweetUrl" : "https://twitter.com/micorabbe/status/1195065320249208832",
+    "reach" : 3061466,
+    "rank" : 62
+  }, {
+    "key" : "vaalitentti",
+    "caseSensitiveKey" : "vaalitentti",
+    "day" : "2019-04-11",
+    "dayCount" : 2047,
+    "backgroundCount" : 2651,
+    "userCardinality" : 1002,
+    "topTweetUrl" : "https://twitter.com/AuraSalla/status/1116406151791378433",
+    "reach" : 2001335,
+    "rank" : 63
+  }, {
+    "key" : "eurovaalit2019",
+    "caseSensitiveKey" : "eurovaalit2019",
+    "day" : "2019-05-26",
+    "dayCount" : 1434,
+    "backgroundCount" : 1774,
+    "userCardinality" : 1020,
+    "topTweetUrl" : "https://twitter.com/jmkorhonen/status/1132559040125579264",
+    "reach" : 3490062,
+    "rank" : 64
+  }, {
+    "key" : "espericare",
+    "caseSensitiveKey" : "EsperiCare",
+    "day" : "2019-01-29",
+    "dayCount" : 1655,
+    "backgroundCount" : 3978,
+    "userCardinality" : 1105,
+    "topTweetUrl" : "https://twitter.com/SuPerLiitto/status/1090238060900552704",
+    "reach" : 2644450,
+    "rank" : 65
+  }, {
+    "key" : "magicshopinosaka",
+    "caseSensitiveKey" : "MAGICSHOPinOsaka",
+    "day" : "2019-12-15",
+    "dayCount" : 1900,
+    "backgroundCount" : 2221,
+    "userCardinality" : 1655,
+    "topTweetUrl" : "https://twitter.com/seokjinhime/status/1206122989449646080",
+    "reach" : 1150782,
+    "rank" : 66
+  }, {
+    "key" : "article13",
+    "caseSensitiveKey" : "Article13",
+    "day" : "2019-03-26",
+    "dayCount" : 1643,
+    "backgroundCount" : 2007,
+    "userCardinality" : 1522,
+    "topTweetUrl" : "https://twitter.com/burywithasmile/status/1110523332171128834",
+    "reach" : 1414896,
+    "rank" : 67
+  }, {
+    "key" : "magicshopjapan",
+    "caseSensitiveKey" : "MagicShopJapan",
+    "day" : "2019-12-15",
+    "dayCount" : 1873,
+    "backgroundCount" : 2172,
+    "userCardinality" : 1641,
+    "topTweetUrl" : "https://twitter.com/seokjinhime/status/1206122989449646080",
+    "reach" : 1144316,
+    "rank" : 68
+  }, {
+    "key" : "btsatstadedefrance",
+    "caseSensitiveKey" : "BTSatStadedeFrance",
+    "day" : "2019-06-08",
+    "dayCount" : 2125,
+    "backgroundCount" : 2841,
+    "userCardinality" : 1717,
+    "topTweetUrl" : "https://twitter.com/vope_twt/status/1137092104876957696",
+    "reach" : 753008,
+    "rank" : 69
+  }, {
+    "key" : "nuoretleijonat",
+    "caseSensitiveKey" : "NuoretLeijonat",
+    "day" : "2019-01-06",
+    "dayCount" : 1665,
+    "backgroundCount" : 1761,
+    "userCardinality" : 1173,
+    "topTweetUrl" : "https://twitter.com/leijonat/status/1081754625982824449",
+    "reach" : 2071748,
+    "rank" : 70
+  }, {
+    "key" : "welcometofinlandbts",
+    "caseSensitiveKey" : "WELCOMEtoFinlandBTS",
+    "day" : "2019-11-12",
+    "dayCount" : 3289,
+    "backgroundCount" : 3614,
+    "userCardinality" : 1385,
+    "topTweetUrl" : "https://twitter.com/BTS_army_Fin/status/1194114443338276866",
+    "reach" : 714096,
+    "rank" : 71
+  }, {
+    "key" : "eurooppapäivä",
+    "caseSensitiveKey" : "Eurooppapäivä",
+    "day" : "2019-05-09",
+    "dayCount" : 1529,
+    "backgroundCount" : 1622,
+    "userCardinality" : 963,
+    "topTweetUrl" : "https://twitter.com/EUkomissio/status/1126351325019533312",
+    "reach" : 2935787,
+    "rank" : 72
+  }, {
+    "key" : "yrittäjänpäivä",
+    "caseSensitiveKey" : "yrittäjänpäivä",
+    "day" : "2019-09-05",
+    "dayCount" : 1480,
+    "backgroundCount" : 1561,
+    "userCardinality" : 1084,
+    "topTweetUrl" : "https://twitter.com/findani/status/1169514075983941634",
+    "reach" : 2706250,
+    "rank" : 73
+  }, {
+    "key" : "budjettiriihi",
+    "caseSensitiveKey" : "budjettiriihi",
+    "day" : "2019-09-17",
+    "dayCount" : 1559,
+    "backgroundCount" : 2553,
+    "userCardinality" : 892,
+    "topTweetUrl" : "https://twitter.com/iiris_suomela/status/1173995614906007552",
+    "reach" : 3170866,
+    "rank" : 74
+  }, {
+    "key" : "esportsfi",
+    "caseSensitiveKey" : "esportsfi",
+    "day" : "2019-03-02",
+    "dayCount" : 1586,
+    "backgroundCount" : 3602,
+    "userCardinality" : 1263,
+    "topTweetUrl" : "https://twitter.com/ence/status/1101912397114163203",
+    "reach" : 1569944,
+    "rank" : 75
+  }, {
+    "key" : "grammys",
+    "caseSensitiveKey" : "Grammys",
+    "day" : "2019-02-11",
+    "dayCount" : 1051,
+    "backgroundCount" : 1471,
+    "userCardinality" : 716,
+    "topTweetUrl" : "https://twitter.com/BTS_army_Fin/status/1094786612377067520",
+    "reach" : 25536075,
+    "rank" : 76
+  }, {
+    "key" : "btsinparis",
+    "caseSensitiveKey" : "BTSinPARIS",
+    "day" : "2019-06-08",
+    "dayCount" : 1873,
+    "backgroundCount" : 2557,
+    "userCardinality" : 1571,
+    "topTweetUrl" : "https://twitter.com/vope_twt/status/1137092104876957696",
+    "reach" : 695638,
+    "rank" : 77
+  }, {
+    "key" : "svenskadagen",
+    "caseSensitiveKey" : "svenskadagen",
+    "day" : "2019-11-06",
+    "dayCount" : 1161,
+    "backgroundCount" : 1176,
+    "userCardinality" : 928,
+    "topTweetUrl" : "https://twitter.com/AnttiRinnepj/status/1192051475159146496",
+    "reach" : 3269590,
+    "rank" : 78
+  }, {
+    "key" : "catalonia",
+    "caseSensitiveKey" : "Catalonia",
+    "day" : "2019-03-16",
+    "dayCount" : 1318,
+    "backgroundCount" : 2902,
+    "userCardinality" : 1218,
+    "topTweetUrl" : "https://twitter.com/JanneRiitakorpi/status/1107008453279662080",
+    "reach" : 1781314,
+    "rank" : 79
+  }, {
+    "key" : "btsfrance",
+    "caseSensitiveKey" : "BTSFrance",
+    "day" : "2019-06-08",
+    "dayCount" : 1807,
+    "backgroundCount" : 2475,
+    "userCardinality" : 1530,
+    "topTweetUrl" : "https://twitter.com/vope_twt/status/1137092104876957696",
+    "reach" : 668437,
+    "rank" : 80
+  }, {
+    "key" : "btsparis",
+    "caseSensitiveKey" : "BTSParis",
+    "day" : "2019-06-08",
+    "dayCount" : 1803,
+    "backgroundCount" : 2467,
+    "userCardinality" : 1527,
+    "topTweetUrl" : "https://twitter.com/vope_twt/status/1137092104876957696",
+    "reach" : 671914,
+    "rank" : 81
+  }, {
+    "key" : "lentovero",
+    "caseSensitiveKey" : "lentovero",
+    "day" : "2019-10-31",
+    "dayCount" : 1799,
+    "backgroundCount" : 2899,
+    "userCardinality" : 883,
+    "topTweetUrl" : "https://twitter.com/suviauvi/status/1189885984768430080",
+    "reach" : 1583657,
+    "rank" : 82
+  }, {
+    "key" : "btsfanart",
+    "caseSensitiveKey" : "btsfanart",
+    "day" : "2019-01-20",
+    "dayCount" : 1529,
+    "backgroundCount" : 1767,
+    "userCardinality" : 1471,
+    "topTweetUrl" : "https://twitter.com/velvetmlkk/status/1086719463381180417",
+    "reach" : 1133541,
+    "rank" : 83
+  }, {
+    "key" : "btsinfrance",
+    "caseSensitiveKey" : "BTSinFRANCE",
+    "day" : "2019-06-08",
+    "dayCount" : 1790,
+    "backgroundCount" : 2446,
+    "userCardinality" : 1522,
+    "topTweetUrl" : "https://twitter.com/vope_twt/status/1137092104876957696",
+    "reach" : 662307,
+    "rank" : 84
+  }, {
+    "key" : "spotifywrapped",
+    "caseSensitiveKey" : "SpotifyWrapped",
+    "day" : "2019-12-05",
+    "dayCount" : 997,
+    "backgroundCount" : 1405,
+    "userCardinality" : 848,
+    "topTweetUrl" : "https://twitter.com/BTS_army_Fin/status/1202529252790472705",
+    "reach" : 3908471,
+    "rank" : 85
+  }, {
+    "key" : "blackfriday",
+    "caseSensitiveKey" : "BlackFriday",
+    "day" : "2019-11-29",
+    "dayCount" : 1100,
+    "backgroundCount" : 1376,
+    "userCardinality" : 912,
+    "topTweetUrl" : "https://twitter.com/mikkolaakso/status/1200481899124318209",
+    "reach" : 3022927,
+    "rank" : 86
+  }, {
+    "key" : "namjoon",
+    "caseSensitiveKey" : "namjoon",
+    "day" : "2019-01-20",
+    "dayCount" : 1461,
+    "backgroundCount" : 1723,
+    "userCardinality" : 1440,
+    "topTweetUrl" : "https://twitter.com/velvetmlkk/status/1086719463381180417",
+    "reach" : 1118562,
+    "rank" : 87
+  }, {
+    "key" : "btsinsdf",
+    "caseSensitiveKey" : "BTSinSDF",
+    "day" : "2019-06-08",
+    "dayCount" : 1736,
+    "backgroundCount" : 2294,
+    "userCardinality" : 1479,
+    "topTweetUrl" : "https://twitter.com/vope_twt/status/1137092104876957696",
+    "reach" : 637983,
+    "rank" : 88
+  }, {
+    "key" : "f1",
+    "caseSensitiveKey" : "F1",
+    "day" : "2019-10-31",
+    "dayCount" : 939,
+    "backgroundCount" : 2676,
+    "userCardinality" : 850,
+    "topTweetUrl" : "https://twitter.com/ValtteriBottas/status/1189768850788802561",
+    "reach" : 3886699,
+    "rank" : 89
+  }, {
+    "key" : "alhol",
+    "caseSensitiveKey" : "alhol",
+    "day" : "2019-12-17",
+    "dayCount" : 1571,
+    "backgroundCount" : 4959,
+    "userCardinality" : 816,
+    "topTweetUrl" : "https://twitter.com/JuliannaKentala/status/1206957765274591233",
+    "reach" : 1891619,
+    "rank" : 90
+  }, {
+    "key" : "mexicangp",
+    "caseSensitiveKey" : "MexicanGP",
+    "day" : "2019-10-27",
+    "dayCount" : 883,
+    "backgroundCount" : 1254,
+    "userCardinality" : 805,
+    "topTweetUrl" : "https://twitter.com/ValtteriBottas/status/1188228024812085261",
+    "reach" : 4177269,
+    "rank" : 91
+  }, {
+    "key" : "readhour",
+    "caseSensitiveKey" : "readhour",
+    "day" : "2019-09-08",
+    "dayCount" : 1187,
+    "backgroundCount" : 1265,
+    "userCardinality" : 869,
+    "topTweetUrl" : "https://twitter.com/AkuAnkka_313/status/1169594065500934145",
+    "reach" : 2217126,
+    "rank" : 92
+  }, {
+    "key" : "pride",
+    "caseSensitiveKey" : "pride",
+    "day" : "2019-06-29",
+    "dayCount" : 1090,
+    "backgroundCount" : 1751,
+    "userCardinality" : 829,
+    "topTweetUrl" : "https://twitter.com/AnttiRinnepj/status/1144893950836248577",
+    "reach" : 2653119,
+    "rank" : 93
+  }, {
+    "key" : "katalonia",
+    "caseSensitiveKey" : "Katalonia",
+    "day" : "2019-10-28",
+    "dayCount" : 1204,
+    "backgroundCount" : 1589,
+    "userCardinality" : 1024,
+    "topTweetUrl" : "https://twitter.com/JanneRiitakorpi/status/1188808894082105344",
+    "reach" : 1386001,
+    "rank" : 94
+  }, {
+    "key" : "tyttöjenpäivä",
+    "caseSensitiveKey" : "tyttöjenpäivä",
+    "day" : "2019-10-11",
+    "dayCount" : 1046,
+    "backgroundCount" : 1102,
+    "userCardinality" : 762,
+    "topTweetUrl" : "https://twitter.com/plansuomi/status/1182506261482528768",
+    "reach" : 2839970,
+    "rank" : 95
+  }, {
+    "key" : "wjc2019",
+    "caseSensitiveKey" : "wjc2019",
+    "day" : "2019-01-06",
+    "dayCount" : 1162,
+    "backgroundCount" : 1216,
+    "userCardinality" : 941,
+    "topTweetUrl" : "https://twitter.com/leijonat/status/1081754625982824449",
+    "reach" : 1548676,
+    "rank" : 96
+  }, {
+    "key" : "duckprints",
+    "caseSensitiveKey" : "Duckprints",
+    "day" : "2019-02-16",
+    "dayCount" : 1270,
+    "backgroundCount" : 2447,
+    "userCardinality" : 995,
+    "topTweetUrl" : "https://twitter.com/BTS_army_Fin/status/1096836179499147266",
+    "reach" : 1312118,
+    "rank" : 97
+  }, {
+    "key" : "womensworlds",
+    "caseSensitiveKey" : "WomensWorlds",
+    "day" : "2019-04-14",
+    "dayCount" : 1109,
+    "backgroundCount" : 1428,
+    "userCardinality" : 745,
+    "topTweetUrl" : "https://twitter.com/leijonat/status/1117524688845049856",
+    "reach" : 2345096,
+    "rank" : 98
+  }, {
+    "key" : "nbforum2019",
+    "caseSensitiveKey" : "NBForum2019",
+    "day" : "2019-10-10",
+    "dayCount" : 1680,
+    "backgroundCount" : 1849,
+    "userCardinality" : 623,
+    "topTweetUrl" : "https://twitter.com/saurau/status/1182218764978442240",
+    "reach" : 1716252,
+    "rank" : 99
+  }, {
+    "key" : "mmfinaali",
+    "caseSensitiveKey" : "mmfinaali",
+    "day" : "2019-05-26",
+    "dayCount" : 1166,
+    "backgroundCount" : 1534,
+    "userCardinality" : 952,
+    "topTweetUrl" : "https://twitter.com/kirkko_evl/status/1132747611209961473",
+    "reach" : 1351971,
+    "rank" : 100
+  }, {
+    "key" : "tasaarvo",
+    "caseSensitiveKey" : "tasaarvo",
+    "day" : "2019-03-19",
+    "dayCount" : 980,
+    "backgroundCount" : 1688,
+    "userCardinality" : 793,
+    "topTweetUrl" : "https://twitter.com/fpuolue/status/1107963483843371008",
+    "reach" : 2352362,
+    "rank" : 101
+  }, {
+    "key" : "mmkiekko",
+    "caseSensitiveKey" : "MMkiekko",
+    "day" : "2019-05-26",
+    "dayCount" : 1096,
+    "backgroundCount" : 1348,
+    "userCardinality" : 840,
+    "topTweetUrl" : "https://twitter.com/TheMestarit/status/1132330213659029504",
+    "reach" : 1756132,
+    "rank" : 102
+  }, {
+    "key" : "speakyourselftourfinal",
+    "caseSensitiveKey" : "SpeakYourselfTourFinal",
+    "day" : "2019-10-26",
+    "dayCount" : 1713,
+    "backgroundCount" : 2247,
+    "userCardinality" : 1123,
+    "topTweetUrl" : "https://twitter.com/BTS_army_Fin/status/1188177685773770764",
+    "reach" : 505203,
+    "rank" : 103
+  }, {
+    "key" : "iem",
+    "caseSensitiveKey" : "IEM",
+    "day" : "2019-03-02",
+    "dayCount" : 1381,
+    "backgroundCount" : 2447,
+    "userCardinality" : 1185,
+    "topTweetUrl" : "https://twitter.com/ence/status/1101912397114163203",
+    "reach" : 860881,
+    "rank" : 104
+  }, {
+    "key" : "valioliiga",
+    "caseSensitiveKey" : "Valioliiga",
+    "day" : "2019-08-17",
+    "dayCount" : 1330,
+    "backgroundCount" : 3117,
+    "userCardinality" : 869,
+    "topTweetUrl" : "https://twitter.com/ViasatUrheilu/status/1162780224586702848",
+    "reach" : 1263273,
+    "rank" : 105
+  }, {
+    "key" : "helsinkipride",
+    "caseSensitiveKey" : "helsinkipride",
+    "day" : "2019-06-29",
+    "dayCount" : 1044,
+    "backgroundCount" : 1388,
+    "userCardinality" : 736,
+    "topTweetUrl" : "https://twitter.com/anttimatias/status/1144906329825394694",
+    "reach" : 2285177,
+    "rank" : 106
+  }, {
+    "key" : "tisuomi",
+    "caseSensitiveKey" : "tisuomi",
+    "day" : "2019-03-13",
+    "dayCount" : 2197,
+    "backgroundCount" : 6191,
+    "userCardinality" : 784,
+    "topTweetUrl" : "https://twitter.com/nastynapalm/status/1105908417896448000",
+    "reach" : 580270,
+    "rank" : 107
+  }, {
+    "key" : "pukkiparty",
+    "caseSensitiveKey" : "pukkiparty",
+    "day" : "2019-08-17",
+    "dayCount" : 1212,
+    "backgroundCount" : 1879,
+    "userCardinality" : 913,
+    "topTweetUrl" : "https://twitter.com/ViasatUrheilu/status/1162780224586702848",
+    "reach" : 1215487,
+    "rank" : 108
+  }, {
+    "key" : "ausgp",
+    "caseSensitiveKey" : "AusGP",
+    "day" : "2019-03-17",
+    "dayCount" : 806,
+    "backgroundCount" : 832,
+    "userCardinality" : 508,
+    "topTweetUrl" : "https://twitter.com/ValtteriBottas/status/1107051072487485440",
+    "reach" : 8228000,
+    "rank" : 109
+  }, {
+    "key" : "f1baku",
+    "caseSensitiveKey" : "F1Baku",
+    "day" : "2019-04-28",
+    "dayCount" : 782,
+    "backgroundCount" : 999,
+    "userCardinality" : 694,
+    "topTweetUrl" : "https://twitter.com/ValtteriBottas/status/1122542646696849409",
+    "reach" : 4020474,
+    "rank" : 110
+  }, {
+    "key" : "mmkulta",
+    "caseSensitiveKey" : "MMkulta",
+    "day" : "2019-05-27",
+    "dayCount" : 1047,
+    "backgroundCount" : 1471,
+    "userCardinality" : 769,
+    "topTweetUrl" : "https://twitter.com/leijonat/status/1132970339267502085",
+    "reach" : 1979240,
+    "rank" : 111
+  }, {
+    "key" : "umk19",
+    "caseSensitiveKey" : "umk19",
+    "day" : "2019-03-02",
+    "dayCount" : 1615,
+    "backgroundCount" : 1712,
+    "userCardinality" : 702,
+    "topTweetUrl" : "https://twitter.com/Yle_UMK/status/1101942011425374210",
+    "reach" : 1252340,
+    "rank" : 112
+  }, {
+    "key" : "speakyourselfinparis",
+    "caseSensitiveKey" : "SpeakYourselfinParis",
+    "day" : "2019-06-08",
+    "dayCount" : 1378,
+    "backgroundCount" : 1821,
+    "userCardinality" : 1230,
+    "topTweetUrl" : "https://twitter.com/vope_twt/status/1137092104876957696",
+    "reach" : 540487,
+    "rank" : 113
+  }, {
+    "key" : "uclfi",
+    "caseSensitiveKey" : "UCLfi",
+    "day" : "2019-05-08",
+    "dayCount" : 1412,
+    "backgroundCount" : 2311,
+    "userCardinality" : 824,
+    "topTweetUrl" : "https://twitter.com/CMoreSportFi/status/1126240093214314496",
+    "reach" : 1149513,
+    "rank" : 114
+  }, {
+    "key" : "btsarmy",
+    "caseSensitiveKey" : "BTSARMY",
+    "day" : "2019-03-02",
+    "dayCount" : 1190,
+    "backgroundCount" : 3057,
+    "userCardinality" : 1117,
+    "topTweetUrl" : "https://twitter.com/BTS_army_Fin/status/1101801836938436608",
+    "reach" : 761412,
+    "rank" : 115
+  }, {
+    "key" : "mattinykänen",
+    "caseSensitiveKey" : "mattinykänen",
+    "day" : "2019-02-04",
+    "dayCount" : 994,
+    "backgroundCount" : 1531,
+    "userCardinality" : 830,
+    "topTweetUrl" : "https://twitter.com/LahdenKaupunki/status/1092364771465326592",
+    "reach" : 1530091,
+    "rank" : 116
+  }, {
+    "key" : "spain",
+    "caseSensitiveKey" : "Spain",
+    "day" : "2019-10-14",
+    "dayCount" : 1004,
+    "backgroundCount" : 1254,
+    "userCardinality" : 949,
+    "topTweetUrl" : "https://twitter.com/ASirkia/status/1183656669621948416",
+    "reach" : 1186776,
+    "rank" : 117
+  }, {
+    "key" : "eduskuntavaalit",
+    "caseSensitiveKey" : "eduskuntavaalit",
+    "day" : "2019-04-14",
+    "dayCount" : 970,
+    "backgroundCount" : 1319,
+    "userCardinality" : 635,
+    "topTweetUrl" : "https://twitter.com/JenniHaukio/status/1117357491464146944",
+    "reach" : 2403141,
+    "rank" : 118
+  }, {
+    "key" : "worldjuniors",
+    "caseSensitiveKey" : "WorldJuniors",
+    "day" : "2019-01-06",
+    "dayCount" : 989,
+    "backgroundCount" : 1007,
+    "userCardinality" : 667,
+    "topTweetUrl" : "https://twitter.com/IIHFHockey/status/1081764119429017600",
+    "reach" : 2222892,
+    "rank" : 119
+  }, {
+    "key" : "inktober",
+    "caseSensitiveKey" : "Inktober",
+    "day" : "2019-10-31",
+    "dayCount" : 1270,
+    "backgroundCount" : 1477,
+    "userCardinality" : 1248,
+    "topTweetUrl" : "https://twitter.com/Tutturuinen/status/1189654146682695681",
+    "reach" : 295165,
+    "rank" : 120
+  }, {
+    "key" : "urheilugaala",
+    "caseSensitiveKey" : "urheilugaala",
+    "day" : "2019-01-17",
+    "dayCount" : 1084,
+    "backgroundCount" : 1356,
+    "userCardinality" : 715,
+    "topTweetUrl" : "https://twitter.com/seppokoira/status/1085962888274210817",
+    "reach" : 1718735,
+    "rank" : 121
+  }, {
+    "key" : "finita",
+    "caseSensitiveKey" : "FINITA",
+    "day" : "2019-09-08",
+    "dayCount" : 898,
+    "backgroundCount" : 1073,
+    "userCardinality" : 578,
+    "topTweetUrl" : "https://twitter.com/Vennu/status/1170788460006952962",
+    "reach" : 2810607,
+    "rank" : 122
+  }, {
+    "key" : "ipcc",
+    "caseSensitiveKey" : "IPCC",
+    "day" : "2019-08-08",
+    "dayCount" : 1088,
+    "backgroundCount" : 1548,
+    "userCardinality" : 576,
+    "topTweetUrl" : "https://twitter.com/yministerio/status/1159330664187158533",
+    "reach" : 1981461,
+    "rank" : 123
+  }, {
+    "key" : "independenceday",
+    "caseSensitiveKey" : "IndependenceDay",
+    "day" : "2019-12-06",
+    "dayCount" : 846,
+    "backgroundCount" : 901,
+    "userCardinality" : 736,
+    "topTweetUrl" : "https://twitter.com/NorwichCityFC/status/1203032394275676160",
+    "reach" : 2160245,
+    "rank" : 124
+  }, {
+    "key" : "miestenpäivä",
+    "caseSensitiveKey" : "miestenpäivä",
+    "day" : "2019-11-19",
+    "dayCount" : 956,
+    "backgroundCount" : 1003,
+    "userCardinality" : 739,
+    "topTweetUrl" : "https://twitter.com/mariapetterss0n/status/1196733133540012032",
+    "reach" : 1692059,
+    "rank" : 125
+  }, {
+    "key" : "pienpuoluetentti",
+    "caseSensitiveKey" : "pienpuoluetentti",
+    "day" : "2019-04-02",
+    "dayCount" : 1728,
+    "backgroundCount" : 2332,
+    "userCardinality" : 579,
+    "topTweetUrl" : "https://twitter.com/kalossimies/status/1113164346555813894",
+    "reach" : 885232,
+    "rank" : 126
+  }, {
+    "key" : "susijengi",
+    "caseSensitiveKey" : "Susijengi",
+    "day" : "2019-02-24",
+    "dayCount" : 1134,
+    "backgroundCount" : 1254,
+    "userCardinality" : 557,
+    "topTweetUrl" : "https://twitter.com/SaskaSaarikoski/status/1099682548752494599",
+    "reach" : 1358759,
+    "rank" : 127
+  }, {
+    "key" : "eu",
+    "caseSensitiveKey" : "EU",
+    "day" : "2019-10-14",
+    "dayCount" : 816,
+    "backgroundCount" : 2145,
+    "userCardinality" : 765,
+    "topTweetUrl" : "https://twitter.com/ASirkia/status/1183656669621948416",
+    "reach" : 1514211,
+    "rank" : 128
+  }, {
+    "key" : "kärpät",
+    "caseSensitiveKey" : "Kärpät",
+    "day" : "2019-05-04",
+    "dayCount" : 1394,
+    "backgroundCount" : 1752,
+    "userCardinality" : 637,
+    "topTweetUrl" : "https://twitter.com/johndoe/status/1124617086431404032",
+    "reach" : 985060,
+    "rank" : 129
+  }, {
+    "key" : "eurovision",
+    "caseSensitiveKey" : "Eurovision",
+    "day" : "2019-05-18",
+    "dayCount" : 1424,
+    "backgroundCount" : 1732,
+    "userCardinality" : 716,
+    "topTweetUrl" : "https://twitter.com/ikoniclub/status/1129890887570460674",
+    "reach" : 736097,
+    "rank" : 130
+  }, {
+    "key" : "greece",
+    "caseSensitiveKey" : "Greece",
+    "day" : "2019-10-19",
+    "dayCount" : 731,
+    "backgroundCount" : 774,
+    "userCardinality" : 729,
+    "topTweetUrl" : "https://twitter.com/BasedPoland/status/1185459982508187648",
+    "reach" : 1795776,
+    "rank" : 131
+  }, {
+    "key" : "seurapaitapäivä",
+    "caseSensitiveKey" : "seurapaitapäivä",
+    "day" : "2019-09-24",
+    "dayCount" : 787,
+    "backgroundCount" : 830,
+    "userCardinality" : 692,
+    "topTweetUrl" : "https://twitter.com/AxVainio/status/1176425356741480449",
+    "reach" : 1965276,
+    "rank" : 132
+  }, {
+    "key" : "lapsimukaantöihinpäivä",
+    "caseSensitiveKey" : "lapsimukaantöihinpäivä",
+    "day" : "2019-11-22",
+    "dayCount" : 828,
+    "backgroundCount" : 873,
+    "userCardinality" : 646,
+    "topTweetUrl" : "https://twitter.com/vaylafi/status/1197795804561444864",
+    "reach" : 1730796,
+    "rank" : 133
+  }, {
+    "key" : "kalevalanpäivä",
+    "caseSensitiveKey" : "kalevalanpäivä",
+    "day" : "2019-02-28",
+    "dayCount" : 712,
+    "backgroundCount" : 744,
+    "userCardinality" : 622,
+    "topTweetUrl" : "https://twitter.com/MarkoRaassina/status/1101123280013008896",
+    "reach" : 2041626,
+    "rank" : 134
+  }, {
+    "key" : "maailmanmestarit",
+    "caseSensitiveKey" : "Maailmanmestarit",
+    "day" : "2019-01-06",
+    "dayCount" : 946,
+    "backgroundCount" : 976,
+    "userCardinality" : 724,
+    "topTweetUrl" : "https://twitter.com/leijonat/status/1081754625982824449",
+    "reach" : 1073462,
+    "rank" : 135
+  }, {
+    "key" : "bbsuomi",
+    "caseSensitiveKey" : "bbsuomi",
+    "day" : "2019-11-10",
+    "dayCount" : 1814,
+    "backgroundCount" : 2010,
+    "userCardinality" : 531,
+    "topTweetUrl" : "https://twitter.com/EetuJarvi/status/1193620335712710656",
+    "reach" : 210421,
+    "rank" : 136
+  }, {
+    "key" : "suomi102",
+    "caseSensitiveKey" : "suomi102",
+    "day" : "2019-12-06",
+    "dayCount" : 892,
+    "backgroundCount" : 956,
+    "userCardinality" : 701,
+    "topTweetUrl" : "https://twitter.com/iceman7news/status/1202899366425645056",
+    "reach" : 1044361,
+    "rank" : 137
+  }, {
+    "key" : "iihf2019",
+    "caseSensitiveKey" : "IIHF2019",
+    "day" : "2019-05-26",
+    "dayCount" : 787,
+    "backgroundCount" : 1055,
+    "userCardinality" : 646,
+    "topTweetUrl" : "https://twitter.com/TheMestarit/status/1132330213659029504",
+    "reach" : 1184896,
+    "rank" : 138
+  }, {
+    "key" : "btsinsaudiarabia",
+    "caseSensitiveKey" : "BTSinSaudiArabia",
+    "day" : "2019-10-11",
+    "dayCount" : 1043,
+    "backgroundCount" : 1113,
+    "userCardinality" : 788,
+    "topTweetUrl" : "https://twitter.com/BTS_army_Fin/status/1182716420603502593",
+    "reach" : 394889,
+    "rank" : 139
+  }, {
+    "key" : "aprillipäivä",
+    "caseSensitiveKey" : "aprillipäivä",
+    "day" : "2019-04-01",
+    "dayCount" : 693,
+    "backgroundCount" : 737,
+    "userCardinality" : 598,
+    "topTweetUrl" : "https://twitter.com/janinamariaj/status/1112589371461521408",
+    "reach" : 1521160,
+    "rank" : 140
+  }, {
+    "key" : "eurovaalit",
+    "caseSensitiveKey" : "eurovaalit",
+    "day" : "2019-05-26",
+    "dayCount" : 717,
+    "backgroundCount" : 909,
+    "userCardinality" : 519,
+    "topTweetUrl" : "https://twitter.com/JariTervo1/status/1132238120081080320",
+    "reach" : 1742045,
+    "rank" : 141
+  }, {
+    "key" : "thankyoubts",
+    "caseSensitiveKey" : "ThankYouBTS",
+    "day" : "2019-10-29",
+    "dayCount" : 967,
+    "backgroundCount" : 1046,
+    "userCardinality" : 784,
+    "topTweetUrl" : "https://twitter.com/BTS_army_Fin/status/1189214902256308225",
+    "reach" : 399547,
+    "rank" : 142
+  }, {
+    "key" : "fireemblemthreehouses",
+    "caseSensitiveKey" : "FireEmblemThreeHouses",
+    "day" : "2019-10-31",
+    "dayCount" : 944,
+    "backgroundCount" : 1007,
+    "userCardinality" : 935,
+    "topTweetUrl" : "https://twitter.com/Tutturuinen/status/1189654146682695681",
+    "reach" : 188605,
+    "rank" : 143
+  }, {
+    "key" : "fireemblem",
+    "caseSensitiveKey" : "fireemblem",
+    "day" : "2019-10-31",
+    "dayCount" : 935,
+    "backgroundCount" : 996,
+    "userCardinality" : 932,
+    "topTweetUrl" : "https://twitter.com/Tutturuinen/status/1189654146682695681",
+    "reach" : 189065,
+    "rank" : 144
+  }, {
+    "key" : "valkoinenkurittaja",
+    "caseSensitiveKey" : "valkoinenkurittaja",
+    "day" : "2019-01-17",
+    "dayCount" : 668,
+    "backgroundCount" : 899,
+    "userCardinality" : 556,
+    "topTweetUrl" : "https://twitter.com/Workgoeshappy/status/1085768003327676416",
+    "reach" : 1329617,
+    "rank" : 145
+  }, {
+    "key" : "wcef2019",
+    "caseSensitiveKey" : "WCEF2019",
+    "day" : "2019-06-04",
+    "dayCount" : 869,
+    "backgroundCount" : 1160,
+    "userCardinality" : 448,
+    "topTweetUrl" : "https://twitter.com/SitraFund/status/1135874887535484928",
+    "reach" : 1271407,
+    "rank" : 146
+  }, {
+    "key" : "canfin",
+    "caseSensitiveKey" : "CANFIN",
+    "day" : "2019-05-26",
+    "dayCount" : 780,
+    "backgroundCount" : 872,
+    "userCardinality" : 558,
+    "topTweetUrl" : "https://twitter.com/IIHFHockey/status/1132745950387007488",
+    "reach" : 1015655,
+    "rank" : 147
+  }, {
+    "key" : "valentinesday",
+    "caseSensitiveKey" : "ValentinesDay",
+    "day" : "2019-02-14",
+    "dayCount" : 535,
+    "backgroundCount" : 573,
+    "userCardinality" : 503,
+    "topTweetUrl" : "https://twitter.com/thisisFINLAND/status/1095964627819737088",
+    "reach" : 1386993,
+    "rank" : 148
+  }, {
+    "key" : "kalevala",
+    "caseSensitiveKey" : "Kalevala",
+    "day" : "2019-02-28",
+    "dayCount" : 585,
+    "backgroundCount" : 618,
+    "userCardinality" : 496,
+    "topTweetUrl" : "https://twitter.com/MarkoRaassina/status/1101123280013008896",
+    "reach" : 1322109,
+    "rank" : 149
+  }, {
+    "key" : "emmagaala",
+    "caseSensitiveKey" : "emmagaala",
+    "day" : "2019-02-02",
+    "dayCount" : 946,
+    "backgroundCount" : 1116,
+    "userCardinality" : 512,
+    "topTweetUrl" : "https://twitter.com/zwangi55/status/1091786228301815809",
+    "reach" : 690699,
+    "rank" : 150
+  } ]
+}

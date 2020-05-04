@@ -1,6 +1,6 @@
 #!/bin/bash
 
-readonly PROGDIR=$(readlink -m $(dirname $0))
+readonly PROGDIR=$(greadlink -m $(dirname $0))
 
 if [ $# -lt 1 ]; then
   echo "Usage: $0 <content-directory>"
