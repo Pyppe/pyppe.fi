@@ -12,7 +12,7 @@
     "babel-preset-env": "^1.6.1",
     "glob": "^7.1.2",
     "graceful-fs": "4.2.2",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-babel": "^7.0.1",
     "gulp-clean-css": "^3.9.4",
     "gulp-compass": "^2.1.0",
